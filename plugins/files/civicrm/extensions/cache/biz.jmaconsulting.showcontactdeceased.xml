@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<extension key="biz.jmaconsulting.showcontactdeceased" type="module">
+  <downloadUrl>https://github.com/JMAConsulting/biz.jmaconsulting.showcontactdeceased/archive/v1.1.zip</downloadUrl>
+  <file>showcontactdeceased</file>
+  <name>Show Contact Deceased</name>
+  <description>Adds '(deceased)' in red to the name at the top of the contact summary page for all contacts with Deceased set true.</description>
+  <urls>
+    <url desc="Support">https://github.com/JMAConsulting/biz.jmaconsulting.showcontactdeceased/issues?state=open</url>
+    <url desc="Documentation">https://github.com/JMAConsulting/biz.jmaconsulting.showcontactdeceased/blob/1.0/README.md</url>
+  </urls>
+  <license>AGPL-3.0</license>
+  <maintainer>
+    <author>JMA Consulting</author>
+    <email>joe.murray@jmaconsulting.biz</email>
+  </maintainer>
+  <releaseDate>2014-09-05</releaseDate>
+  <version>1.1</version>
+  <develStage>stable</develStage>
+  <compatibility>
+    <ver>4.3</ver>
+    <ver>4.4</ver>
+    <ver>4.5</ver>
+  </compatibility>
+  <comments/>
+  <civix>
+    <namespace>CRM/ShowContactDeceased</namespace>
+  </civix>
+</extension>

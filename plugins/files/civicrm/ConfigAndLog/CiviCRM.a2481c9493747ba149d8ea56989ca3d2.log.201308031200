@@ -1,0 +1,1058 @@
+Aug 28 22:00:38  [info] $Fatal Error Details = Array
+(
+    [message] => Geocoding failed. Message from Google: OVER_QUERY_LIMIT
+    [code] => 
+)
+
+
+Aug 28 22:00:38  [info] $backTrace = #0 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Error.php(314): CRM_Core_Error::backtrace("backTrace", TRUE)
+#1 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Utils/Geocode/Google.php(150): CRM_Core_Error::fatal("Geocoding failed. Message from Google: OVER_QUERY_LIMIT")
+#2 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/BAO/Address.php(406) : eval()'d code(1): CRM_Utils_Geocode_Google::format((Array:17))
+#3 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/BAO/Address.php(406): eval()
+#4 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/BAO/Address.php(155): CRM_Core_BAO_Address::fixAddress((Array:17))
+#5 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/BAO/Address.php(132): CRM_Core_BAO_Address::add((Array:17), TRUE)
+#6 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/BAO/Location.php(69): CRM_Core_BAO_Address::create((Array:14), TRUE, "event")
+#7 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Event/Form/ManageEvent/Location.php(294): CRM_Core_BAO_Location::create((Array:14), TRUE, "event")
+#8 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Form.php(246): CRM_Event_Form_ManageEvent_Location->postProcess()
+#9 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/QuickForm/Action/Upload.php(151): CRM_Core_Form->mainProcess()
+#10 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/QuickForm/Action/Upload.php(128): CRM_Core_QuickForm_Action_Upload->realPerform(Object(CRM_Event_Form_ManageEvent_Location), "upload")
+#11 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/HTML/QuickForm/Controller.php(203): CRM_Core_QuickForm_Action_Upload->perform(Object(CRM_Event_Form_ManageEvent_Location), "upload")
+#12 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/HTML/QuickForm/Page.php(103): HTML_QuickForm_Controller->handle(Object(CRM_Event_Form_ManageEvent_Location), "upload")
+#13 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Controller.php(310): HTML_QuickForm_Page->handle("upload")
+#14 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Utils/Wrapper.php(116): CRM_Core_Controller->run()
+#15 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(194): CRM_Utils_Wrapper->run("CRM_Event_Form_ManageEvent_Location", "Event Location", NULL)
+#16 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(51): CRM_Core_Invoke::_invoke((Array:4))
+#17 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm.php(271): CRM_Core_Invoke::invoke((Array:4))
+#18 [internal function](): civicrm_wp_invoke("")
+#19 /var/www/vhosts/coopersquare.org/httpdocs/wp-includes/plugin.php(406): call_user_func_array("civicrm_wp_invoke", (Array:1))
+#20 /var/www/vhosts/coopersquare.org/httpdocs/wp-admin/admin.php(151): do_action("toplevel_page_CiviCRM")
+#21 {main}
+
+
+Aug 29 18:46:56  [info] $Fatal Error Details = Array
+(
+    [message] => Geocoding failed. Message from Google: OVER_QUERY_LIMIT
+    [code] => 
+)
+
+
+Aug 29 18:46:56  [info] $backTrace = #0 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Error.php(314): CRM_Core_Error::backtrace("backTrace", TRUE)
+#1 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Utils/Geocode/Google.php(150): CRM_Core_Error::fatal("Geocoding failed. Message from Google: OVER_QUERY_LIMIT")
+#2 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/BAO/Address.php(406) : eval()'d code(1): CRM_Utils_Geocode_Google::format((Array:12))
+#3 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/BAO/Address.php(406): eval()
+#4 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/BAO/Address.php(155): CRM_Core_BAO_Address::fixAddress((Array:12))
+#5 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/BAO/Address.php(132): CRM_Core_BAO_Address::add((Array:12), TRUE)
+#6 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/BAO/Location.php(69): CRM_Core_BAO_Address::create((Array:9), TRUE, NULL)
+#7 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Contact/BAO/Contact.php(328): CRM_Core_BAO_Location::create((Array:9), TRUE)
+#8 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Contact/BAO/Contact.php(1643): CRM_Contact_BAO_Contact::create((Array:9))
+#9 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Contact/Form/Task/Batch.php(256): CRM_Contact_BAO_Contact::createProfileContact((Array:9), (Array:7), 1406, NULL, "1")
+#10 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Form.php(246): CRM_Contact_Form_Task_Batch->postProcess()
+#11 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/StateMachine.php(159): CRM_Core_Form->mainProcess()
+#12 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/QuickForm/Action/Next.php(60): CRM_Core_StateMachine->perform(Object(CRM_Contact_Form_Task_Batch), "next", "Next")
+#13 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/HTML/QuickForm/Controller.php(203): CRM_Core_QuickForm_Action_Next->perform(Object(CRM_Contact_Form_Task_Batch), "next")
+#14 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/HTML/QuickForm/Page.php(103): HTML_QuickForm_Controller->handle(Object(CRM_Contact_Form_Task_Batch), "next")
+#15 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Controller.php(310): HTML_QuickForm_Page->handle("next")
+#16 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(220): CRM_Core_Controller->run((Array:4), (Array:0))
+#17 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(51): CRM_Core_Invoke::_invoke((Array:4))
+#18 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm.php(271): CRM_Core_Invoke::invoke((Array:4))
+#19 [internal function](): civicrm_wp_invoke("")
+#20 /var/www/vhosts/coopersquare.org/httpdocs/wp-includes/plugin.php(406): call_user_func_array("civicrm_wp_invoke", (Array:1))
+#21 /var/www/vhosts/coopersquare.org/httpdocs/wp-admin/admin.php(151): do_action("toplevel_page_CiviCRM")
+#22 {main}
+
+
+Aug 29 18:47:42  [info] $Fatal Error Details = Array
+(
+    [message] => Geocoding failed. Message from Google: OVER_QUERY_LIMIT
+    [code] => 
+)
+
+
+Aug 29 18:47:42  [info] $backTrace = #0 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Error.php(314): CRM_Core_Error::backtrace("backTrace", TRUE)
+#1 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Utils/Geocode/Google.php(150): CRM_Core_Error::fatal("Geocoding failed. Message from Google: OVER_QUERY_LIMIT")
+#2 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/BAO/Address.php(406) : eval()'d code(1): CRM_Utils_Geocode_Google::format((Array:12))
+#3 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/BAO/Address.php(406): eval()
+#4 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/BAO/Address.php(155): CRM_Core_BAO_Address::fixAddress((Array:12))
+#5 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/BAO/Address.php(132): CRM_Core_BAO_Address::add((Array:12), TRUE)
+#6 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/BAO/Location.php(69): CRM_Core_BAO_Address::create((Array:9), TRUE, NULL)
+#7 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Contact/BAO/Contact.php(328): CRM_Core_BAO_Location::create((Array:9), TRUE)
+#8 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Contact/BAO/Contact.php(1643): CRM_Contact_BAO_Contact::create((Array:9))
+#9 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Contact/Form/Task/Batch.php(256): CRM_Contact_BAO_Contact::createProfileContact((Array:9), (Array:7), 1406, NULL, "1")
+#10 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Form.php(246): CRM_Contact_Form_Task_Batch->postProcess()
+#11 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/StateMachine.php(159): CRM_Core_Form->mainProcess()
+#12 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/QuickForm/Action/Next.php(60): CRM_Core_StateMachine->perform(Object(CRM_Contact_Form_Task_Batch), "next", "Next")
+#13 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/HTML/QuickForm/Controller.php(203): CRM_Core_QuickForm_Action_Next->perform(Object(CRM_Contact_Form_Task_Batch), "next")
+#14 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/HTML/QuickForm/Page.php(103): HTML_QuickForm_Controller->handle(Object(CRM_Contact_Form_Task_Batch), "next")
+#15 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Controller.php(310): HTML_QuickForm_Page->handle("next")
+#16 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(220): CRM_Core_Controller->run((Array:4), (Array:0))
+#17 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(51): CRM_Core_Invoke::_invoke((Array:4))
+#18 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm.php(271): CRM_Core_Invoke::invoke((Array:4))
+#19 [internal function](): civicrm_wp_invoke("")
+#20 /var/www/vhosts/coopersquare.org/httpdocs/wp-includes/plugin.php(406): call_user_func_array("civicrm_wp_invoke", (Array:1))
+#21 /var/www/vhosts/coopersquare.org/httpdocs/wp-admin/admin.php(151): do_action("toplevel_page_CiviCRM")
+#22 {main}
+
+
+Aug 29 19:07:38  [info] $Fatal Error Details = Array
+(
+    [message] => The requested Profile (gid=3) is disabled OR it is not configured to be used for 'Profile' listings in its Settings OR there is no Profile with that ID OR you do not have permission to access this profile. Please contact the site administrator if you need assistance.
+    [code] => 
+)
+
+
+Aug 29 19:07:38  [info] $backTrace = #0 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Error.php(314): CRM_Core_Error::backtrace("backTrace", TRUE)
+#1 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/BAO/UFGroup.php(487): CRM_Core_Error::fatal("The requested Profile (gid=3) is disabled OR it is not configured to be used ...")
+#2 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/BAO/UFGroup.php(232): CRM_Core_BAO_UFGroup::getFields(3, FALSE, 2, 5, FALSE, FALSE, "Profile", 5, NULL, 5)
+#3 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Profile/Page/Listings.php(150): CRM_Core_BAO_UFGroup::getListingFields(2, 5, FALSE, NULL, FALSE, "Profile", 5)
+#4 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Profile/Page/Listings.php(284): CRM_Profile_Page_Listings->preProcess()
+#5 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(363): CRM_Profile_Page_Listings->run()
+#6 [internal function](): CRM_Core_Invoke::profile((Array:2))
+#7 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(187): call_user_func((Array:2), (Array:2))
+#8 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(51): CRM_Core_Invoke::_invoke((Array:2))
+#9 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm.php(271): CRM_Core_Invoke::invoke((Array:2))
+#10 [internal function](): civicrm_wp_invoke("")
+#11 /var/www/vhosts/coopersquare.org/httpdocs/wp-includes/plugin.php(406): call_user_func_array("civicrm_wp_invoke", (Array:1))
+#12 /var/www/vhosts/coopersquare.org/httpdocs/wp-admin/admin.php(151): do_action("toplevel_page_CiviCRM")
+#13 {main}
+
+
+Aug 29 19:09:02  [info] Ignoring exception thrown by nullHandler: -19, DB Error: no such field
+
+Aug 29 19:09:02  [info] $backTrace = #0 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Error.php(765): CRM_Core_Error::backtrace("backTrace", TRUE)
+#1 [internal function](): CRM_Core_Error::nullHandler(Object(DB_Error))
+#2 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/PEAR.php(931): call_user_func((Array:2), Object(DB_Error))
+#3 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/DB.php(968): PEAR_Error->PEAR_Error("DB Error: no such field", -19, 16, (Array:2), "\nINSERT INTO civicrm_prevnext_cache ( entity_table, entity_id1, entity_id2, ...")
+#4 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/PEAR.php(564): DB_Error->DB_Error(-19, 16, (Array:2), "\nINSERT INTO civicrm_prevnext_cache ( entity_table, entity_id1, entity_id2, ...")
+#5 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/DB/common.php(1903): PEAR->raiseError(NULL, -19, NULL, NULL, "\nINSERT INTO civicrm_prevnext_cache ( entity_table, entity_id1, entity_id2, ...", "DB_Error", TRUE)
+#6 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/DB/mysql.php(898): DB_common->raiseError(-19, NULL, NULL, NULL, "1054 ** Unknown column '1-supplemental_address_1' in 'order clause'")
+#7 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/DB/mysql.php(327): DB_mysql->mysqlRaiseError()
+#8 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/DB/common.php(1216): DB_mysql->simpleQuery("\nINSERT INTO civicrm_prevnext_cache ( entity_table, entity_id1, entity_id2, ...")
+#9 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/DB/DataObject.php(2421): DB_common->query("\nINSERT INTO civicrm_prevnext_cache ( entity_table, entity_id1, entity_id2, ...")
+#10 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/DB/DataObject.php(1613): DB_DataObject->_query("\nINSERT INTO civicrm_prevnext_cache ( entity_table, entity_id1, entity_id2, ...")
+#11 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/DAO.php(155): DB_DataObject->query("\nINSERT INTO civicrm_prevnext_cache ( entity_table, entity_id1, entity_id2, ...")
+#12 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/DAO.php(922): CRM_Core_DAO->query("\nINSERT INTO civicrm_prevnext_cache ( entity_table, entity_id1, entity_id2, ...", TRUE)
+#13 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Contact/Selector.php(935): CRM_Core_DAO::executeQuery("\nINSERT INTO civicrm_prevnext_cache ( entity_table, entity_id1, entity_id2, ...")
+#14 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Contact/Selector.php(806): CRM_Contact_Selector->fillupPrevNextCache(Object(CRM_Utils_Sort))
+#15 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Contact/Selector.php(788): CRM_Contact_Selector->buildPrevNextCache(Object(CRM_Utils_Sort))
+#16 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Selector/Controller.php(402): CRM_Contact_Selector->getRows(4, 750, 50, Object(CRM_Utils_Sort), 1, NULL)
+#17 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Selector/Controller.php(340): CRM_Core_Selector_Controller->getRows(Object(CRM_Contact_Selector_Controller))
+#18 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Contact/Form/Search.php(940): CRM_Core_Selector_Controller->run()
+#19 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Contact/Form/Search/Advanced.php(313): CRM_Contact_Form_Search->postProcess()
+#20 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Form.php(246): CRM_Contact_Form_Search_Advanced->postProcess()
+#21 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/QuickForm/Action/Refresh.php(75): CRM_Core_Form->mainProcess()
+#22 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/HTML/QuickForm/Controller.php(203): CRM_Core_QuickForm_Action_Refresh->perform(Object(CRM_Contact_Form_Search_Advanced), "refresh")
+#23 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/HTML/QuickForm/Page.php(103): HTML_QuickForm_Controller->handle(Object(CRM_Contact_Form_Search_Advanced), "refresh")
+#24 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Controller.php(310): HTML_QuickForm_Page->handle("refresh")
+#25 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(220): CRM_Core_Controller->run((Array:4), (Array:0))
+#26 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(51): CRM_Core_Invoke::_invoke((Array:4))
+#27 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm.php(271): CRM_Core_Invoke::invoke((Array:4))
+#28 [internal function](): civicrm_wp_invoke("")
+#29 /var/www/vhosts/coopersquare.org/httpdocs/wp-includes/plugin.php(406): call_user_func_array("civicrm_wp_invoke", (Array:1))
+#30 /var/www/vhosts/coopersquare.org/httpdocs/wp-admin/admin.php(151): do_action("toplevel_page_CiviCRM")
+#31 {main}
+
+
+Aug 29 21:52:45  [info] $IDS Detector Details = Array
+(
+    [0] => Array
+        (
+            [name] => crmasmSelect0
+            [value] => - select -
+            [page] => /wp-admin/admin.php?page=CiviCRM&q=civicrm/contact/search/advanced
+            [userid] => 1
+            [session] => 54607btb38hbi8nhediielfrs2
+            [ip] => 192.96.211.44
+            [reaction] => 0
+            [impact] => 25
+        )
+
+    [1] => Array
+        (
+            [name] => crmasmSelect1
+            [value] => - select -
+            [page] => /wp-admin/admin.php?page=CiviCRM&q=civicrm/contact/search/advanced
+            [userid] => 1
+            [session] => 54607btb38hbi8nhediielfrs2
+            [ip] => 192.96.211.44
+            [reaction] => 0
+            [impact] => 25
+        )
+
+    [2] => Array
+        (
+            [name] => crmasmSelect2
+            [value] => - select -
+            [page] => /wp-admin/admin.php?page=CiviCRM&q=civicrm/contact/search/advanced
+            [userid] => 1
+            [session] => 54607btb38hbi8nhediielfrs2
+            [ip] => 192.96.211.44
+            [reaction] => 0
+            [impact] => 25
+        )
+
+    [3] => Array
+        (
+            [name] => crmasmSelect3
+            [value] => - select -
+            [page] => /wp-admin/admin.php?page=CiviCRM&q=civicrm/contact/search/advanced
+            [userid] => 1
+            [session] => 54607btb38hbi8nhediielfrs2
+            [ip] => 192.96.211.44
+            [reaction] => 0
+            [impact] => 25
+        )
+
+    [4] => Array
+        (
+            [name] => crmasmSelect4
+            [value] => - select -
+            [page] => /wp-admin/admin.php?page=CiviCRM&q=civicrm/contact/search/advanced
+            [userid] => 1
+            [session] => 54607btb38hbi8nhediielfrs2
+            [ip] => 192.96.211.44
+            [reaction] => 0
+            [impact] => 25
+        )
+
+)
+
+
+Aug 29 21:53:05  [info] $IDS Detector Details = Array
+(
+    [0] => Array
+        (
+            [name] => crmasmSelect0
+            [value] => - select -
+            [page] => /wp-admin/admin.php?page=CiviCRM&q=civicrm/contact/search/advanced
+            [userid] => 1
+            [session] => 54607btb38hbi8nhediielfrs2
+            [ip] => 192.96.211.44
+            [reaction] => 0
+            [impact] => 25
+        )
+
+    [1] => Array
+        (
+            [name] => crmasmSelect1
+            [value] => - select -
+            [page] => /wp-admin/admin.php?page=CiviCRM&q=civicrm/contact/search/advanced
+            [userid] => 1
+            [session] => 54607btb38hbi8nhediielfrs2
+            [ip] => 192.96.211.44
+            [reaction] => 0
+            [impact] => 25
+        )
+
+    [2] => Array
+        (
+            [name] => crmasmSelect2
+            [value] => - select -
+            [page] => /wp-admin/admin.php?page=CiviCRM&q=civicrm/contact/search/advanced
+            [userid] => 1
+            [session] => 54607btb38hbi8nhediielfrs2
+            [ip] => 192.96.211.44
+            [reaction] => 0
+            [impact] => 25
+        )
+
+    [3] => Array
+        (
+            [name] => crmasmSelect3
+            [value] => - select -
+            [page] => /wp-admin/admin.php?page=CiviCRM&q=civicrm/contact/search/advanced
+            [userid] => 1
+            [session] => 54607btb38hbi8nhediielfrs2
+            [ip] => 192.96.211.44
+            [reaction] => 0
+            [impact] => 25
+        )
+
+    [4] => Array
+        (
+            [name] => crmasmSelect4
+            [value] => - select -
+            [page] => /wp-admin/admin.php?page=CiviCRM&q=civicrm/contact/search/advanced
+            [userid] => 1
+            [session] => 54607btb38hbi8nhediielfrs2
+            [ip] => 192.96.211.44
+            [reaction] => 0
+            [impact] => 25
+        )
+
+)
+
+
+Aug 29 21:53:25  [info] $IDS Detector Details = Array
+(
+    [0] => Array
+        (
+            [name] => crmasmSelect0
+            [value] => - select -
+            [page] => /wp-admin/admin.php?page=CiviCRM&q=civicrm/contact/search/advanced
+            [userid] => 1
+            [session] => 54607btb38hbi8nhediielfrs2
+            [ip] => 192.96.211.44
+            [reaction] => 0
+            [impact] => 25
+        )
+
+    [1] => Array
+        (
+            [name] => crmasmSelect1
+            [value] => - select -
+            [page] => /wp-admin/admin.php?page=CiviCRM&q=civicrm/contact/search/advanced
+            [userid] => 1
+            [session] => 54607btb38hbi8nhediielfrs2
+            [ip] => 192.96.211.44
+            [reaction] => 0
+            [impact] => 25
+        )
+
+    [2] => Array
+        (
+            [name] => crmasmSelect2
+            [value] => - select -
+            [page] => /wp-admin/admin.php?page=CiviCRM&q=civicrm/contact/search/advanced
+            [userid] => 1
+            [session] => 54607btb38hbi8nhediielfrs2
+            [ip] => 192.96.211.44
+            [reaction] => 0
+            [impact] => 25
+        )
+
+    [3] => Array
+        (
+            [name] => crmasmSelect3
+            [value] => - select -
+            [page] => /wp-admin/admin.php?page=CiviCRM&q=civicrm/contact/search/advanced
+            [userid] => 1
+            [session] => 54607btb38hbi8nhediielfrs2
+            [ip] => 192.96.211.44
+            [reaction] => 0
+            [impact] => 25
+        )
+
+    [4] => Array
+        (
+            [name] => crmasmSelect4
+            [value] => - select -
+            [page] => /wp-admin/admin.php?page=CiviCRM&q=civicrm/contact/search/advanced
+            [userid] => 1
+            [session] => 54607btb38hbi8nhediielfrs2
+            [ip] => 192.96.211.44
+            [reaction] => 0
+            [impact] => 25
+        )
+
+)
+
+
+Aug 29 21:53:55  [info] $IDS Detector Details = Array
+(
+    [0] => Array
+        (
+            [name] => crmasmSelect0
+            [value] => - select -
+            [page] => /wp-admin/admin.php?page=CiviCRM&q=civicrm/contact/search/advanced
+            [userid] => 1
+            [session] => 54607btb38hbi8nhediielfrs2
+            [ip] => 192.96.211.44
+            [reaction] => 0
+            [impact] => 25
+        )
+
+    [1] => Array
+        (
+            [name] => crmasmSelect1
+            [value] => - select -
+            [page] => /wp-admin/admin.php?page=CiviCRM&q=civicrm/contact/search/advanced
+            [userid] => 1
+            [session] => 54607btb38hbi8nhediielfrs2
+            [ip] => 192.96.211.44
+            [reaction] => 0
+            [impact] => 25
+        )
+
+    [2] => Array
+        (
+            [name] => crmasmSelect2
+            [value] => - select -
+            [page] => /wp-admin/admin.php?page=CiviCRM&q=civicrm/contact/search/advanced
+            [userid] => 1
+            [session] => 54607btb38hbi8nhediielfrs2
+            [ip] => 192.96.211.44
+            [reaction] => 0
+            [impact] => 25
+        )
+
+    [3] => Array
+        (
+            [name] => crmasmSelect3
+            [value] => - select -
+            [page] => /wp-admin/admin.php?page=CiviCRM&q=civicrm/contact/search/advanced
+            [userid] => 1
+            [session] => 54607btb38hbi8nhediielfrs2
+            [ip] => 192.96.211.44
+            [reaction] => 0
+            [impact] => 25
+        )
+
+    [4] => Array
+        (
+            [name] => crmasmSelect4
+            [value] => - select -
+            [page] => /wp-admin/admin.php?page=CiviCRM&q=civicrm/contact/search/advanced
+            [userid] => 1
+            [session] => 54607btb38hbi8nhediielfrs2
+            [ip] => 192.96.211.44
+            [reaction] => 0
+            [impact] => 25
+        )
+
+)
+
+
+Aug 29 21:54:06  [info] $IDS Detector Details = Array
+(
+    [0] => Array
+        (
+            [name] => crmasmSelect0
+            [value] => - select -
+            [page] => /wp-admin/admin.php?page=CiviCRM&q=civicrm/contact/search/advanced
+            [userid] => 1
+            [session] => 54607btb38hbi8nhediielfrs2
+            [ip] => 192.96.211.44
+            [reaction] => 0
+            [impact] => 25
+        )
+
+    [1] => Array
+        (
+            [name] => crmasmSelect1
+            [value] => - select -
+            [page] => /wp-admin/admin.php?page=CiviCRM&q=civicrm/contact/search/advanced
+            [userid] => 1
+            [session] => 54607btb38hbi8nhediielfrs2
+            [ip] => 192.96.211.44
+            [reaction] => 0
+            [impact] => 25
+        )
+
+    [2] => Array
+        (
+            [name] => crmasmSelect2
+            [value] => - select -
+            [page] => /wp-admin/admin.php?page=CiviCRM&q=civicrm/contact/search/advanced
+            [userid] => 1
+            [session] => 54607btb38hbi8nhediielfrs2
+            [ip] => 192.96.211.44
+            [reaction] => 0
+            [impact] => 25
+        )
+
+    [3] => Array
+        (
+            [name] => crmasmSelect3
+            [value] => - select -
+            [page] => /wp-admin/admin.php?page=CiviCRM&q=civicrm/contact/search/advanced
+            [userid] => 1
+            [session] => 54607btb38hbi8nhediielfrs2
+            [ip] => 192.96.211.44
+            [reaction] => 0
+            [impact] => 25
+        )
+
+    [4] => Array
+        (
+            [name] => crmasmSelect4
+            [value] => - select -
+            [page] => /wp-admin/admin.php?page=CiviCRM&q=civicrm/contact/search/advanced
+            [userid] => 1
+            [session] => 54607btb38hbi8nhediielfrs2
+            [ip] => 192.96.211.44
+            [reaction] => 0
+            [impact] => 25
+        )
+
+)
+
+
+Aug 29 21:55:13  [info] $IDS Detector Details = Array
+(
+    [0] => Array
+        (
+            [name] => crmasmSelect0
+            [value] => - select -
+            [page] => /wp-admin/admin.php?page=CiviCRM&q=civicrm/contact/search/advanced
+            [userid] => 1
+            [session] => 54607btb38hbi8nhediielfrs2
+            [ip] => 192.96.211.44
+            [reaction] => 0
+            [impact] => 25
+        )
+
+    [1] => Array
+        (
+            [name] => crmasmSelect1
+            [value] => - select -
+            [page] => /wp-admin/admin.php?page=CiviCRM&q=civicrm/contact/search/advanced
+            [userid] => 1
+            [session] => 54607btb38hbi8nhediielfrs2
+            [ip] => 192.96.211.44
+            [reaction] => 0
+            [impact] => 25
+        )
+
+    [2] => Array
+        (
+            [name] => crmasmSelect2
+            [value] => - select -
+            [page] => /wp-admin/admin.php?page=CiviCRM&q=civicrm/contact/search/advanced
+            [userid] => 1
+            [session] => 54607btb38hbi8nhediielfrs2
+            [ip] => 192.96.211.44
+            [reaction] => 0
+            [impact] => 25
+        )
+
+    [3] => Array
+        (
+            [name] => crmasmSelect3
+            [value] => - select -
+            [page] => /wp-admin/admin.php?page=CiviCRM&q=civicrm/contact/search/advanced
+            [userid] => 1
+            [session] => 54607btb38hbi8nhediielfrs2
+            [ip] => 192.96.211.44
+            [reaction] => 0
+            [impact] => 25
+        )
+
+    [4] => Array
+        (
+            [name] => crmasmSelect4
+            [value] => - select -
+            [page] => /wp-admin/admin.php?page=CiviCRM&q=civicrm/contact/search/advanced
+            [userid] => 1
+            [session] => 54607btb38hbi8nhediielfrs2
+            [ip] => 192.96.211.44
+            [reaction] => 0
+            [impact] => 25
+        )
+
+)
+
+
+Aug 29 21:55:33  [info] $IDS Detector Details = Array
+(
+    [0] => Array
+        (
+            [name] => crmasmSelect0
+            [value] => - select -
+            [page] => /wp-admin/admin.php?page=CiviCRM&q=civicrm/contact/search/advanced
+            [userid] => 1
+            [session] => 54607btb38hbi8nhediielfrs2
+            [ip] => 192.96.211.44
+            [reaction] => 0
+            [impact] => 25
+        )
+
+    [1] => Array
+        (
+            [name] => crmasmSelect1
+            [value] => - select -
+            [page] => /wp-admin/admin.php?page=CiviCRM&q=civicrm/contact/search/advanced
+            [userid] => 1
+            [session] => 54607btb38hbi8nhediielfrs2
+            [ip] => 192.96.211.44
+            [reaction] => 0
+            [impact] => 25
+        )
+
+    [2] => Array
+        (
+            [name] => crmasmSelect2
+            [value] => - select -
+            [page] => /wp-admin/admin.php?page=CiviCRM&q=civicrm/contact/search/advanced
+            [userid] => 1
+            [session] => 54607btb38hbi8nhediielfrs2
+            [ip] => 192.96.211.44
+            [reaction] => 0
+            [impact] => 25
+        )
+
+    [3] => Array
+        (
+            [name] => crmasmSelect3
+            [value] => - select -
+            [page] => /wp-admin/admin.php?page=CiviCRM&q=civicrm/contact/search/advanced
+            [userid] => 1
+            [session] => 54607btb38hbi8nhediielfrs2
+            [ip] => 192.96.211.44
+            [reaction] => 0
+            [impact] => 25
+        )
+
+    [4] => Array
+        (
+            [name] => crmasmSelect4
+            [value] => - select -
+            [page] => /wp-admin/admin.php?page=CiviCRM&q=civicrm/contact/search/advanced
+            [userid] => 1
+            [session] => 54607btb38hbi8nhediielfrs2
+            [ip] => 192.96.211.44
+            [reaction] => 0
+            [impact] => 25
+        )
+
+)
+
+
+Aug 29 22:02:02  [info] $IDS Detector Details = Array
+(
+    [0] => Array
+        (
+            [name] => crmasmSelect0
+            [value] => - select -
+            [page] => /wp-admin/admin.php?page=CiviCRM&q=civicrm/contact/search/advanced
+            [userid] => 1
+            [session] => 54607btb38hbi8nhediielfrs2
+            [ip] => 192.96.211.44
+            [reaction] => 0
+            [impact] => 25
+        )
+
+    [1] => Array
+        (
+            [name] => crmasmSelect1
+            [value] => - select -
+            [page] => /wp-admin/admin.php?page=CiviCRM&q=civicrm/contact/search/advanced
+            [userid] => 1
+            [session] => 54607btb38hbi8nhediielfrs2
+            [ip] => 192.96.211.44
+            [reaction] => 0
+            [impact] => 25
+        )
+
+    [2] => Array
+        (
+            [name] => crmasmSelect2
+            [value] => - select -
+            [page] => /wp-admin/admin.php?page=CiviCRM&q=civicrm/contact/search/advanced
+            [userid] => 1
+            [session] => 54607btb38hbi8nhediielfrs2
+            [ip] => 192.96.211.44
+            [reaction] => 0
+            [impact] => 25
+        )
+
+    [3] => Array
+        (
+            [name] => crmasmSelect3
+            [value] => - select -
+            [page] => /wp-admin/admin.php?page=CiviCRM&q=civicrm/contact/search/advanced
+            [userid] => 1
+            [session] => 54607btb38hbi8nhediielfrs2
+            [ip] => 192.96.211.44
+            [reaction] => 0
+            [impact] => 25
+        )
+
+    [4] => Array
+        (
+            [name] => crmasmSelect4
+            [value] => - select -
+            [page] => /wp-admin/admin.php?page=CiviCRM&q=civicrm/contact/search/advanced
+            [userid] => 1
+            [session] => 54607btb38hbi8nhediielfrs2
+            [ip] => 192.96.211.44
+            [reaction] => 0
+            [impact] => 25
+        )
+
+)
+
+
+Aug 29 22:02:33  [info] $IDS Detector Details = Array
+(
+    [0] => Array
+        (
+            [name] => crmasmSelect0
+            [value] => - select -
+            [page] => /wp-admin/admin.php?page=CiviCRM&q=civicrm/contact/search/advanced
+            [userid] => 1
+            [session] => 54607btb38hbi8nhediielfrs2
+            [ip] => 192.96.211.44
+            [reaction] => 0
+            [impact] => 25
+        )
+
+    [1] => Array
+        (
+            [name] => crmasmSelect1
+            [value] => - select -
+            [page] => /wp-admin/admin.php?page=CiviCRM&q=civicrm/contact/search/advanced
+            [userid] => 1
+            [session] => 54607btb38hbi8nhediielfrs2
+            [ip] => 192.96.211.44
+            [reaction] => 0
+            [impact] => 25
+        )
+
+    [2] => Array
+        (
+            [name] => crmasmSelect2
+            [value] => - select -
+            [page] => /wp-admin/admin.php?page=CiviCRM&q=civicrm/contact/search/advanced
+            [userid] => 1
+            [session] => 54607btb38hbi8nhediielfrs2
+            [ip] => 192.96.211.44
+            [reaction] => 0
+            [impact] => 25
+        )
+
+    [3] => Array
+        (
+            [name] => crmasmSelect3
+            [value] => - select -
+            [page] => /wp-admin/admin.php?page=CiviCRM&q=civicrm/contact/search/advanced
+            [userid] => 1
+            [session] => 54607btb38hbi8nhediielfrs2
+            [ip] => 192.96.211.44
+            [reaction] => 0
+            [impact] => 25
+        )
+
+    [4] => Array
+        (
+            [name] => crmasmSelect4
+            [value] => - select -
+            [page] => /wp-admin/admin.php?page=CiviCRM&q=civicrm/contact/search/advanced
+            [userid] => 1
+            [session] => 54607btb38hbi8nhediielfrs2
+            [ip] => 192.96.211.44
+            [reaction] => 0
+            [impact] => 25
+        )
+
+)
+
+
+Aug 29 22:04:30  [info] $IDS Detector Details = Array
+(
+    [0] => Array
+        (
+            [name] => crmasmSelect0
+            [value] => - select -
+            [page] => /wp-admin/admin.php?page=CiviCRM&q=civicrm/contact/search/advanced
+            [userid] => 1
+            [session] => 54607btb38hbi8nhediielfrs2
+            [ip] => 192.96.211.44
+            [reaction] => 0
+            [impact] => 25
+        )
+
+    [1] => Array
+        (
+            [name] => crmasmSelect1
+            [value] => - select -
+            [page] => /wp-admin/admin.php?page=CiviCRM&q=civicrm/contact/search/advanced
+            [userid] => 1
+            [session] => 54607btb38hbi8nhediielfrs2
+            [ip] => 192.96.211.44
+            [reaction] => 0
+            [impact] => 25
+        )
+
+    [2] => Array
+        (
+            [name] => crmasmSelect2
+            [value] => - select -
+            [page] => /wp-admin/admin.php?page=CiviCRM&q=civicrm/contact/search/advanced
+            [userid] => 1
+            [session] => 54607btb38hbi8nhediielfrs2
+            [ip] => 192.96.211.44
+            [reaction] => 0
+            [impact] => 25
+        )
+
+    [3] => Array
+        (
+            [name] => crmasmSelect3
+            [value] => - select -
+            [page] => /wp-admin/admin.php?page=CiviCRM&q=civicrm/contact/search/advanced
+            [userid] => 1
+            [session] => 54607btb38hbi8nhediielfrs2
+            [ip] => 192.96.211.44
+            [reaction] => 0
+            [impact] => 25
+        )
+
+    [4] => Array
+        (
+            [name] => crmasmSelect4
+            [value] => - select -
+            [page] => /wp-admin/admin.php?page=CiviCRM&q=civicrm/contact/search/advanced
+            [userid] => 1
+            [session] => 54607btb38hbi8nhediielfrs2
+            [ip] => 192.96.211.44
+            [reaction] => 0
+            [impact] => 25
+        )
+
+)
+
+
+Aug 30 15:36:57  [info] $Fatal Error Details = Array
+(
+    [callback] => Array
+        (
+            [0] => CRM_Core_Error
+            [1] => handle
+        )
+
+    [code] => -22
+    [message] => DB Error: value count on row
+    [mode] => 16
+    [debug_info] => 
+INSERT INTO civicrm_export_temp_6c89309796bcd5144ae9710464560dea (id, civicrm_primary_id,contact_type,contact_sub_type,do_not_email,do_not_phone,do_not_mail,do_not_sms,do_not_trade,is_opt_out,legal_identifier,external_identifier,sort_name,display_name,nick_name,legal_name,image_url,preferred_communication_method,preferred_language,preferred_mail_format,hash,contact_source,first_name,middle_name,last_name,job_title,birth_date,is_deceased,deceased_date,household_name,organization_name,sic_code,user_unique_id,current_employer_id,contact_is_deleted,addressee,email_greeting,postal_greeting,gender,individual_prefix,individual_suffix,current_employer,location_type,street_address,street_number,street_number_suffix,street_name,street_unit,supplemental_address_1,supplemental_address_2,city,postal_code_suffix,postal_code,geo_code_1,geo_code_2,address_name,master_id,county,state_province,country,phone,phone_ext,email,on_hold,is_bulkmail,signature_text,signature_html,im_provider,im,openid,world_region,url,groups,tags,notes,phone_type_id,provider_id,tag,7_a_b_id,7_a_b_contact_type,7_a_b_contact_sub_type,7_a_b_do_not_email,7_a_b_do_not_phone,7_a_b_do_not_mail,7_a_b_do_not_sms,7_a_b_do_not_trade,7_a_b_is_opt_out,7_a_b_legal_identifier,7_a_b_external_identifier,7_a_b_sort_name,7_a_b_display_name,7_a_b_nick_name,7_a_b_legal_name,7_a_b_image_url,7_a_b_preferred_communication_method,7_a_b_preferred_language,7_a_b_preferred_mail_format,7_a_b_hash,7_a_b_source,7_a_b_first_name,7_a_b_middle_name,7_a_b_last_name,7_a_b_job_title,7_a_b_birth_date,7_a_b_is_deceased,7_a_b_deceased_date,7_a_b_household_name,7_a_b_organization_name,7_a_b_sic_code,7_a_b_user_unique_id,7_a_b_employer_id,7_a_b_is_deleted,7_a_b_addressee,7_a_b_email_greeting,7_a_b_postal_greeting,7_a_b_gender,7_a_b_individual_prefix,7_a_b_individual_suffix,7_a_b_current_employer,7_a_b_street_address,7_a_b_street_number,7_a_b_street_number_suffix,7_a_b_street_name,7_a_b_street_unit,7_a_b_supplemental_address_1,7_a_b_supplemental_address_2,7_a_b_city,7_a_b_postal_code_suffix,7_a_b_postal_code,7_a_b_geo_code_1,7_a_b_geo_code_2,7_a_b_address_name,7_a_b_master_id,7_a_b_county,7_a_b_state_province,7_a_b_country,7_a_b_phone,7_a_b_phone_ext,7_a_b_email,7_a_b_on_hold,7_a_b_is_bulkmail,7_a_b_signature_text,7_a_b_signature_html,7_a_b_im,7_a_b_openid,7_a_b_world_region,7_a_b_url,7_a_b_groups,7_a_b_tags,7_a_b_notes,7_a_b_phone_type,7_a_b_im_service_provider,6_a_b_id,6_a_b_contact_type,6_a_b_contact_sub_type,6_a_b_do_not_email,6_a_b_do_not_phone,6_a_b_do_not_mail,6_a_b_do_not_sms,6_a_b_do_not_trade,6_a_b_is_opt_out,6_a_b_legal_identifier,6_a_b_external_identifier,6_a_b_sort_name,6_a_b_display_name,6_a_b_nick_name,6_a_b_legal_name,6_a_b_image_url,6_a_b_preferred_communication_method,6_a_b_preferred_language,6_a_b_preferred_mail_format,6_a_b_hash,6_a_b_source,6_a_b_first_name,6_a_b_middle_name,6_a_b_last_name,6_a_b_job_title,6_a_b_birth_date,6_a_b_is_deceased,6_a_b_deceased_date,6_a_b_household_name,6_a_b_organization_name,6_a_b_sic_code,6_a_b_user_unique_id,6_a_b_employer_id,6_a_b_is_deleted,6_a_b_addressee,6_a_b_email_greeting,6_a_b_postal_greeting,6_a_b_gender,6_a_b_individual_prefix,6_a_b_individual_suffix,6_a_b_current_employer,6_a_b_street_address,6_a_b_street_number,6_a_b_street_number_suffix,6_a_b_street_name,6_a_b_street_unit,6_a_b_supplemental_address_1,6_a_b_supplemental_address_2,6_a_b_city,6_a_b_postal_code_suffix,6_a_b_postal_code,6_a_b_geo_code_1,6_a_b_geo_code_2,6_a_b_address_name,6_a_b_master_id,6_a_b_county,6_a_b_state_province,6_a_b_country,6_a_b_phone,6_a_b_phone_ext,6_a_b_email,6_a_b_on_hold,6_a_b_is_bulkmail,6_a_b_signature_text,6_a_b_signature_html,6_a_b_im,6_a_b_openid,6_a_b_world_region,6_a_b_url,6_a_b_groups,6_a_b_tags,6_a_b_notes,6_a_b_phone_type,6_a_b_im_service_provider)
+VALUES (1,'493','Individual','','','','','','','','','489','Mullen, Jeanne','Jeanne Mullen','','','','','en_US','Both','e5408939f37171eea5e3cf227d24e051','','Jeanne','','Mullen','','','','','','','','','','','Jeanne Mullen','Dear Jeanne','Dear Jeanne','','','','','Home','101 Stanton St.','','','','','#8','','New York','','10002','','','','','','NY','United States','212 260 3497','','jeannemull@gmail.com','','','','','','','','America South, Central, North and Caribbean','','','joint2013-4-1,google-cir-direct-2013-6-25,joint-2013-08-28 mbrship added,joint2013-08-29,hh 2013-08-29','','Phone','','','1672','Household','','','','','','','','','','Patrick Walsh & Jeanne Mullen','Patrick Walsh & Jeanne Mullen','','','','','en_US','Both','bd270c69d6052ad22096f65fa76fa099','','','','','','','','','Patrick Walsh & Jeanne Mullen','','','','','','Patrick Walsh & Jeanne Mullen','Dear Patrick Walsh & Jeanne Mullen','Dear Patrick Walsh & Jeanne Mullen','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','hh 2013-08-29','','Phone','Yahoo','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','')
+ [nativecode=1136 ** Column count doesn't match value count at row 1]
+    [type] => DB_Error
+    [user_info] => 
+INSERT INTO civicrm_export_temp_6c89309796bcd5144ae9710464560dea (id, civicrm_primary_id,contact_type,contact_sub_type,do_not_email,do_not_phone,do_not_mail,do_not_sms,do_not_trade,is_opt_out,legal_identifier,external_identifier,sort_name,display_name,nick_name,legal_name,image_url,preferred_communication_method,preferred_language,preferred_mail_format,hash,contact_source,first_name,middle_name,last_name,job_title,birth_date,is_deceased,deceased_date,household_name,organization_name,sic_code,user_unique_id,current_employer_id,contact_is_deleted,addressee,email_greeting,postal_greeting,gender,individual_prefix,individual_suffix,current_employer,location_type,street_address,street_number,street_number_suffix,street_name,street_unit,supplemental_address_1,supplemental_address_2,city,postal_code_suffix,postal_code,geo_code_1,geo_code_2,address_name,master_id,county,state_province,country,phone,phone_ext,email,on_hold,is_bulkmail,signature_text,signature_html,im_provider,im,openid,world_region,url,groups,tags,notes,phone_type_id,provider_id,tag,7_a_b_id,7_a_b_contact_type,7_a_b_contact_sub_type,7_a_b_do_not_email,7_a_b_do_not_phone,7_a_b_do_not_mail,7_a_b_do_not_sms,7_a_b_do_not_trade,7_a_b_is_opt_out,7_a_b_legal_identifier,7_a_b_external_identifier,7_a_b_sort_name,7_a_b_display_name,7_a_b_nick_name,7_a_b_legal_name,7_a_b_image_url,7_a_b_preferred_communication_method,7_a_b_preferred_language,7_a_b_preferred_mail_format,7_a_b_hash,7_a_b_source,7_a_b_first_name,7_a_b_middle_name,7_a_b_last_name,7_a_b_job_title,7_a_b_birth_date,7_a_b_is_deceased,7_a_b_deceased_date,7_a_b_household_name,7_a_b_organization_name,7_a_b_sic_code,7_a_b_user_unique_id,7_a_b_employer_id,7_a_b_is_deleted,7_a_b_addressee,7_a_b_email_greeting,7_a_b_postal_greeting,7_a_b_gender,7_a_b_individual_prefix,7_a_b_individual_suffix,7_a_b_current_employer,7_a_b_street_address,7_a_b_street_number,7_a_b_street_number_suffix,7_a_b_street_name,7_a_b_street_unit,7_a_b_supplemental_address_1,7_a_b_supplemental_address_2,7_a_b_city,7_a_b_postal_code_suffix,7_a_b_postal_code,7_a_b_geo_code_1,7_a_b_geo_code_2,7_a_b_address_name,7_a_b_master_id,7_a_b_county,7_a_b_state_province,7_a_b_country,7_a_b_phone,7_a_b_phone_ext,7_a_b_email,7_a_b_on_hold,7_a_b_is_bulkmail,7_a_b_signature_text,7_a_b_signature_html,7_a_b_im,7_a_b_openid,7_a_b_world_region,7_a_b_url,7_a_b_groups,7_a_b_tags,7_a_b_notes,7_a_b_phone_type,7_a_b_im_service_provider,6_a_b_id,6_a_b_contact_type,6_a_b_contact_sub_type,6_a_b_do_not_email,6_a_b_do_not_phone,6_a_b_do_not_mail,6_a_b_do_not_sms,6_a_b_do_not_trade,6_a_b_is_opt_out,6_a_b_legal_identifier,6_a_b_external_identifier,6_a_b_sort_name,6_a_b_display_name,6_a_b_nick_name,6_a_b_legal_name,6_a_b_image_url,6_a_b_preferred_communication_method,6_a_b_preferred_language,6_a_b_preferred_mail_format,6_a_b_hash,6_a_b_source,6_a_b_first_name,6_a_b_middle_name,6_a_b_last_name,6_a_b_job_title,6_a_b_birth_date,6_a_b_is_deceased,6_a_b_deceased_date,6_a_b_household_name,6_a_b_organization_name,6_a_b_sic_code,6_a_b_user_unique_id,6_a_b_employer_id,6_a_b_is_deleted,6_a_b_addressee,6_a_b_email_greeting,6_a_b_postal_greeting,6_a_b_gender,6_a_b_individual_prefix,6_a_b_individual_suffix,6_a_b_current_employer,6_a_b_street_address,6_a_b_street_number,6_a_b_street_number_suffix,6_a_b_street_name,6_a_b_street_unit,6_a_b_supplemental_address_1,6_a_b_supplemental_address_2,6_a_b_city,6_a_b_postal_code_suffix,6_a_b_postal_code,6_a_b_geo_code_1,6_a_b_geo_code_2,6_a_b_address_name,6_a_b_master_id,6_a_b_county,6_a_b_state_province,6_a_b_country,6_a_b_phone,6_a_b_phone_ext,6_a_b_email,6_a_b_on_hold,6_a_b_is_bulkmail,6_a_b_signature_text,6_a_b_signature_html,6_a_b_im,6_a_b_openid,6_a_b_world_region,6_a_b_url,6_a_b_groups,6_a_b_tags,6_a_b_notes,6_a_b_phone_type,6_a_b_im_service_provider)
+VALUES (1,'493','Individual','','','','','','','','','489','Mullen, Jeanne','Jeanne Mullen','','','','','en_US','Both','e5408939f37171eea5e3cf227d24e051','','Jeanne','','Mullen','','','','','','','','','','','Jeanne Mullen','Dear Jeanne','Dear Jeanne','','','','','Home','101 Stanton St.','','','','','#8','','New York','','10002','','','','','','NY','United States','212 260 3497','','jeannemull@gmail.com','','','','','','','','America South, Central, North and Caribbean','','','joint2013-4-1,google-cir-direct-2013-6-25,joint-2013-08-28 mbrship added,joint2013-08-29,hh 2013-08-29','','Phone','','','1672','Household','','','','','','','','','','Patrick Walsh & Jeanne Mullen','Patrick Walsh & Jeanne Mullen','','','','','en_US','Both','bd270c69d6052ad22096f65fa76fa099','','','','','','','','','Patrick Walsh & Jeanne Mullen','','','','','','Patrick Walsh & Jeanne Mullen','Dear Patrick Walsh & Jeanne Mullen','Dear Patrick Walsh & Jeanne Mullen','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','hh 2013-08-29','','Phone','Yahoo','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','')
+ [nativecode=1136 ** Column count doesn't match value count at row 1]
+    [to_string] => [db_error: message="DB Error: value count on row" code=-22 mode=callback callback=CRM_Core_Error::handle prefix="" info="
+INSERT INTO civicrm_export_temp_6c89309796bcd5144ae9710464560dea (id, civicrm_primary_id,contact_type,contact_sub_type,do_not_email,do_not_phone,do_not_mail,do_not_sms,do_not_trade,is_opt_out,legal_identifier,external_identifier,sort_name,display_name,nick_name,legal_name,image_url,preferred_communication_method,preferred_language,preferred_mail_format,hash,contact_source,first_name,middle_name,last_name,job_title,birth_date,is_deceased,deceased_date,household_name,organization_name,sic_code,user_unique_id,current_employer_id,contact_is_deleted,addressee,email_greeting,postal_greeting,gender,individual_prefix,individual_suffix,current_employer,location_type,street_address,street_number,street_number_suffix,street_name,street_unit,supplemental_address_1,supplemental_address_2,city,postal_code_suffix,postal_code,geo_code_1,geo_code_2,address_name,master_id,county,state_province,country,phone,phone_ext,email,on_hold,is_bulkmail,signature_text,signature_html,im_provider,im,openid,world_region,url,groups,tags,notes,phone_type_id,provider_id,tag,7_a_b_id,7_a_b_contact_type,7_a_b_contact_sub_type,7_a_b_do_not_email,7_a_b_do_not_phone,7_a_b_do_not_mail,7_a_b_do_not_sms,7_a_b_do_not_trade,7_a_b_is_opt_out,7_a_b_legal_identifier,7_a_b_external_identifier,7_a_b_sort_name,7_a_b_display_name,7_a_b_nick_name,7_a_b_legal_name,7_a_b_image_url,7_a_b_preferred_communication_method,7_a_b_preferred_language,7_a_b_preferred_mail_format,7_a_b_hash,7_a_b_source,7_a_b_first_name,7_a_b_middle_name,7_a_b_last_name,7_a_b_job_title,7_a_b_birth_date,7_a_b_is_deceased,7_a_b_deceased_date,7_a_b_household_name,7_a_b_organization_name,7_a_b_sic_code,7_a_b_user_unique_id,7_a_b_employer_id,7_a_b_is_deleted,7_a_b_addressee,7_a_b_email_greeting,7_a_b_postal_greeting,7_a_b_gender,7_a_b_individual_prefix,7_a_b_individual_suffix,7_a_b_current_employer,7_a_b_street_address,7_a_b_street_number,7_a_b_street_number_suffix,7_a_b_street_name,7_a_b_street_unit,7_a_b_supplemental_address_1,7_a_b_supplemental_address_2,7_a_b_city,7_a_b_postal_code_suffix,7_a_b_postal_code,7_a_b_geo_code_1,7_a_b_geo_code_2,7_a_b_address_name,7_a_b_master_id,7_a_b_county,7_a_b_state_province,7_a_b_country,7_a_b_phone,7_a_b_phone_ext,7_a_b_email,7_a_b_on_hold,7_a_b_is_bulkmail,7_a_b_signature_text,7_a_b_signature_html,7_a_b_im,7_a_b_openid,7_a_b_world_region,7_a_b_url,7_a_b_groups,7_a_b_tags,7_a_b_notes,7_a_b_phone_type,7_a_b_im_service_provider,6_a_b_id,6_a_b_contact_type,6_a_b_contact_sub_type,6_a_b_do_not_email,6_a_b_do_not_phone,6_a_b_do_not_mail,6_a_b_do_not_sms,6_a_b_do_not_trade,6_a_b_is_opt_out,6_a_b_legal_identifier,6_a_b_external_identifier,6_a_b_sort_name,6_a_b_display_name,6_a_b_nick_name,6_a_b_legal_name,6_a_b_image_url,6_a_b_preferred_communication_method,6_a_b_preferred_language,6_a_b_preferred_mail_format,6_a_b_hash,6_a_b_source,6_a_b_first_name,6_a_b_middle_name,6_a_b_last_name,6_a_b_job_title,6_a_b_birth_date,6_a_b_is_deceased,6_a_b_deceased_date,6_a_b_household_name,6_a_b_organization_name,6_a_b_sic_code,6_a_b_user_unique_id,6_a_b_employer_id,6_a_b_is_deleted,6_a_b_addressee,6_a_b_email_greeting,6_a_b_postal_greeting,6_a_b_gender,6_a_b_individual_prefix,6_a_b_individual_suffix,6_a_b_current_employer,6_a_b_street_address,6_a_b_street_number,6_a_b_street_number_suffix,6_a_b_street_name,6_a_b_street_unit,6_a_b_supplemental_address_1,6_a_b_supplemental_address_2,6_a_b_city,6_a_b_postal_code_suffix,6_a_b_postal_code,6_a_b_geo_code_1,6_a_b_geo_code_2,6_a_b_address_name,6_a_b_master_id,6_a_b_county,6_a_b_state_province,6_a_b_country,6_a_b_phone,6_a_b_phone_ext,6_a_b_email,6_a_b_on_hold,6_a_b_is_bulkmail,6_a_b_signature_text,6_a_b_signature_html,6_a_b_im,6_a_b_openid,6_a_b_world_region,6_a_b_url,6_a_b_groups,6_a_b_tags,6_a_b_notes,6_a_b_phone_type,6_a_b_im_service_provider)
+VALUES (1,'493','Individual','','','','','','','','','489','Mullen, Jeanne','Jeanne Mullen','','','','','en_US','Both','e5408939f37171eea5e3cf227d24e051','','Jeanne','','Mullen','','','','','','','','','','','Jeanne Mullen','Dear Jeanne','Dear Jeanne','','','','','Home','101 Stanton St.','','','','','#8','','New York','','10002','','','','','','NY','United States','212 260 3497','','jeannemull@gmail.com','','','','','','','','America South, Central, North and Caribbean','','','joint2013-4-1,google-cir-direct-2013-6-25,joint-2013-08-28 mbrship added,joint2013-08-29,hh 2013-08-29','','Phone','','','1672','Household','','','','','','','','','','Patrick Walsh & Jeanne Mullen','Patrick Walsh & Jeanne Mullen','','','','','en_US','Both','bd270c69d6052ad22096f65fa76fa099','','','','','','','','','Patrick Walsh & Jeanne Mullen','','','','','','Patrick Walsh & Jeanne Mullen','Dear Patrick Walsh & Jeanne Mullen','Dear Patrick Walsh & Jeanne Mullen','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','hh 2013-08-29','','Phone','Yahoo','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','')
+ [nativecode=1136 ** Column count doesn't match value count at row 1]"]
+)
+
+
+Aug 30 15:36:57  [info] $backTrace = #0 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Error.php(196): CRM_Core_Error::backtrace("backTrace", TRUE)
+#1 [internal function](): CRM_Core_Error::handle(Object(DB_Error))
+#2 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/PEAR.php(931): call_user_func((Array:2), Object(DB_Error))
+#3 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/DB.php(968): PEAR_Error->PEAR_Error("DB Error: value count on row", -22, 16, (Array:2), "\nINSERT INTO civicrm_export_temp_6c89309796bcd5144ae9710464560dea (id, civic...")
+#4 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/PEAR.php(564): DB_Error->DB_Error(-22, 16, (Array:2), "\nINSERT INTO civicrm_export_temp_6c89309796bcd5144ae9710464560dea (id, civic...")
+#5 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/DB/common.php(1903): PEAR->raiseError(NULL, -22, NULL, NULL, "\nINSERT INTO civicrm_export_temp_6c89309796bcd5144ae9710464560dea (id, civic...", "DB_Error", TRUE)
+#6 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/DB/mysql.php(898): DB_common->raiseError(-22, NULL, NULL, NULL, "1136 ** Column count doesn't match value count at row 1")
+#7 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/DB/mysql.php(327): DB_mysql->mysqlRaiseError()
+#8 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/DB/common.php(1216): DB_mysql->simpleQuery("\nINSERT INTO civicrm_export_temp_6c89309796bcd5144ae9710464560dea (id, civic...")
+#9 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/DB/DataObject.php(2421): DB_common->query("\nINSERT INTO civicrm_export_temp_6c89309796bcd5144ae9710464560dea (id, civic...")
+#10 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/DB/DataObject.php(1613): DB_DataObject->_query("\nINSERT INTO civicrm_export_temp_6c89309796bcd5144ae9710464560dea (id, civic...")
+#11 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/DAO.php(155): DB_DataObject->query("\nINSERT INTO civicrm_export_temp_6c89309796bcd5144ae9710464560dea (id, civic...")
+#12 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/DAO.php(922): CRM_Core_DAO->query("\nINSERT INTO civicrm_export_temp_6c89309796bcd5144ae9710464560dea (id, civic...", TRUE)
+#13 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Export/BAO/Export.php(1324): CRM_Core_DAO::executeQuery("\nINSERT INTO civicrm_export_temp_6c89309796bcd5144ae9710464560dea (id, civic...")
+#14 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Export/BAO/Export.php(1018): CRM_Export_BAO_Export::writeDetailsToTable("civicrm_export_temp_6c89309796bcd5144ae9710464560dea", (Array:1), (Array:225))
+#15 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Export/Form/Select.php(384): CRM_Export_BAO_Export::exportComponents(TRUE, (Array:0), (Array:4), "household_name desc", NULL, (Array:5), 1, NULL, "civicrm_task_action_temp_1f9655e11cb4f2c761dd6e37d753400e_1411", 0, 1, (Array:9), (Array:2))
+#16 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Form.php(246): CRM_Export_Form_Select->postProcess()
+#17 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/StateMachine.php(159): CRM_Core_Form->mainProcess()
+#18 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/QuickForm/Action/Next.php(60): CRM_Core_StateMachine->perform(Object(CRM_Export_Form_Select), "next", "Next")
+#19 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/HTML/QuickForm/Controller.php(203): CRM_Core_QuickForm_Action_Next->perform(Object(CRM_Export_Form_Select), "next")
+#20 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/HTML/QuickForm/Page.php(103): HTML_QuickForm_Controller->handle(Object(CRM_Export_Form_Select), "next")
+#21 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Controller.php(310): HTML_QuickForm_Page->handle("next")
+#22 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(220): CRM_Core_Controller->run((Array:4), (Array:0))
+#23 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(51): CRM_Core_Invoke::_invoke((Array:4))
+#24 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm.php(271): CRM_Core_Invoke::invoke((Array:4))
+#25 [internal function](): civicrm_wp_invoke("")
+#26 /var/www/vhosts/coopersquare.org/httpdocs/wp-includes/plugin.php(406): call_user_func_array("civicrm_wp_invoke", (Array:1))
+#27 /var/www/vhosts/coopersquare.org/httpdocs/wp-admin/admin.php(151): do_action("toplevel_page_CiviCRM")
+#28 {main}
+
+
+Aug 30 15:37:11  [info] $Fatal Error Details = Array
+(
+    [callback] => Array
+        (
+            [0] => CRM_Core_Error
+            [1] => handle
+        )
+
+    [code] => -22
+    [message] => DB Error: value count on row
+    [mode] => 16
+    [debug_info] => 
+INSERT INTO civicrm_export_temp_50e413b2ac6a650ab4bfbb0f97830b2f (id, civicrm_primary_id,contact_type,contact_sub_type,do_not_email,do_not_phone,do_not_mail,do_not_sms,do_not_trade,is_opt_out,legal_identifier,external_identifier,sort_name,display_name,nick_name,legal_name,image_url,preferred_communication_method,preferred_language,preferred_mail_format,hash,contact_source,first_name,middle_name,last_name,job_title,birth_date,is_deceased,deceased_date,household_name,organization_name,sic_code,user_unique_id,current_employer_id,contact_is_deleted,addressee,email_greeting,postal_greeting,gender,individual_prefix,individual_suffix,current_employer,location_type,street_address,street_number,street_number_suffix,street_name,street_unit,supplemental_address_1,supplemental_address_2,city,postal_code_suffix,postal_code,geo_code_1,geo_code_2,address_name,master_id,county,state_province,country,phone,phone_ext,email,on_hold,is_bulkmail,signature_text,signature_html,im_provider,im,openid,world_region,url,groups,tags,notes,phone_type_id,provider_id,tag,7_a_b_id,7_a_b_contact_type,7_a_b_contact_sub_type,7_a_b_do_not_email,7_a_b_do_not_phone,7_a_b_do_not_mail,7_a_b_do_not_sms,7_a_b_do_not_trade,7_a_b_is_opt_out,7_a_b_legal_identifier,7_a_b_external_identifier,7_a_b_sort_name,7_a_b_display_name,7_a_b_nick_name,7_a_b_legal_name,7_a_b_image_url,7_a_b_preferred_communication_method,7_a_b_preferred_language,7_a_b_preferred_mail_format,7_a_b_hash,7_a_b_source,7_a_b_first_name,7_a_b_middle_name,7_a_b_last_name,7_a_b_job_title,7_a_b_birth_date,7_a_b_is_deceased,7_a_b_deceased_date,7_a_b_household_name,7_a_b_organization_name,7_a_b_sic_code,7_a_b_user_unique_id,7_a_b_employer_id,7_a_b_is_deleted,7_a_b_addressee,7_a_b_email_greeting,7_a_b_postal_greeting,7_a_b_gender,7_a_b_individual_prefix,7_a_b_individual_suffix,7_a_b_current_employer,7_a_b_street_address,7_a_b_street_number,7_a_b_street_number_suffix,7_a_b_street_name,7_a_b_street_unit,7_a_b_supplemental_address_1,7_a_b_supplemental_address_2,7_a_b_city,7_a_b_postal_code_suffix,7_a_b_postal_code,7_a_b_geo_code_1,7_a_b_geo_code_2,7_a_b_address_name,7_a_b_master_id,7_a_b_county,7_a_b_state_province,7_a_b_country,7_a_b_phone,7_a_b_phone_ext,7_a_b_email,7_a_b_on_hold,7_a_b_is_bulkmail,7_a_b_signature_text,7_a_b_signature_html,7_a_b_im,7_a_b_openid,7_a_b_world_region,7_a_b_url,7_a_b_groups,7_a_b_tags,7_a_b_notes,7_a_b_phone_type,7_a_b_im_service_provider,6_a_b_id,6_a_b_contact_type,6_a_b_contact_sub_type,6_a_b_do_not_email,6_a_b_do_not_phone,6_a_b_do_not_mail,6_a_b_do_not_sms,6_a_b_do_not_trade,6_a_b_is_opt_out,6_a_b_legal_identifier,6_a_b_external_identifier,6_a_b_sort_name,6_a_b_display_name,6_a_b_nick_name,6_a_b_legal_name,6_a_b_image_url,6_a_b_preferred_communication_method,6_a_b_preferred_language,6_a_b_preferred_mail_format,6_a_b_hash,6_a_b_source,6_a_b_first_name,6_a_b_middle_name,6_a_b_last_name,6_a_b_job_title,6_a_b_birth_date,6_a_b_is_deceased,6_a_b_deceased_date,6_a_b_household_name,6_a_b_organization_name,6_a_b_sic_code,6_a_b_user_unique_id,6_a_b_employer_id,6_a_b_is_deleted,6_a_b_addressee,6_a_b_email_greeting,6_a_b_postal_greeting,6_a_b_gender,6_a_b_individual_prefix,6_a_b_individual_suffix,6_a_b_current_employer,6_a_b_street_address,6_a_b_street_number,6_a_b_street_number_suffix,6_a_b_street_name,6_a_b_street_unit,6_a_b_supplemental_address_1,6_a_b_supplemental_address_2,6_a_b_city,6_a_b_postal_code_suffix,6_a_b_postal_code,6_a_b_geo_code_1,6_a_b_geo_code_2,6_a_b_address_name,6_a_b_master_id,6_a_b_county,6_a_b_state_province,6_a_b_country,6_a_b_phone,6_a_b_phone_ext,6_a_b_email,6_a_b_on_hold,6_a_b_is_bulkmail,6_a_b_signature_text,6_a_b_signature_html,6_a_b_im,6_a_b_openid,6_a_b_world_region,6_a_b_url,6_a_b_groups,6_a_b_tags,6_a_b_notes,6_a_b_phone_type,6_a_b_im_service_provider)
+VALUES (1,'493','Individual','','','','','','','','','489','Mullen, Jeanne','Jeanne Mullen','','','','','en_US','Both','e5408939f37171eea5e3cf227d24e051','','Jeanne','','Mullen','','','','','','','','','','','Jeanne Mullen','Dear Jeanne','Dear Jeanne','','','','','Home','101 Stanton St.','','','','','#8','','New York','','10002','','','','','','NY','United States','212 260 3497','','jeannemull@gmail.com','','','','','','','','America South, Central, North and Caribbean','','','joint2013-4-1,google-cir-direct-2013-6-25,joint-2013-08-28 mbrship added,joint2013-08-29,hh 2013-08-29','','Phone','','','1672','Household','','','','','','','','','','Patrick Walsh & Jeanne Mullen','Patrick Walsh & Jeanne Mullen','','','','','en_US','Both','bd270c69d6052ad22096f65fa76fa099','','','','','','','','','Patrick Walsh & Jeanne Mullen','','','','','','Patrick Walsh & Jeanne Mullen','Dear Patrick Walsh & Jeanne Mullen','Dear Patrick Walsh & Jeanne Mullen','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','hh 2013-08-29','','Phone','Yahoo','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','')
+ [nativecode=1136 ** Column count doesn't match value count at row 1]
+    [type] => DB_Error
+    [user_info] => 
+INSERT INTO civicrm_export_temp_50e413b2ac6a650ab4bfbb0f97830b2f (id, civicrm_primary_id,contact_type,contact_sub_type,do_not_email,do_not_phone,do_not_mail,do_not_sms,do_not_trade,is_opt_out,legal_identifier,external_identifier,sort_name,display_name,nick_name,legal_name,image_url,preferred_communication_method,preferred_language,preferred_mail_format,hash,contact_source,first_name,middle_name,last_name,job_title,birth_date,is_deceased,deceased_date,household_name,organization_name,sic_code,user_unique_id,current_employer_id,contact_is_deleted,addressee,email_greeting,postal_greeting,gender,individual_prefix,individual_suffix,current_employer,location_type,street_address,street_number,street_number_suffix,street_name,street_unit,supplemental_address_1,supplemental_address_2,city,postal_code_suffix,postal_code,geo_code_1,geo_code_2,address_name,master_id,county,state_province,country,phone,phone_ext,email,on_hold,is_bulkmail,signature_text,signature_html,im_provider,im,openid,world_region,url,groups,tags,notes,phone_type_id,provider_id,tag,7_a_b_id,7_a_b_contact_type,7_a_b_contact_sub_type,7_a_b_do_not_email,7_a_b_do_not_phone,7_a_b_do_not_mail,7_a_b_do_not_sms,7_a_b_do_not_trade,7_a_b_is_opt_out,7_a_b_legal_identifier,7_a_b_external_identifier,7_a_b_sort_name,7_a_b_display_name,7_a_b_nick_name,7_a_b_legal_name,7_a_b_image_url,7_a_b_preferred_communication_method,7_a_b_preferred_language,7_a_b_preferred_mail_format,7_a_b_hash,7_a_b_source,7_a_b_first_name,7_a_b_middle_name,7_a_b_last_name,7_a_b_job_title,7_a_b_birth_date,7_a_b_is_deceased,7_a_b_deceased_date,7_a_b_household_name,7_a_b_organization_name,7_a_b_sic_code,7_a_b_user_unique_id,7_a_b_employer_id,7_a_b_is_deleted,7_a_b_addressee,7_a_b_email_greeting,7_a_b_postal_greeting,7_a_b_gender,7_a_b_individual_prefix,7_a_b_individual_suffix,7_a_b_current_employer,7_a_b_street_address,7_a_b_street_number,7_a_b_street_number_suffix,7_a_b_street_name,7_a_b_street_unit,7_a_b_supplemental_address_1,7_a_b_supplemental_address_2,7_a_b_city,7_a_b_postal_code_suffix,7_a_b_postal_code,7_a_b_geo_code_1,7_a_b_geo_code_2,7_a_b_address_name,7_a_b_master_id,7_a_b_county,7_a_b_state_province,7_a_b_country,7_a_b_phone,7_a_b_phone_ext,7_a_b_email,7_a_b_on_hold,7_a_b_is_bulkmail,7_a_b_signature_text,7_a_b_signature_html,7_a_b_im,7_a_b_openid,7_a_b_world_region,7_a_b_url,7_a_b_groups,7_a_b_tags,7_a_b_notes,7_a_b_phone_type,7_a_b_im_service_provider,6_a_b_id,6_a_b_contact_type,6_a_b_contact_sub_type,6_a_b_do_not_email,6_a_b_do_not_phone,6_a_b_do_not_mail,6_a_b_do_not_sms,6_a_b_do_not_trade,6_a_b_is_opt_out,6_a_b_legal_identifier,6_a_b_external_identifier,6_a_b_sort_name,6_a_b_display_name,6_a_b_nick_name,6_a_b_legal_name,6_a_b_image_url,6_a_b_preferred_communication_method,6_a_b_preferred_language,6_a_b_preferred_mail_format,6_a_b_hash,6_a_b_source,6_a_b_first_name,6_a_b_middle_name,6_a_b_last_name,6_a_b_job_title,6_a_b_birth_date,6_a_b_is_deceased,6_a_b_deceased_date,6_a_b_household_name,6_a_b_organization_name,6_a_b_sic_code,6_a_b_user_unique_id,6_a_b_employer_id,6_a_b_is_deleted,6_a_b_addressee,6_a_b_email_greeting,6_a_b_postal_greeting,6_a_b_gender,6_a_b_individual_prefix,6_a_b_individual_suffix,6_a_b_current_employer,6_a_b_street_address,6_a_b_street_number,6_a_b_street_number_suffix,6_a_b_street_name,6_a_b_street_unit,6_a_b_supplemental_address_1,6_a_b_supplemental_address_2,6_a_b_city,6_a_b_postal_code_suffix,6_a_b_postal_code,6_a_b_geo_code_1,6_a_b_geo_code_2,6_a_b_address_name,6_a_b_master_id,6_a_b_county,6_a_b_state_province,6_a_b_country,6_a_b_phone,6_a_b_phone_ext,6_a_b_email,6_a_b_on_hold,6_a_b_is_bulkmail,6_a_b_signature_text,6_a_b_signature_html,6_a_b_im,6_a_b_openid,6_a_b_world_region,6_a_b_url,6_a_b_groups,6_a_b_tags,6_a_b_notes,6_a_b_phone_type,6_a_b_im_service_provider)
+VALUES (1,'493','Individual','','','','','','','','','489','Mullen, Jeanne','Jeanne Mullen','','','','','en_US','Both','e5408939f37171eea5e3cf227d24e051','','Jeanne','','Mullen','','','','','','','','','','','Jeanne Mullen','Dear Jeanne','Dear Jeanne','','','','','Home','101 Stanton St.','','','','','#8','','New York','','10002','','','','','','NY','United States','212 260 3497','','jeannemull@gmail.com','','','','','','','','America South, Central, North and Caribbean','','','joint2013-4-1,google-cir-direct-2013-6-25,joint-2013-08-28 mbrship added,joint2013-08-29,hh 2013-08-29','','Phone','','','1672','Household','','','','','','','','','','Patrick Walsh & Jeanne Mullen','Patrick Walsh & Jeanne Mullen','','','','','en_US','Both','bd270c69d6052ad22096f65fa76fa099','','','','','','','','','Patrick Walsh & Jeanne Mullen','','','','','','Patrick Walsh & Jeanne Mullen','Dear Patrick Walsh & Jeanne Mullen','Dear Patrick Walsh & Jeanne Mullen','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','hh 2013-08-29','','Phone','Yahoo','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','')
+ [nativecode=1136 ** Column count doesn't match value count at row 1]
+    [to_string] => [db_error: message="DB Error: value count on row" code=-22 mode=callback callback=CRM_Core_Error::handle prefix="" info="
+INSERT INTO civicrm_export_temp_50e413b2ac6a650ab4bfbb0f97830b2f (id, civicrm_primary_id,contact_type,contact_sub_type,do_not_email,do_not_phone,do_not_mail,do_not_sms,do_not_trade,is_opt_out,legal_identifier,external_identifier,sort_name,display_name,nick_name,legal_name,image_url,preferred_communication_method,preferred_language,preferred_mail_format,hash,contact_source,first_name,middle_name,last_name,job_title,birth_date,is_deceased,deceased_date,household_name,organization_name,sic_code,user_unique_id,current_employer_id,contact_is_deleted,addressee,email_greeting,postal_greeting,gender,individual_prefix,individual_suffix,current_employer,location_type,street_address,street_number,street_number_suffix,street_name,street_unit,supplemental_address_1,supplemental_address_2,city,postal_code_suffix,postal_code,geo_code_1,geo_code_2,address_name,master_id,county,state_province,country,phone,phone_ext,email,on_hold,is_bulkmail,signature_text,signature_html,im_provider,im,openid,world_region,url,groups,tags,notes,phone_type_id,provider_id,tag,7_a_b_id,7_a_b_contact_type,7_a_b_contact_sub_type,7_a_b_do_not_email,7_a_b_do_not_phone,7_a_b_do_not_mail,7_a_b_do_not_sms,7_a_b_do_not_trade,7_a_b_is_opt_out,7_a_b_legal_identifier,7_a_b_external_identifier,7_a_b_sort_name,7_a_b_display_name,7_a_b_nick_name,7_a_b_legal_name,7_a_b_image_url,7_a_b_preferred_communication_method,7_a_b_preferred_language,7_a_b_preferred_mail_format,7_a_b_hash,7_a_b_source,7_a_b_first_name,7_a_b_middle_name,7_a_b_last_name,7_a_b_job_title,7_a_b_birth_date,7_a_b_is_deceased,7_a_b_deceased_date,7_a_b_household_name,7_a_b_organization_name,7_a_b_sic_code,7_a_b_user_unique_id,7_a_b_employer_id,7_a_b_is_deleted,7_a_b_addressee,7_a_b_email_greeting,7_a_b_postal_greeting,7_a_b_gender,7_a_b_individual_prefix,7_a_b_individual_suffix,7_a_b_current_employer,7_a_b_street_address,7_a_b_street_number,7_a_b_street_number_suffix,7_a_b_street_name,7_a_b_street_unit,7_a_b_supplemental_address_1,7_a_b_supplemental_address_2,7_a_b_city,7_a_b_postal_code_suffix,7_a_b_postal_code,7_a_b_geo_code_1,7_a_b_geo_code_2,7_a_b_address_name,7_a_b_master_id,7_a_b_county,7_a_b_state_province,7_a_b_country,7_a_b_phone,7_a_b_phone_ext,7_a_b_email,7_a_b_on_hold,7_a_b_is_bulkmail,7_a_b_signature_text,7_a_b_signature_html,7_a_b_im,7_a_b_openid,7_a_b_world_region,7_a_b_url,7_a_b_groups,7_a_b_tags,7_a_b_notes,7_a_b_phone_type,7_a_b_im_service_provider,6_a_b_id,6_a_b_contact_type,6_a_b_contact_sub_type,6_a_b_do_not_email,6_a_b_do_not_phone,6_a_b_do_not_mail,6_a_b_do_not_sms,6_a_b_do_not_trade,6_a_b_is_opt_out,6_a_b_legal_identifier,6_a_b_external_identifier,6_a_b_sort_name,6_a_b_display_name,6_a_b_nick_name,6_a_b_legal_name,6_a_b_image_url,6_a_b_preferred_communication_method,6_a_b_preferred_language,6_a_b_preferred_mail_format,6_a_b_hash,6_a_b_source,6_a_b_first_name,6_a_b_middle_name,6_a_b_last_name,6_a_b_job_title,6_a_b_birth_date,6_a_b_is_deceased,6_a_b_deceased_date,6_a_b_household_name,6_a_b_organization_name,6_a_b_sic_code,6_a_b_user_unique_id,6_a_b_employer_id,6_a_b_is_deleted,6_a_b_addressee,6_a_b_email_greeting,6_a_b_postal_greeting,6_a_b_gender,6_a_b_individual_prefix,6_a_b_individual_suffix,6_a_b_current_employer,6_a_b_street_address,6_a_b_street_number,6_a_b_street_number_suffix,6_a_b_street_name,6_a_b_street_unit,6_a_b_supplemental_address_1,6_a_b_supplemental_address_2,6_a_b_city,6_a_b_postal_code_suffix,6_a_b_postal_code,6_a_b_geo_code_1,6_a_b_geo_code_2,6_a_b_address_name,6_a_b_master_id,6_a_b_county,6_a_b_state_province,6_a_b_country,6_a_b_phone,6_a_b_phone_ext,6_a_b_email,6_a_b_on_hold,6_a_b_is_bulkmail,6_a_b_signature_text,6_a_b_signature_html,6_a_b_im,6_a_b_openid,6_a_b_world_region,6_a_b_url,6_a_b_groups,6_a_b_tags,6_a_b_notes,6_a_b_phone_type,6_a_b_im_service_provider)
+VALUES (1,'493','Individual','','','','','','','','','489','Mullen, Jeanne','Jeanne Mullen','','','','','en_US','Both','e5408939f37171eea5e3cf227d24e051','','Jeanne','','Mullen','','','','','','','','','','','Jeanne Mullen','Dear Jeanne','Dear Jeanne','','','','','Home','101 Stanton St.','','','','','#8','','New York','','10002','','','','','','NY','United States','212 260 3497','','jeannemull@gmail.com','','','','','','','','America South, Central, North and Caribbean','','','joint2013-4-1,google-cir-direct-2013-6-25,joint-2013-08-28 mbrship added,joint2013-08-29,hh 2013-08-29','','Phone','','','1672','Household','','','','','','','','','','Patrick Walsh & Jeanne Mullen','Patrick Walsh & Jeanne Mullen','','','','','en_US','Both','bd270c69d6052ad22096f65fa76fa099','','','','','','','','','Patrick Walsh & Jeanne Mullen','','','','','','Patrick Walsh & Jeanne Mullen','Dear Patrick Walsh & Jeanne Mullen','Dear Patrick Walsh & Jeanne Mullen','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','hh 2013-08-29','','Phone','Yahoo','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','')
+ [nativecode=1136 ** Column count doesn't match value count at row 1]"]
+)
+
+
+Aug 30 15:37:11  [info] $backTrace = #0 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Error.php(196): CRM_Core_Error::backtrace("backTrace", TRUE)
+#1 [internal function](): CRM_Core_Error::handle(Object(DB_Error))
+#2 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/PEAR.php(931): call_user_func((Array:2), Object(DB_Error))
+#3 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/DB.php(968): PEAR_Error->PEAR_Error("DB Error: value count on row", -22, 16, (Array:2), "\nINSERT INTO civicrm_export_temp_50e413b2ac6a650ab4bfbb0f97830b2f (id, civic...")
+#4 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/PEAR.php(564): DB_Error->DB_Error(-22, 16, (Array:2), "\nINSERT INTO civicrm_export_temp_50e413b2ac6a650ab4bfbb0f97830b2f (id, civic...")
+#5 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/DB/common.php(1903): PEAR->raiseError(NULL, -22, NULL, NULL, "\nINSERT INTO civicrm_export_temp_50e413b2ac6a650ab4bfbb0f97830b2f (id, civic...", "DB_Error", TRUE)
+#6 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/DB/mysql.php(898): DB_common->raiseError(-22, NULL, NULL, NULL, "1136 ** Column count doesn't match value count at row 1")
+#7 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/DB/mysql.php(327): DB_mysql->mysqlRaiseError()
+#8 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/DB/common.php(1216): DB_mysql->simpleQuery("\nINSERT INTO civicrm_export_temp_50e413b2ac6a650ab4bfbb0f97830b2f (id, civic...")
+#9 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/DB/DataObject.php(2421): DB_common->query("\nINSERT INTO civicrm_export_temp_50e413b2ac6a650ab4bfbb0f97830b2f (id, civic...")
+#10 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/DB/DataObject.php(1613): DB_DataObject->_query("\nINSERT INTO civicrm_export_temp_50e413b2ac6a650ab4bfbb0f97830b2f (id, civic...")
+#11 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/DAO.php(155): DB_DataObject->query("\nINSERT INTO civicrm_export_temp_50e413b2ac6a650ab4bfbb0f97830b2f (id, civic...")
+#12 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/DAO.php(922): CRM_Core_DAO->query("\nINSERT INTO civicrm_export_temp_50e413b2ac6a650ab4bfbb0f97830b2f (id, civic...", TRUE)
+#13 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Export/BAO/Export.php(1324): CRM_Core_DAO::executeQuery("\nINSERT INTO civicrm_export_temp_50e413b2ac6a650ab4bfbb0f97830b2f (id, civic...")
+#14 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Export/BAO/Export.php(1018): CRM_Export_BAO_Export::writeDetailsToTable("civicrm_export_temp_50e413b2ac6a650ab4bfbb0f97830b2f", (Array:1), (Array:225))
+#15 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Export/Form/Select.php(384): CRM_Export_BAO_Export::exportComponents(TRUE, (Array:0), (Array:4), "household_name desc", NULL, (Array:5), 1, NULL, "civicrm_task_action_temp_1f9655e11cb4f2c761dd6e37d753400e_1411", 0, 1, (Array:9), (Array:2))
+#16 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Form.php(246): CRM_Export_Form_Select->postProcess()
+#17 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/StateMachine.php(159): CRM_Core_Form->mainProcess()
+#18 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/QuickForm/Action/Next.php(60): CRM_Core_StateMachine->perform(Object(CRM_Export_Form_Select), "next", "Next")
+#19 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/HTML/QuickForm/Controller.php(203): CRM_Core_QuickForm_Action_Next->perform(Object(CRM_Export_Form_Select), "next")
+#20 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/HTML/QuickForm/Page.php(103): HTML_QuickForm_Controller->handle(Object(CRM_Export_Form_Select), "next")
+#21 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Controller.php(310): HTML_QuickForm_Page->handle("next")
+#22 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(220): CRM_Core_Controller->run((Array:4), (Array:0))
+#23 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(51): CRM_Core_Invoke::_invoke((Array:4))
+#24 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm.php(271): CRM_Core_Invoke::invoke((Array:4))
+#25 [internal function](): civicrm_wp_invoke("")
+#26 /var/www/vhosts/coopersquare.org/httpdocs/wp-includes/plugin.php(406): call_user_func_array("civicrm_wp_invoke", (Array:1))
+#27 /var/www/vhosts/coopersquare.org/httpdocs/wp-admin/admin.php(151): do_action("toplevel_page_CiviCRM")
+#28 {main}
+
+
+Aug 30 15:37:46  [info] $Fatal Error Details = Array
+(
+    [callback] => Array
+        (
+            [0] => CRM_Core_Error
+            [1] => handle
+        )
+
+    [code] => -22
+    [message] => DB Error: value count on row
+    [mode] => 16
+    [debug_info] => 
+INSERT INTO civicrm_export_temp_c6d4e3284a6712c3370fabe7f47e7b0f (id, last_name,household_name,contact_type,contact_sub_type,sort_name,tag,is_deceased,do_not_mail,street_address,supplemental_address_1,civicrm_primary_id,7_a_b_last_name,7_a_b_household_name,7_a_b_contact_type,7_a_b_contact_sub_type,7_a_b_sort_name,7_a_b_is_deceased,7_a_b_do_not_mail,7_a_b_street_address,7_a_b_supplemental_address_1,7_a_b_id,6_a_b_last_name,6_a_b_household_name,6_a_b_contact_type,6_a_b_contact_sub_type,6_a_b_sort_name,6_a_b_is_deceased,6_a_b_do_not_mail,6_a_b_street_address,6_a_b_supplemental_address_1,6_a_b_id)
+VALUES (1,'Mullen','','Individual','','Mullen, Jeanne','','','','101 Stanton St.','#8','493','','Patrick Walsh & Jeanne Mullen','Household','','Patrick Walsh & Jeanne Mullen','','','','','','1672','','','','','','','','','','','')
+ [nativecode=1136 ** Column count doesn't match value count at row 1]
+    [type] => DB_Error
+    [user_info] => 
+INSERT INTO civicrm_export_temp_c6d4e3284a6712c3370fabe7f47e7b0f (id, last_name,household_name,contact_type,contact_sub_type,sort_name,tag,is_deceased,do_not_mail,street_address,supplemental_address_1,civicrm_primary_id,7_a_b_last_name,7_a_b_household_name,7_a_b_contact_type,7_a_b_contact_sub_type,7_a_b_sort_name,7_a_b_is_deceased,7_a_b_do_not_mail,7_a_b_street_address,7_a_b_supplemental_address_1,7_a_b_id,6_a_b_last_name,6_a_b_household_name,6_a_b_contact_type,6_a_b_contact_sub_type,6_a_b_sort_name,6_a_b_is_deceased,6_a_b_do_not_mail,6_a_b_street_address,6_a_b_supplemental_address_1,6_a_b_id)
+VALUES (1,'Mullen','','Individual','','Mullen, Jeanne','','','','101 Stanton St.','#8','493','','Patrick Walsh & Jeanne Mullen','Household','','Patrick Walsh & Jeanne Mullen','','','','','','1672','','','','','','','','','','','')
+ [nativecode=1136 ** Column count doesn't match value count at row 1]
+    [to_string] => [db_error: message="DB Error: value count on row" code=-22 mode=callback callback=CRM_Core_Error::handle prefix="" info="
+INSERT INTO civicrm_export_temp_c6d4e3284a6712c3370fabe7f47e7b0f (id, last_name,household_name,contact_type,contact_sub_type,sort_name,tag,is_deceased,do_not_mail,street_address,supplemental_address_1,civicrm_primary_id,7_a_b_last_name,7_a_b_household_name,7_a_b_contact_type,7_a_b_contact_sub_type,7_a_b_sort_name,7_a_b_is_deceased,7_a_b_do_not_mail,7_a_b_street_address,7_a_b_supplemental_address_1,7_a_b_id,6_a_b_last_name,6_a_b_household_name,6_a_b_contact_type,6_a_b_contact_sub_type,6_a_b_sort_name,6_a_b_is_deceased,6_a_b_do_not_mail,6_a_b_street_address,6_a_b_supplemental_address_1,6_a_b_id)
+VALUES (1,'Mullen','','Individual','','Mullen, Jeanne','','','','101 Stanton St.','#8','493','','Patrick Walsh & Jeanne Mullen','Household','','Patrick Walsh & Jeanne Mullen','','','','','','1672','','','','','','','','','','','')
+ [nativecode=1136 ** Column count doesn't match value count at row 1]"]
+)
+
+
+Aug 30 15:37:46  [info] $backTrace = #0 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Error.php(196): CRM_Core_Error::backtrace("backTrace", TRUE)
+#1 [internal function](): CRM_Core_Error::handle(Object(DB_Error))
+#2 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/PEAR.php(931): call_user_func((Array:2), Object(DB_Error))
+#3 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/DB.php(968): PEAR_Error->PEAR_Error("DB Error: value count on row", -22, 16, (Array:2), "\nINSERT INTO civicrm_export_temp_c6d4e3284a6712c3370fabe7f47e7b0f (id, last_...")
+#4 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/PEAR.php(564): DB_Error->DB_Error(-22, 16, (Array:2), "\nINSERT INTO civicrm_export_temp_c6d4e3284a6712c3370fabe7f47e7b0f (id, last_...")
+#5 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/DB/common.php(1903): PEAR->raiseError(NULL, -22, NULL, NULL, "\nINSERT INTO civicrm_export_temp_c6d4e3284a6712c3370fabe7f47e7b0f (id, last_...", "DB_Error", TRUE)
+#6 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/DB/mysql.php(898): DB_common->raiseError(-22, NULL, NULL, NULL, "1136 ** Column count doesn't match value count at row 1")
+#7 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/DB/mysql.php(327): DB_mysql->mysqlRaiseError()
+#8 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/DB/common.php(1216): DB_mysql->simpleQuery("\nINSERT INTO civicrm_export_temp_c6d4e3284a6712c3370fabe7f47e7b0f (id, last_...")
+#9 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/DB/DataObject.php(2421): DB_common->query("\nINSERT INTO civicrm_export_temp_c6d4e3284a6712c3370fabe7f47e7b0f (id, last_...")
+#10 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/DB/DataObject.php(1613): DB_DataObject->_query("\nINSERT INTO civicrm_export_temp_c6d4e3284a6712c3370fabe7f47e7b0f (id, last_...")
+#11 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/DAO.php(155): DB_DataObject->query("\nINSERT INTO civicrm_export_temp_c6d4e3284a6712c3370fabe7f47e7b0f (id, last_...")
+#12 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/DAO.php(922): CRM_Core_DAO->query("\nINSERT INTO civicrm_export_temp_c6d4e3284a6712c3370fabe7f47e7b0f (id, last_...", TRUE)
+#13 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Export/BAO/Export.php(1324): CRM_Core_DAO::executeQuery("\nINSERT INTO civicrm_export_temp_c6d4e3284a6712c3370fabe7f47e7b0f (id, last_...")
+#14 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Export/BAO/Export.php(1018): CRM_Export_BAO_Export::writeDetailsToTable("civicrm_export_temp_c6d4e3284a6712c3370fabe7f47e7b0f", (Array:1), (Array:31))
+#15 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Export/Form/Map.php(241): CRM_Export_BAO_Export::exportComponents(TRUE, (Array:0), (Array:4), "household_name desc", (Array:10), (Array:5), 1, NULL, "civicrm_task_action_temp_1f9655e11cb4f2c761dd6e37d753400e_1411", 0, 1, (Array:9))
+#16 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Form.php(246): CRM_Export_Form_Map->postProcess()
+#17 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/StateMachine.php(159): CRM_Core_Form->mainProcess()
+#18 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/QuickForm/Action/Next.php(60): CRM_Core_StateMachine->perform(Object(CRM_Export_Form_Map), "next", "Next")
+#19 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/HTML/QuickForm/Controller.php(203): CRM_Core_QuickForm_Action_Next->perform(Object(CRM_Export_Form_Map), "next")
+#20 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/HTML/QuickForm/Page.php(103): HTML_QuickForm_Controller->handle(Object(CRM_Export_Form_Map), "next")
+#21 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Controller.php(310): HTML_QuickForm_Page->handle("next")
+#22 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(220): CRM_Core_Controller->run((Array:4), (Array:0))
+#23 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(51): CRM_Core_Invoke::_invoke((Array:4))
+#24 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm.php(271): CRM_Core_Invoke::invoke((Array:4))
+#25 [internal function](): civicrm_wp_invoke("")
+#26 /var/www/vhosts/coopersquare.org/httpdocs/wp-includes/plugin.php(406): call_user_func_array("civicrm_wp_invoke", (Array:1))
+#27 /var/www/vhosts/coopersquare.org/httpdocs/wp-admin/admin.php(151): do_action("toplevel_page_CiviCRM")
+#28 {main}
+
+
+Aug 30 16:36:45  [info] $Fatal Error Details = Array
+(
+    [callback] => Array
+        (
+            [0] => CRM_Core_Error
+            [1] => handle
+        )
+
+    [code] => -2
+    [message] => DB Error: syntax error
+    [mode] => 16
+    [debug_info] => SELECT DISTINCT UPPER(LEFT(contact_a.sort_name, 1)) as sort_name  FROM civicrm_contact contact_a 
+LEFT JOIN civicrm_address `Home-address` ON (`Home-address`.contact_id = contact_a.id AND `Home-address`.location_type_id = 1)  WHERE  (  ( LOWER(`Home-address`.supplemental_address_2) = % AND contact_a.contact_type IN ('Individual') )  )  AND (contact_a.is_deleted = 0)   GROUP BY contact_a.id  ORDER BY UPPER(LEFT(contact_a.sort_name, 1)) asc  [nativecode=1064 ** You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '% AND contact_a.contact_type IN ('Individual') )  )  AND (contact_a.is_deleted =' at line 2]
+    [type] => DB_Error
+    [user_info] => SELECT DISTINCT UPPER(LEFT(contact_a.sort_name, 1)) as sort_name  FROM civicrm_contact contact_a 
+LEFT JOIN civicrm_address `Home-address` ON (`Home-address`.contact_id = contact_a.id AND `Home-address`.location_type_id = 1)  WHERE  (  ( LOWER(`Home-address`.supplemental_address_2) = % AND contact_a.contact_type IN ('Individual') )  )  AND (contact_a.is_deleted = 0)   GROUP BY contact_a.id  ORDER BY UPPER(LEFT(contact_a.sort_name, 1)) asc  [nativecode=1064 ** You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '% AND contact_a.contact_type IN ('Individual') )  )  AND (contact_a.is_deleted =' at line 2]
+    [to_string] => [db_error: message="DB Error: syntax error" code=-2 mode=callback callback=CRM_Core_Error::handle prefix="" info="SELECT DISTINCT UPPER(LEFT(contact_a.sort_name, 1)) as sort_name  FROM civicrm_contact contact_a 
+LEFT JOIN civicrm_address `Home-address` ON (`Home-address`.contact_id = contact_a.id AND `Home-address`.location_type_id = 1)  WHERE  (  ( LOWER(`Home-address`.supplemental_address_2) = % AND contact_a.contact_type IN ('Individual') )  )  AND (contact_a.is_deleted = 0)   GROUP BY contact_a.id  ORDER BY UPPER(LEFT(contact_a.sort_name, 1)) asc  [nativecode=1064 ** You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '% AND contact_a.contact_type IN ('Individual') )  )  AND (contact_a.is_deleted =' at line 2]"]
+)
+
+
+Aug 30 16:36:45  [info] $backTrace = #0 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Error.php(196): CRM_Core_Error::backtrace("backTrace", TRUE)
+#1 [internal function](): CRM_Core_Error::handle(Object(DB_Error))
+#2 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/PEAR.php(931): call_user_func((Array:2), Object(DB_Error))
+#3 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/DB.php(968): PEAR_Error->PEAR_Error("DB Error: syntax error", -2, 16, (Array:2), "SELECT DISTINCT UPPER(LEFT(contact_a.sort_name, 1)) as sort_name  FROM civicr...")
+#4 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/PEAR.php(564): DB_Error->DB_Error(-2, 16, (Array:2), "SELECT DISTINCT UPPER(LEFT(contact_a.sort_name, 1)) as sort_name  FROM civicr...")
+#5 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/DB/common.php(1903): PEAR->raiseError(NULL, -2, NULL, NULL, "SELECT DISTINCT UPPER(LEFT(contact_a.sort_name, 1)) as sort_name  FROM civicr...", "DB_Error", TRUE)
+#6 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/DB/mysql.php(898): DB_common->raiseError(-2, NULL, NULL, NULL, "1064 ** You have an error in your SQL syntax; check the manual that correspon...")
+#7 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/DB/mysql.php(327): DB_mysql->mysqlRaiseError()
+#8 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/DB/common.php(1216): DB_mysql->simpleQuery("SELECT DISTINCT UPPER(LEFT(contact_a.sort_name, 1)) as sort_name  FROM civicr...")
+#9 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/DB/DataObject.php(2421): DB_common->query("SELECT DISTINCT UPPER(LEFT(contact_a.sort_name, 1)) as sort_name  FROM civicr...")
+#10 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/DB/DataObject.php(1613): DB_DataObject->_query("SELECT DISTINCT UPPER(LEFT(contact_a.sort_name, 1)) as sort_name  FROM civicr...")
+#11 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/DAO.php(155): DB_DataObject->query("SELECT DISTINCT UPPER(LEFT(contact_a.sort_name, 1)) as sort_name  FROM civicr...")
+#12 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/DAO.php(922): CRM_Core_DAO->query("SELECT DISTINCT UPPER(LEFT(contact_a.sort_name, 1)) as sort_name  FROM civicr...", TRUE)
+#13 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Contact/BAO/Query.php(3985): CRM_Core_DAO::executeQuery("SELECT DISTINCT UPPER(LEFT(contact_a.sort_name, 1)) as sort_name  FROM civicr...")
+#14 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Contact/Selector.php(1038): CRM_Contact_BAO_Query->searchQuery(NULL, NULL, NULL, FALSE, FALSE, TRUE)
+#15 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Utils/PagerAToZ.php(85): CRM_Contact_Selector->alphabetQuery()
+#16 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Utils/PagerAToZ.php(111): CRM_Utils_PagerAToZ::getDynamicCharacters(Object(CRM_Contact_Selector), FALSE)
+#17 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Utils/PagerAToZ.php(54): CRM_Utils_PagerAToZ::createLinks(Object(CRM_Contact_Selector), NULL, FALSE)
+#18 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Contact/Form/Search.php(920): CRM_Utils_PagerAToZ::getAToZBar(Object(CRM_Contact_Selector), NULL)
+#19 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Contact/Form/Search/Builder.php(381): CRM_Contact_Form_Search->postProcess()
+#20 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Form.php(246): CRM_Contact_Form_Search_Builder->postProcess()
+#21 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/QuickForm/Action/Refresh.php(75): CRM_Core_Form->mainProcess()
+#22 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/HTML/QuickForm/Controller.php(203): CRM_Core_QuickForm_Action_Refresh->perform(Object(CRM_Contact_Form_Search_Builder), "refresh")
+#23 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/HTML/QuickForm/Page.php(103): HTML_QuickForm_Controller->handle(Object(CRM_Contact_Form_Search_Builder), "refresh")
+#24 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Controller.php(310): HTML_QuickForm_Page->handle("refresh")
+#25 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(220): CRM_Core_Controller->run((Array:4), (Array:0))
+#26 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(51): CRM_Core_Invoke::_invoke((Array:4))
+#27 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm.php(271): CRM_Core_Invoke::invoke((Array:4))
+#28 [internal function](): civicrm_wp_invoke("")
+#29 /var/www/vhosts/coopersquare.org/httpdocs/wp-includes/plugin.php(406): call_user_func_array("civicrm_wp_invoke", (Array:1))
+#30 /var/www/vhosts/coopersquare.org/httpdocs/wp-admin/admin.php(151): do_action("toplevel_page_CiviCRM")
+#31 {main}
+
+
+Aug 30 19:08:35  [info] $Fatal Error Details = Array
+(
+    [message] => Could not find valid value for ct
+    [code] => 
+)
+
+
+Aug 30 19:08:35  [info] $backTrace = #0 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Error.php(314): CRM_Core_Error::backtrace("backTrace", TRUE)
+#1 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Utils/Request.php(106): CRM_Core_Error::fatal("Could not find valid value for ct")
+#2 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Contact/Form/Contact.php(151): CRM_Utils_Request::retrieve("ct", "String", Object(CRM_Contact_Form_Contact), TRUE, NULL, "REQUEST")
+#3 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Form.php(338): CRM_Contact_Form_Contact->preProcess()
+#4 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/QuickForm/Action/Display.php(93): CRM_Core_Form->buildForm()
+#5 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/HTML/QuickForm/Controller.php(203): CRM_Core_QuickForm_Action_Display->perform(Object(CRM_Contact_Form_Contact), "display")
+#6 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/HTML/QuickForm/Page.php(103): HTML_QuickForm_Controller->handle(Object(CRM_Contact_Form_Contact), "display")
+#7 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Controller.php(310): HTML_QuickForm_Page->handle("display")
+#8 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Utils/Wrapper.php(116): CRM_Core_Controller->run()
+#9 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(194): CRM_Utils_Wrapper->run("CRM_Contact_Form_Contact", "New Contact", (Array:1))
+#10 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(51): CRM_Core_Invoke::_invoke((Array:3))
+#11 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm.php(271): CRM_Core_Invoke::invoke((Array:3))
+#12 [internal function](): civicrm_wp_invoke("")
+#13 /var/www/vhosts/coopersquare.org/httpdocs/wp-includes/plugin.php(406): call_user_func_array("civicrm_wp_invoke", (Array:1))
+#14 /var/www/vhosts/coopersquare.org/httpdocs/wp-admin/admin.php(151): do_action("toplevel_page_CiviCRM")
+#15 {main}
+
+

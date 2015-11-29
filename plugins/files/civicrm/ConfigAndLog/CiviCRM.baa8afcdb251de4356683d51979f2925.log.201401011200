@@ -1,0 +1,1047 @@
+Jan 02 18:16:18  [info] $backTrace = #0 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Error.php(756): CRM_Core_Error::backtrace("backTrace", TRUE)
+#1 [internal function](): CRM_Core_Error::exceptionHandler(Object(DB_Error))
+#2 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/PEAR.php(931): call_user_func((Array:2), Object(DB_Error))
+#3 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/DB.php(969): PEAR_Error->PEAR_Error("DB Error: already exists", -5, 16, (Array:2), "\r\nINSERT INTO `civicrm_value_googleapps_sync_7`\r\n  (entity_id,google_cont...")
+#4 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/PEAR.php(564): DB_Error->DB_Error(-5, 16, (Array:2), "\r\nINSERT INTO `civicrm_value_googleapps_sync_7`\r\n  (entity_id,google_cont...")
+#5 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/DB/common.php(1905): PEAR->raiseError(NULL, -5, NULL, NULL, "\r\nINSERT INTO `civicrm_value_googleapps_sync_7`\r\n  (entity_id,google_cont...", "DB_Error", TRUE)
+#6 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/DB/mysql.php(898): DB_common->raiseError(-5, NULL, NULL, NULL, "1062 ** Duplicate entry '2274' for key 'unique_entity_id'")
+#7 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/DB/mysql.php(327): DB_mysql->mysqlRaiseError()
+#8 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/DB/common.php(1216): DB_mysql->simpleQuery("\r\nINSERT INTO `civicrm_value_googleapps_sync_7`\r\n  (entity_id,google_cont...")
+#9 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/DB/DataObject.php(2421): DB_common->query("\r\nINSERT INTO `civicrm_value_googleapps_sync_7`\r\n  (entity_id,google_cont...")
+#10 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/DB/DataObject.php(1613): DB_DataObject->_query("\r\nINSERT INTO `civicrm_value_googleapps_sync_7`\r\n  (entity_id,google_cont...")
+#11 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/DAO.php(158): DB_DataObject->query("\r\nINSERT INTO `civicrm_value_googleapps_sync_7`\r\n  (entity_id,google_cont...")
+#12 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/DAO.php(905): CRM_Core_DAO->query("\r\nINSERT INTO `civicrm_value_googleapps_sync_7`\r\n  (entity_id,google_cont...", TRUE)
+#13 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/files/civicrm/extensions/sync.googleapps-1.0/CRM/Sync/BAO/GoogleApps.php(256): CRM_Core_DAO::executeQuery("\r\nINSERT INTO `civicrm_value_googleapps_sync_7`\r\n  (entity_id,google_cont...")
+#14 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/files/civicrm/extensions/sync.googleapps-1.0/api/v3/Job/GoogleappsSync.php(88): CRM_Sync_BAO_GoogleApps->call("contact", "create", (Array:16))
+#15 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/api/api.php(87): civicrm_api3_job_googleapps_sync((Array:2))
+#16 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/JobManager.php(132): civicrm_api("Job", "googleapps_sync", (Array:2))
+#17 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/JobManager.php(111): CRM_Core_JobManager->executeJob(Object(CRM_Core_ScheduledJob))
+#18 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Admin/Page/Job.php(156): CRM_Core_JobManager->executeJobById("18")
+#19 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Page/Basic.php(182): CRM_Admin_Page_Job->browse(NULL, NULL)
+#20 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Admin/Page/Job.php(141): CRM_Core_Page_Basic->run()
+#21 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(323): CRM_Admin_Page_Job->run((Array:3), NULL)
+#22 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(72): CRM_Core_Invoke::runItem((Array:13))
+#23 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(52): CRM_Core_Invoke::_invoke((Array:3))
+#24 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm.php(463): CRM_Core_Invoke::invoke((Array:3))
+#25 [internal function](): CiviCRM_For_WordPress->invoke("")
+#26 /var/www/vhosts/coopersquare.org/httpdocs/wp-includes/plugin.php(429): call_user_func_array((Array:2), (Array:1))
+#27 /var/www/vhosts/coopersquare.org/httpdocs/wp-admin/admin.php(217): do_action("toplevel_page_CiviCRM")
+#28 {main}
+
+
+Jan 06 16:35:12  [info] $IDS Detector Details = Array
+(
+    [0] => Array
+        (
+            [name] => note
+            [value] => Do you have any exams coming up? <a href=" http://www.berlinhotelandsuites.com/social-gatherings/ ">10 mg amitriptyline</a>  C NO CLAIM TO FA
+ <a href=" http://www.bestbluetoothheadsets.org/contact/ ">sildenafil citrate 100mg</a>  values, and life issues
+ <a href=" http://www.bouldercreekguitars.com/artists ">order clindamycin</a>  455 Prescription/Service N 1 variable R 1 = RX Billing.
+ 
+            [page] => /civi?page=CiviCRM&q=civicrm/contribute/transact
+            [userid] => 
+            [session] => feeg14lo68gq968pjqnabjeji7
+            [ip] => 192.96.211.104
+            [reaction] => 0
+            [impact] => 30
+        )
+
+)
+
+
+Jan 06 16:35:14  [info] $IDS Detector Details = Array
+(
+    [0] => Array
+        (
+            [name] => note
+            [value] => Do you have any exams coming up? <a href=" http://www.berlinhotelandsuites.com/social-gatherings/ ">10 mg amitriptyline</a>  C NO CLAIM TO FA
+ <a href=" http://www.bestbluetoothheadsets.org/contact/ ">sildenafil citrate 100mg</a>  values, and life issues
+ <a href=" http://www.bouldercreekguitars.com/artists ">order clindamycin</a>  455 Prescription/Service N 1 variable R 1 = RX Billing.
+            [page] => /civi?page=CiviCRM&q=civicrm/contribute/transact
+            [userid] => 
+            [session] => feeg14lo68gq968pjqnabjeji7
+            [ip] => 192.96.211.104
+            [reaction] => 0
+            [impact] => 30
+        )
+
+)
+
+
+Jan 06 16:35:16  [info] $IDS Detector Details = Array
+(
+    [0] => Array
+        (
+            [name] => note
+            [value] => Will I get paid for overtime? <a href=" http://www.berlinhotelandsuites.com/social-gatherings/ ">buy amitriptyline online</a>  interwoven relationship between patient care, teaching and research that has always
+ <a href=" http://chamberschampions.org/2013-sponsors/ ">generic duloxetine duvanta 20mg</a>  " Excessive quantity dispensed for days supply limitations
+ <a href=" http://www.advancedthesis.co.uk/about/ ">order ciprofloxacin online</a>  Professional Experience Program Course (PHCY 461, 462, 463, 464, 465, 466)
+ 
+            [page] => /civi?page=CiviCRM&q=civicrm/contribute/transact
+            [userid] => 
+            [session] => feeg14lo68gq968pjqnabjeji7
+            [ip] => 192.96.211.104
+            [reaction] => 0
+            [impact] => 29
+        )
+
+)
+
+
+Jan 06 16:35:19  [info] $IDS Detector Details = Array
+(
+    [0] => Array
+        (
+            [name] => note
+            [value] => Will I get paid for overtime? <a href=" http://www.berlinhotelandsuites.com/social-gatherings/ ">buy amitriptyline online</a>  interwoven relationship between patient care, teaching and research that has always
+ <a href=" http://chamberschampions.org/2013-sponsors/ ">generic duloxetine duvanta 20mg</a>  " Excessive quantity dispensed for days supply limitations
+ <a href=" http://www.advancedthesis.co.uk/about/ ">order ciprofloxacin online</a>  Professional Experience Program Course (PHCY 461, 462, 463, 464, 465, 466)
+            [page] => /civi?page=CiviCRM&q=civicrm/contribute/transact
+            [userid] => 
+            [session] => feeg14lo68gq968pjqnabjeji7
+            [ip] => 192.96.211.104
+            [reaction] => 0
+            [impact] => 29
+        )
+
+)
+
+
+Jan 06 16:35:21  [info] $IDS Detector Details = Array
+(
+    [0] => Array
+        (
+            [name] => note
+            [value] => Have you got any qualifications? <a href=" http://cainawning.com/residential/ ">order desyrel</a>  Although you will need to submit all fields required for the original claim transaction, your
+ <a href=" http://www.alittletouchofold.com/about-us ">buy combivent inhaler</a>  Please refer to Chart B on page 8.0.3 for an example of the
+ <a href=" http://bh-studios.com/about-bh-studios ">cipralex price uk</a>  of Detail-Document. Pharmacists Letter year month. Detail No.: (insert number) [Electronic
+ 
+            [page] => /civi?page=CiviCRM&q=civicrm/contribute/transact
+            [userid] => 
+            [session] => feeg14lo68gq968pjqnabjeji7
+            [ip] => 192.96.211.104
+            [reaction] => 0
+            [impact] => 40
+        )
+
+)
+
+
+Jan 06 16:35:23  [info] $IDS Detector Details = Array
+(
+    [0] => Array
+        (
+            [name] => note
+            [value] => Have you got any qualifications? <a href=" http://cainawning.com/residential/ ">order desyrel</a>  Although you will need to submit all fields required for the original claim transaction, your
+ <a href=" http://www.alittletouchofold.com/about-us ">buy combivent inhaler</a>  Please refer to Chart B on page 8.0.3 for an example of the
+ <a href=" http://bh-studios.com/about-bh-studios ">cipralex price uk</a>  of Detail-Document. Pharmacists Letter year month. Detail No.: (insert number) [Electronic
+            [page] => /civi?page=CiviCRM&q=civicrm/contribute/transact
+            [userid] => 
+            [session] => feeg14lo68gq968pjqnabjeji7
+            [ip] => 192.96.211.104
+            [reaction] => 0
+            [impact] => 40
+        )
+
+)
+
+
+Jan 09 17:35:13  [info] $Fatal Error Details = Array
+(
+    [message] => Could not find valid value for id
+    [code] => 
+)
+
+
+Jan 09 17:35:13  [info] $backTrace = #0 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Error.php(320): CRM_Core_Error::backtrace("backTrace", TRUE)
+#1 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Utils/Request.php(106): CRM_Core_Error::fatal("Could not find valid value for id")
+#2 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Event/StateMachine/Registration.php(52): CRM_Utils_Request::retrieve("id", "Positive", Object(CRM_Event_Controller_Registration), TRUE)
+#3 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Event/Controller/Registration.php(43): CRM_Event_StateMachine_Registration->__construct(Object(CRM_Event_Controller_Registration), TRUE)
+#4 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(318): CRM_Event_Controller_Registration->__construct("Event Registration", TRUE, "null", NULL, "false")
+#5 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(72): CRM_Core_Invoke::runItem((Array:15))
+#6 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(52): CRM_Core_Invoke::_invoke((Array:3))
+#7 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm.php(463): CRM_Core_Invoke::invoke((Array:3))
+#8 [internal function](): CiviCRM_For_WordPress->invoke("")
+#9 /var/www/vhosts/coopersquare.org/httpdocs/wp-includes/plugin.php(429): call_user_func_array((Array:2), (Array:1))
+#10 /var/www/vhosts/coopersquare.org/httpdocs/wp-settings.php(340): do_action("init")
+#11 /var/www/vhosts/coopersquare.org/httpdocs/wp-config.php(90): require_once("/var/www/vhosts/coopersquare.org/httpdocs/wp-settings.php")
+#12 /var/www/vhosts/coopersquare.org/httpdocs/wp-load.php(29): require_once("/var/www/vhosts/coopersquare.org/httpdocs/wp-config.php")
+#13 /var/www/vhosts/coopersquare.org/httpdocs/wp-blog-header.php(12): require_once("/var/www/vhosts/coopersquare.org/httpdocs/wp-load.php")
+#14 /var/www/vhosts/coopersquare.org/httpdocs/index.php(17): require("/var/www/vhosts/coopersquare.org/httpdocs/wp-blog-header.php")
+#15 {main}
+
+
+Jan 10 13:21:56  [info] $IDS Detector Details = Array
+(
+    [0] => Array
+        (
+            [name] => crmasmSelect0
+            [value] => - select -
+            [page] => /wp-admin/admin.php?page=CiviCRM&q=civicrm/contact/search/advanced
+            [userid] => 4
+            [session] => dul5em60msun479bbblrnak9s2
+            [ip] => 192.96.211.104
+            [reaction] => 0
+            [impact] => 25
+        )
+
+    [1] => Array
+        (
+            [name] => crmasmSelect1
+            [value] => - select -
+            [page] => /wp-admin/admin.php?page=CiviCRM&q=civicrm/contact/search/advanced
+            [userid] => 4
+            [session] => dul5em60msun479bbblrnak9s2
+            [ip] => 192.96.211.104
+            [reaction] => 0
+            [impact] => 25
+        )
+
+    [2] => Array
+        (
+            [name] => crmasmSelect2
+            [value] => - select -
+            [page] => /wp-admin/admin.php?page=CiviCRM&q=civicrm/contact/search/advanced
+            [userid] => 4
+            [session] => dul5em60msun479bbblrnak9s2
+            [ip] => 192.96.211.104
+            [reaction] => 0
+            [impact] => 25
+        )
+
+    [3] => Array
+        (
+            [name] => crmasmSelect3
+            [value] => - select -
+            [page] => /wp-admin/admin.php?page=CiviCRM&q=civicrm/contact/search/advanced
+            [userid] => 4
+            [session] => dul5em60msun479bbblrnak9s2
+            [ip] => 192.96.211.104
+            [reaction] => 0
+            [impact] => 25
+        )
+
+    [4] => Array
+        (
+            [name] => crmasmSelect4
+            [value] => - select -
+            [page] => /wp-admin/admin.php?page=CiviCRM&q=civicrm/contact/search/advanced
+            [userid] => 4
+            [session] => dul5em60msun479bbblrnak9s2
+            [ip] => 192.96.211.104
+            [reaction] => 0
+            [impact] => 25
+        )
+
+)
+
+
+Jan 10 13:32:00  [info] Ignoring exception thrown by nullHandler: -2, DB Error: syntax error
+
+Jan 10 13:32:00  [info] $backTrace = #0 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Error.php(771): CRM_Core_Error::backtrace("backTrace", TRUE)
+#1 [internal function](): CRM_Core_Error::nullHandler(Object(DB_Error))
+#2 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/PEAR.php(931): call_user_func((Array:2), Object(DB_Error))
+#3 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/DB.php(969): PEAR_Error->PEAR_Error("DB Error: syntax error", -2, 16, (Array:2), "50 [nativecode=1064 ** You have an error in your SQL syntax; check the manual...")
+#4 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/PEAR.php(564): DB_Error->DB_Error(-2, 16, (Array:2), "50 [nativecode=1064 ** You have an error in your SQL syntax; check the manual...")
+#5 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/DB/common.php(1905): PEAR->raiseError(NULL, -2, NULL, NULL, "50 [nativecode=1064 ** You have an error in your SQL syntax; check the manual...", "DB_Error", TRUE)
+#6 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/DB/mysql.php(898): DB_common->raiseError(-2, NULL, NULL, NULL, "1064 ** You have an error in your SQL syntax; check the manual that correspon...")
+#7 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/DB/mysql.php(327): DB_mysql->mysqlRaiseError()
+#8 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/DB/common.php(1216): DB_mysql->simpleQuery("50")
+#9 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/DB/DataObject.php(2421): DB_common->query("50")
+#10 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/DB/DataObject.php(1613): DB_DataObject->_query("50")
+#11 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/DAO.php(158): DB_DataObject->query("50")
+#12 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/DAO.php(905): CRM_Core_DAO->query("50", TRUE)
+#13 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Contact/Selector.php(922): CRM_Core_DAO::executeQuery("50")
+#14 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Contact/Selector.php(803): CRM_Contact_Selector->fillupPrevNextCache(Object(CRM_Utils_Sort), "civicrm search fd2828bafdf0eafbc0663a8828803f4e_2486", 0, 500)
+#15 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Contact/Selector/Custom.php(352): CRM_Contact_Selector->buildPrevNextCache(Object(CRM_Utils_Sort))
+#16 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Selector/Controller.php(402): CRM_Contact_Selector_Custom->getRows(4, 0, 50, Object(CRM_Utils_Sort), 1, NULL)
+#17 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Selector/Controller.php(340): CRM_Core_Selector_Controller->getRows(Object(CRM_Contact_Selector_Controller))
+#18 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Contact/Form/Search.php(961): CRM_Core_Selector_Controller->run()
+#19 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Contact/Form/Search/Custom.php(135): CRM_Contact_Form_Search->postProcess()
+#20 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Form.php(261): CRM_Contact_Form_Search_Custom->postProcess()
+#21 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/QuickForm/Action/Refresh.php(75): CRM_Core_Form->mainProcess()
+#22 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/HTML/QuickForm/Controller.php(203): CRM_Core_QuickForm_Action_Refresh->perform(Object(CRM_Contact_Form_Search_Custom), "refresh")
+#23 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/HTML/QuickForm/Page.php(103): HTML_QuickForm_Controller->handle(Object(CRM_Contact_Form_Search_Custom), "refresh")
+#24 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Controller.php(345): HTML_QuickForm_Page->handle("refresh")
+#25 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(323): CRM_Core_Controller->run((Array:4), (Array:0))
+#26 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(72): CRM_Core_Invoke::runItem((Array:12))
+#27 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(52): CRM_Core_Invoke::_invoke((Array:4))
+#28 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm.php(463): CRM_Core_Invoke::invoke((Array:4))
+#29 [internal function](): CiviCRM_For_WordPress->invoke("")
+#30 /var/www/vhosts/coopersquare.org/httpdocs/wp-includes/plugin.php(429): call_user_func_array((Array:2), (Array:1))
+#31 /var/www/vhosts/coopersquare.org/httpdocs/wp-admin/admin.php(217): do_action("toplevel_page_CiviCRM")
+#32 {main}
+
+
+Jan 10 13:39:24  [info] Ignoring exception thrown by nullHandler: -19, DB Error: no such field
+
+Jan 10 13:39:24  [info] $backTrace = #0 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Error.php(771): CRM_Core_Error::backtrace("backTrace", TRUE)
+#1 [internal function](): CRM_Core_Error::nullHandler(Object(DB_Error))
+#2 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/PEAR.php(931): call_user_func((Array:2), Object(DB_Error))
+#3 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/DB.php(969): PEAR_Error->PEAR_Error("DB Error: no such field", -19, 16, (Array:2), "\nINSERT INTO civicrm_prevnext_cache ( entity_table, entity_id1, entity_id2, ...")
+#4 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/PEAR.php(564): DB_Error->DB_Error(-19, 16, (Array:2), "\nINSERT INTO civicrm_prevnext_cache ( entity_table, entity_id1, entity_id2, ...")
+#5 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/DB/common.php(1905): PEAR->raiseError(NULL, -19, NULL, NULL, "\nINSERT INTO civicrm_prevnext_cache ( entity_table, entity_id1, entity_id2, ...", "DB_Error", TRUE)
+#6 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/DB/mysql.php(898): DB_common->raiseError(-19, NULL, NULL, NULL, "1054 ** Unknown column 'custom_82' in 'order clause'")
+#7 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/DB/mysql.php(327): DB_mysql->mysqlRaiseError()
+#8 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/DB/common.php(1216): DB_mysql->simpleQuery("\nINSERT INTO civicrm_prevnext_cache ( entity_table, entity_id1, entity_id2, ...")
+#9 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/DB/DataObject.php(2421): DB_common->query("\nINSERT INTO civicrm_prevnext_cache ( entity_table, entity_id1, entity_id2, ...")
+#10 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/DB/DataObject.php(1613): DB_DataObject->_query("\nINSERT INTO civicrm_prevnext_cache ( entity_table, entity_id1, entity_id2, ...")
+#11 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/DAO.php(158): DB_DataObject->query("\nINSERT INTO civicrm_prevnext_cache ( entity_table, entity_id1, entity_id2, ...")
+#12 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/DAO.php(905): CRM_Core_DAO->query("\nINSERT INTO civicrm_prevnext_cache ( entity_table, entity_id1, entity_id2, ...", TRUE)
+#13 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Contact/Selector.php(922): CRM_Core_DAO::executeQuery("\nINSERT INTO civicrm_prevnext_cache ( entity_table, entity_id1, entity_id2, ...")
+#14 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Contact/Selector.php(803): CRM_Contact_Selector->fillupPrevNextCache(Object(CRM_Utils_Sort), "civicrm search fd2828bafdf0eafbc0663a8828803f4e_1994", 0, 500)
+#15 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Contact/Selector.php(510): CRM_Contact_Selector->buildPrevNextCache(Object(CRM_Utils_Sort))
+#16 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Selector/Controller.php(402): CRM_Contact_Selector->getRows(4, 0, 50, Object(CRM_Utils_Sort), 1, NULL)
+#17 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Selector/Controller.php(340): CRM_Core_Selector_Controller->getRows(Object(CRM_Contact_Selector_Controller))
+#18 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Contact/Form/Search.php(961): CRM_Core_Selector_Controller->run()
+#19 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Contact/Form/Search/Builder.php(392): CRM_Contact_Form_Search->postProcess()
+#20 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Contact/Form/Search.php(798): CRM_Contact_Form_Search_Builder->postProcess()
+#21 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Contact/Form/Search/Builder.php(67): CRM_Contact_Form_Search->preProcess()
+#22 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Form.php(351): CRM_Contact_Form_Search_Builder->preProcess()
+#23 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/QuickForm/Action/Display.php(93): CRM_Core_Form->buildForm()
+#24 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/HTML/QuickForm/Controller.php(203): CRM_Core_QuickForm_Action_Display->perform(Object(CRM_Contact_Form_Search_Builder), "display")
+#25 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/HTML/QuickForm/Page.php(103): HTML_QuickForm_Controller->handle(Object(CRM_Contact_Form_Search_Builder), "display")
+#26 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Controller.php(345): HTML_QuickForm_Page->handle("display")
+#27 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(323): CRM_Core_Controller->run((Array:4), (Array:0))
+#28 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(72): CRM_Core_Invoke::runItem((Array:13))
+#29 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(52): CRM_Core_Invoke::_invoke((Array:4))
+#30 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm.php(463): CRM_Core_Invoke::invoke((Array:4))
+#31 [internal function](): CiviCRM_For_WordPress->invoke("")
+#32 /var/www/vhosts/coopersquare.org/httpdocs/wp-includes/plugin.php(429): call_user_func_array((Array:2), (Array:1))
+#33 /var/www/vhosts/coopersquare.org/httpdocs/wp-admin/admin.php(217): do_action("toplevel_page_CiviCRM")
+#34 {main}
+
+
+Jan 10 13:39:30  [info] Ignoring exception thrown by nullHandler: -19, DB Error: no such field
+
+Jan 10 13:39:30  [info] $backTrace = #0 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Error.php(771): CRM_Core_Error::backtrace("backTrace", TRUE)
+#1 [internal function](): CRM_Core_Error::nullHandler(Object(DB_Error))
+#2 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/PEAR.php(931): call_user_func((Array:2), Object(DB_Error))
+#3 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/DB.php(969): PEAR_Error->PEAR_Error("DB Error: no such field", -19, 16, (Array:2), "\nINSERT INTO civicrm_prevnext_cache ( entity_table, entity_id1, entity_id2, ...")
+#4 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/PEAR.php(564): DB_Error->DB_Error(-19, 16, (Array:2), "\nINSERT INTO civicrm_prevnext_cache ( entity_table, entity_id1, entity_id2, ...")
+#5 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/DB/common.php(1905): PEAR->raiseError(NULL, -19, NULL, NULL, "\nINSERT INTO civicrm_prevnext_cache ( entity_table, entity_id1, entity_id2, ...", "DB_Error", TRUE)
+#6 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/DB/mysql.php(898): DB_common->raiseError(-19, NULL, NULL, NULL, "1054 ** Unknown column 'custom_82' in 'order clause'")
+#7 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/DB/mysql.php(327): DB_mysql->mysqlRaiseError()
+#8 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/DB/common.php(1216): DB_mysql->simpleQuery("\nINSERT INTO civicrm_prevnext_cache ( entity_table, entity_id1, entity_id2, ...")
+#9 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/DB/DataObject.php(2421): DB_common->query("\nINSERT INTO civicrm_prevnext_cache ( entity_table, entity_id1, entity_id2, ...")
+#10 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/DB/DataObject.php(1613): DB_DataObject->_query("\nINSERT INTO civicrm_prevnext_cache ( entity_table, entity_id1, entity_id2, ...")
+#11 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/DAO.php(158): DB_DataObject->query("\nINSERT INTO civicrm_prevnext_cache ( entity_table, entity_id1, entity_id2, ...")
+#12 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/DAO.php(905): CRM_Core_DAO->query("\nINSERT INTO civicrm_prevnext_cache ( entity_table, entity_id1, entity_id2, ...", TRUE)
+#13 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Contact/Selector.php(922): CRM_Core_DAO::executeQuery("\nINSERT INTO civicrm_prevnext_cache ( entity_table, entity_id1, entity_id2, ...")
+#14 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Contact/Selector.php(803): CRM_Contact_Selector->fillupPrevNextCache(Object(CRM_Utils_Sort), "civicrm search fd2828bafdf0eafbc0663a8828803f4e_1994", 0, 500)
+#15 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Contact/Selector.php(510): CRM_Contact_Selector->buildPrevNextCache(Object(CRM_Utils_Sort))
+#16 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Selector/Controller.php(402): CRM_Contact_Selector->getRows(4, 0, 50, Object(CRM_Utils_Sort), 1, NULL)
+#17 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Selector/Controller.php(340): CRM_Core_Selector_Controller->getRows(Object(CRM_Contact_Selector_Controller))
+#18 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Contact/Form/Search.php(961): CRM_Core_Selector_Controller->run()
+#19 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Contact/Form/Search/Builder.php(392): CRM_Contact_Form_Search->postProcess()
+#20 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Form.php(261): CRM_Contact_Form_Search_Builder->postProcess()
+#21 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/QuickForm/Action/Refresh.php(75): CRM_Core_Form->mainProcess()
+#22 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/HTML/QuickForm/Controller.php(203): CRM_Core_QuickForm_Action_Refresh->perform(Object(CRM_Contact_Form_Search_Builder), "refresh")
+#23 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/HTML/QuickForm/Page.php(103): HTML_QuickForm_Controller->handle(Object(CRM_Contact_Form_Search_Builder), "refresh")
+#24 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Controller.php(345): HTML_QuickForm_Page->handle("refresh")
+#25 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(323): CRM_Core_Controller->run((Array:4), (Array:0))
+#26 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(72): CRM_Core_Invoke::runItem((Array:13))
+#27 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(52): CRM_Core_Invoke::_invoke((Array:4))
+#28 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm.php(463): CRM_Core_Invoke::invoke((Array:4))
+#29 [internal function](): CiviCRM_For_WordPress->invoke("")
+#30 /var/www/vhosts/coopersquare.org/httpdocs/wp-includes/plugin.php(429): call_user_func_array((Array:2), (Array:1))
+#31 /var/www/vhosts/coopersquare.org/httpdocs/wp-admin/admin.php(217): do_action("toplevel_page_CiviCRM")
+#32 {main}
+
+
+Jan 11 14:07:26  [info] $Fatal Error Details = Array
+(
+    [message] => Could not find valid value for id
+    [code] => 
+)
+
+
+Jan 11 14:07:26  [info] $backTrace = #0 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Error.php(320): CRM_Core_Error::backtrace("backTrace", TRUE)
+#1 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Utils/Request.php(106): CRM_Core_Error::fatal("Could not find valid value for id")
+#2 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Event/StateMachine/Registration.php(52): CRM_Utils_Request::retrieve("id", "Positive", Object(CRM_Event_Controller_Registration), TRUE)
+#3 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Event/Controller/Registration.php(43): CRM_Event_StateMachine_Registration->__construct(Object(CRM_Event_Controller_Registration), TRUE)
+#4 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(318): CRM_Event_Controller_Registration->__construct("Event Registration", TRUE, "null", NULL, "false")
+#5 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(72): CRM_Core_Invoke::runItem((Array:15))
+#6 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(52): CRM_Core_Invoke::_invoke((Array:3))
+#7 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm.php(463): CRM_Core_Invoke::invoke((Array:3))
+#8 [internal function](): CiviCRM_For_WordPress->invoke("")
+#9 /var/www/vhosts/coopersquare.org/httpdocs/wp-includes/plugin.php(429): call_user_func_array((Array:2), (Array:1))
+#10 /var/www/vhosts/coopersquare.org/httpdocs/wp-settings.php(340): do_action("init")
+#11 /var/www/vhosts/coopersquare.org/httpdocs/wp-config.php(90): require_once("/var/www/vhosts/coopersquare.org/httpdocs/wp-settings.php")
+#12 /var/www/vhosts/coopersquare.org/httpdocs/wp-load.php(29): require_once("/var/www/vhosts/coopersquare.org/httpdocs/wp-config.php")
+#13 /var/www/vhosts/coopersquare.org/httpdocs/wp-blog-header.php(12): require_once("/var/www/vhosts/coopersquare.org/httpdocs/wp-load.php")
+#14 /var/www/vhosts/coopersquare.org/httpdocs/index.php(17): require("/var/www/vhosts/coopersquare.org/httpdocs/wp-blog-header.php")
+#15 {main}
+
+
+Jan 21 05:51:52  [info] $Fatal Error Details = Array
+(
+    [message] => Could not find valid value for id
+    [code] => 
+)
+
+
+Jan 21 05:51:52  [info] $backTrace = #0 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Error.php(320): CRM_Core_Error::backtrace("backTrace", TRUE)
+#1 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Utils/Request.php(106): CRM_Core_Error::fatal("Could not find valid value for id")
+#2 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Event/StateMachine/Registration.php(52): CRM_Utils_Request::retrieve("id", "Positive", Object(CRM_Event_Controller_Registration), TRUE)
+#3 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Event/Controller/Registration.php(43): CRM_Event_StateMachine_Registration->__construct(Object(CRM_Event_Controller_Registration), TRUE)
+#4 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(318): CRM_Event_Controller_Registration->__construct("Event Registration", TRUE, "null", NULL, "false")
+#5 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(72): CRM_Core_Invoke::runItem((Array:15))
+#6 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(52): CRM_Core_Invoke::_invoke((Array:3))
+#7 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm.php(463): CRM_Core_Invoke::invoke((Array:3))
+#8 [internal function](): CiviCRM_For_WordPress->invoke("")
+#9 /var/www/vhosts/coopersquare.org/httpdocs/wp-includes/plugin.php(429): call_user_func_array((Array:2), (Array:1))
+#10 /var/www/vhosts/coopersquare.org/httpdocs/wp-settings.php(347): do_action("init")
+#11 /var/www/vhosts/coopersquare.org/httpdocs/wp-config.php(90): require_once("/var/www/vhosts/coopersquare.org/httpdocs/wp-settings.php")
+#12 /var/www/vhosts/coopersquare.org/httpdocs/wp-load.php(29): require_once("/var/www/vhosts/coopersquare.org/httpdocs/wp-config.php")
+#13 /var/www/vhosts/coopersquare.org/httpdocs/wp-blog-header.php(12): require_once("/var/www/vhosts/coopersquare.org/httpdocs/wp-load.php")
+#14 /var/www/vhosts/coopersquare.org/httpdocs/index.php(17): require("/var/www/vhosts/coopersquare.org/httpdocs/wp-blog-header.php")
+#15 {main}
+
+
+Jan 25 19:53:26  [info] $IDS Detector Details = Array
+(
+    [0] => Array
+        (
+            [name] => note
+            [value] => Could you please repeat that? <a href=" http://greenfieldplantfarm.com/fundraisers/ ">buy terbinafine 250 mg no prescription</a>  1. Calculate an ideal body weight AC, PC,
+ <a href=" http://www.sneakytrick.com/get-in-touch.html ">best price kamagra uk</a>   Transmission Command (PC  Visual Presenter)
+ 
+            [page] => /civi?page=CiviCRM&q=civicrm/contribute/transact
+            [userid] => 
+            [session] => a8cah7uo5aup6hp7gvtm18fp07
+            [ip] => 192.96.211.104
+            [reaction] => 0
+            [impact] => 36
+        )
+
+)
+
+
+Jan 25 19:53:33  [info] $IDS Detector Details = Array
+(
+    [0] => Array
+        (
+            [name] => note
+            [value] => Could you please repeat that? <a href=" http://greenfieldplantfarm.com/fundraisers/ ">buy terbinafine 250 mg no prescription</a>  1. Calculate an ideal body weight AC, PC,
+ <a href=" http://www.sneakytrick.com/get-in-touch.html ">best price kamagra uk</a>   Transmission Command (PC Â Visual Presenter)
+            [page] => /civi?page=CiviCRM&q=civicrm/contribute/transact
+            [userid] => 
+            [session] => a8cah7uo5aup6hp7gvtm18fp07
+            [ip] => 192.96.211.104
+            [reaction] => 0
+            [impact] => 36
+        )
+
+)
+
+
+Jan 30 12:15:11  [info] $Fatal Error Details = Array
+(
+    [callback] => Array
+        (
+            [0] => CRM_Core_Error
+            [1] => handle
+        )
+
+    [code] => -19
+    [message] => DB Error: no such field
+    [mode] => 16
+    [debug_info] => 
+  SELECT  contact.id as contactId, civicrm_activity.id as componentId, contact_source.sort_name as sort_name, contact_target.sort_name as target_sort_name, email as email
+    FROM  civicrm_activity as civicrm_activity INNER JOIN civicrm_contact contact ON ( contact.id = civicrm_activity.source_contact_id ) 
+INNER JOIN civicrm_contact contact_source ON ( contact_source.id = civicrm_activity.source_contact_id )
+LEFT JOIN civicrm_activity_contact ON (civicrm_activity_contact.activity_id = civicrm_activity.id)
+LEFT JOIN civicrm_contact as contact_target ON ( contact_target.id = civicrm_activity_contact.contact_id )
+ LEFT JOIN civicrm_email email ON ( contact_target.id = email.contact_id AND email.is_primary = 1 ) 
+   WHERE  civicrm_activity.id IN (9001,9015,8981,8979,8978,8973,8947,8594,8580,8528,8527,8526,8395,8381,8382,8335,8330,8388,8213)
+Group By  componentId [nativecode=1054 ** Unknown column 'civicrm_activity.source_contact_id' in 'on clause']
+    [type] => DB_Error
+    [user_info] => 
+  SELECT  contact.id as contactId, civicrm_activity.id as componentId, contact_source.sort_name as sort_name, contact_target.sort_name as target_sort_name, email as email
+    FROM  civicrm_activity as civicrm_activity INNER JOIN civicrm_contact contact ON ( contact.id = civicrm_activity.source_contact_id ) 
+INNER JOIN civicrm_contact contact_source ON ( contact_source.id = civicrm_activity.source_contact_id )
+LEFT JOIN civicrm_activity_contact ON (civicrm_activity_contact.activity_id = civicrm_activity.id)
+LEFT JOIN civicrm_contact as contact_target ON ( contact_target.id = civicrm_activity_contact.contact_id )
+ LEFT JOIN civicrm_email email ON ( contact_target.id = email.contact_id AND email.is_primary = 1 ) 
+   WHERE  civicrm_activity.id IN (9001,9015,8981,8979,8978,8973,8947,8594,8580,8528,8527,8526,8395,8381,8382,8335,8330,8388,8213)
+Group By  componentId [nativecode=1054 ** Unknown column 'civicrm_activity.source_contact_id' in 'on clause']
+    [to_string] => [db_error: message="DB Error: no such field" code=-19 mode=callback callback=CRM_Core_Error::handle prefix="" info="
+  SELECT  contact.id as contactId, civicrm_activity.id as componentId, contact_source.sort_name as sort_name, contact_target.sort_name as target_sort_name, email as email
+    FROM  civicrm_activity as civicrm_activity INNER JOIN civicrm_contact contact ON ( contact.id = civicrm_activity.source_contact_id ) 
+INNER JOIN civicrm_contact contact_source ON ( contact_source.id = civicrm_activity.source_contact_id )
+LEFT JOIN civicrm_activity_contact ON (civicrm_activity_contact.activity_id = civicrm_activity.id)
+LEFT JOIN civicrm_contact as contact_target ON ( contact_target.id = civicrm_activity_contact.contact_id )
+ LEFT JOIN civicrm_email email ON ( contact_target.id = email.contact_id AND email.is_primary = 1 ) 
+   WHERE  civicrm_activity.id IN (9001,9015,8981,8979,8978,8973,8947,8594,8580,8528,8527,8526,8395,8381,8382,8335,8330,8388,8213)
+Group By  componentId [nativecode=1054 ** Unknown column 'civicrm_activity.source_contact_id' in 'on clause']"]
+)
+
+
+Jan 30 12:15:11  [info] $backTrace = #0 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Error.php(197): CRM_Core_Error::backtrace("backTrace", TRUE)
+#1 [internal function](): CRM_Core_Error::handle(Object(DB_Error))
+#2 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/PEAR.php(931): call_user_func((Array:2), Object(DB_Error))
+#3 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/DB.php(969): PEAR_Error->PEAR_Error("DB Error: no such field", -19, 16, (Array:2), "\n  SELECT  contact.id as contactId, civicrm_activity.id as componentId, cont...")
+#4 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/PEAR.php(564): DB_Error->DB_Error(-19, 16, (Array:2), "\n  SELECT  contact.id as contactId, civicrm_activity.id as componentId, cont...")
+#5 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/DB/common.php(1905): PEAR->raiseError(NULL, -19, NULL, NULL, "\n  SELECT  contact.id as contactId, civicrm_activity.id as componentId, cont...", "DB_Error", TRUE)
+#6 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/DB/mysql.php(898): DB_common->raiseError(-19, NULL, NULL, NULL, "1054 ** Unknown column 'civicrm_activity.source_contact_id' in 'on clause'")
+#7 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/DB/mysql.php(327): DB_mysql->mysqlRaiseError()
+#8 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/DB/common.php(1216): DB_mysql->simpleQuery("\n  SELECT  contact.id as contactId, civicrm_activity.id as componentId, cont...")
+#9 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/DB/DataObject.php(2421): DB_common->query("\n  SELECT  contact.id as contactId, civicrm_activity.id as componentId, cont...")
+#10 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/DB/DataObject.php(1613): DB_DataObject->_query("\n  SELECT  contact.id as contactId, civicrm_activity.id as componentId, cont...")
+#11 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/DAO.php(158): DB_DataObject->query("\n  SELECT  contact.id as contactId, civicrm_activity.id as componentId, cont...")
+#12 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/DAO.php(905): CRM_Core_DAO->query("\n  SELECT  contact.id as contactId, civicrm_activity.id as componentId, cont...", TRUE)
+#13 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Contact/BAO/Contact/Utils.php(807): CRM_Core_DAO::executeQuery("\n  SELECT  contact.id as contactId, civicrm_activity.id as componentId, cont...")
+#14 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Activity/Form/Task/Batch.php(85): CRM_Contact_BAO_Contact_Utils::contactDetails((Array:19), "Activity", (Array:3))
+#15 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Form.php(351): CRM_Activity_Form_Task_Batch->preProcess()
+#16 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/QuickForm/Action/Display.php(93): CRM_Core_Form->buildForm()
+#17 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/HTML/QuickForm/Controller.php(203): CRM_Core_QuickForm_Action_Display->perform(Object(CRM_Activity_Form_Task_Batch), "display")
+#18 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/HTML/QuickForm/Page.php(103): HTML_QuickForm_Controller->handle(Object(CRM_Activity_Form_Task_Batch), "display")
+#19 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Controller.php(345): HTML_QuickForm_Page->handle("display")
+#20 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(323): CRM_Core_Controller->run((Array:4), (Array:0))
+#21 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(72): CRM_Core_Invoke::runItem((Array:13))
+#22 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(52): CRM_Core_Invoke::_invoke((Array:4))
+#23 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm.php(463): CRM_Core_Invoke::invoke((Array:4))
+#24 [internal function](): CiviCRM_For_WordPress->invoke("")
+#25 /var/www/vhosts/coopersquare.org/httpdocs/wp-includes/plugin.php(429): call_user_func_array((Array:2), (Array:1))
+#26 /var/www/vhosts/coopersquare.org/httpdocs/wp-admin/admin.php(217): do_action("toplevel_page_CiviCRM")
+#27 {main}
+
+
+Jan 30 12:15:19  [info] $Fatal Error Details = Array
+(
+    [callback] => Array
+        (
+            [0] => CRM_Core_Error
+            [1] => handle
+        )
+
+    [code] => -19
+    [message] => DB Error: no such field
+    [mode] => 16
+    [debug_info] => 
+  SELECT  contact.id as contactId, civicrm_activity.id as componentId, contact_source.sort_name as sort_name, contact_target.sort_name as target_sort_name, email as email
+    FROM  civicrm_activity as civicrm_activity INNER JOIN civicrm_contact contact ON ( contact.id = civicrm_activity.source_contact_id ) 
+INNER JOIN civicrm_contact contact_source ON ( contact_source.id = civicrm_activity.source_contact_id )
+LEFT JOIN civicrm_activity_contact ON (civicrm_activity_contact.activity_id = civicrm_activity.id)
+LEFT JOIN civicrm_contact as contact_target ON ( contact_target.id = civicrm_activity_contact.contact_id )
+ LEFT JOIN civicrm_email email ON ( contact_target.id = email.contact_id AND email.is_primary = 1 ) 
+   WHERE  civicrm_activity.id IN (9001,9015,8981,8979,8978,8973,8947,8594,8580,8528,8527,8526,8395,8381,8382,8335,8330,8388,8213)
+Group By  componentId [nativecode=1054 ** Unknown column 'civicrm_activity.source_contact_id' in 'on clause']
+    [type] => DB_Error
+    [user_info] => 
+  SELECT  contact.id as contactId, civicrm_activity.id as componentId, contact_source.sort_name as sort_name, contact_target.sort_name as target_sort_name, email as email
+    FROM  civicrm_activity as civicrm_activity INNER JOIN civicrm_contact contact ON ( contact.id = civicrm_activity.source_contact_id ) 
+INNER JOIN civicrm_contact contact_source ON ( contact_source.id = civicrm_activity.source_contact_id )
+LEFT JOIN civicrm_activity_contact ON (civicrm_activity_contact.activity_id = civicrm_activity.id)
+LEFT JOIN civicrm_contact as contact_target ON ( contact_target.id = civicrm_activity_contact.contact_id )
+ LEFT JOIN civicrm_email email ON ( contact_target.id = email.contact_id AND email.is_primary = 1 ) 
+   WHERE  civicrm_activity.id IN (9001,9015,8981,8979,8978,8973,8947,8594,8580,8528,8527,8526,8395,8381,8382,8335,8330,8388,8213)
+Group By  componentId [nativecode=1054 ** Unknown column 'civicrm_activity.source_contact_id' in 'on clause']
+    [to_string] => [db_error: message="DB Error: no such field" code=-19 mode=callback callback=CRM_Core_Error::handle prefix="" info="
+  SELECT  contact.id as contactId, civicrm_activity.id as componentId, contact_source.sort_name as sort_name, contact_target.sort_name as target_sort_name, email as email
+    FROM  civicrm_activity as civicrm_activity INNER JOIN civicrm_contact contact ON ( contact.id = civicrm_activity.source_contact_id ) 
+INNER JOIN civicrm_contact contact_source ON ( contact_source.id = civicrm_activity.source_contact_id )
+LEFT JOIN civicrm_activity_contact ON (civicrm_activity_contact.activity_id = civicrm_activity.id)
+LEFT JOIN civicrm_contact as contact_target ON ( contact_target.id = civicrm_activity_contact.contact_id )
+ LEFT JOIN civicrm_email email ON ( contact_target.id = email.contact_id AND email.is_primary = 1 ) 
+   WHERE  civicrm_activity.id IN (9001,9015,8981,8979,8978,8973,8947,8594,8580,8528,8527,8526,8395,8381,8382,8335,8330,8388,8213)
+Group By  componentId [nativecode=1054 ** Unknown column 'civicrm_activity.source_contact_id' in 'on clause']"]
+)
+
+
+Jan 30 12:15:19  [info] $backTrace = #0 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Error.php(197): CRM_Core_Error::backtrace("backTrace", TRUE)
+#1 [internal function](): CRM_Core_Error::handle(Object(DB_Error))
+#2 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/PEAR.php(931): call_user_func((Array:2), Object(DB_Error))
+#3 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/DB.php(969): PEAR_Error->PEAR_Error("DB Error: no such field", -19, 16, (Array:2), "\n  SELECT  contact.id as contactId, civicrm_activity.id as componentId, cont...")
+#4 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/PEAR.php(564): DB_Error->DB_Error(-19, 16, (Array:2), "\n  SELECT  contact.id as contactId, civicrm_activity.id as componentId, cont...")
+#5 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/DB/common.php(1905): PEAR->raiseError(NULL, -19, NULL, NULL, "\n  SELECT  contact.id as contactId, civicrm_activity.id as componentId, cont...", "DB_Error", TRUE)
+#6 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/DB/mysql.php(898): DB_common->raiseError(-19, NULL, NULL, NULL, "1054 ** Unknown column 'civicrm_activity.source_contact_id' in 'on clause'")
+#7 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/DB/mysql.php(327): DB_mysql->mysqlRaiseError()
+#8 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/DB/common.php(1216): DB_mysql->simpleQuery("\n  SELECT  contact.id as contactId, civicrm_activity.id as componentId, cont...")
+#9 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/DB/DataObject.php(2421): DB_common->query("\n  SELECT  contact.id as contactId, civicrm_activity.id as componentId, cont...")
+#10 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/DB/DataObject.php(1613): DB_DataObject->_query("\n  SELECT  contact.id as contactId, civicrm_activity.id as componentId, cont...")
+#11 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/DAO.php(158): DB_DataObject->query("\n  SELECT  contact.id as contactId, civicrm_activity.id as componentId, cont...")
+#12 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/DAO.php(905): CRM_Core_DAO->query("\n  SELECT  contact.id as contactId, civicrm_activity.id as componentId, cont...", TRUE)
+#13 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Contact/BAO/Contact/Utils.php(807): CRM_Core_DAO::executeQuery("\n  SELECT  contact.id as contactId, civicrm_activity.id as componentId, cont...")
+#14 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Activity/Form/Task/Batch.php(85): CRM_Contact_BAO_Contact_Utils::contactDetails((Array:19), "Activity", (Array:3))
+#15 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Form.php(351): CRM_Activity_Form_Task_Batch->preProcess()
+#16 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/QuickForm/Action/Display.php(93): CRM_Core_Form->buildForm()
+#17 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/HTML/QuickForm/Controller.php(203): CRM_Core_QuickForm_Action_Display->perform(Object(CRM_Activity_Form_Task_Batch), "display")
+#18 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/HTML/QuickForm/Page.php(103): HTML_QuickForm_Controller->handle(Object(CRM_Activity_Form_Task_Batch), "display")
+#19 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Controller.php(345): HTML_QuickForm_Page->handle("display")
+#20 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(323): CRM_Core_Controller->run((Array:4), (Array:0))
+#21 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(72): CRM_Core_Invoke::runItem((Array:13))
+#22 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(52): CRM_Core_Invoke::_invoke((Array:4))
+#23 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm.php(463): CRM_Core_Invoke::invoke((Array:4))
+#24 [internal function](): CiviCRM_For_WordPress->invoke("")
+#25 /var/www/vhosts/coopersquare.org/httpdocs/wp-includes/plugin.php(429): call_user_func_array((Array:2), (Array:1))
+#26 /var/www/vhosts/coopersquare.org/httpdocs/wp-admin/admin.php(217): do_action("toplevel_page_CiviCRM")
+#27 {main}
+
+
+Jan 30 12:16:53  [info] $Fatal Error Details = Array
+(
+    [callback] => Array
+        (
+            [0] => CRM_Core_Error
+            [1] => handle
+        )
+
+    [code] => -19
+    [message] => DB Error: no such field
+    [mode] => 16
+    [debug_info] => 
+  SELECT  contact.id as contactId, civicrm_activity.id as componentId, contact_source.sort_name as sort_name, contact_target.sort_name as target_sort_name, email as email
+    FROM  civicrm_activity as civicrm_activity INNER JOIN civicrm_contact contact ON ( contact.id = civicrm_activity.source_contact_id ) 
+INNER JOIN civicrm_contact contact_source ON ( contact_source.id = civicrm_activity.source_contact_id )
+LEFT JOIN civicrm_activity_contact ON (civicrm_activity_contact.activity_id = civicrm_activity.id)
+LEFT JOIN civicrm_contact as contact_target ON ( contact_target.id = civicrm_activity_contact.contact_id )
+ LEFT JOIN civicrm_email email ON ( contact_target.id = email.contact_id AND email.is_primary = 1 ) 
+   WHERE  civicrm_activity.id IN (9001,9015,8981,8979,8978,8973,8947,8594,8580,8528,8527,8526,8395,8381,8382,8335,8330,8388,8213)
+Group By  componentId [nativecode=1054 ** Unknown column 'civicrm_activity.source_contact_id' in 'on clause']
+    [type] => DB_Error
+    [user_info] => 
+  SELECT  contact.id as contactId, civicrm_activity.id as componentId, contact_source.sort_name as sort_name, contact_target.sort_name as target_sort_name, email as email
+    FROM  civicrm_activity as civicrm_activity INNER JOIN civicrm_contact contact ON ( contact.id = civicrm_activity.source_contact_id ) 
+INNER JOIN civicrm_contact contact_source ON ( contact_source.id = civicrm_activity.source_contact_id )
+LEFT JOIN civicrm_activity_contact ON (civicrm_activity_contact.activity_id = civicrm_activity.id)
+LEFT JOIN civicrm_contact as contact_target ON ( contact_target.id = civicrm_activity_contact.contact_id )
+ LEFT JOIN civicrm_email email ON ( contact_target.id = email.contact_id AND email.is_primary = 1 ) 
+   WHERE  civicrm_activity.id IN (9001,9015,8981,8979,8978,8973,8947,8594,8580,8528,8527,8526,8395,8381,8382,8335,8330,8388,8213)
+Group By  componentId [nativecode=1054 ** Unknown column 'civicrm_activity.source_contact_id' in 'on clause']
+    [to_string] => [db_error: message="DB Error: no such field" code=-19 mode=callback callback=CRM_Core_Error::handle prefix="" info="
+  SELECT  contact.id as contactId, civicrm_activity.id as componentId, contact_source.sort_name as sort_name, contact_target.sort_name as target_sort_name, email as email
+    FROM  civicrm_activity as civicrm_activity INNER JOIN civicrm_contact contact ON ( contact.id = civicrm_activity.source_contact_id ) 
+INNER JOIN civicrm_contact contact_source ON ( contact_source.id = civicrm_activity.source_contact_id )
+LEFT JOIN civicrm_activity_contact ON (civicrm_activity_contact.activity_id = civicrm_activity.id)
+LEFT JOIN civicrm_contact as contact_target ON ( contact_target.id = civicrm_activity_contact.contact_id )
+ LEFT JOIN civicrm_email email ON ( contact_target.id = email.contact_id AND email.is_primary = 1 ) 
+   WHERE  civicrm_activity.id IN (9001,9015,8981,8979,8978,8973,8947,8594,8580,8528,8527,8526,8395,8381,8382,8335,8330,8388,8213)
+Group By  componentId [nativecode=1054 ** Unknown column 'civicrm_activity.source_contact_id' in 'on clause']"]
+)
+
+
+Jan 30 12:16:53  [info] $backTrace = #0 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Error.php(197): CRM_Core_Error::backtrace("backTrace", TRUE)
+#1 [internal function](): CRM_Core_Error::handle(Object(DB_Error))
+#2 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/PEAR.php(931): call_user_func((Array:2), Object(DB_Error))
+#3 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/DB.php(969): PEAR_Error->PEAR_Error("DB Error: no such field", -19, 16, (Array:2), "\n  SELECT  contact.id as contactId, civicrm_activity.id as componentId, cont...")
+#4 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/PEAR.php(564): DB_Error->DB_Error(-19, 16, (Array:2), "\n  SELECT  contact.id as contactId, civicrm_activity.id as componentId, cont...")
+#5 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/DB/common.php(1905): PEAR->raiseError(NULL, -19, NULL, NULL, "\n  SELECT  contact.id as contactId, civicrm_activity.id as componentId, cont...", "DB_Error", TRUE)
+#6 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/DB/mysql.php(898): DB_common->raiseError(-19, NULL, NULL, NULL, "1054 ** Unknown column 'civicrm_activity.source_contact_id' in 'on clause'")
+#7 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/DB/mysql.php(327): DB_mysql->mysqlRaiseError()
+#8 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/DB/common.php(1216): DB_mysql->simpleQuery("\n  SELECT  contact.id as contactId, civicrm_activity.id as componentId, cont...")
+#9 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/DB/DataObject.php(2421): DB_common->query("\n  SELECT  contact.id as contactId, civicrm_activity.id as componentId, cont...")
+#10 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/DB/DataObject.php(1613): DB_DataObject->_query("\n  SELECT  contact.id as contactId, civicrm_activity.id as componentId, cont...")
+#11 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/DAO.php(158): DB_DataObject->query("\n  SELECT  contact.id as contactId, civicrm_activity.id as componentId, cont...")
+#12 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/DAO.php(905): CRM_Core_DAO->query("\n  SELECT  contact.id as contactId, civicrm_activity.id as componentId, cont...", TRUE)
+#13 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Contact/BAO/Contact/Utils.php(807): CRM_Core_DAO::executeQuery("\n  SELECT  contact.id as contactId, civicrm_activity.id as componentId, cont...")
+#14 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Activity/Form/Task/Batch.php(85): CRM_Contact_BAO_Contact_Utils::contactDetails((Array:19), "Activity", (Array:3))
+#15 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Form.php(351): CRM_Activity_Form_Task_Batch->preProcess()
+#16 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/QuickForm/Action/Display.php(93): CRM_Core_Form->buildForm()
+#17 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/HTML/QuickForm/Controller.php(203): CRM_Core_QuickForm_Action_Display->perform(Object(CRM_Activity_Form_Task_Batch), "display")
+#18 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/HTML/QuickForm/Page.php(103): HTML_QuickForm_Controller->handle(Object(CRM_Activity_Form_Task_Batch), "display")
+#19 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Controller.php(345): HTML_QuickForm_Page->handle("display")
+#20 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(323): CRM_Core_Controller->run((Array:4), (Array:0))
+#21 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(72): CRM_Core_Invoke::runItem((Array:13))
+#22 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(52): CRM_Core_Invoke::_invoke((Array:4))
+#23 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm.php(463): CRM_Core_Invoke::invoke((Array:4))
+#24 [internal function](): CiviCRM_For_WordPress->invoke("")
+#25 /var/www/vhosts/coopersquare.org/httpdocs/wp-includes/plugin.php(429): call_user_func_array((Array:2), (Array:1))
+#26 /var/www/vhosts/coopersquare.org/httpdocs/wp-admin/admin.php(217): do_action("toplevel_page_CiviCRM")
+#27 {main}
+
+
+Jan 30 12:17:38  [info] $Fatal Error Details = Array
+(
+    [callback] => Array
+        (
+            [0] => CRM_Core_Error
+            [1] => handle
+        )
+
+    [code] => -19
+    [message] => DB Error: no such field
+    [mode] => 16
+    [debug_info] => 
+  SELECT  contact.id as contactId, civicrm_activity.id as componentId, contact_source.sort_name as sort_name, contact_target.sort_name as target_sort_name, email as email
+    FROM  civicrm_activity as civicrm_activity INNER JOIN civicrm_contact contact ON ( contact.id = civicrm_activity.source_contact_id ) 
+INNER JOIN civicrm_contact contact_source ON ( contact_source.id = civicrm_activity.source_contact_id )
+LEFT JOIN civicrm_activity_contact ON (civicrm_activity_contact.activity_id = civicrm_activity.id)
+LEFT JOIN civicrm_contact as contact_target ON ( contact_target.id = civicrm_activity_contact.contact_id )
+ LEFT JOIN civicrm_email email ON ( contact_target.id = email.contact_id AND email.is_primary = 1 ) 
+   WHERE  civicrm_activity.id IN (9001,8979)
+Group By  componentId [nativecode=1054 ** Unknown column 'civicrm_activity.source_contact_id' in 'on clause']
+    [type] => DB_Error
+    [user_info] => 
+  SELECT  contact.id as contactId, civicrm_activity.id as componentId, contact_source.sort_name as sort_name, contact_target.sort_name as target_sort_name, email as email
+    FROM  civicrm_activity as civicrm_activity INNER JOIN civicrm_contact contact ON ( contact.id = civicrm_activity.source_contact_id ) 
+INNER JOIN civicrm_contact contact_source ON ( contact_source.id = civicrm_activity.source_contact_id )
+LEFT JOIN civicrm_activity_contact ON (civicrm_activity_contact.activity_id = civicrm_activity.id)
+LEFT JOIN civicrm_contact as contact_target ON ( contact_target.id = civicrm_activity_contact.contact_id )
+ LEFT JOIN civicrm_email email ON ( contact_target.id = email.contact_id AND email.is_primary = 1 ) 
+   WHERE  civicrm_activity.id IN (9001,8979)
+Group By  componentId [nativecode=1054 ** Unknown column 'civicrm_activity.source_contact_id' in 'on clause']
+    [to_string] => [db_error: message="DB Error: no such field" code=-19 mode=callback callback=CRM_Core_Error::handle prefix="" info="
+  SELECT  contact.id as contactId, civicrm_activity.id as componentId, contact_source.sort_name as sort_name, contact_target.sort_name as target_sort_name, email as email
+    FROM  civicrm_activity as civicrm_activity INNER JOIN civicrm_contact contact ON ( contact.id = civicrm_activity.source_contact_id ) 
+INNER JOIN civicrm_contact contact_source ON ( contact_source.id = civicrm_activity.source_contact_id )
+LEFT JOIN civicrm_activity_contact ON (civicrm_activity_contact.activity_id = civicrm_activity.id)
+LEFT JOIN civicrm_contact as contact_target ON ( contact_target.id = civicrm_activity_contact.contact_id )
+ LEFT JOIN civicrm_email email ON ( contact_target.id = email.contact_id AND email.is_primary = 1 ) 
+   WHERE  civicrm_activity.id IN (9001,8979)
+Group By  componentId [nativecode=1054 ** Unknown column 'civicrm_activity.source_contact_id' in 'on clause']"]
+)
+
+
+Jan 30 12:17:38  [info] $backTrace = #0 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Error.php(197): CRM_Core_Error::backtrace("backTrace", TRUE)
+#1 [internal function](): CRM_Core_Error::handle(Object(DB_Error))
+#2 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/PEAR.php(931): call_user_func((Array:2), Object(DB_Error))
+#3 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/DB.php(969): PEAR_Error->PEAR_Error("DB Error: no such field", -19, 16, (Array:2), "\n  SELECT  contact.id as contactId, civicrm_activity.id as componentId, cont...")
+#4 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/PEAR.php(564): DB_Error->DB_Error(-19, 16, (Array:2), "\n  SELECT  contact.id as contactId, civicrm_activity.id as componentId, cont...")
+#5 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/DB/common.php(1905): PEAR->raiseError(NULL, -19, NULL, NULL, "\n  SELECT  contact.id as contactId, civicrm_activity.id as componentId, cont...", "DB_Error", TRUE)
+#6 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/DB/mysql.php(898): DB_common->raiseError(-19, NULL, NULL, NULL, "1054 ** Unknown column 'civicrm_activity.source_contact_id' in 'on clause'")
+#7 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/DB/mysql.php(327): DB_mysql->mysqlRaiseError()
+#8 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/DB/common.php(1216): DB_mysql->simpleQuery("\n  SELECT  contact.id as contactId, civicrm_activity.id as componentId, cont...")
+#9 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/DB/DataObject.php(2421): DB_common->query("\n  SELECT  contact.id as contactId, civicrm_activity.id as componentId, cont...")
+#10 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/DB/DataObject.php(1613): DB_DataObject->_query("\n  SELECT  contact.id as contactId, civicrm_activity.id as componentId, cont...")
+#11 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/DAO.php(158): DB_DataObject->query("\n  SELECT  contact.id as contactId, civicrm_activity.id as componentId, cont...")
+#12 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/DAO.php(905): CRM_Core_DAO->query("\n  SELECT  contact.id as contactId, civicrm_activity.id as componentId, cont...", TRUE)
+#13 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Contact/BAO/Contact/Utils.php(807): CRM_Core_DAO::executeQuery("\n  SELECT  contact.id as contactId, civicrm_activity.id as componentId, cont...")
+#14 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Activity/Form/Task/Batch.php(85): CRM_Contact_BAO_Contact_Utils::contactDetails((Array:2), "Activity", (Array:3))
+#15 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Form.php(351): CRM_Activity_Form_Task_Batch->preProcess()
+#16 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/QuickForm/Action/Display.php(93): CRM_Core_Form->buildForm()
+#17 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/HTML/QuickForm/Controller.php(203): CRM_Core_QuickForm_Action_Display->perform(Object(CRM_Activity_Form_Task_Batch), "display")
+#18 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/HTML/QuickForm/Page.php(103): HTML_QuickForm_Controller->handle(Object(CRM_Activity_Form_Task_Batch), "display")
+#19 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Controller.php(345): HTML_QuickForm_Page->handle("display")
+#20 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(323): CRM_Core_Controller->run((Array:4), (Array:0))
+#21 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(72): CRM_Core_Invoke::runItem((Array:13))
+#22 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(52): CRM_Core_Invoke::_invoke((Array:4))
+#23 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm.php(463): CRM_Core_Invoke::invoke((Array:4))
+#24 [internal function](): CiviCRM_For_WordPress->invoke("")
+#25 /var/www/vhosts/coopersquare.org/httpdocs/wp-includes/plugin.php(429): call_user_func_array((Array:2), (Array:1))
+#26 /var/www/vhosts/coopersquare.org/httpdocs/wp-admin/admin.php(217): do_action("toplevel_page_CiviCRM")
+#27 {main}
+
+
+Jan 30 12:18:03  [info] $Fatal Error Details = Array
+(
+    [callback] => Array
+        (
+            [0] => CRM_Core_Error
+            [1] => handle
+        )
+
+    [code] => -19
+    [message] => DB Error: no such field
+    [mode] => 16
+    [debug_info] => 
+  SELECT  contact.id as contactId, civicrm_activity.id as componentId, contact_source.sort_name as sort_name, contact_target.sort_name as target_sort_name, email as email
+    FROM  civicrm_activity as civicrm_activity INNER JOIN civicrm_contact contact ON ( contact.id = civicrm_activity.source_contact_id ) 
+INNER JOIN civicrm_contact contact_source ON ( contact_source.id = civicrm_activity.source_contact_id )
+LEFT JOIN civicrm_activity_contact ON (civicrm_activity_contact.activity_id = civicrm_activity.id)
+LEFT JOIN civicrm_contact as contact_target ON ( contact_target.id = civicrm_activity_contact.contact_id )
+ LEFT JOIN civicrm_email email ON ( contact_target.id = email.contact_id AND email.is_primary = 1 ) 
+   WHERE  civicrm_activity.id IN (8526,8981,8527,8382,8388,8528,8580,8594,9015,8330,8395)
+Group By  componentId [nativecode=1054 ** Unknown column 'civicrm_activity.source_contact_id' in 'on clause']
+    [type] => DB_Error
+    [user_info] => 
+  SELECT  contact.id as contactId, civicrm_activity.id as componentId, contact_source.sort_name as sort_name, contact_target.sort_name as target_sort_name, email as email
+    FROM  civicrm_activity as civicrm_activity INNER JOIN civicrm_contact contact ON ( contact.id = civicrm_activity.source_contact_id ) 
+INNER JOIN civicrm_contact contact_source ON ( contact_source.id = civicrm_activity.source_contact_id )
+LEFT JOIN civicrm_activity_contact ON (civicrm_activity_contact.activity_id = civicrm_activity.id)
+LEFT JOIN civicrm_contact as contact_target ON ( contact_target.id = civicrm_activity_contact.contact_id )
+ LEFT JOIN civicrm_email email ON ( contact_target.id = email.contact_id AND email.is_primary = 1 ) 
+   WHERE  civicrm_activity.id IN (8526,8981,8527,8382,8388,8528,8580,8594,9015,8330,8395)
+Group By  componentId [nativecode=1054 ** Unknown column 'civicrm_activity.source_contact_id' in 'on clause']
+    [to_string] => [db_error: message="DB Error: no such field" code=-19 mode=callback callback=CRM_Core_Error::handle prefix="" info="
+  SELECT  contact.id as contactId, civicrm_activity.id as componentId, contact_source.sort_name as sort_name, contact_target.sort_name as target_sort_name, email as email
+    FROM  civicrm_activity as civicrm_activity INNER JOIN civicrm_contact contact ON ( contact.id = civicrm_activity.source_contact_id ) 
+INNER JOIN civicrm_contact contact_source ON ( contact_source.id = civicrm_activity.source_contact_id )
+LEFT JOIN civicrm_activity_contact ON (civicrm_activity_contact.activity_id = civicrm_activity.id)
+LEFT JOIN civicrm_contact as contact_target ON ( contact_target.id = civicrm_activity_contact.contact_id )
+ LEFT JOIN civicrm_email email ON ( contact_target.id = email.contact_id AND email.is_primary = 1 ) 
+   WHERE  civicrm_activity.id IN (8526,8981,8527,8382,8388,8528,8580,8594,9015,8330,8395)
+Group By  componentId [nativecode=1054 ** Unknown column 'civicrm_activity.source_contact_id' in 'on clause']"]
+)
+
+
+Jan 30 12:18:03  [info] $backTrace = #0 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Error.php(197): CRM_Core_Error::backtrace("backTrace", TRUE)
+#1 [internal function](): CRM_Core_Error::handle(Object(DB_Error))
+#2 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/PEAR.php(931): call_user_func((Array:2), Object(DB_Error))
+#3 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/DB.php(969): PEAR_Error->PEAR_Error("DB Error: no such field", -19, 16, (Array:2), "\n  SELECT  contact.id as contactId, civicrm_activity.id as componentId, cont...")
+#4 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/PEAR.php(564): DB_Error->DB_Error(-19, 16, (Array:2), "\n  SELECT  contact.id as contactId, civicrm_activity.id as componentId, cont...")
+#5 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/DB/common.php(1905): PEAR->raiseError(NULL, -19, NULL, NULL, "\n  SELECT  contact.id as contactId, civicrm_activity.id as componentId, cont...", "DB_Error", TRUE)
+#6 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/DB/mysql.php(898): DB_common->raiseError(-19, NULL, NULL, NULL, "1054 ** Unknown column 'civicrm_activity.source_contact_id' in 'on clause'")
+#7 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/DB/mysql.php(327): DB_mysql->mysqlRaiseError()
+#8 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/DB/common.php(1216): DB_mysql->simpleQuery("\n  SELECT  contact.id as contactId, civicrm_activity.id as componentId, cont...")
+#9 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/DB/DataObject.php(2421): DB_common->query("\n  SELECT  contact.id as contactId, civicrm_activity.id as componentId, cont...")
+#10 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/DB/DataObject.php(1613): DB_DataObject->_query("\n  SELECT  contact.id as contactId, civicrm_activity.id as componentId, cont...")
+#11 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/DAO.php(158): DB_DataObject->query("\n  SELECT  contact.id as contactId, civicrm_activity.id as componentId, cont...")
+#12 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/DAO.php(905): CRM_Core_DAO->query("\n  SELECT  contact.id as contactId, civicrm_activity.id as componentId, cont...", TRUE)
+#13 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Contact/BAO/Contact/Utils.php(807): CRM_Core_DAO::executeQuery("\n  SELECT  contact.id as contactId, civicrm_activity.id as componentId, cont...")
+#14 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Activity/Form/Task/Batch.php(85): CRM_Contact_BAO_Contact_Utils::contactDetails((Array:11), "Activity", (Array:3))
+#15 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Form.php(351): CRM_Activity_Form_Task_Batch->preProcess()
+#16 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/QuickForm/Action/Display.php(93): CRM_Core_Form->buildForm()
+#17 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/HTML/QuickForm/Controller.php(203): CRM_Core_QuickForm_Action_Display->perform(Object(CRM_Activity_Form_Task_Batch), "display")
+#18 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/HTML/QuickForm/Page.php(103): HTML_QuickForm_Controller->handle(Object(CRM_Activity_Form_Task_Batch), "display")
+#19 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Controller.php(345): HTML_QuickForm_Page->handle("display")
+#20 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(323): CRM_Core_Controller->run((Array:4), (Array:0))
+#21 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(72): CRM_Core_Invoke::runItem((Array:13))
+#22 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(52): CRM_Core_Invoke::_invoke((Array:4))
+#23 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm.php(463): CRM_Core_Invoke::invoke((Array:4))
+#24 [internal function](): CiviCRM_For_WordPress->invoke("")
+#25 /var/www/vhosts/coopersquare.org/httpdocs/wp-includes/plugin.php(429): call_user_func_array((Array:2), (Array:1))
+#26 /var/www/vhosts/coopersquare.org/httpdocs/wp-admin/admin.php(217): do_action("toplevel_page_CiviCRM")
+#27 {main}
+
+
+Jan 30 19:45:36  [info] $backTrace = #0 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Error.php(756): CRM_Core_Error::backtrace("backTrace", TRUE)
+#1 [internal function](): CRM_Core_Error::exceptionHandler(Object(DB_Error))
+#2 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/PEAR.php(931): call_user_func((Array:2), Object(DB_Error))
+#3 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/DB.php(969): PEAR_Error->PEAR_Error("DB Error: already exists", -5, 16, (Array:2), "\r\nINSERT INTO `civicrm_value_googleapps_sync_7`\r\n  (entity_id,google_cont...")
+#4 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/PEAR.php(564): DB_Error->DB_Error(-5, 16, (Array:2), "\r\nINSERT INTO `civicrm_value_googleapps_sync_7`\r\n  (entity_id,google_cont...")
+#5 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/DB/common.php(1905): PEAR->raiseError(NULL, -5, NULL, NULL, "\r\nINSERT INTO `civicrm_value_googleapps_sync_7`\r\n  (entity_id,google_cont...", "DB_Error", TRUE)
+#6 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/DB/mysql.php(898): DB_common->raiseError(-5, NULL, NULL, NULL, "1062 ** Duplicate entry '2579' for key 'unique_entity_id'")
+#7 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/DB/mysql.php(327): DB_mysql->mysqlRaiseError()
+#8 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/DB/common.php(1216): DB_mysql->simpleQuery("\r\nINSERT INTO `civicrm_value_googleapps_sync_7`\r\n  (entity_id,google_cont...")
+#9 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/DB/DataObject.php(2421): DB_common->query("\r\nINSERT INTO `civicrm_value_googleapps_sync_7`\r\n  (entity_id,google_cont...")
+#10 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/DB/DataObject.php(1613): DB_DataObject->_query("\r\nINSERT INTO `civicrm_value_googleapps_sync_7`\r\n  (entity_id,google_cont...")
+#11 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/DAO.php(158): DB_DataObject->query("\r\nINSERT INTO `civicrm_value_googleapps_sync_7`\r\n  (entity_id,google_cont...")
+#12 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/DAO.php(905): CRM_Core_DAO->query("\r\nINSERT INTO `civicrm_value_googleapps_sync_7`\r\n  (entity_id,google_cont...", TRUE)
+#13 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/files/civicrm/extensions/sync.googleapps-1.0/CRM/Sync/BAO/GoogleApps.php(256): CRM_Core_DAO::executeQuery("\r\nINSERT INTO `civicrm_value_googleapps_sync_7`\r\n  (entity_id,google_cont...")
+#14 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/files/civicrm/extensions/sync.googleapps-1.0/api/v3/Job/GoogleappsSync.php(88): CRM_Sync_BAO_GoogleApps->call("contact", "create", (Array:16))
+#15 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/api/api.php(87): civicrm_api3_job_googleapps_sync((Array:2))
+#16 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/JobManager.php(132): civicrm_api("Job", "googleapps_sync", (Array:2))
+#17 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/JobManager.php(88): CRM_Core_JobManager->executeJob(Object(CRM_Core_ScheduledJob))
+#18 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/api/v3/Job.php(124): CRM_Core_JobManager->execute(FALSE)
+#19 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/api/api.php(87): civicrm_api3_job_execute((Array:2))
+#20 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/bin/cli.class.php(99): civicrm_api("Job", "execute", (Array:2))
+#21 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/bin/cli.php(31): civicrm_cli->callApi()
+#22 {main}
+
+
+Jan 30 20:00:13  [info] $backTrace = #0 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Error.php(756): CRM_Core_Error::backtrace("backTrace", TRUE)
+#1 [internal function](): CRM_Core_Error::exceptionHandler(Object(DB_Error))
+#2 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/PEAR.php(931): call_user_func((Array:2), Object(DB_Error))
+#3 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/DB.php(969): PEAR_Error->PEAR_Error("DB Error: already exists", -5, 16, (Array:2), "\r\nINSERT INTO `civicrm_value_googleapps_sync_7`\r\n  (entity_id,google_cont...")
+#4 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/PEAR.php(564): DB_Error->DB_Error(-5, 16, (Array:2), "\r\nINSERT INTO `civicrm_value_googleapps_sync_7`\r\n  (entity_id,google_cont...")
+#5 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/DB/common.php(1905): PEAR->raiseError(NULL, -5, NULL, NULL, "\r\nINSERT INTO `civicrm_value_googleapps_sync_7`\r\n  (entity_id,google_cont...", "DB_Error", TRUE)
+#6 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/DB/mysql.php(898): DB_common->raiseError(-5, NULL, NULL, NULL, "1062 ** Duplicate entry '2627' for key 'unique_entity_id'")
+#7 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/DB/mysql.php(327): DB_mysql->mysqlRaiseError()
+#8 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/DB/common.php(1216): DB_mysql->simpleQuery("\r\nINSERT INTO `civicrm_value_googleapps_sync_7`\r\n  (entity_id,google_cont...")
+#9 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/DB/DataObject.php(2421): DB_common->query("\r\nINSERT INTO `civicrm_value_googleapps_sync_7`\r\n  (entity_id,google_cont...")
+#10 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/DB/DataObject.php(1613): DB_DataObject->_query("\r\nINSERT INTO `civicrm_value_googleapps_sync_7`\r\n  (entity_id,google_cont...")
+#11 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/DAO.php(158): DB_DataObject->query("\r\nINSERT INTO `civicrm_value_googleapps_sync_7`\r\n  (entity_id,google_cont...")
+#12 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/DAO.php(905): CRM_Core_DAO->query("\r\nINSERT INTO `civicrm_value_googleapps_sync_7`\r\n  (entity_id,google_cont...", TRUE)
+#13 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/files/civicrm/extensions/sync.googleapps-1.0/CRM/Sync/BAO/GoogleApps.php(256): CRM_Core_DAO::executeQuery("\r\nINSERT INTO `civicrm_value_googleapps_sync_7`\r\n  (entity_id,google_cont...")
+#14 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/files/civicrm/extensions/sync.googleapps-1.0/api/v3/Job/GoogleappsSync.php(88): CRM_Sync_BAO_GoogleApps->call("contact", "create", (Array:16))
+#15 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/api/api.php(87): civicrm_api3_job_googleapps_sync((Array:2))
+#16 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/JobManager.php(132): civicrm_api("Job", "googleapps_sync", (Array:2))
+#17 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/JobManager.php(88): CRM_Core_JobManager->executeJob(Object(CRM_Core_ScheduledJob))
+#18 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/api/v3/Job.php(124): CRM_Core_JobManager->execute(FALSE)
+#19 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/api/api.php(87): civicrm_api3_job_execute((Array:2))
+#20 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/bin/cli.class.php(99): civicrm_api("Job", "execute", (Array:2))
+#21 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/bin/cli.php(31): civicrm_cli->callApi()
+#22 {main}
+
+
+Jan 31 11:52:09  [info] $Fatal Error Details = Array
+(
+    [callback] => Array
+        (
+            [0] => CRM_Core_Error
+            [1] => handle
+        )
+
+    [code] => -19
+    [message] => DB Error: no such field
+    [mode] => 16
+    [debug_info] => SELECT count( DISTINCT ( civicrm_activity.id ) )  FROM civicrm_contact contact_a INNER JOIN civicrm_activity_contact
+                      ON ( civicrm_activity_contact.contact_id = contact_a.id )  INNER JOIN civicrm_activity
+                      ON ( civicrm_activity.id = civicrm_activity_contact.activity_id
+                      AND civicrm_activity.is_deleted = 0 AND civicrm_activity.is_current_revision = 1 ) LEFT JOIN civicrm_option_group option_group_activity_status ON (option_group_activity_status.name = 'activity_status') LEFT JOIN civicrm_option_value activity_status ON (civicrm_activity.status_id = activity_status.value
+                               AND option_group_activity_status.id = activity_status.option_group_id )  LEFT JOIN civicrm_option_group option_group_activity_type ON (option_group_activity_type.name = 'activity_type') LEFT JOIN civicrm_option_value activity_type ON (civicrm_activity.activity_type_id = activity_type.value
+                               AND option_group_activity_type.id = activity_type.option_group_id )  
+LEFT JOIN civicrm_value_circase_3 ON civicrm_value_circase_3.entity_id = civicrm_activity.id  WHERE  (  civicrm_activity_contact.record_type_id = 3 AND  civicrm_activity.status_id IN (1,2) AND civicrm_activity.is_test = 0 AND civicrm_membership.is_test = 0 )  AND  ( 1 )      [nativecode=1054 ** Unknown column 'civicrm_membership.is_test' in 'where clause']
+    [type] => DB_Error
+    [user_info] => SELECT count( DISTINCT ( civicrm_activity.id ) )  FROM civicrm_contact contact_a INNER JOIN civicrm_activity_contact
+                      ON ( civicrm_activity_contact.contact_id = contact_a.id )  INNER JOIN civicrm_activity
+                      ON ( civicrm_activity.id = civicrm_activity_contact.activity_id
+                      AND civicrm_activity.is_deleted = 0 AND civicrm_activity.is_current_revision = 1 ) LEFT JOIN civicrm_option_group option_group_activity_status ON (option_group_activity_status.name = 'activity_status') LEFT JOIN civicrm_option_value activity_status ON (civicrm_activity.status_id = activity_status.value
+                               AND option_group_activity_status.id = activity_status.option_group_id )  LEFT JOIN civicrm_option_group option_group_activity_type ON (option_group_activity_type.name = 'activity_type') LEFT JOIN civicrm_option_value activity_type ON (civicrm_activity.activity_type_id = activity_type.value
+                               AND option_group_activity_type.id = activity_type.option_group_id )  
+LEFT JOIN civicrm_value_circase_3 ON civicrm_value_circase_3.entity_id = civicrm_activity.id  WHERE  (  civicrm_activity_contact.record_type_id = 3 AND  civicrm_activity.status_id IN (1,2) AND civicrm_activity.is_test = 0 AND civicrm_membership.is_test = 0 )  AND  ( 1 )      [nativecode=1054 ** Unknown column 'civicrm_membership.is_test' in 'where clause']
+    [to_string] => [db_error: message="DB Error: no such field" code=-19 mode=callback callback=CRM_Core_Error::handle prefix="" info="SELECT count( DISTINCT ( civicrm_activity.id ) )  FROM civicrm_contact contact_a INNER JOIN civicrm_activity_contact
+                      ON ( civicrm_activity_contact.contact_id = contact_a.id )  INNER JOIN civicrm_activity
+                      ON ( civicrm_activity.id = civicrm_activity_contact.activity_id
+                      AND civicrm_activity.is_deleted = 0 AND civicrm_activity.is_current_revision = 1 ) LEFT JOIN civicrm_option_group option_group_activity_status ON (option_group_activity_status.name = 'activity_status') LEFT JOIN civicrm_option_value activity_status ON (civicrm_activity.status_id = activity_status.value
+                               AND option_group_activity_status.id = activity_status.option_group_id )  LEFT JOIN civicrm_option_group option_group_activity_type ON (option_group_activity_type.name = 'activity_type') LEFT JOIN civicrm_option_value activity_type ON (civicrm_activity.activity_type_id = activity_type.value
+                               AND option_group_activity_type.id = activity_type.option_group_id )  
+LEFT JOIN civicrm_value_circase_3 ON civicrm_value_circase_3.entity_id = civicrm_activity.id  WHERE  (  civicrm_activity_contact.record_type_id = 3 AND  civicrm_activity.status_id IN (1,2) AND civicrm_activity.is_test = 0 AND civicrm_membership.is_test = 0 )  AND  ( 1 )      [nativecode=1054 ** Unknown column 'civicrm_membership.is_test' in 'where clause']"]
+)
+
+
+Jan 31 11:52:09  [info] $backTrace = #0 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Error.php(197): CRM_Core_Error::backtrace("backTrace", TRUE)
+#1 [internal function](): CRM_Core_Error::handle(Object(DB_Error))
+#2 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/PEAR.php(931): call_user_func((Array:2), Object(DB_Error))
+#3 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/DB.php(969): PEAR_Error->PEAR_Error("DB Error: no such field", -19, 16, (Array:2), "SELECT count( DISTINCT ( civicrm_activity.id ) )  FROM civicrm_contact contac...")
+#4 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/PEAR.php(564): DB_Error->DB_Error(-19, 16, (Array:2), "SELECT count( DISTINCT ( civicrm_activity.id ) )  FROM civicrm_contact contac...")
+#5 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/DB/common.php(1905): PEAR->raiseError(NULL, -19, NULL, NULL, "SELECT count( DISTINCT ( civicrm_activity.id ) )  FROM civicrm_contact contac...", "DB_Error", TRUE)
+#6 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/DB/mysql.php(898): DB_common->raiseError(-19, NULL, NULL, NULL, "1054 ** Unknown column 'civicrm_membership.is_test' in 'where clause'")
+#7 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/DB/mysql.php(327): DB_mysql->mysqlRaiseError()
+#8 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/DB/common.php(1216): DB_mysql->simpleQuery("SELECT count( DISTINCT ( civicrm_activity.id ) )  FROM civicrm_contact contac...")
+#9 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/DB/DataObject.php(2421): DB_common->query("SELECT count( DISTINCT ( civicrm_activity.id ) )  FROM civicrm_contact contac...")
+#10 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/DB/DataObject.php(1613): DB_DataObject->_query("SELECT count( DISTINCT ( civicrm_activity.id ) )  FROM civicrm_contact contac...")
+#11 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/DAO.php(158): DB_DataObject->query("SELECT count( DISTINCT ( civicrm_activity.id ) )  FROM civicrm_contact contac...")
+#12 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/DAO.php(947): CRM_Core_DAO->query("SELECT count( DISTINCT ( civicrm_activity.id ) )  FROM civicrm_contact contac...", TRUE)
+#13 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Contact/BAO/Query.php(4348): CRM_Core_DAO::singleValueQuery("SELECT count( DISTINCT ( civicrm_activity.id ) )  FROM civicrm_contact contac...")
+#14 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Activity/Selector/Search.php(221): CRM_Contact_BAO_Query->searchQuery(0, 0, NULL, TRUE, FALSE, FALSE, FALSE, FALSE, NULL)
+#15 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Selector/Controller.php(233): CRM_Activity_Selector_Search->getTotalCount(4, NULL)
+#16 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Contact/Form/Search.php(958): CRM_Core_Selector_Controller->__construct(Object(CRM_Activity_Selector_Search), NULL, NULL, 4, Object(CRM_Contact_Form_Search_Advanced), 1)
+#17 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Contact/Form/Search/Advanced.php(320): CRM_Contact_Form_Search->postProcess()
+#18 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Form.php(261): CRM_Contact_Form_Search_Advanced->postProcess()
+#19 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/QuickForm/Action/Refresh.php(75): CRM_Core_Form->mainProcess()
+#20 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/HTML/QuickForm/Controller.php(203): CRM_Core_QuickForm_Action_Refresh->perform(Object(CRM_Contact_Form_Search_Advanced), "refresh")
+#21 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/HTML/QuickForm/Page.php(103): HTML_QuickForm_Controller->handle(Object(CRM_Contact_Form_Search_Advanced), "refresh")
+#22 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Controller.php(345): HTML_QuickForm_Page->handle("refresh")
+#23 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(323): CRM_Core_Controller->run((Array:4), (Array:0))
+#24 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(72): CRM_Core_Invoke::runItem((Array:13))
+#25 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(52): CRM_Core_Invoke::_invoke((Array:4))
+#26 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm.php(463): CRM_Core_Invoke::invoke((Array:4))
+#27 [internal function](): CiviCRM_For_WordPress->invoke("")
+#28 /var/www/vhosts/coopersquare.org/httpdocs/wp-includes/plugin.php(429): call_user_func_array((Array:2), (Array:1))
+#29 /var/www/vhosts/coopersquare.org/httpdocs/wp-admin/admin.php(217): do_action("toplevel_page_CiviCRM")
+#30 {main}
+
+
+Jan 31 12:45:59  [info] $Fatal Error Details = Array
+(
+    [callback] => Array
+        (
+            [0] => CRM_Core_Error
+            [1] => handle
+        )
+
+    [code] => -1
+    [message] => DB Error: unknown error
+    [mode] => 16
+    [debug_info] => SELECT DISTINCT UPPER(LEFT(contact_a.sort_name, 1)) as sort_name  FROM civicrm_contact contact_a INNER JOIN civicrm_activity_contact
+                      ON ( civicrm_activity_contact.contact_id = contact_a.id )  INNER JOIN civicrm_activity
+                      ON ( civicrm_activity.id = civicrm_activity_contact.activity_id
+                      AND civicrm_activity.is_deleted = 0 AND civicrm_activity.is_current_revision = 1 ) 
+LEFT JOIN civicrm_value_circase_3 ON civicrm_value_circase_3.entity_id = civicrm_activity.id  WHERE  (  ( civicrm_value_circase_3.issue_area_s__75 RLIKE '?&gt;s' )  )  AND (contact_a.is_deleted = 0)    ORDER BY UPPER(LEFT(contact_a.sort_name, 1)) asc  [nativecode=1139 ** Got error 'repetition-operator operand invalid' from regexp]
+    [type] => DB_Error
+    [user_info] => SELECT DISTINCT UPPER(LEFT(contact_a.sort_name, 1)) as sort_name  FROM civicrm_contact contact_a INNER JOIN civicrm_activity_contact
+                      ON ( civicrm_activity_contact.contact_id = contact_a.id )  INNER JOIN civicrm_activity
+                      ON ( civicrm_activity.id = civicrm_activity_contact.activity_id
+                      AND civicrm_activity.is_deleted = 0 AND civicrm_activity.is_current_revision = 1 ) 
+LEFT JOIN civicrm_value_circase_3 ON civicrm_value_circase_3.entity_id = civicrm_activity.id  WHERE  (  ( civicrm_value_circase_3.issue_area_s__75 RLIKE '?&gt;s' )  )  AND (contact_a.is_deleted = 0)    ORDER BY UPPER(LEFT(contact_a.sort_name, 1)) asc  [nativecode=1139 ** Got error 'repetition-operator operand invalid' from regexp]
+    [to_string] => [db_error: message="DB Error: unknown error" code=-1 mode=callback callback=CRM_Core_Error::handle prefix="" info="SELECT DISTINCT UPPER(LEFT(contact_a.sort_name, 1)) as sort_name  FROM civicrm_contact contact_a INNER JOIN civicrm_activity_contact
+                      ON ( civicrm_activity_contact.contact_id = contact_a.id )  INNER JOIN civicrm_activity
+                      ON ( civicrm_activity.id = civicrm_activity_contact.activity_id
+                      AND civicrm_activity.is_deleted = 0 AND civicrm_activity.is_current_revision = 1 ) 
+LEFT JOIN civicrm_value_circase_3 ON civicrm_value_circase_3.entity_id = civicrm_activity.id  WHERE  (  ( civicrm_value_circase_3.issue_area_s__75 RLIKE '?&gt;s' )  )  AND (contact_a.is_deleted = 0)    ORDER BY UPPER(LEFT(contact_a.sort_name, 1)) asc  [nativecode=1139 ** Got error 'repetition-operator operand invalid' from regexp]"]
+)
+
+
+Jan 31 12:45:59  [info] $backTrace = #0 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Error.php(197): CRM_Core_Error::backtrace("backTrace", TRUE)
+#1 [internal function](): CRM_Core_Error::handle(Object(DB_Error))
+#2 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/PEAR.php(931): call_user_func((Array:2), Object(DB_Error))
+#3 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/DB.php(969): PEAR_Error->PEAR_Error("DB Error: unknown error", -1, 16, (Array:2), "SELECT DISTINCT UPPER(LEFT(contact_a.sort_name, 1)) as sort_name  FROM civicr...")
+#4 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/PEAR.php(564): DB_Error->DB_Error(-1, 16, (Array:2), "SELECT DISTINCT UPPER(LEFT(contact_a.sort_name, 1)) as sort_name  FROM civicr...")
+#5 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/DB/common.php(1905): PEAR->raiseError(NULL, -1, NULL, NULL, "SELECT DISTINCT UPPER(LEFT(contact_a.sort_name, 1)) as sort_name  FROM civicr...", "DB_Error", TRUE)
+#6 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/DB/mysql.php(898): DB_common->raiseError(-1, NULL, NULL, NULL, "1139 ** Got error 'repetition-operator operand invalid' from regexp")
+#7 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/DB/mysql.php(327): DB_mysql->mysqlRaiseError()
+#8 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/DB/common.php(1216): DB_mysql->simpleQuery("SELECT DISTINCT UPPER(LEFT(contact_a.sort_name, 1)) as sort_name  FROM civicr...")
+#9 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/DB/DataObject.php(2421): DB_common->query("SELECT DISTINCT UPPER(LEFT(contact_a.sort_name, 1)) as sort_name  FROM civicr...")
+#10 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/DB/DataObject.php(1613): DB_DataObject->_query("SELECT DISTINCT UPPER(LEFT(contact_a.sort_name, 1)) as sort_name  FROM civicr...")
+#11 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/DAO.php(158): DB_DataObject->query("SELECT DISTINCT UPPER(LEFT(contact_a.sort_name, 1)) as sort_name  FROM civicr...")
+#12 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/DAO.php(905): CRM_Core_DAO->query("SELECT DISTINCT UPPER(LEFT(contact_a.sort_name, 1)) as sort_name  FROM civicr...", TRUE)
+#13 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Contact/BAO/Query.php(4351): CRM_Core_DAO::executeQuery("SELECT DISTINCT UPPER(LEFT(contact_a.sort_name, 1)) as sort_name  FROM civicr...")
+#14 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Contact/Selector.php(1032): CRM_Contact_BAO_Query->searchQuery(NULL, NULL, NULL, FALSE, FALSE, TRUE)
+#15 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Utils/PagerAToZ.php(81): CRM_Contact_Selector->alphabetQuery()
+#16 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Utils/PagerAToZ.php(106): CRM_Utils_PagerAToZ::getDynamicCharacters(Object(CRM_Contact_Selector), FALSE)
+#17 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Utils/PagerAToZ.php(53): CRM_Utils_PagerAToZ::createLinks(Object(CRM_Contact_Selector), NULL, FALSE)
+#18 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Contact/Form/Search.php(941): CRM_Utils_PagerAToZ::getAToZBar(Object(CRM_Contact_Selector), NULL)
+#19 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Contact/Form/Search/Builder.php(392): CRM_Contact_Form_Search->postProcess()
+#20 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Form.php(261): CRM_Contact_Form_Search_Builder->postProcess()
+#21 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/QuickForm/Action/Refresh.php(75): CRM_Core_Form->mainProcess()
+#22 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/HTML/QuickForm/Controller.php(203): CRM_Core_QuickForm_Action_Refresh->perform(Object(CRM_Contact_Form_Search_Builder), "refresh")
+#23 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/HTML/QuickForm/Page.php(103): HTML_QuickForm_Controller->handle(Object(CRM_Contact_Form_Search_Builder), "refresh")
+#24 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Controller.php(345): HTML_QuickForm_Page->handle("refresh")
+#25 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(323): CRM_Core_Controller->run((Array:4), (Array:0))
+#26 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(72): CRM_Core_Invoke::runItem((Array:13))
+#27 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(52): CRM_Core_Invoke::_invoke((Array:4))
+#28 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm.php(463): CRM_Core_Invoke::invoke((Array:4))
+#29 [internal function](): CiviCRM_For_WordPress->invoke("")
+#30 /var/www/vhosts/coopersquare.org/httpdocs/wp-includes/plugin.php(429): call_user_func_array((Array:2), (Array:1))
+#31 /var/www/vhosts/coopersquare.org/httpdocs/wp-admin/admin.php(217): do_action("toplevel_page_CiviCRM")
+#32 {main}
+
+
+Jan 31 12:46:26  [info] $Fatal Error Details = Array
+(
+    [callback] => Array
+        (
+            [0] => CRM_Core_Error
+            [1] => handle
+        )
+
+    [code] => -1
+    [message] => DB Error: unknown error
+    [mode] => 16
+    [debug_info] => SELECT DISTINCT UPPER(LEFT(contact_a.sort_name, 1)) as sort_name  FROM civicrm_contact contact_a INNER JOIN civicrm_activity_contact
+                      ON ( civicrm_activity_contact.contact_id = contact_a.id )  INNER JOIN civicrm_activity
+                      ON ( civicrm_activity.id = civicrm_activity_contact.activity_id
+                      AND civicrm_activity.is_deleted = 0 AND civicrm_activity.is_current_revision = 1 ) 
+LEFT JOIN civicrm_value_circase_3 ON civicrm_value_circase_3.entity_id = civicrm_activity.id  WHERE  (  ( civicrm_value_circase_3.issue_area_s__75 RLIKE '?&gt;\\\\\\\"s\\\\\\\"' )  )  AND (contact_a.is_deleted = 0)    ORDER BY UPPER(LEFT(contact_a.sort_name, 1)) asc  [nativecode=1139 ** Got error 'repetition-operator operand invalid' from regexp]
+    [type] => DB_Error
+    [user_info] => SELECT DISTINCT UPPER(LEFT(contact_a.sort_name, 1)) as sort_name  FROM civicrm_contact contact_a INNER JOIN civicrm_activity_contact
+                      ON ( civicrm_activity_contact.contact_id = contact_a.id )  INNER JOIN civicrm_activity
+                      ON ( civicrm_activity.id = civicrm_activity_contact.activity_id
+                      AND civicrm_activity.is_deleted = 0 AND civicrm_activity.is_current_revision = 1 ) 
+LEFT JOIN civicrm_value_circase_3 ON civicrm_value_circase_3.entity_id = civicrm_activity.id  WHERE  (  ( civicrm_value_circase_3.issue_area_s__75 RLIKE '?&gt;\\\\\\\"s\\\\\\\"' )  )  AND (contact_a.is_deleted = 0)    ORDER BY UPPER(LEFT(contact_a.sort_name, 1)) asc  [nativecode=1139 ** Got error 'repetition-operator operand invalid' from regexp]
+    [to_string] => [db_error: message="DB Error: unknown error" code=-1 mode=callback callback=CRM_Core_Error::handle prefix="" info="SELECT DISTINCT UPPER(LEFT(contact_a.sort_name, 1)) as sort_name  FROM civicrm_contact contact_a INNER JOIN civicrm_activity_contact
+                      ON ( civicrm_activity_contact.contact_id = contact_a.id )  INNER JOIN civicrm_activity
+                      ON ( civicrm_activity.id = civicrm_activity_contact.activity_id
+                      AND civicrm_activity.is_deleted = 0 AND civicrm_activity.is_current_revision = 1 ) 
+LEFT JOIN civicrm_value_circase_3 ON civicrm_value_circase_3.entity_id = civicrm_activity.id  WHERE  (  ( civicrm_value_circase_3.issue_area_s__75 RLIKE '?&gt;\\\\\\\"s\\\\\\\"' )  )  AND (contact_a.is_deleted = 0)    ORDER BY UPPER(LEFT(contact_a.sort_name, 1)) asc  [nativecode=1139 ** Got error 'repetition-operator operand invalid' from regexp]"]
+)
+
+
+Jan 31 12:46:26  [info] $backTrace = #0 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Error.php(197): CRM_Core_Error::backtrace("backTrace", TRUE)
+#1 [internal function](): CRM_Core_Error::handle(Object(DB_Error))
+#2 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/PEAR.php(931): call_user_func((Array:2), Object(DB_Error))
+#3 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/DB.php(969): PEAR_Error->PEAR_Error("DB Error: unknown error", -1, 16, (Array:2), "SELECT DISTINCT UPPER(LEFT(contact_a.sort_name, 1)) as sort_name  FROM civicr...")
+#4 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/PEAR.php(564): DB_Error->DB_Error(-1, 16, (Array:2), "SELECT DISTINCT UPPER(LEFT(contact_a.sort_name, 1)) as sort_name  FROM civicr...")
+#5 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/DB/common.php(1905): PEAR->raiseError(NULL, -1, NULL, NULL, "SELECT DISTINCT UPPER(LEFT(contact_a.sort_name, 1)) as sort_name  FROM civicr...", "DB_Error", TRUE)
+#6 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/DB/mysql.php(898): DB_common->raiseError(-1, NULL, NULL, NULL, "1139 ** Got error 'repetition-operator operand invalid' from regexp")
+#7 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/DB/mysql.php(327): DB_mysql->mysqlRaiseError()
+#8 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/DB/common.php(1216): DB_mysql->simpleQuery("SELECT DISTINCT UPPER(LEFT(contact_a.sort_name, 1)) as sort_name  FROM civicr...")
+#9 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/DB/DataObject.php(2421): DB_common->query("SELECT DISTINCT UPPER(LEFT(contact_a.sort_name, 1)) as sort_name  FROM civicr...")
+#10 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/DB/DataObject.php(1613): DB_DataObject->_query("SELECT DISTINCT UPPER(LEFT(contact_a.sort_name, 1)) as sort_name  FROM civicr...")
+#11 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/DAO.php(158): DB_DataObject->query("SELECT DISTINCT UPPER(LEFT(contact_a.sort_name, 1)) as sort_name  FROM civicr...")
+#12 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/DAO.php(905): CRM_Core_DAO->query("SELECT DISTINCT UPPER(LEFT(contact_a.sort_name, 1)) as sort_name  FROM civicr...", TRUE)
+#13 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Contact/BAO/Query.php(4351): CRM_Core_DAO::executeQuery("SELECT DISTINCT UPPER(LEFT(contact_a.sort_name, 1)) as sort_name  FROM civicr...")
+#14 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Contact/Selector.php(1032): CRM_Contact_BAO_Query->searchQuery(NULL, NULL, NULL, FALSE, FALSE, TRUE)
+#15 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Utils/PagerAToZ.php(81): CRM_Contact_Selector->alphabetQuery()
+#16 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Utils/PagerAToZ.php(106): CRM_Utils_PagerAToZ::getDynamicCharacters(Object(CRM_Contact_Selector), FALSE)
+#17 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Utils/PagerAToZ.php(53): CRM_Utils_PagerAToZ::createLinks(Object(CRM_Contact_Selector), NULL, FALSE)
+#18 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Contact/Form/Search.php(941): CRM_Utils_PagerAToZ::getAToZBar(Object(CRM_Contact_Selector), NULL)
+#19 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Contact/Form/Search/Builder.php(392): CRM_Contact_Form_Search->postProcess()
+#20 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Form.php(261): CRM_Contact_Form_Search_Builder->postProcess()
+#21 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/QuickForm/Action/Refresh.php(75): CRM_Core_Form->mainProcess()
+#22 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/HTML/QuickForm/Controller.php(203): CRM_Core_QuickForm_Action_Refresh->perform(Object(CRM_Contact_Form_Search_Builder), "refresh")
+#23 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/HTML/QuickForm/Page.php(103): HTML_QuickForm_Controller->handle(Object(CRM_Contact_Form_Search_Builder), "refresh")
+#24 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Controller.php(345): HTML_QuickForm_Page->handle("refresh")
+#25 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(323): CRM_Core_Controller->run((Array:4), (Array:0))
+#26 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(72): CRM_Core_Invoke::runItem((Array:13))
+#27 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(52): CRM_Core_Invoke::_invoke((Array:4))
+#28 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm.php(463): CRM_Core_Invoke::invoke((Array:4))
+#29 [internal function](): CiviCRM_For_WordPress->invoke("")
+#30 /var/www/vhosts/coopersquare.org/httpdocs/wp-includes/plugin.php(429): call_user_func_array((Array:2), (Array:1))
+#31 /var/www/vhosts/coopersquare.org/httpdocs/wp-admin/admin.php(217): do_action("toplevel_page_CiviCRM")
+#32 {main}
+
+

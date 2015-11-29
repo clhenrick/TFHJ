@@ -1,0 +1,27 @@
+!ACCNT	NAME	REFNUM	TIMESTAMP	ACCNTTYPE	OBAMOUNT	DESC	ACCNUM
+ACCNT	Deposit Bank Account			BANK		All manually recorded cash and cheques go to this account	1100
+ACCNT	Banking Fees			EXP		Payment processor fees and manually recorded banking fees	5200
+ACCNT	Direct Public Support:Fundraising:Gala:Ads			INC			4473
+ACCNT	Payment Processor Account			BANK		Account to record payments into a payment processor merchant account	1150
+!CUST	NAME	REFNUM	TIMESTAMP	BADDR1	BADDR2	BADDR3	BADDR4	BADDR5	SADDR1	SADDR2	SADDR3	SADDR4	SADDR5	PHONE1	PHONE2	FAXNUM	EMAIL	NOTE	CONT1	CONT2	CTYPE	TERMS	TAXABLE	SALESTAXCODE	LIMIT	RESALENUM	REP	TAXITEM	NOTEPAD	SALUTATION	COMPANYNAME	FIRSTNAME	MIDINIT	LASTNAME	CUSTFLD1	CUSTFLD2	CUSTFLD3	CUSTFLD4	CUSTFLD5	CUSTFLD6	CUSTFLD7	CUSTFLD8	CUSTFLD9	CUSTFLD10	CUSTFLD11	CUSTFLD12	CUSTFLD13	CUSTFLD14	CUSTFLD15	JOBDESC	JOBTYPE	JOBSTATUS	JOBSTART	JOBPROJEND	JOBEND	HIDDEN	DELCOUNT	PRICELEVEL
+CUST	Cooper Square Committee																																																									
+CUST	El Castillo de Jagua II																																																									
+CUST	Juliana Liriano																															Juliana		Liriano																								
+!TRNS	TRNSID	TRNSTYPE	DATE	ACCNT	NAME	CLASS	AMOUNT	DOCNUM	MEMO	PAYMETH
+!SPL	SPLID	TRNSTYPE	DATE	ACCNT	NAME	CLASS	AMOUNT	DOCNUM	MEMO	PAYMETH
+!ENDTRNS
+TRNS	96047896HY622573B	GENERAL JOURNAL	2014/07/23	Banking Fees	Cooper Square Committee		4.70			Credit Card
+SPL	159	GENERAL JOURNAL	2014/07/23	Deposit Bank Account	Cooper Square Committee		-4.70		Fee	Credit Card
+ENDTRNS
+TRNS	0E050388AC4642028	GENERAL JOURNAL	2014/07/26	Banking Fees	Cooper Square Committee		3.82			Credit Card
+SPL	163	GENERAL JOURNAL	2014/07/26	Deposit Bank Account	Cooper Square Committee		-3.82		Fee	Credit Card
+ENDTRNS
+TRNS		GENERAL JOURNAL	2014/07/29	Deposit Bank Account	Cooper Square Committee		100.00			Cash
+SPL	173	GENERAL JOURNAL	2014/07/22	Direct Public Support:Fundraising:Gala:Ads	El Castillo de Jagua II		-100.00		 Business Card - Color	Cash
+ENDTRNS
+TRNS		GENERAL JOURNAL	2014/08/01	Payment Processor Account	Cooper Square Committee		60.00			Credit Card
+SPL	183	GENERAL JOURNAL	2014/08/01	Direct Public Support:Fundraising:Gala:Ads	Juliana Liriano		-60.00		 Business Card - B&W	Credit Card
+ENDTRNS
+TRNS		GENERAL JOURNAL	2014/08/01	Deposit Bank Account	Cooper Square Committee		200.00			Cash
+SPL	184	GENERAL JOURNAL	2014/08/01	Direct Public Support:Fundraising:Gala:Ads	Juliana Liriano		-200.00		 1/2 Page - Color	Cash
+ENDTRNS

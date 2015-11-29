@@ -1,0 +1,673 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+
+<CustomData>
+  <CustomGroups>
+    <CustomGroup>
+      <name>Qualifications</name>
+      <title>Qualifications</title>
+      <extends>Individual</extends>
+      <style>Tab</style>
+      <collapse_display>0</collapse_display>
+      <help_pre></help_pre>
+      <help_post></help_post>
+      <weight>6</weight>
+      <is_active>1</is_active>
+      <table_name>civicrm_value_qualifications_5</table_name>
+      <is_multiple>1</is_multiple>
+      <collapse_adv_display>0</collapse_adv_display>
+      <created_date>0000-00-00 00:00:00</created_date>
+      <is_reserved>1</is_reserved>
+    </CustomGroup>
+  </CustomGroups>
+  <CustomFields>
+    <CustomField>
+      <name>Name_of_Skill</name>
+      <label>Name of Skill</label>
+      <data_type>String</data_type>
+      <html_type>Text</html_type>
+      <is_required>1</is_required>
+      <is_searchable>1</is_searchable>
+      <is_search_range>0</is_search_range>
+      <weight>17</weight>
+      <is_active>1</is_active>
+      <is_view>0</is_view>
+      <text_length>64</text_length>
+      <note_columns>60</note_columns>
+      <note_rows>4</note_rows>
+      <column_name>name_of_skill_18</column_name>
+      <custom_group_name>Qualifications</custom_group_name>
+    </CustomField>
+    <CustomField>
+      <name>Category_of_Skill</name>
+      <label>Category of Skill</label>
+      <data_type>String</data_type>
+      <html_type>Select</html_type>
+      <is_required>1</is_required>
+      <is_searchable>1</is_searchable>
+      <is_search_range>0</is_search_range>
+      <weight>35</weight>
+      <is_active>1</is_active>
+      <is_view>0</is_view>
+      <text_length>64</text_length>
+      <note_columns>60</note_columns>
+      <note_rows>4</note_rows>
+      <column_name>category_of_skill_19</column_name>
+      <option_group_name>category_of_skill_20130510015438</option_group_name>
+      <custom_group_name>Qualifications</custom_group_name>
+    </CustomField>
+    <CustomField>
+      <name>Level_of_Skill</name>
+      <label>Level of Skill</label>
+      <data_type>String</data_type>
+      <html_type>Select</html_type>
+      <is_required>1</is_required>
+      <is_searchable>1</is_searchable>
+      <is_search_range>0</is_search_range>
+      <weight>56</weight>
+      <is_active>1</is_active>
+      <is_view>0</is_view>
+      <text_length>64</text_length>
+      <note_columns>60</note_columns>
+      <note_rows>4</note_rows>
+      <column_name>level_of_skill_20</column_name>
+      <option_group_name>level_of_skill_20130510015934</option_group_name>
+      <custom_group_name>Qualifications</custom_group_name>
+    </CustomField>
+    <CustomField>
+      <name>Certification_Acquired_</name>
+      <label>Certification Acquired?</label>
+      <data_type>Boolean</data_type>
+      <html_type>Radio</html_type>
+      <is_required>1</is_required>
+      <is_searchable>1</is_searchable>
+      <is_search_range>0</is_search_range>
+      <weight>69</weight>
+      <is_active>1</is_active>
+      <is_view>0</is_view>
+      <text_length>255</text_length>
+      <note_columns>60</note_columns>
+      <note_rows>4</note_rows>
+      <column_name>certification_acquired__21</column_name>
+      <custom_group_name>Qualifications</custom_group_name>
+    </CustomField>
+    <CustomField>
+      <name>Name_of_Certification</name>
+      <label>Name of Certification</label>
+      <data_type>String</data_type>
+      <html_type>Text</html_type>
+      <is_required>0</is_required>
+      <is_searchable>1</is_searchable>
+      <is_search_range>0</is_search_range>
+      <weight>86</weight>
+      <is_active>1</is_active>
+      <is_view>0</is_view>
+      <text_length>64</text_length>
+      <note_columns>60</note_columns>
+      <note_rows>4</note_rows>
+      <column_name>name_of_certification_22</column_name>
+      <custom_group_name>Qualifications</custom_group_name>
+    </CustomField>
+    <CustomField>
+      <name>Certification_Authority</name>
+      <label>Certification Authority</label>
+      <data_type>String</data_type>
+      <html_type>Text</html_type>
+      <is_required>0</is_required>
+      <is_searchable>1</is_searchable>
+      <is_search_range>0</is_search_range>
+      <weight>103</weight>
+      <is_active>1</is_active>
+      <is_view>0</is_view>
+      <text_length>64</text_length>
+      <note_columns>60</note_columns>
+      <note_rows>4</note_rows>
+      <column_name>certification_authority_23</column_name>
+      <custom_group_name>Qualifications</custom_group_name>
+    </CustomField>
+    <CustomField>
+      <name>Grade_Achieved</name>
+      <label>Grade Achieved</label>
+      <data_type>String</data_type>
+      <html_type>Text</html_type>
+      <is_required>0</is_required>
+      <is_searchable>1</is_searchable>
+      <is_search_range>0</is_search_range>
+      <weight>107</weight>
+      <is_active>1</is_active>
+      <is_view>0</is_view>
+      <text_length>64</text_length>
+      <note_columns>60</note_columns>
+      <note_rows>4</note_rows>
+      <column_name>grade_achieved_24</column_name>
+      <custom_group_name>Qualifications</custom_group_name>
+    </CustomField>
+    <CustomField>
+      <name>Attain_Date</name>
+      <label>Date of Attainment</label>
+      <data_type>Date</data_type>
+      <html_type>Select Date</html_type>
+      <is_required>0</is_required>
+      <is_searchable>1</is_searchable>
+      <is_search_range>0</is_search_range>
+      <weight>110</weight>
+      <is_active>1</is_active>
+      <is_view>0</is_view>
+      <text_length>255</text_length>
+      <date_format>d M yy</date_format>
+      <note_columns>60</note_columns>
+      <note_rows>4</note_rows>
+      <column_name>attain_date_25</column_name>
+      <custom_group_name>Qualifications</custom_group_name>
+    </CustomField>
+    <CustomField>
+      <name>Expiry_Date</name>
+      <label>Date of Expiration</label>
+      <data_type>Date</data_type>
+      <html_type>Select Date</html_type>
+      <is_required>0</is_required>
+      <is_searchable>1</is_searchable>
+      <is_search_range>0</is_search_range>
+      <weight>111</weight>
+      <is_active>1</is_active>
+      <is_view>0</is_view>
+      <text_length>255</text_length>
+      <date_format>d M yy</date_format>
+      <note_columns>60</note_columns>
+      <note_rows>4</note_rows>
+      <column_name>expiry_date_25</column_name>
+      <custom_group_name>Qualifications</custom_group_name>
+    </CustomField>
+    <CustomField>
+      <name>Evidence_File</name>
+      <label>Evidence (File)</label>
+      <data_type>File</data_type>
+      <html_type>File</html_type>
+      <is_required>0</is_required>
+      <is_searchable>0</is_searchable>
+      <is_search_range>0</is_search_range>
+      <weight>115</weight>
+      <is_active>1</is_active>
+      <is_view>0</is_view>
+      <text_length>255</text_length>
+      <note_columns>60</note_columns>
+      <note_rows>4</note_rows>
+      <column_name>evidence_file_26</column_name>
+      <custom_group_name>Qualifications</custom_group_name>
+    </CustomField>
+    <CustomField>
+      <name>Evidence_Note</name>
+      <label>Evidence (Note)</label>
+      <data_type>Memo</data_type>
+      <html_type>TextArea</html_type>
+      <is_required>0</is_required>
+      <is_searchable>0</is_searchable>
+      <is_search_range>0</is_search_range>
+      <weight>116</weight>
+      <attributes>rows=4, cols=60</attributes>
+      <is_active>1</is_active>
+      <is_view>0</is_view>
+      <note_columns>60</note_columns>
+      <note_rows>4</note_rows>
+      <column_name>evidence_note_36</column_name>
+      <custom_group_name>Qualifications</custom_group_name>
+    </CustomField>
+  </CustomFields>
+  <OptionGroups>
+    <OptionGroup>
+      <name>category_of_skill_20130510015438</name>
+      <title>Category of Skill</title>
+      <is_reserved>1</is_reserved>
+      <is_active>1</is_active>
+    </OptionGroup>
+    <OptionGroup>
+      <name>level_of_skill_20130510015934</name>
+      <title>Level of Skill</title>
+      <is_reserved>1</is_reserved>
+      <is_active>1</is_active>
+    </OptionGroup>
+    <OptionGroup>
+      <name>Language</name>
+      <title>Language</title>
+      <is_reserved>1</is_reserved>
+      <is_active>1</is_active>
+    </OptionGroup>
+    <OptionGroup>
+      <name>Computing</name>
+      <title>Computing</title>
+      <is_reserved>1</is_reserved>
+      <is_active>1</is_active>
+    </OptionGroup>
+    <OptionGroup>
+      <name>Finance</name>
+      <title>Finance</title>
+      <is_reserved>1</is_reserved>
+      <is_active>1</is_active>
+    </OptionGroup>
+    <OptionGroup>
+      <name>Management</name>
+      <title>Management</title>
+      <is_reserved>1</is_reserved>
+      <is_active>1</is_active>
+    </OptionGroup>
+    <OptionGroup>
+      <name>Legal</name>
+      <title>Legal</title>
+      <is_reserved>1</is_reserved>
+      <is_active>1</is_active>
+    </OptionGroup>
+  </OptionGroups>
+  <OptionValues>
+    <OptionValue>
+      <label>Java</label>
+      <value>Java</value>
+      <name>Java</name>
+      <is_default>0</is_default>
+      <weight>1</weight>
+      <is_optgroup>0</is_optgroup>
+      <is_reserved>0</is_reserved>
+      <is_active>1</is_active>
+      <option_group_name>Language</option_group_name>
+    </OptionValue>
+    <OptionValue>
+      <label>PHP</label>
+      <value>PHP</value>
+      <name>PHP</name>
+      <is_default>0</is_default>
+      <weight>2</weight>
+      <is_optgroup>0</is_optgroup>
+      <is_reserved>0</is_reserved>
+      <is_active>1</is_active>
+      <option_group_name>Language</option_group_name>
+    </OptionValue>
+    <OptionValue>
+      <label>Computer Security</label>
+      <value>Computer Security</value>
+      <name>Computer Security</name>
+      <is_default>0</is_default>
+      <weight>1</weight>
+      <is_optgroup>0</is_optgroup>
+      <is_reserved>0</is_reserved>
+      <is_active>1</is_active>
+      <option_group_name>Computing</option_group_name>
+    </OptionValue>
+    <OptionValue>
+      <label>Word Processing</label>
+      <value>Word Processing</value>
+      <name>Word Processing</name>
+      <is_default>0</is_default>
+      <weight>2</weight>
+      <is_optgroup>0</is_optgroup>
+      <is_reserved>0</is_reserved>
+      <is_active>1</is_active>
+      <option_group_name>Computing</option_group_name>
+    </OptionValue>
+    <OptionValue>
+      <label>Value added analysis</label>
+      <value>Value added analysis</value>
+      <name>Value added analysis</name>
+      <is_default>0</is_default>
+      <weight>1</weight>
+      <is_optgroup>0</is_optgroup>
+      <is_reserved>0</is_reserved>
+      <is_active>1</is_active>
+      <option_group_name>Finance</option_group_name>
+    </OptionValue>
+    <OptionValue>
+      <label>Business Valuations</label>
+      <value>Business Valuations</value>
+      <name>Business Valuations</name>
+      <is_default>0</is_default>
+      <weight>2</weight>
+      <is_optgroup>0</is_optgroup>
+      <is_reserved>0</is_reserved>
+      <is_active>1</is_active>
+      <option_group_name>Finance</option_group_name>
+    </OptionValue>
+    <OptionValue>
+      <label>Business Mangement</label>
+      <value>Business Management</value>
+      <name>Business Management</name>
+      <is_default>0</is_default>
+      <weight>1</weight>
+      <is_optgroup>0</is_optgroup>
+      <is_reserved>0</is_reserved>
+      <is_active>1</is_active>
+      <option_group_name>Management</option_group_name>
+    </OptionValue>
+    <OptionValue>
+      <label>Crisis Management</label>
+      <value>Crisis Management</value>
+      <name>Crisis Management</name>
+      <is_default>0</is_default>
+      <weight>2</weight>
+      <is_optgroup>0</is_optgroup>
+      <is_reserved>0</is_reserved>
+      <is_active>1</is_active>
+      <option_group_name>Management</option_group_name>
+    </OptionValue>
+    <OptionValue>
+      <label>Legal Research</label>
+      <value>Legal Research</value>
+      <name>Legal Research</name>
+      <is_default>0</is_default>
+      <weight>1</weight>
+      <is_optgroup>0</is_optgroup>
+      <is_reserved>0</is_reserved>
+      <is_active>1</is_active>
+      <option_group_name>Legal</option_group_name>
+    </OptionValue>
+    <OptionValue>
+      <label>Legal Writing</label>
+      <value>Legal Writing</value>
+      <name>Legal Writing</name>
+      <is_default>0</is_default>
+      <weight>1</weight>
+      <is_optgroup>0</is_optgroup>
+      <is_reserved>0</is_reserved>
+      <is_active>1</is_active>
+      <option_group_name>Legal</option_group_name>
+    </OptionValue>
+    <OptionValue>
+      <label>Language</label>
+      <value>Language</value>
+      <name>Language</name>
+      <is_default>0</is_default>
+      <weight>2</weight>
+      <is_optgroup>0</is_optgroup>
+      <is_reserved>0</is_reserved>
+      <is_active>1</is_active>
+      <option_group_name>category_of_skill_20130510015438</option_group_name>
+    </OptionValue>
+    <OptionValue>
+      <label>Computing</label>
+      <value>Computing</value>
+      <name>Computing</name>
+      <is_default>0</is_default>
+      <weight>3</weight>
+      <is_optgroup>0</is_optgroup>
+      <is_reserved>0</is_reserved>
+      <is_active>1</is_active>
+      <option_group_name>category_of_skill_20130510015438</option_group_name>
+    </OptionValue>
+    <OptionValue>
+      <label>Finance</label>
+      <value>Finance</value>
+      <name>Finance</name>
+      <is_default>0</is_default>
+      <weight>4</weight>
+      <is_optgroup>0</is_optgroup>
+      <is_reserved>0</is_reserved>
+      <is_active>1</is_active>
+      <option_group_name>category_of_skill_20130510015438</option_group_name>
+    </OptionValue>
+    <OptionValue>
+      <label>Management</label>
+      <value>Management</value>
+      <name>Management</name>
+      <is_default>0</is_default>
+      <weight>5</weight>
+      <is_optgroup>0</is_optgroup>
+      <is_reserved>0</is_reserved>
+      <is_active>1</is_active>
+      <option_group_name>category_of_skill_20130510015438</option_group_name>
+    </OptionValue>
+    <OptionValue>
+      <label>Legal</label>
+      <value>Legal</value>
+      <name>Legal</name>
+      <is_default>0</is_default>
+      <weight>6</weight>
+      <is_optgroup>0</is_optgroup>
+      <is_reserved>0</is_reserved>
+      <is_active>1</is_active>
+      <option_group_name>category_of_skill_20130510015438</option_group_name>
+    </OptionValue>
+    <OptionValue>
+      <label>Basic</label>
+      <value>Basic</value>
+      <name>Basic</name>
+      <is_default>0</is_default>
+      <weight>2</weight>
+      <is_optgroup>0</is_optgroup>
+      <is_reserved>0</is_reserved>
+      <is_active>1</is_active>
+      <option_group_name>level_of_skill_20130510015934</option_group_name>
+    </OptionValue>
+    <OptionValue>
+      <label>Intermediate</label>
+      <value>Intermediate</value>
+      <name>Intermediate</name>
+      <is_default>0</is_default>
+      <weight>3</weight>
+      <is_optgroup>0</is_optgroup>
+      <is_reserved>0</is_reserved>
+      <is_active>1</is_active>
+      <option_group_name>level_of_skill_20130510015934</option_group_name>
+    </OptionValue>
+    <OptionValue>
+      <label>Advanced</label>
+      <value>Advanced</value>
+      <name>Advanced</name>
+      <is_default>0</is_default>
+      <weight>4</weight>
+      <is_optgroup>0</is_optgroup>
+      <is_reserved>0</is_reserved>
+      <is_active>1</is_active>
+      <option_group_name>level_of_skill_20130510015934</option_group_name>
+    </OptionValue>
+    <OptionValue>
+      <label>Expert</label>
+      <value>Expert</value>
+      <name>Expert</name>
+      <is_default>0</is_default>
+      <weight>5</weight>
+      <is_optgroup>0</is_optgroup>
+      <is_reserved>0</is_reserved>
+      <is_active>1</is_active>
+      <option_group_name>level_of_skill_20130510015934</option_group_name>
+    </OptionValue>
+  </OptionValues>
+  <ProfileGroups>
+    <ProfileGroup>
+      <is_active>1</is_active>
+      <group_type>Individual</group_type>
+      <title>Qualifications</title>
+      <add_captcha>0</add_captcha>
+      <is_map>0</is_map>
+      <is_edit_link>0</is_edit_link>
+      <is_uf_link>0</is_uf_link>
+      <is_update_dupe>0</is_update_dupe>
+      <is_cms_user>0</is_cms_user>
+      <is_reserved>1</is_reserved>
+      <name>hrqual_tab</name>
+      <created_date>0000-00-00 00:00:00</created_date>
+      <is_proximity_search>0</is_proximity_search>
+    </ProfileGroup>
+  </ProfileGroups>
+  <ProfileFields>
+    <ProfileField>
+      <field_name>custom.civicrm_value_qualifications_5.name_of_skill_18</field_name>
+      <is_active>1</is_active>
+      <is_view>0</is_view>
+      <is_required>1</is_required>
+      <weight>2</weight>
+      <help_post></help_post>
+      <help_pre></help_pre>
+      <visibility>User and User Admin Only</visibility>
+      <in_selector>0</in_selector>
+      <is_searchable>0</is_searchable>
+      <label>Name of Skill</label>
+      <field_type>Individual</field_type>
+      <is_multi_summary>1</is_multi_summary>
+      <profile_group_name>Qualifications</profile_group_name>
+    </ProfileField>
+    <ProfileField>
+      <field_name>custom.civicrm_value_qualifications_5.category_of_skill_19</field_name>
+      <is_active>1</is_active>
+      <is_view>0</is_view>
+      <is_required>1</is_required>
+      <weight>1</weight>
+      <help_post></help_post>
+      <help_pre></help_pre>
+      <visibility>User and User Admin Only</visibility>
+      <in_selector>0</in_selector>
+      <is_searchable>0</is_searchable>
+      <label>Category of Skill</label>
+      <field_type>Individual</field_type>
+      <is_multi_summary>1</is_multi_summary>
+      <profile_group_name>Qualifications</profile_group_name>
+    </ProfileField>
+    <ProfileField>
+      <field_name>custom.civicrm_value_qualifications_5.level_of_skill_20</field_name>
+      <is_active>1</is_active>
+      <is_view>0</is_view>
+      <is_required>0</is_required>
+      <weight>3</weight>
+      <help_post></help_post>
+      <help_pre></help_pre>
+      <visibility>User and User Admin Only</visibility>
+      <in_selector>0</in_selector>
+      <is_searchable>0</is_searchable>
+      <label>Level of Skill</label>
+      <field_type>Individual</field_type>
+      <is_multi_summary>1</is_multi_summary>
+      <profile_group_name>Qualifications</profile_group_name>
+    </ProfileField>
+    <ProfileField>
+      <field_name>custom.civicrm_value_qualifications_5.certification_acquired__21</field_name>
+      <is_active>1</is_active>
+      <is_view>0</is_view>
+      <is_required>0</is_required>
+      <weight>4</weight>
+      <help_post></help_post>
+      <help_pre></help_pre>
+      <visibility>User and User Admin Only</visibility>
+      <in_selector>0</in_selector>
+      <is_searchable>0</is_searchable>
+      <label>Certification Acquired?</label>
+      <field_type>Individual</field_type>
+      <is_multi_summary>1</is_multi_summary>
+      <profile_group_name>Qualifications</profile_group_name>
+    </ProfileField>
+    <ProfileField>
+      <field_name>custom.civicrm_value_qualifications_5.name_of_certification_22</field_name>
+      <is_active>1</is_active>
+      <is_view>0</is_view>
+      <is_required>0</is_required>
+      <weight>5</weight>
+      <help_post></help_post>
+      <help_pre></help_pre>
+      <visibility>User and User Admin Only</visibility>
+      <in_selector>0</in_selector>
+      <is_searchable>0</is_searchable>
+      <label>Name of Certification</label>
+      <field_type>Individual</field_type>
+      <is_multi_summary>1</is_multi_summary>
+      <profile_group_name>Qualifications</profile_group_name>
+    </ProfileField>
+    <ProfileField>
+      <field_name>custom.civicrm_value_qualifications_5.certification_authority_23</field_name>
+      <is_active>1</is_active>
+      <is_view>0</is_view>
+      <is_required>0</is_required>
+      <weight>6</weight>
+      <help_post></help_post>
+      <help_pre></help_pre>
+      <visibility>User and User Admin Only</visibility>
+      <in_selector>0</in_selector>
+      <is_searchable>0</is_searchable>
+      <label>Certification Authority</label>
+      <field_type>Individual</field_type>
+      <is_multi_summary>1</is_multi_summary>
+      <profile_group_name>Qualifications</profile_group_name>
+    </ProfileField>
+    <ProfileField>
+      <field_name>custom.civicrm_value_qualifications_5.grade_achieved_24</field_name>
+      <is_active>1</is_active>
+      <is_view>0</is_view>
+      <is_required>0</is_required>
+      <weight>7</weight>
+      <help_post></help_post>
+      <help_pre></help_pre>
+      <visibility>User and User Admin Only</visibility>
+      <in_selector>0</in_selector>
+      <is_searchable>0</is_searchable>
+      <label>Grade Achieved</label>
+      <field_type>Individual</field_type>
+      <is_multi_summary>1</is_multi_summary>
+      <profile_group_name>Qualifications</profile_group_name>
+    </ProfileField>
+    <ProfileField>
+      <field_name>custom.civicrm_value_qualifications_5.attain_date_25</field_name>
+      <is_active>1</is_active>
+      <is_view>0</is_view>
+      <is_required>0</is_required>
+      <weight>8</weight>
+      <help_post></help_post>
+      <help_pre></help_pre>
+      <visibility>User and User Admin Only</visibility>
+      <in_selector>0</in_selector>
+      <is_searchable>0</is_searchable>
+      <label>Date of Attainment</label>
+      <field_type>Individual</field_type>
+      <is_multi_summary>1</is_multi_summary>
+      <profile_group_name>Qualifications</profile_group_name>
+    </ProfileField>
+    <ProfileField>
+      <field_name>custom.civicrm_value_qualifications_5.expiry_date_25</field_name>
+      <is_active>1</is_active>
+      <is_view>0</is_view>
+      <is_required>0</is_required>
+      <weight>9</weight>
+      <help_post></help_post>
+      <help_pre></help_pre>
+      <visibility>User and User Admin Only</visibility>
+      <in_selector>0</in_selector>
+      <is_searchable>0</is_searchable>
+      <label>Date of Expiration</label>
+      <field_type>Individual</field_type>
+      <is_multi_summary>1</is_multi_summary>
+      <profile_group_name>Qualifications</profile_group_name>
+    </ProfileField>
+    <ProfileField>
+      <field_name>custom.civicrm_value_qualifications_5.evidence_file_26</field_name>
+      <is_active>1</is_active>
+      <is_view>0</is_view>
+      <is_required>0</is_required>
+      <weight>10</weight>
+      <help_post></help_post>
+      <help_pre></help_pre>
+      <visibility>User and User Admin Only</visibility>
+      <in_selector>0</in_selector>
+      <is_searchable>0</is_searchable>
+      <label>Evidence (File)</label>
+      <field_type>Individual</field_type>
+      <is_multi_summary>1</is_multi_summary>
+      <profile_group_name>Qualifications</profile_group_name>
+    </ProfileField>
+    <ProfileField>
+      <field_name>custom.civicrm_value_qualifications_5.evidence_note_36</field_name>
+      <is_active>1</is_active>
+      <is_view>0</is_view>
+      <is_required>0</is_required>
+      <weight>11</weight>
+      <help_post></help_post>
+      <help_pre></help_pre>
+      <visibility>User and User Admin Only</visibility>
+      <in_selector>0</in_selector>
+      <is_searchable>0</is_searchable>
+      <label>Evidence (Note)</label>
+      <field_type>Individual</field_type>
+      <is_multi_summary>0</is_multi_summary>
+      <profile_group_name>Qualifications</profile_group_name>
+    </ProfileField>
+  </ProfileFields>
+  <ProfileJoins>
+    <ProfileJoin>
+      <is_active>1</is_active>
+      <module>Profile</module>
+      <weight>12</weight>
+      <profile_group_name>Qualifications</profile_group_name>
+    </ProfileJoin>
+  </ProfileJoins>
+</CustomData>

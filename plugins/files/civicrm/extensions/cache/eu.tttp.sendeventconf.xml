@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<extension key="eu.tttp.sendeventconf" type="module">
+  <file>sendeventconf</file>
+  <name>send event conf</name>
+  <description>This extension changes the default so it doesn't send a confirmation email when registering from the back office</description>
+  <license>agpl3</license>
+  <maintainer>
+    <author>Xavier dutoit</author>
+    <email>civicrm@tttp.eu</email>
+  </maintainer>
+<urls><url desc="Main Extension Page">http://github.com/TechToThePeople/sendeventconf</url><url desc="Documentation">http://github.com/TechToThePeople/sendeventconf</url><url desc="Support">http://forum.civicrm.org</url><url desc="Licensing">http://civicrm.org/licensing</url></urls>
+  <releaseDate>2014-05-20</releaseDate>
+  <version>1.1</version>
+  <develStage>stable</develStage>
+  <compatibility>
+    <ver>4.1</ver>
+    <ver>4.2</ver>
+    <ver>4.3</ver>
+    <ver>4.4</ver>
+  </compatibility>
+  <civix>
+    <namespace>CRM/Sendeventconf</namespace>
+  </civix>
+<downloadUrl>https://github.com/TechToThePeople/sendeventconf/archive/master.zip</downloadUrl></extension>

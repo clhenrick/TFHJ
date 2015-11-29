@@ -1,0 +1,13 @@
+First,Last,Street Add,Supp 1,City,State,Zip,Phone,Email,relationship note,Event ID,status,role
+eugene,pokrywa,325 e 5th st,C1,New York,NY,10003,6464235509,,,17,2,1
+ellen,pokrywa,325 e 5th st,C2,New York,NY,10003,,,,17,2,1
+Lilah,Mejia,,,,,,,,for GOLES,17,2,4
+Simone,,,,,NY,,,,helper to Shirley,17,2,1
+Carmen,Barreto,65 2nd Avenue,6C,New York,NY,10003,,,hh,17,2,1
+Louise,Velez,,,,,,,,,17,2,1
+Jason,Garcia,69 E 4TH ST,APT 2C,NEW YORK,NY,10003,,,hh,17,2,1
+Alex,Gross,104 2nd Avenue,9,New York,NY,10003,212-777-7609,language@sprynet.com,hh,17,2,1
+Ilene,Astrahan,104 2nd Avenue,9,New York,NY,10003,212-777-7609,language@sprynet.com,hh,,,
+Alfred,Barreto,65 2nd Avenue,6C,New York,NY,10003,,,hh,,,
+Carlos,Rios,25 E 3RD ST,2A,New York,NY,10003,6464904457,,hh,17,2,1
+Marisol,Rios,25 E 3RD ST,2A,New York,NY,10003,6464904457,,hh,17,2,1

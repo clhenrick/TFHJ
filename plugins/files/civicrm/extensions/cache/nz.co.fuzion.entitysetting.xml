@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<extension key="nz.co.fuzion.entitysetting" type="module">
+  <file>entitysetting</file>
+  <name>Entity Settings Helper Extension</name>
+  <description>This module provides a mechanism for managing settings associated with CiviCRM entities without a table per setting</description>
+  <license>AGPL</license>
+  <maintainer>
+    <author>Eileen</author>
+    <email>eileen@fuzion.co.nz</email>
+  </maintainer>
+  <releaseDate>2014-09-25</releaseDate>
+  <urls>
+    <url desc="Main Extension Page">http://civicrm.org</url>
+    <url desc="Support">http://forum.civicrm.org</url>
+    <url desc="Licensing">http://civicrm.org/licensing</url>
+    <url desc="Documentation">https://github.com/eileenmcnaughton/nz.co.fuzion.entitysetting/blob/master/README.md</url>
+  </urls>
+  <version>1.0</version>
+  <develStage>stable</develStage>
+  <compatibility>
+    <ver>4.2</ver>
+    <ver>4.4</ver>
+    <ver>4.5</ver>
+  </compatibility>
+  <comments>This extension is provided to be a 'soft' dependency for other extension. It does not provide functionality itself</comments>
+  <civix>
+    <namespace>CRM/Entitysetting</namespace>
+  </civix>
+<downloadUrl>https://github.com/eileenmcnaughton/nz.co.fuzion.entitysetting/archive/v1.0.zip</downloadUrl></extension>

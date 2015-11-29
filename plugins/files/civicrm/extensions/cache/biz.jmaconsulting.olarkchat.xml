@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<extension key="biz.jmaconsulting.olarkchat" type="module">
+  <downloadUrl>https://github.com/JMAConsulting/biz.jmaconsulting.olarkchat/archive/1.1.zip</downloadUrl>
+  <file>olarkchat</file>
+  <name>Olark Chat Integration</name>
+  <description>Olark is a chat service that enables web site visitors to chat with staff of an organization. It has a good set of features for services in this space (http://www.olark.com/features). This extension integrates the service with CiviCRM by posting chat transcripts as CiviCRM activities attached to the visitor's existing or newly created contact record and assigned to the relevant staff person's record.</description>
+  <urls>
+    <url desc="Support">https://github.com/JMAConsulting/biz.jmaconsulting.olarkchat/issues?state=open</url>
+    <url desc="Documentation">https://github.com/JMAConsulting/biz.jmaconsulting.olarkchat/blob/1.0/README.md</url>
+  </urls>
+  <license>AGPL-3.0</license>
+  <maintainer>
+    <author>JMA Consulting</author>
+    <email>joe.murray@jmaconsulting.biz</email>
+  </maintainer>
+  <releaseDate>2014-10-17</releaseDate>
+  <version>1.1</version>
+  <develStage>stable</develStage>
+  <compatibility>
+    <ver>4.5</ver>
+  </compatibility>
+  <comments/>
+  <civix>
+    <namespace>CRM/Olarkchat</namespace>
+  </civix>
+</extension>

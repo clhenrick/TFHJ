@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<extension key="org.civicrm.volunteer" type="module">
+  <file>volunteer</file>
+  <name>CiviVolunteer</name>
+  <description>The CiviVolunteer extension provides tools for signing up, managing and tracking volunteers. The features for this release focus on volunteering at events, but the design creates a foundation for adding support for volunteering in a wide variety of situations.</description>
+  <license>AGPL-3.0</license>
+  <maintainer>
+    <author>Yashodha Chaku, Michael Daryabeygi, Frank J. G&#xF3;mez, Dave Greenberg, and Coleman Watts</author>
+    <email>info@civicrm.org</email>
+  </maintainer>
+  <releaseDate>2014-11-18</releaseDate>
+  <version>4.5-1.3.3</version>
+  <develStage>stable</develStage>
+  <compatibility>
+    <ver>4.5</ver>
+  </compatibility>
+  <comments>Developed by CiviCRM LLC, Ginkgo Street Labs, and Confluence Corp with contributions from the community.</comments>
+  <civix>
+    <namespace>CRM/Volunteer</namespace>
+  </civix>
+  <urls>
+    <url desc="Documentation">https://github.com/civicrm/civivolunteer/blob/v4.5-1.3.3/README.md</url>
+  </urls>
+<downloadUrl>https://github.com/civicrm/org.civicrm.volunteer/archive/v4.5-1.3.3.zip</downloadUrl></extension>

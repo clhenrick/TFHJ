@@ -1,0 +1,60 @@
+!ACCNT	NAME	REFNUM	TIMESTAMP	ACCNTTYPE	OBAMOUNT	DESC	ACCNUM
+ACCNT	Deposit Bank Account			BANK		All manually recorded cash and cheques go to this account	1100
+ACCNT	Direct Public Support:Fundraising:Gala:Ads			INC			4473
+ACCNT	Banking Fees			EXP		Payment processor fees and manually recorded banking fees	5200
+ACCNT	Accounts Receivable			AR		Amounts to be received later (eg pay later event revenues)	1200
+!CUST	NAME	REFNUM	TIMESTAMP	BADDR1	BADDR2	BADDR3	BADDR4	BADDR5	SADDR1	SADDR2	SADDR3	SADDR4	SADDR5	PHONE1	PHONE2	FAXNUM	EMAIL	NOTE	CONT1	CONT2	CTYPE	TERMS	TAXABLE	SALESTAXCODE	LIMIT	RESALENUM	REP	TAXITEM	NOTEPAD	SALUTATION	COMPANYNAME	FIRSTNAME	MIDINIT	LASTNAME	CUSTFLD1	CUSTFLD2	CUSTFLD3	CUSTFLD4	CUSTFLD5	CUSTFLD6	CUSTFLD7	CUSTFLD8	CUSTFLD9	CUSTFLD10	CUSTFLD11	CUSTFLD12	CUSTFLD13	CUSTFLD14	CUSTFLD15	JOBDESC	JOBTYPE	JOBSTATUS	JOBSTART	JOBPROJEND	JOBEND	HIDDEN	DELCOUNT	PRICELEVEL
+CUST	Cooper Square Committee																																																									
+CUST	Justin Carroll																															Justin		Carroll																								
+CUST	NYS Senator Brad Hoylman																																																									
+CUST	El Castillo de Jagua II																																																									
+CUST	New Yorkers Foodmarket																																																									
+CUST	V-Nam Cafe																																																									
+CUST	White Trash																																																									
+CUST	East Village Farm & Grocery																																																									
+CUST	New York City Pharmacy																																																									
+CUST	Veritas Management Company																																																									
+CUST	Bowery Hotel, LLC																																																									
+CUST	Steven Meyers																															Steven		Meyers																								
+!TRNS	TRNSID	TRNSTYPE	DATE	ACCNT	NAME	CLASS	AMOUNT	DOCNUM	MEMO	PAYMETH
+!SPL	SPLID	TRNSTYPE	DATE	ACCNT	NAME	CLASS	AMOUNT	DOCNUM	MEMO	PAYMETH
+!ENDTRNS
+TRNS		GENERAL JOURNAL	2014/07/23	Deposit Bank Account	Cooper Square Committee		200.00			Credit Card
+SPL	167	GENERAL JOURNAL	2014/07/23	Direct Public Support:Fundraising:Gala:Ads	Justin Carroll		-200.00		 Full Page - B&W	Credit Card
+ENDTRNS
+TRNS	96047896HY622573B	GENERAL JOURNAL	2014/07/23	Banking Fees	Cooper Square Committee		4.70			Credit Card
+SPL	159	GENERAL JOURNAL	2014/07/23	Deposit Bank Account	Cooper Square Committee		-4.70		Fee	Credit Card
+ENDTRNS
+TRNS		GENERAL JOURNAL	2014/07/26	Deposit Bank Account	Cooper Square Committee		160.00			Credit Card
+SPL	171	GENERAL JOURNAL	2014/07/26	Direct Public Support:Fundraising:Gala:Ads	NYS Senator Brad Hoylman		-160.00		 1/3 Page - Color	Credit Card
+ENDTRNS
+TRNS	0E050388AC4642028	GENERAL JOURNAL	2014/07/26	Banking Fees	Cooper Square Committee		3.82			Credit Card
+SPL	163	GENERAL JOURNAL	2014/07/26	Deposit Bank Account	Cooper Square Committee		-3.82		Fee	Credit Card
+ENDTRNS
+TRNS		GENERAL JOURNAL	2014/07/29	Deposit Bank Account	Cooper Square Committee		100.00			Cash
+SPL	173	GENERAL JOURNAL	2014/07/22	Direct Public Support:Fundraising:Gala:Ads	El Castillo de Jagua II		-100.00		 Business Card - Color	Cash
+ENDTRNS
+TRNS		GENERAL JOURNAL	2014/07/30	Accounts Receivable	Cooper Square Committee		100.00			Check
+SPL	175	GENERAL JOURNAL	-0001/11/30	Direct Public Support:Fundraising:Gala:Ads	New Yorkers Foodmarket		-100.00		 Business Card - Color	Check
+ENDTRNS
+TRNS		GENERAL JOURNAL	2014/07/30	Deposit Bank Account	Cooper Square Committee		120.00	1629		Check
+SPL	176	GENERAL JOURNAL	2014/07/09	Direct Public Support:Fundraising:Gala:Ads	V-Nam Cafe		-120.00	1629	 1/3 Page - Color	Check
+ENDTRNS
+TRNS		GENERAL JOURNAL	2014/07/30	Deposit Bank Account	Cooper Square Committee		70.00	6127		Check
+SPL	177	GENERAL JOURNAL	2014/07/17	Direct Public Support:Fundraising:Gala:Ads	White Trash		-70.00	6127	 Contribution Amount	Check
+ENDTRNS
+TRNS		GENERAL JOURNAL	2014/07/30	Accounts Receivable	Cooper Square Committee		72.00			Check
+SPL	178	GENERAL JOURNAL	2014/07/29	Direct Public Support:Fundraising:Gala:Ads	East Village Farm & Grocery		-72.00		 Business Card - B&W	Check
+ENDTRNS
+TRNS		GENERAL JOURNAL	2014/07/30	Deposit Bank Account	Cooper Square Committee		100.00	5048		Check
+SPL	179	GENERAL JOURNAL	2014/07/29	Direct Public Support:Fundraising:Gala:Ads	New York City Pharmacy		-100.00	5048	 Business Card - Color	Check
+ENDTRNS
+TRNS		GENERAL JOURNAL	2014/07/30	Accounts Receivable	Cooper Square Committee		220.00			Check
+SPL	180	GENERAL JOURNAL	2014/07/25	Direct Public Support:Fundraising:Gala:Ads	Veritas Management Company		-220.00		 Business Card - Color	Check
+ENDTRNS
+TRNS		GENERAL JOURNAL	2014/07/30	Accounts Receivable	Cooper Square Committee		600.00			Check
+SPL	181	GENERAL JOURNAL	2014/07/25	Direct Public Support:Fundraising:Gala:Ads	Bowery Hotel, LLC		-600.00		 Full Page - B/W	Check
+ENDTRNS
+TRNS		GENERAL JOURNAL	2014/07/30	Deposit Bank Account	Cooper Square Committee		0.00			Check
+SPL	182	GENERAL JOURNAL	2014/07/01	Direct Public Support:Fundraising:Gala:Ads	Steven Meyers		-0.00		 Comp	Check
+ENDTRNS

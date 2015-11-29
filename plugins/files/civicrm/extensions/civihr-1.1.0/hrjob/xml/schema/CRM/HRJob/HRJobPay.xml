@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+
+<table>
+  <base>CRM/HRJob</base>
+  <class>HRJobPay</class>
+  <name>civicrm_hrjob_pay</name>
+  <comment>Contract terms relating to compensation</comment>
+  <log>true</log>
+
+  <field>
+    <name>id</name>
+    <type>int unsigned</type>
+    <required>true</required>
+    <comment>Unique HRJobPay ID</comment>
+  </field>
+  <primaryKey>
+    <name>id</name>
+    <autoincrement>true</autoincrement>
+  </primaryKey>
+
+  <field>
+    <name>job_id</name>
+    <type>int unsigned</type>
+    <required>true</required>
+    <comment>FK to Job</comment>
+  </field>
+  <foreignKey>
+    <name>job_id</name>
+    <table>civicrm_hrjob</table>
+    <key>id</key>
+    <onDelete>CASCADE</onDelete>
+  </foreignKey>
+  <index>
+    <name>UI_job_id</name>
+    <fieldName>job_id</fieldName>
+    <unique>true</unique>
+  </index>
+
+  <field>
+    <name>pay_grade</name>
+    <title>Job Pay Grade</title>
+    <type>varchar</type>
+    <length>63</length>
+    <comment>Paid, Unpaid, etc</comment>
+    <pseudoconstant>
+      <optionGroupName>hrjob_pay_grade</optionGroupName>
+    </pseudoconstant>
+    <export>true</export>
+    <uniqueName>hrjob_pay_grade</uniqueName>
+  </field>
+  <index>
+    <name>index_pay_grade</name>
+    <fieldName>pay_grade</fieldName>
+  </index>
+
+  <field>
+    <name>pay_amount</name>
+    <title>Job Pay Amount</title>
+    <type>decimal</type>
+    <default>0</default>
+    <comment>Amount of currency paid for each unit of work (eg 40 per hour, 400 per day)</comment>
+    <export>true</export>
+    <uniqueName>hrjob_pay_amount</uniqueName>
+  </field>
+
+  <field>
+    <name>pay_unit</name>
+    <title>Job Pay Unit</title>
+    <type>enum</type>
+    <values>Hour, Day, Week, Month, Year</values>
+    <comment>Unit for expressing pay rate (e.g. amount per hour, amount per week)</comment>
+    <export>true</export>
+    <uniqueName>hrjob_pay_unit</uniqueName>
+  </field>
+
+  <field>
+    <name>pay_currency</name>
+    <title>Job Pay Currency</title>
+    <type>varchar</type>
+    <length>63</length>
+    <comment>Unit for expressing pay currency</comment>
+    <pseudoconstant>
+      <optionGroupName>currencies_enabled</optionGroupName>
+    </pseudoconstant>
+    <export>true</export>
+    <uniqueName>hrjob_pay_currency</uniqueName>
+  </field>
+
+</table>

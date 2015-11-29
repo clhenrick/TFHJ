@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<extension key="biz.jmaconsulting.search.anyteloremail" type="module">
+  <file>anyteloremail</file>
+  <name>Any Telephone or Email Search</name>
+  <description>Returns all telephone and email addresses for contacts in the database based on partial telephone or email address</description>
+  <license>GPL-3.0+</license>
+  <maintainer>
+    <author>Joe Murray</author>
+    <email>joe.murray@jmaconsulting.biz</email>
+  </maintainer>
+  <urls>
+    <url desc="Support">https://github.com/JMAConsulting/biz.jmaconsulting.search.anyteloremail/issues</url>
+  </urls>
+  <releaseDate>2014-05-01</releaseDate>
+  <version>1.0</version>
+  <develStage>stable</develStage>
+  <compatibility>
+    <ver>4.4</ver>
+  </compatibility>
+  <comments>Thanks to Jamie McClelland/Progressive Technology Project (jamie@progressivetech.org) for developing an alpha release. This stable release finds non-primary phone and emails, ensures a single result per contact, improves the matching on phone numbers, removes duplicate phones and emails for a contact, includes the phone extensions in the phone numbers, and displays all cities and states for contacts.</comments>
+  <civix>
+    <namespace>CRM/Anyteloremail</namespace>
+  </civix>
+<downloadUrl>https://github.com/JMAConsulting/biz.jmaconsulting.search.anyteloremail/archive/1.0.zip</downloadUrl></extension>

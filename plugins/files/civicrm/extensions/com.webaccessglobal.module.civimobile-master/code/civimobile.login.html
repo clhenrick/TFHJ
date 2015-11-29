@@ -1,0 +1,85 @@
+<?php require_once 'civimobile.header.php'; ?>
+  <!-- Note that this page is currently called only in Drupal -->
+<div data-role="page" id="cm-login">
+  <div data-role="header">
+    <h3>Login to CiviMobile</h3>
+  </div>
+
+  <div data-role="content">
+    <div class="content-primary">
+      <form method="POST" data-ajax="false" class="ui-body ui-corner-all">
+        <ul data-role="listview" data-inset="true" data-divider-theme="a">
+          <li data-role="list-divider" role="heading" >Enter your username and password to access CiviCRM</li>
+          <li data-role="fieldcontain">
+            <input type="text" name="uname" id="uname" placeholder="Username" value=""  />
+          </li>
+          <li data-role="fieldcontain">
+            <input type="password" name="passwd" id="passwd" placeholder="Password" value=""  />
+          </li>
+          <li class="ui-body ui-body-b">
+            <fieldset >
+              <button type="submit" data-theme="a">Login</button>
+            </fieldset>
+          </li>
+        </ul>
+      </form>
+    </div><!--/content-primary -->
+  </div><!-- /content -->
+
+  <?php
+    // authenticate user
+    if ( !empty( $_POST )) {
+      $authenticate = true;
+      if ( empty($_POST['uname']) ) {
+        $authenticate = false;
+      }
+
+      if ( empty($_POST['passwd']) ) {
+        $authenticate = false;
+      }
+
+      $reponse = CRM_Utils_System::authenticate($_POST['uname'], $_POST['passwd'], TRUE);
+
+      if ( $authenticate && $reponse ) {
+        // authentication is successful so get cms user id
+        $uid = CRM_Utils_System::getLoggedInUfID();
+
+        /*
+        * @todo remove additional codethe correct code for the below is simply 
+        * @code
+        * $config = CRM_Core_Config::Singleton();
+        * $config->userSystem->userLoginFinalize($uid);
+        * @endcode
+        *
+        * However, as this won't work with core until 4.2.10/ 4.3.5 we need to keep
+        * this working for drupal7 (the only UF you could log in from prior to this) 
+        * and make it work for other UF if they are on the above releases
+        * We could do a hacky switch statement but this would encourage copy and paste of 
+        * the wrong way to do it
+        */
+        $config = CRM_Core_Config::Singleton();
+        if(method_exists($config->userSystem, 'userLoginFinalize')) {
+          $config->userSystem->userLoginFinalize($uid);
+        }
+        else{
+          user_login_finalize($uid);
+        }
+
+        CRM_Utils_System::redirect(CRM_Utils_System::url('civicrm/mobile'));
+        CRM_Utils_System::civiExit();
+      }
+      else {
+        echo "Authentication failure: Enter valid username/password.";
+      }
+    }
+    else {
+      if ( CRM_Utils_System::isUserLoggedIn() ) {
+        CRM_Utils_System::redirect(CRM_Utils_System::url('civicrm/mobile'));
+        CRM_Utils_System::civiExit();
+      }
+    }
+  ?>
+</div>
+
+<!-- end of page -->
+<?php require_once 'civimobile.footer.php'; ?>

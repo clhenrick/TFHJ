@@ -1,0 +1,337 @@
+mbr type,mbrship id,Notes,Last Pay Date,Member Since,paid thru adjusted,Legacy mbr status,new status,First Name,Last Name,Company,Last Pay Amount,ID
+Individual,477,2,5/29/2002,5/29/2002,12/31/2003,Active,Expired,Roseann,Brandes,,1,582
+Individual,487,5,9/1/2007,12/13/2000,12/31/2008,Active,Expired,Jim,Burton,,1,593
+Individual,496,6,3/4/2010,5/20/1985,12/31/2015,Active,Current,Carmen,Carraballo Muniz,,10,602
+Individual,503,7,2/15/2012,5/19/2000,12/31/2012,Active,Grace,Michael,Cavadias,,11,609
+Individual,646,12,1/1/1959,1/1/1959,12/31/1959,Active,Inactive,Polly,Hui,,0,756
+Individual,831,14,6/18/2002,6/18/2002,12/31/2003,Active,Expired,Huang,Rong,,1,945
+Individual,661,17,1/1/1959,1/1/1959,12/31/1959,Active,Inactive,Milad,Khan,,0,772
+Individual,809,22,1/1/1959,1/1/1959,12/31/1959,Active,Inactive,Virginia,Reyes,,0,923
+Individual,789,24,1/1/1959,1/1/1959,12/31/1959,Active,Inactive,Kym,Platt,,0,903
+Individual,818,25,1/1/1959,1/1/1959,12/31/1959,Active,Inactive,Dada,Roberts,,0,932
+Individual,936,33,1/1/1959,1/1/1959,12/31/1959,Active,Inactive,Amy,Velez,,0,1050
+Individual,945,35,9/23/2008,1/1/1959,12/31/2010,Active,Expired,Sabrina,Wiggins,,2,1060
+Individual,964,36,1/1/1959,1/1/1959,12/31/1959,Active,Inactive,Bert,Zackim,,0,1079
+Individual,391,38,1/1/1959,1/1/1959,12/31/1959,Active,Inactive,Godson,Zosike,,0,207
+Individual,969,39,1/1/1959,1/1/1959,12/31/1959,Active,Inactive,Joseph,Zucker,TATV,0,1084
+Individual,501,40,9/17/2008,9/17/2008,12/31/2009,Active,Expired,Don,Castagno,,1,607
+Individual,877,41,9/14/2008,9/14/2008,12/31/2009,Active,Expired,David,Silversmith,,1,991
+Business,868,BUS,12/14/2011,1/1/1959,12/31/2012,Active,Grace,Barbara,Shaum,Barbara Shaum Leather,10,982
+Individual,1284,BUS or INDIV?,12/14/2011,12/14/2011,12/31/2012,Active,Grace,,,Sassi Karate Center,1,1436
+Business,886,Business,10/16/2010,10/16/2010,12/31/2011,Active,Expired,Shirley,Solomon,Pageant Print Shop,10,1000
+Business,576,Business (Now OOA but grandfathered in),10/5/2010,1/1/2003,12/31/2013,Active,Current,David,Franzo,Shalom Tenants Alliance,30,685
+Individual,398,but longtime friend,2/15/2012,2/15/2012,12/31/2012,Active,Grace,,,,1,238
+Individual,388,Dead,1/1/1959,1/1/1959,1/1/1959,Inactive,Deceased,Bob,Wynn,,0,194
+Individual,973,Dead,1/1/1959,1/1/1959,1/1/1959,Inactive,Deceased,Cira,Arcabella,,0,1089
+Individual,991,Dead,1/1/1959,1/1/1959,1/1/1959,Inactive,Deceased,William,Cady,,0,1108
+Individual,1006,dead,1/1/1959,1/1/1959,1/1/1959,Inactive,Deceased,Ana,Cruz,,0,1123
+Individual,1028,Dead,1/1/1959,1/1/1959,1/1/1959,Inactive,Deceased,Miriam,Friedlander,,0,1147
+Individual,1031,Dead,1/1/1959,1/1/1959,1/1/1959,Inactive,Deceased,Adriana,Gaberial,,0,1150
+Individual,1060,Dead,1/1/1959,1/1/1959,1/1/1959,Inactive,Deceased,Henry,Jackson,,0,1180
+Individual,1144,Dead,1/1/1959,1/1/1959,1/1/1959,Inactive,Deceased,Jack,Presno,,0,1266
+Individual,1161,Dead,1/1/1959,1/1/1959,1/1/1959,Inactive,Deceased,Mario,Rosado,,0,1283
+Individual,1167,Dead,1/1/1959,1/1/1959,1/1/1959,Inactive,Deceased,Luis,Sanchez/Santio Fimo,,0,1289
+Individual,1196,dead,1/1/1959,1/1/1959,1/1/1959,Inactive,Deceased,Esperanza,Urena,,0,1319
+Individual,1005,"dead, ret082910",1/1/1959,1/1/1959,8/29/2010,Inactive,Deceased,Elizabeth,Cruse,,0,1122
+Individual,971,Dead10-2010,1/1/1959,1/1/1959,1/1/1959,Inactive,Deceased,Virginia,Almonte,,0,1087
+Individual,881,Dead6-2011,9/22/2010,1/1/1959,12/31/2015,Inactive,Deceased,Lois,Slessinger,,5,995
+Individual,1205,Deceased2010,1/1/1959,1/1/1959,1/1/1959,Inactive,Deceased,Harry,Weider,,0,1328
+Individual,997,Del042810,1/1/1959,1/1/1959,4/28/2010,Inactive,Cancelled,Arsenio & Esther,Castillo,,0,1114
+Individual,1001,Del042810,1/1/1959,1/1/1959,4/28/2010,Inactive,Cancelled,Salvadore,Cipolla,,0,1118
+Individual,1002,Del042810,1/1/1959,1/1/1959,4/28/2010,Inactive,Cancelled,Betty,Cohen,,0,1119
+Individual,1013,Del042810,1/1/1959,1/1/1959,4/28/2010,Inactive,Cancelled,Madeline,Di Salvator,,0,1130
+Individual,1014,Del042810,1/1/1959,1/1/1959,4/28/2010,Inactive,Cancelled,Elizabeth,Dieu,,0,1131
+Individual,1018,Del042810,1/1/1959,1/1/1959,4/28/2010,Inactive,Cancelled,John,English,,0,1136
+Individual,1019,Del042810,6/6/2009,1/1/1959,6/5/2010,Inactive,Cancelled,Gerry,Faier,JASA,1,1138
+Individual,1020,Del042810,1/1/1959,1/1/1959,4/28/2010,Inactive,Cancelled,Isidore,Fazio,,0,1139
+Individual,1023,Del042810,1/1/1959,1/1/1959,4/28/2010,Inactive,Cancelled,Ruben,Fernandez,,0,1142
+Individual,1024,Del042810,1/1/1959,1/1/1959,4/28/2010,Inactive,Cancelled,Juan,Fisher,,0,1143
+Individual,1025,Del042810,1/1/1959,1/1/1959,4/28/2010,Inactive,Cancelled,Molly,Fitzsimons,,0,1144
+Individual,1039,Del042810,11/1/2007,1/1/1959,4/28/2010,Inactive,Cancelled,Susanna,Gregorczyk,,1,1159
+Individual,1042,Del042810,9/26/2009,9/26/2009,9/25/2010,Inactive,Cancelled,Mattias,Hackler,,1,1162
+Individual,1043,Del042810,1/1/1959,1/1/1959,4/28/2010,Inactive,Cancelled,Michael & Melissa,Halp,,0,1163
+Individual,1045,Del042810,1/1/1959,1/1/1959,4/28/2010,Inactive,Cancelled,Jeanine,Hart,,0,1165
+Individual,1049,Del042810,1/1/1959,1/1/1959,4/28/2010,Inactive,Cancelled,Harriet,Herbst,,0,1169
+Individual,1054,Del042810,1/1/1959,1/1/1959,4/28/2010,Inactive,Cancelled,Morgan,Humphries,c/o Ike (?),0,1174
+Individual,1058,Del042810,1/22/2009,1/22/2009,1/21/2011,Inactive,Cancelled,Gladys,Incle,,2,1178
+Individual,1063,Del042810,1/1/1959,1/1/1959,4/28/2010,Inactive,Cancelled,Debbie,Kauhn,,0,1183
+Individual,1064,Del042810,1/1/1959,1/1/1959,4/28/2010,Inactive,Cancelled,Felipe,Kay,,0,1184
+Individual,1067,Del042810,1/1/1959,1/1/1959,4/28/2010,Inactive,Cancelled,William,Kennedy,,0,1187
+Individual,1068,Del042810,1/1/1959,1/1/1959,4/28/2010,Inactive,Cancelled,Gail,Kessler,,0,1188
+Individual,1070,Del042810,1/1/1959,1/1/1959,4/28/2010,Inactive,Cancelled,Ori,Kleiner,,0,1190
+Individual,1074,Del042810,1/1/1959,1/1/1959,4/28/2010,Inactive,Cancelled,Alberto,Lacasman,,0,1194
+Individual,1082,Del042810,1/1/1959,1/1/1959,4/28/2010,Inactive,Cancelled,Meyer,Levin,,0,1202
+Individual,1084,Del042810,1/1/1959,1/1/1959,4/28/2010,Inactive,Cancelled,Randy,Lichtenwainer,,0,1204
+Individual,1088,Del042810,1/1/1959,1/1/1959,4/28/2010,Inactive,Cancelled,William,Lomazow,,0,1209
+Individual,1089,Del042810,1/1/1959,1/1/1959,4/28/2010,Inactive,Cancelled,Lynn,Lovinger,,0,1210
+Individual,1096,Del042810,1/1/1959,1/1/1959,4/28/2010,Inactive,Cancelled,Ivan & Rosalin,Markham,,0,1218
+Individual,1099,Del042810,1/1/1959,1/1/1959,4/28/2010,Inactive,Cancelled,Carmen,Martinez,,0,1221
+Individual,1100,Del042810,1/1/1959,1/1/1959,4/28/2010,Inactive,Cancelled,Carmen,Martinez,,0,1222
+Individual,1102,Del042810,1/1/1959,1/1/1959,4/28/2010,Inactive,Cancelled,Lilly,Martinez,,0,1224
+Individual,1107,Del042810,1/1/1959,1/1/1959,4/28/2010,Inactive,Cancelled,Joyce,Melville,,0,1229
+Individual,1117,Del042810,1/1/1959,1/1/1959,4/28/2010,Inactive,Cancelled,Marilyn,Newman,,0,1239
+Individual,1118,Del042810,1/1/1959,1/1/1959,4/28/2010,Inactive,Cancelled,Ron,Ng,,0,1240
+Individual,1123,Del042810,1/1/1959,1/1/1959,4/28/2010,Inactive,Cancelled,Helen,Oltman,,0,1245
+Individual,1125,Del042810,1/1/1959,1/1/1959,4/28/2010,Inactive,Cancelled,Helen M.,Ottman,,0,1247
+Individual,1126,Del042810,1/1/1959,1/1/1959,4/28/2010,Inactive,Cancelled,Carmen,Padilla,,0,1248
+Individual,1127,Del042810,1/1/1959,1/1/1959,4/28/2010,Inactive,Cancelled,John,Pagan,,0,1249
+Individual,1129,Del042810,1/1/1959,1/1/1959,4/28/2010,Inactive,Cancelled,Marlene,Pazmino,,0,1251
+Individual,1130,Del042810,1/1/1959,1/1/1959,4/28/2010,Inactive,Cancelled,Yesenia,Pazmino,,0,1252
+Individual,1140,Del042810,1/1/1959,1/1/1959,4/28/2010,Inactive,Cancelled,Nam Yuen,Ping,,0,1262
+Individual,1142,Del042810,1/1/1959,1/1/1959,4/28/2010,Inactive,Cancelled,Stanley & Ellen,Poler,,0,1264
+Individual,1147,Del042810,1/1/1959,1/1/1959,4/28/2010,Inactive,Cancelled,Kathryn,Rerecich,,0,1269
+Individual,1156,Del042810,1/1/1959,1/1/1959,4/28/2010,Inactive,Cancelled,Carolyn,Roest,,0,1278
+Individual,1157,Del042810,1/1/1959,1/1/1959,4/28/2010,Inactive,Cancelled,Ingrid,Roettele,,0,1279
+Individual,1164,Del042810,2/8/2006,1/1/1959,4/28/2010,Inactive,Cancelled,Carol,Ruthbery,,0,1286
+Individual,1169,Del042810,1/1/1959,1/1/1959,4/28/2010,Inactive,Cancelled,Amimia,Santofimio,,0,1291
+Individual,1177,Del042810,1/1/1959,1/1/1959,4/28/2010,Inactive,Cancelled,Falestein,Sirelradeli,,0,1299
+Individual,1180,Del042810,1/1/1959,1/1/1959,4/28/2010,Inactive,Cancelled,Josephine,Smith,,1,1302
+Individual,1187,Del042810,1/1/1959,1/1/1959,4/28/2010,Inactive,Cancelled,David,Taft,,0,1310
+Individual,1191,Del042810,1/1/1959,1/1/1959,4/28/2010,Inactive,Cancelled,John,Tedesco,,0,1314
+Individual,1195,Del042810,5/6/1994,5/6/1994,5/6/1995,Inactive,Cancelled,Juliet,Ucelli,,1,1318
+Individual,1204,Del042810,1/1/1959,1/1/1959,4/28/2010,Inactive,Cancelled,Barney,Webster,Bowery Mission,0,1327
+Individual,1207,Del042810,1/1/1959,1/1/1959,4/28/2010,Inactive,Cancelled,Mary,Weissberg,,0,1330
+Individual,1208,Del042810,1/1/1959,1/1/1959,4/28/2010,Inactive,Cancelled,Michael A.,Wernick/Nuri,,0,1331
+Individual,1218,Del042810,1/1/1959,1/1/1959,4/28/2010,Inactive,Cancelled,Nam,Yuen Ping,,0,1341
+Individual,1062,Del042810-Died,1/1/1959,1/1/1959,4/28/2010,Inactive,Deceased,Ken,Kadish,,0,1182
+Individual,1047,DelEO,1/1/1959,1/1/1959,1/1/1959,Inactive,Barred,Howard,Hemsley,,0,1167
+Individual,697,"DelEO091312, lives at 8E3St",5/20/2010,5/20/2010,12/31/2012,Inactive,Barred,,,,2,808
+Individual,719,died,10/7/2007,1/1/1959,12/31/2012,Inactive,Deceased,Corinne,McKinnon,,5,830
+Individual,1146,died2010,1/1/1959,1/1/1959,1/1/1959,Inactive,Deceased,Consuelo,Ramirez,,0,1268
+Individual,696,DNC03302011; re092210,9/22/2010,10/18/2007,12/31/2010,Active,Expired,Teriananda,Loonan,,2,807
+Individual,426,DO NOT MAIL,3/29/2010,3/29/2010,12/31/2015,Active,Current,Anthony,Donovan,,5,426
+Individual,720,DO NOT MAIL,1/1/1959,1/1/1959,12/31/1959,Active,Inactive,Kathleen M.,McMillan,,0,831
+Individual,853,DO NOT MAIL,5/18/2010,5/18/2010,12/31/2010,Active,Expired,Kimi,Sato,,0,967
+Individual,369,DO NOT MAIL; upd100410,1/1/1959,1/1/1959,12/31/1959,Active,Inactive,Nancy,Blum,,0,113
+Individual,777,formerly 56e4,1/1/1959,1/1/1959,12/31/1959,Active,Inactive,Alicia,Parham,,0,891
+Individual,705,formerly at 69e4,1/1/1959,1/1/1959,12/31/1959,Active,Inactive,Tony,Manello,,0,816
+Individual,914,"Has apt at 16 2nd av, 6D",12/14/2011,1/1/1959,12/31/2012,Active,Grace,Patricia,Thompson,,1,1028
+Individual,1027,Mail returned 9/15/08,1/1/1959,1/1/1959,1/1/1959,Inactive,Cancelled,William,Frawley,,0,1146
+Individual,1295,mom/kid - both paid,5/3/2012,5/3/2012,12/31/2013,Active,Current,,,,2,1514
+Individual,618,moved?,7/1/2009,7/1/2009,7/1/2009,Inactive,Cancelled,Nathan,Heidenheimer,,0,728
+Individual,1046,nonexistent120810,1/1/1959,1/1/1959,12/8/2010,Inactive,Cancelled,Tiffany,Hazlett,New York Theater Workshop,0,1166
+Individual,1048,nonexistent120810,1/1/1959,1/1/1959,12/8/2010,Inactive,Cancelled,Larry,Henry,New York Theater Workshop,0,1168
+Supporter,517,OOA!,10/22/2009,10/22/2009,12/31/2010,Active,Expired,Susan,Cole,,1,624
+Supporter,895,OOA?,9/26/2009,9/26/2009,12/31/2010,Active,Expired,Damien,Stankiewicz,c/o NYU Philosophy PhD Program,1,1009
+Individual,658,Re,10/7/2008,1/1/1959,12/31/2018,Active,Current,Gangemi,Kenneth,,10,769
+Individual,937,Re,1/1/1959,1/1/1959,12/31/1959,Active,Inactive,"Olga, Victor, Jennifer",Villa,,0,1051
+Individual,946,Re,12/16/2008,4/15/1981,12/31/1998,Active,Expired,Nina,Wilcher,,0,1061
+Individual,968,Re,10/3/2008,1/1/1959,12/31/2016,Active,Current,Howard,Zucker,,8,1083
+Individual,916,Re/CU,10/14/2008,1/1/1959,12/31/2009,Active,Expired,Arthur,Tobier,,1,1030
+Individual,1036,Re101711,10/17/2011,1/1/1959,12/31/1959,Active,Inactive,Elide,Givone,,0,1155
+Individual,998,really?,1/1/1959,1/1/1959,1/1/1959,Inactive,Inactive,Fay,Chiang,,0,1115
+Individual,544,ret,1/1/1959,1/1/1959,1/1/1959,Inactive,Cancelled,,,,0,652
+Individual,873,ret,1/1/1959,1/1/1959,1/1/1959,Inactive,Cancelled,,,,0,987
+Individual,905,ret,1/1/1959,1/1/2001,1/1/1959,Inactive,Cancelled,,,,20,1019
+Individual,1259,ret,12/1/2011,12/1/2011,12/31/2012,Inactive,Cancelled,,,,1,1411
+Individual,1116,ret011211,1/1/1959,1/1/1959,1/12/2011,Inactive,Cancelled,Heather,Nahas,,0,1238
+Individual,994,ret011311,5/18/2010,5/18/2010,1/13/2011,Inactive,Cancelled,David,Carroll,,0,1111
+Individual,1105,ret012611,1/1/1959,1/1/1959,1/26/2011,Inactive,Cancelled,John James,McGowan,,0,1227
+Individual,603,"ret042012, refused",1/1/1959,1/1/1959,4/20/2012,Inactive,Cancelled,,,,0,712
+Individual,1008,ret042211,6/19/2010,6/19/2010,4/22/2011,Inactive,Cancelled,"Mike T,",Davis,,0,1125
+Individual,1009,ret042211,6/19/2010,6/19/2010,4/22/2011,Inactive,Cancelled,Thomas,Davis,,0,1126
+Individual,429,ret042909,1/1/1959,1/1/1959,4/29/2009,Inactive,Cancelled,Jessica R.,Hamila,,0,450
+Individual,978,ret042909,1/1/1959,1/1/1959,4/29/2009,Inactive,Cancelled,Michael,Bakaty,,0,1094
+Individual,1051,ret042909,1/1/1959,1/1/1959,4/29/2009,Inactive,Cancelled,Eugene,Hobgood,,0,1171
+Individual,1059,ret042909,1/1/1959,1/1/1959,4/29/2009,Inactive,Cancelled,Taura,Ito,,0,1179
+Individual,1085,ret042909,1/1/1959,1/1/1959,4/29/2009,Inactive,Cancelled,Scott,Liebmann,,0,1205
+Individual,1114,ret042909,1/1/1959,1/1/1959,4/29/2009,Inactive,Cancelled,Gloria,Montalvo,,0,1236
+Individual,1139,ret042909,1/1/1959,1/1/1959,4/29/2009,Inactive,Cancelled,Mendo,Pettiford,,0,1261
+Individual,1159,ret042909,1/1/1959,1/1/1959,4/29/2009,Inactive,Cancelled,Rog,Roman,,0,1281
+Individual,1171,ret042909,1/1/1959,1/1/1959,4/29/2009,Inactive,Cancelled,Matthew,Scheider,,0,1293
+Individual,1175,ret042909,1/1/1959,1/1/1959,4/29/2009,Inactive,Cancelled,Richard,Shelly,,0,1297
+Individual,1188,ret042909,1/1/1959,1/1/1959,4/29/2009,Inactive,Cancelled,James,Tai,,0,1311
+Individual,1189,ret042909,1/1/1959,1/1/1959,4/29/2009,Inactive,Cancelled,Pat,Taurozzi,,0,1312
+Individual,1216,ret042909,1/1/1959,1/1/1959,4/29/2009,Inactive,Cancelled,Rina,Yerushalmi,,0,1339
+Individual,1155,ret062211,6/6/2009,6/6/2009,12/31/2010,Inactive,Cancelled,Deyvis,Rodriguez,,1,1277
+Individual,1137,ret070211,5/17/2010,5/17/2010,7/2/2011,Inactive,Cancelled,Jocelyn,Perry,,0,1259
+Individual,1017,ret080609,1/1/1959,1/1/1959,8/6/2009,Inactive,Cancelled,Susan,Emerson,,0,1135
+Individual,1021,ret080609,1/1/1959,1/1/1959,8/6/2009,Inactive,Cancelled,Anita,Feldman,,0,1140
+Individual,1029,ret080609,1/1/1959,1/1/1959,8/6/2009,Inactive,Cancelled,Joanie,Fritz,,0,1148
+Individual,1035,ret080609,1/1/1959,1/1/1959,8/6/2009,Inactive,Cancelled,John,Gilmarin,,0,1154
+Individual,1057,ret080609,1/1/1959,1/1/1959,8/6/2009,Inactive,Cancelled,Peter,Imbres,,0,1177
+Individual,1120,ret080609,1/1/1959,1/1/1959,8/6/2009,Inactive,Cancelled,Makara,Nkhereanye,,0,1242
+Individual,1121,ret080609,1/1/1959,1/1/1959,8/6/2009,Inactive,Cancelled,Tsele,Nkhereanye,,0,1243
+Individual,542,ret080612,6/5/2008,1/1/1959,8/6/2012,Inactive,Cancelled,,,,1,650
+Individual,995,ret082310,5/15/2010,5/15/2010,8/23/2010,Inactive,Cancelled,Andre,Caru,,0,1112
+Individual,1112,ret082310,1/1/1959,1/1/1959,8/23/2010,Inactive,Cancelled,Barbara,Minor,,0,1234
+Individual,1154,ret082310,1/1/1959,1/1/1959,8/23/2010,Inactive,Cancelled,Wilfredo,Roca,,0,1276
+Individual,1050,ret082410,6/19/2010,6/19/2010,8/24/2010,Inactive,Cancelled,Antonio,Higuera,,0,1170
+Individual,1052,ret082410,1/1/1959,1/1/1959,8/24/2010,Inactive,Cancelled,Susan,Hodorn,,0,1172
+Individual,1098,ret082410,1/1/1959,1/1/1959,8/24/2010,Inactive,Cancelled,Kevin,Martin,,0,1220
+Individual,1194,ret082410,1/1/1959,1/1/1959,8/24/2010,Inactive,Cancelled,Henry,Twine,,0,1317
+Supporter,1122,"ret082410, vot#58, OOA!",10/22/2009,10/22/2009,10/21/2010,Inactive,Cancelled,Ulric,O'Flaherty,,1,1244
+Individual,974,ret082910,1/1/1959,1/1/1959,8/29/2010,Inactive,Cancelled,Fiona,Armstrong,,0,1090
+Individual,1217,ret083010,1/1/1959,1/1/1959,8/30/2010,Inactive,Cancelled,Fumio,Yoshimura,,0,1340
+Individual,1160,ret090910,1/1/1959,1/1/1959,9/9/2010,Inactive,Cancelled,Mariano,Rosa,,0,1282
+Individual,984,ret091010,1/1/1959,1/1/1959,9/10/2010,Inactive,Cancelled,Nvala,Brison,,0,1100
+Individual,1003,ret091010,10/17/2007,1/1/1959,9/10/2010,Inactive,Cancelled,Maurice,Cooper,,1,1120
+Individual,1044,ret091010,1/1/1959,1/1/1959,9/10/2010,Inactive,Cancelled,Martin,Hamilton,,0,1164
+Individual,1151,ret091010,1/1/1959,1/1/1959,9/10/2010,Inactive,Cancelled,Peter,Rizzo,,0,1273
+Individual,983,ret091010/Pend042810-FB,1/8/2001,1/8/2001,1/8/2002,Inactive,Cancelled,Charlotte,Brathwaite,,1,1099
+Individual,1080,ret091210,1/1/1959,1/1/1959,9/12/2010,Inactive,Cancelled,Wing Kwong,Leong,,0,1200
+Individual,980,ret091310,6/14/2008,1/1/1959,9/13/2010,Inactive,Cancelled,Bennett,Beckenstein,,1,1096
+Individual,999,ret091410,1/1/1959,1/1/1959,9/14/2010,Inactive,Cancelled,Shirley,Chovoski,,0,1116
+Individual,1073,ret091410,10/14/2008,10/14/2008,10/13/2009,Inactive,Cancelled,Tada,Kono,,1,1193
+Individual,1104,ret091410,6/7/2009,6/7/2009,6/6/2010,Inactive,Cancelled,Baba,Maymond,,1,1226
+Individual,1128,ret091410,1/1/1959,1/1/1959,9/14/2010,Inactive,Cancelled,Gabriel & Ariana,Paulin,,0,1250
+Individual,1132,ret091410,1/1/1959,1/1/1959,9/14/2010,Inactive,Cancelled,Bernarda,Perez,,0,1254
+Individual,1135,ret091410,6/19/2010,6/19/2010,9/14/2010,Inactive,Cancelled,John,Pereza,,0,1257
+Individual,1150,ret091410,1/1/1959,1/1/1959,9/14/2010,Inactive,Cancelled,Herenia,Rivera,,0,1272
+Individual,1158,ret091410,12/12/2007,1/1/1959,9/14/2010,Inactive,Cancelled,Ehilia,Rogala,,1,1280
+Individual,1184,ret091410,6/12/2010,6/12/2010,9/14/2010,Inactive,Cancelled,C.,Stewart,,0,1307
+Individual,1153,ret091910,1/1/1959,1/1/1959,9/19/2010,Inactive,Cancelled,David,Robinson,,0,1275
+Individual,376,ret092011?,1/31/2011,1/31/2011,12/31/2012,Active,Grace,Kathy,Dremalas,,1,136
+Individual,992,ret092510,1/1/1959,1/1/1959,9/25/2010,Inactive,Cancelled,Nancy,Campbell,,0,1109
+Individual,1007,ret092510,9/26/2009,9/26/2009,9/25/2010,Inactive,Cancelled,Alex,Cybriwsky,,1,1124
+Individual,1041,ret092510,1/1/1959,1/1/1959,9/25/2010,Inactive,Cancelled,Hans & Carl,Haache,,0,1161
+Individual,1103,ret092510,6/19/2010,6/19/2010,9/25/2010,Inactive,Cancelled,Olga,Mayer,,0,1225
+Individual,1115,ret092510,5/15/2010,5/15/2010,9/25/2010,Inactive,Cancelled,Angela,Murier,,0,1237
+Individual,1152,ret092510,1/1/1959,1/1/1959,9/25/2010,Inactive,Cancelled,Belle,Roberts,,0,1274
+Individual,1179,ret092510,1/1/1959,1/1/1959,9/25/2010,Inactive,Cancelled,Bill,Skoller,,0,1301
+Individual,355,ret101110,3/10/2009,3/10/2009,3/9/2010,Inactive,Cancelled,Rebecca,Brooks,,1,12
+Individual,1016,ret120509,1/1/1959,1/1/1959,12/5/2009,Inactive,Cancelled,Mark,Elbert,,0,1134
+Individual,1212,Ret120509,1/1/1959,1/1/1959,12/5/2009,Inactive,Cancelled,Christine,Widgren,,0,1335
+Individual,558,ret120611,1/1/1959,1/1/1959,12/6/2011,Inactive,Cancelled,,,,0,667
+Individual,365,ret120710,6/3/2010,1/1/1959,12/7/2010,Inactive,Cancelled,Lynette,Sheldon,,0,83
+Individual,1055,ret120910,1/1/1959,1/1/1959,12/9/2010,Inactive,Cancelled,Frank,Huyge,,0,1175
+Individual,553,ret121811,6/3/2010,6/3/2010,12/18/2011,Inactive,Cancelled,,,,0,662
+Individual,876,"ret121911, upd091110",9/26/2009,9/26/2009,12/31/2010,Inactive,Cancelled,,,,1,990
+Supporter,690,Sup,10/22/2009,10/22/2009,12/31/2010,Active,Expired,Lynn,Lewis,,5,801
+Supporter,732,SUP,11/16/2009,11/16/2009,12/31/2010,Active,Expired,Lloyd,Miner,,5,845
+Supporter,1297,SUP,8/9/2012,8/9/2012,12/31/2012,Active,Grace,,,,0,1544
+Supporter,814,SUPPORTER - upd092010,9/15/2010,1/1/1980,12/31/2010,Active,Expired,Lidio,Rivera,,0,928
+Individual,759,"upd 060111, vot#54",10/6/2010,1/1/1959,12/31/2011,Active,Expired,Margaret & Neo,Nkhereanye,,5,872
+Individual,647,upd 2/15/12,2/15/2012,4/28/2010,12/31/2012,Active,Grace,Joseph,Hurd,,2,757
+Individual,401,upd010411,1/3/2011,1/1/1959,12/31/2012,Active,Grace,Elba,Briceno,,1,265
+Individual,412,Upd042810,4/28/2010,1/1/1959,12/31/1959,Active,Inactive,Corliss,Duke,,0,320
+Individual,436,Upd042810,4/28/2010,1/1/1998,12/31/2012,Active,Grace,Lucille,Carrasquero,,2,532
+Individual,493,Upd042810,4/28/2010,1/1/1959,12/31/1959,Active,Inactive,Lucus,Candela-Michelus,,0,599
+Individual,574,Upd042810,11/18/2008,11/18/2008,12/31/2018,Active,Current,John,Fout,Community Board 3,10,683
+Individual,709,Upd042810,4/28/2010,1/1/1959,12/31/1959,Active,Inactive,Anibal,Martinez,,0,820
+Individual,750,Upd042810,3/21/2008,1/1/1959,12/31/2008,Active,Expired,Greg & Ludovica,Murphy,,0,863
+Business,766,Upd042810,4/28/2010,1/1/1959,12/31/1959,Active,Inactive,Jose,Oliveras,Teatro Circulo,0,879
+Individual,854,Upd042810,2/15/2008,1/1/1959,12/31/2013,Active,Current,Anna,Sawaryn,,5,968
+Individual,860,Upd042810,12/13/2007,1/1/1959,12/31/2010,Active,Expired,Evelyn,Scott,,3,974
+Individual,932,Upd042810,4/28/2010,1/1/1959,12/31/1959,Active,Inactive,Dolores,Vanison-Blakely,Alpha Omega Dance Co.,0,1046
+Individual,392,Upd042810-?,4/28/2010,1/1/1959,12/31/1959,Active,Inactive,William,Reilly,,0,212
+Individual,421,Upd042810-?,12/14/2011,1/1/1959,12/31/2012,Active,Grace,Pat,Franklin,,1,355
+Individual,950,Upd042810-?,6/5/2008,1/1/1959,12/31/2009,Active,Expired,Lem Lem,Woldu,,1,1065
+Individual,883,Upd051711,10/17/2007,1/1/1959,12/31/2007,Active,Expired,Craig,Snoke,E 4th St Block Association,0,997
+Individual,864,upd061811,10/4/2010,10/4/2010,12/31/2011,Active,Expired,Cliff,Seidman,,1,979
+Individual,866,upd063011,5/18/2010,5/18/2010,12/31/2010,Active,Expired,Linda,Seifert,,0,980
+Individual,466,upd082310,8/23/2010,1/1/1959,12/31/1959,Active,Inactive,Irit,Bastry,,0,570
+Individual,745,upd090910,6/14/2008,1/1/1959,12/31/2009,Active,Expired,Kimberly,Mossel,,1,858
+Individual,509,upd091110,6/6/2009,6/6/2009,12/31/2010,Active,Expired,Sou,Chanthirat,,1,615
+Individual,735,upd091110,2/15/2012,1/1/1959,12/31/2012,Active,Grace,Julio,Molina,,1,848
+Individual,823,upd091110,4/7/2010,4/7/2010,12/31/2011,Active,Expired,Lillian,Rodriguez,,1,937
+Individual,723,"upd091110, was at 120 E 4th St",3/1/2006,1/1/1959,12/31/2006,Active,Expired,Wolf,Meinhardt,,0,834
+Supporter,757,"upd091110, was Sup",2/18/2010,2/18/2010,12/31/2011,Active,Expired,Christopher,Niedt,,5,870
+Individual,641,upd091312,9/13/2012,1/1/1959,12/31/1959,Active,Inactive,Michael,Howett,,0,751
+Individual,461,upd092210,9/26/2007,4/30/1990,12/31/2012,Active,Grace,David,Barkin,,5,565
+Business,561,upd092210,9/22/2010,1/1/1959,12/31/2011,Active,Expired,Kenneth,Famulare,LaSalle Academy,10,670
+Individual,606,upd092210,4/27/2011,10/15/1992,12/31/2012,Active,Grace,Alex & Irene,Gross,,1,715
+Individual,718,upd092210,9/22/2010,1/1/1959,12/31/2011,Active,Expired,Setty,McIntosh,,1,829
+Individual,815,upd092510,9/15/2010,1/1/1980,12/31/2011,Active,Expired,Lillian M.,Rivera,,1,929
+Individual,464,upd100410,8/28/2009,8/28/2009,12/31/2014,Active,Current,Jim,Bartow,,5,568
+Individual,586,Upd100410,10/4/2010,1/1/1959,12/31/1959,Active,Inactive,Katherine,Garnett,,0,695
+Individual,644,upd100410,9/27/2010,9/27/2010,12/31/2011,Active,Expired,Doug,Hudgins,,1,754
+Individual,577,upd101410,7/30/2009,7/30/2009,12/31/2010,Active,Expired,Adam,Fredericks,,1,686
+Individual,908,upd110410,8/30/2002,8/30/2002,12/31/2012,Active,Grace,Ginny,Taylor,,10,1022
+Individual,472,upd120310 fr Elena,12/3/2010,10/1/2010,12/31/1959,Active,Inactive,Tony,Bonilla,MHA,0,577
+Business,843,upd120810,12/8/2010,1/1/1959,12/31/1959,Active,Inactive,Billy,Russo,"New York Theater Workshop, Managing Director",0,957
+Individual,836,upd122010,6/14/2008,1/1/1959,12/31/2009,Active,Expired,Diana,Roshetski,,1,950
+Individual,456,upd51011,6/5/2008,1/1/1959,12/31/2009,Active,Expired,Marlene,Askew,,1,560
+Individual,399,vot,10/6/2010,1/1/1959,12/31/2011,Active,Expired,Harriette,Sherman,,1,243
+Individual,410,vot,10/6/2010,1/1/1959,12/31/2011,Active,Expired,Neal,Borowsky,,1,308
+Individual,415,vot,10/17/2007,1/1/1959,12/31/2019,Active,Current,Roseann,Hamila,,5,331
+Individual,439,vot,10/6/2010,1/1/1959,12/31/2011,Active,Expired,Leonard,Abrams,,1,543
+Individual,443,vot,10/6/2010,1/1/1959,12/31/2015,Active,Current,Pat,Adams,,5,547
+Individual,447,vot,10/6/2010,1/1/1959,12/31/2011,Active,Expired,Daniel,Alroy,,1,551
+Individual,457,vot,10/6/2010,1/1/1959,12/31/2010,Active,Expired,Michael,Atkins,,0,561
+Individual,519,vot,10/1/2010,1/1/1959,12/31/2012,Active,Grace,Efrain,Concepción,,3,626
+Individual,521,vot,12/21/2010,1/1/1959,12/31/2015,Active,Current,Nimia,Concepción,,5,628
+Individual,537,vot,2/15/2012,1/1/1959,12/31/2012,Active,Grace,Pat,De Angelis,,1,645
+Individual,557,vot,10/6/2010,1/1/1959,12/31/2011,Active,Expired,Carlos,Estevez,,2,666
+Individual,566,vot,10/6/2010,1/1/1959,12/31/2010,Active,Expired,Maxine,Fee,,0,675
+Individual,573,vot,10/6/2010,1/1/1959,12/31/2012,Active,Grace,Mary S.,Foster,,2,682
+Individual,591,vot,12/16/2008,7/19/2003,12/31/2012,Active,Grace,Bryan,Gmitter,,1,700
+Individual,608,vot,10/6/2010,1/1/1959,12/31/2011,Active,Expired,Cheryl,Guttman,,1,717
+Individual,615,vot,4/28/2010,6/5/2008,12/31/2011,Active,Expired,Shannon,Harrington,,1,725
+Individual,621,vot,10/6/2010,12/12/2007,12/31/2009,Active,Expired,Luke,Henry,,0,731
+Individual,652,vot,10/6/2010,1/1/1959,12/31/2011,Active,Expired,Joseph,Kalavsky,,1,763
+Individual,671,vot,10/6/2010,1/1/1959,12/31/2011,Active,Expired,Michele,Kotler,,1,782
+Individual,781,vot,9/12/2010,9/12/2010,12/31/2011,Active,Expired,Gina,Peña-Campodonico,,1,895
+Individual,918,vot,2/15/2012,1/1/1979,12/31/2012,Active,Grace,Maria,Torres-Bird,,1,1032
+Individual,942,vot,8/28/2009,8/28/2009,12/31/2014,Active,Current,Lorin,Wertheimer,,5,1056
+Individual,965,vot,3/9/2010,1/1/1959,12/31/2015,Active,Current,Sandra,Zapata,,5,1080
+Individual,555,vot#11,10/1/2010,1/1/1959,12/31/2020,Active,Current,Fausto,Espinal,MHA,10,664
+Individual,370,vot#12,7/28/2011,1/1/1981,12/31/2012,Inactive,Grace,Lucille,Lozada,,-5,118
+Individual,679,vot#12,10/6/2010,1/1/1959,12/31/2010,Active,Expired,Rose,Lambiasi,,1,790
+Individual,612,vot#13,1/27/2010,1/1/1960,12/31/2012,Active,Grace,Josie,Hamila,,2,722
+Individual,406,vot#15,2/15/2012,5/29/1984,12/31/2012,Active,Grace,Amir,Bey,,2,298
+Individual,594,"vot#16, upd092210",10/6/2010,1/1/1959,12/31/2010,Active,Expired,Deborah,Gonzalez,,1,703
+Individual,394,vot#17,2/17/2012,1/1/1959,12/31/2012,Active,Grace,Cheryl,Freeman,,2,226
+Individual,751,vot#18,1/1/1959,1/1/1959,12/31/1959,Active,Inactive,Lynn,"Nachamie, M.D.",,0,864
+Individual,867,vot#19,10/6/2010,1/1/1959,12/31/2011,Active,Expired,Joel,Selonick,,1,981
+Individual,931,vot#20,10/6/2010,1/1/2005,12/31/2011,Active,Expired,Philip,Van Aver,,5,1045
+Individual,674,vot#22,10/6/2010,1/1/1959,12/31/2015,Active,Current,Gina,Kreutz,,5,785
+Individual,592,vot#23,3/24/2003,3/1/1966,12/31/2053,Active,Current,Frances,Goldin,,50,701
+Individual,364,vot#24,12/14/2011,11/7/1979,12/31/2012,Active,Grace,Shirley,Campbell,,1,72
+Individual,431,"vot#26, upd092210",4/30/2012,1/1/1959,12/31/2012,Active,Grace,Cynthia,Mount,,1,454
+Individual,869,vot#27,10/6/2010,1/1/1959,12/31/2011,Active,Expired,Margaret,Shaw,,1,983
+Individual,790,vot#28,10/6/2010,1/1/1959,12/31/2010,Active,Expired,Rosa,Polanco,,1,904
+Individual,953,vot#29,8/31/2010,8/31/2010,12/31/2012,Active,Grace,Wai Ling,Wong,,1,1068
+Individual,516,vot#30,10/6/2010,1/1/1959,12/31/2011,Active,Expired,Esperanza & Mario,Cipriani,,1,623
+Individual,689,vot#31,2/15/2012,1/1/1959,12/31/2012,Active,Grace,Alysha,Lewis,,1,800
+Individual,384,vot#32,1/27/2010,1/27/2010,12/31/2012,Active,Grace,Pierre,Carrilero,,2,158
+Individual,808,vot#33,10/6/2010,1/1/1959,12/31/2010,Active,Expired,Martin,Reverby,,1,922
+Individual,938,vot#34,8/17/1999,9/9/1981,12/31/2049,Active,Current,Robert,Watlington,,50,1052
+Individual,617,vot#35,10/6/2010,1/1/1959,12/31/2011,Active,Expired,Sally,Heckel,,1,727
+Individual,952,vot#36,10/6/2010,1/1/1971,12/31/2021,Active,Current,Katherine,Wolpe,,50,1067
+Individual,795,vot#37,11/13/2008,1/1/1959,12/31/2018,Active,Current,David,Pultz,,10,909
+Supporter,770,"vot#38, OOA? - Stuy Town!",9/22/2010,10/14/2009,12/31/2011,Active,Expired,Una,Osato,,1,884
+Individual,729,vot#39,10/6/2010,1/1/1959,12/31/2011,Active,Expired,Stasia,Micula,,1,840
+Individual,738,vot#40,10/17/2007,1/1/1959,12/31/2011,Active,Expired,Armando,Monterrosa,,4,851
+Individual,896,vot#41,10/6/2010,1/1/1981,12/31/2012,Active,Grace,Anne,Stanner,,2,1010
+Individual,768,"vot#42, upd120710",12/14/2011,10/20/1982,12/31/2013,Active,Current,Valerio,Orselli,Cooper Square Mutual Housing Association,2,881
+Individual,582,vot#43,1/5/2012,12/16/1988,12/31/2014,Active,Current,Jasmine,Garcia,,3,691
+Supporter,604,"vot#44, sup",10/6/2010,1/1/1959,12/31/2011,Active,Expired,Tamara,Greenfield,Fourth Arts Block,5,713
+Individual,747,"vot#45, upd102910",10/6/2010,1/1/1959,12/31/2015,Active,Current,Anne,Moy,,5,860
+Individual,934,vot#46,10/6/2010,1/1/1959,12/31/2010,Active,Expired,Romulo,Velastegui,,1,1048
+Individual,722,vot#47,10/6/2010,1/1/1959,12/31/2011,Active,Expired,David,McReynolds,,1,833
+Individual,806,vot#48,4/28/2010,4/6/1972,12/31/2011,Active,Expired,Joyce,Ravitz,,5,920
+Individual,465,vot#49,12/15/2011,10/22/2009,12/31/2012,Active,Grace,Fran,Baskin,,1,569
+Individual,372,vot#50?,10/6/2010,1/1/1959,12/31/2011,Active,Expired,Maria,Rodriguez,,1,121
+Individual,514,vot#51,10/6/2010,1/1/1959,12/31/2015,Active,Current,Georgina,Christ,,5,620
+Individual,408,vot#53,10/6/2010,1/1/1959,12/31/2011,Active,Expired,Oswald,Rodriguez,,1,303
+Individual,551,"vot#53, CU",4/27/2011,1/1/1986,12/31/2012,Active,Grace,Janice,Ellsworth,,2,660
+Individual,458,vot#55,3/12/2012,1/1/1959,12/31/2030,Active,Current,Scott,Bagnato,,20,562
+Individual,649,vot#56-57,2/15/2012,1/1/1959,12/31/2013,Active,Current,Anne,Johnson,,2,760
+Individual,389,vot#59,4/28/2010,6/27/1980,12/31/2013,Active,Current,Sharon,Goldstein,,5,199
+Individual,385,vot#60,12/14/2011,1/1/1959,12/31/2013,Active,Current,Belgica,Cipriani,,2,163
+Individual,911,vot#61,10/17/2007,1/1/1959,12/31/2047,Active,Current,Hugh & Nancy,Thomas,,40,1025
+Individual,377,vot#63,10/6/2010,1/1/1959,12/31/2010,Active,Expired,Daniel,Rodriguez,,2,138
+Individual,504,vot#63,10/6/2010,1/1/1959,12/31/2011,Active,Expired,Nannette,Cay,,5,610
+Business,821,vot#64,10/6/2010,1/1/1959,12/31/2011,Active,Expired,,Rod Rodgers Dance Co.,,10,935
+Individual,429,"vot#65, upd100610",1/27/2010,1/1/1990,12/31/2012,Active,Grace,Jessica,Hamila,,2,450
+Individual,414,"vot#67, spouse of Galo Montenegro, but mail ret!",10/6/2010,1/1/1959,12/31/2012,Active,Grace,Martha,Araujo,,3,325
+Individual,441,vot#68,10/6/2010,1/1/1959,12/31/2011,Active,Expired,Teresa,Abreu,,1,545
+Individual,403,vot#69,10/6/2010,1/1/1959,12/31/2011,Active,Expired,Yip,Ly,,1,273
+Individual,425,vot#70,12/14/2011,1/1/1959,12/31/2012,Active,Grace,Carmen,Gonzalez,,1,424
+Individual,427,vot#71,2/15/2012,1/1/1959,12/31/2012,Active,Grace,Roanna,Judelson,,1,445
+Individual,379,vot#72,2/15/2012,1/1/1959,12/31/2013,Active,Current,Nicolas,Nova,,2,140
+Individual,791,"vot#73, upd092210-ann,call nehama",12/7/2009,1/1/1978,12/31/2019,Active,Current,Ann,Pollon,,10,905
+Individual,532,vot#74,10/6/2010,1/1/1959,12/31/2011,Active,Expired,Pamela,Creswell,,1,639
+Supporter,727,"vot#8,OOA!",9/22/2010,9/22/2010,12/31/2011,Active,Expired,,,,1,838
+Individual,602,vot#9,6/9/2008,1/1/1959,12/31/2014,Active,Current,Joseph,Gosler,,6,711
+Individual,650,vot#thisisforCharles57,1/1/1959,1/1/1959,12/31/1959,Active,Inactive,David,Johnson,,0,761
+Individual,822,"vot, individual",10/6/2010,1/1/1959,12/31/2010,Active,Expired,Jason,Rodgers,,0,936
+Individual,407,"vot, Re?",10/6/2010,10/6/2010,12/31/2011,Active,Expired,Ana,Hernandez,,1,299
+Individual,360,"vot, Resurrected",10/6/2010,1/1/1980,12/31/2011,Active,Expired,Lois,Weaver,,1,55
+Individual,678,"vot, Upd042810",7/28/1997,4/1/1967,12/31/2017,Active,Current,Michael,Ladin,,20,789
+Individual,668,"vot, Upd042810-?",10/4/2010,1/1/1983,12/31/2085,Active,Current,Thomas,Kopache,,75,779
+Individual,395,"vot, upd092210",9/22/2010,1/1/1959,12/31/2015,Active,Current,Sherry,Rosso,,5,228
+Individual,850,voted; died,10/6/2010,1/1/1959,12/31/2012,Inactive,Deceased,Theresa,sandberry,,5,964
+Individual,1294,young,2/15/2012,2/15/2012,12/31/2012,Active,Grace,,,,0,1513
+Individual,888,z,1/1/1959,1/1/1959,12/31/1959,Active,Inactive,Jose,Soltero,,0,1002

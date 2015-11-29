@@ -1,0 +1,945 @@
+Mar 02 17:24:14  [info] $Fatal Error Details = Array
+(
+    [message] => Could not find valid value for id
+    [code] => 
+)
+
+
+Mar 02 17:24:14  [info] $backTrace = #0 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Error.php(320): CRM_Core_Error::backtrace("backTrace", TRUE)
+#1 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Utils/Request.php(106): CRM_Core_Error::fatal("Could not find valid value for id")
+#2 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Event/StateMachine/Registration.php(52): CRM_Utils_Request::retrieve("id", "Positive", Object(CRM_Event_Controller_Registration), TRUE)
+#3 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Event/Controller/Registration.php(43): CRM_Event_StateMachine_Registration->__construct(Object(CRM_Event_Controller_Registration), TRUE)
+#4 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(318): CRM_Event_Controller_Registration->__construct("Event Registration", TRUE, "null", NULL, "false")
+#5 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(72): CRM_Core_Invoke::runItem((Array:15))
+#6 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(52): CRM_Core_Invoke::_invoke((Array:3))
+#7 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm.php(463): CRM_Core_Invoke::invoke((Array:3))
+#8 [internal function](): CiviCRM_For_WordPress->invoke("")
+#9 /var/www/vhosts/coopersquare.org/httpdocs/wp-includes/plugin.php(429): call_user_func_array((Array:2), (Array:1))
+#10 /var/www/vhosts/coopersquare.org/httpdocs/wp-settings.php(347): do_action("init")
+#11 /var/www/vhosts/coopersquare.org/httpdocs/wp-config.php(90): require_once("/var/www/vhosts/coopersquare.org/httpdocs/wp-settings.php")
+#12 /var/www/vhosts/coopersquare.org/httpdocs/wp-load.php(29): require_once("/var/www/vhosts/coopersquare.org/httpdocs/wp-config.php")
+#13 /var/www/vhosts/coopersquare.org/httpdocs/wp-blog-header.php(12): require_once("/var/www/vhosts/coopersquare.org/httpdocs/wp-load.php")
+#14 /var/www/vhosts/coopersquare.org/httpdocs/index.php(17): require("/var/www/vhosts/coopersquare.org/httpdocs/wp-blog-header.php")
+#15 {main}
+
+
+Mar 08 14:03:19  [info] $Fatal Error Details = Array
+(
+    [message] => Could not find valid value for id
+    [code] => 
+)
+
+
+Mar 08 14:03:19  [info] $backTrace = #0 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Error.php(320): CRM_Core_Error::backtrace("backTrace", TRUE)
+#1 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Utils/Request.php(106): CRM_Core_Error::fatal("Could not find valid value for id")
+#2 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Event/StateMachine/Registration.php(52): CRM_Utils_Request::retrieve("id", "Positive", Object(CRM_Event_Controller_Registration), TRUE)
+#3 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Event/Controller/Registration.php(43): CRM_Event_StateMachine_Registration->__construct(Object(CRM_Event_Controller_Registration), TRUE)
+#4 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(318): CRM_Event_Controller_Registration->__construct("Event Registration", TRUE, "null", NULL, "false")
+#5 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(72): CRM_Core_Invoke::runItem((Array:15))
+#6 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(52): CRM_Core_Invoke::_invoke((Array:3))
+#7 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm.php(463): CRM_Core_Invoke::invoke((Array:3))
+#8 [internal function](): CiviCRM_For_WordPress->invoke("")
+#9 /var/www/vhosts/coopersquare.org/httpdocs/wp-includes/plugin.php(429): call_user_func_array((Array:2), (Array:1))
+#10 /var/www/vhosts/coopersquare.org/httpdocs/wp-settings.php(347): do_action("init")
+#11 /var/www/vhosts/coopersquare.org/httpdocs/wp-config.php(90): require_once("/var/www/vhosts/coopersquare.org/httpdocs/wp-settings.php")
+#12 /var/www/vhosts/coopersquare.org/httpdocs/wp-load.php(29): require_once("/var/www/vhosts/coopersquare.org/httpdocs/wp-config.php")
+#13 /var/www/vhosts/coopersquare.org/httpdocs/wp-blog-header.php(12): require_once("/var/www/vhosts/coopersquare.org/httpdocs/wp-load.php")
+#14 /var/www/vhosts/coopersquare.org/httpdocs/index.php(17): require("/var/www/vhosts/coopersquare.org/httpdocs/wp-blog-header.php")
+#15 {main}
+
+
+Mar 12 11:38:34  [info] $Fatal Error Details = Array
+(
+    [message] => Could not find valid value for ct
+    [code] => 
+)
+
+
+Mar 12 11:38:34  [info] $backTrace = #0 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Error.php(320): CRM_Core_Error::backtrace("backTrace", TRUE)
+#1 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Utils/Request.php(106): CRM_Core_Error::fatal("Could not find valid value for ct")
+#2 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Contact/Form/Contact.php(153): CRM_Utils_Request::retrieve("ct", "String", Object(CRM_Contact_Form_Contact), TRUE, NULL, "REQUEST")
+#3 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Form.php(351): CRM_Contact_Form_Contact->preProcess()
+#4 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/QuickForm/Action/Upload.php(121): CRM_Core_Form->buildForm()
+#5 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/HTML/QuickForm/Controller.php(203): CRM_Core_QuickForm_Action_Upload->perform(Object(CRM_Contact_Form_Contact), "upload")
+#6 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/HTML/QuickForm/Page.php(103): HTML_QuickForm_Controller->handle(Object(CRM_Contact_Form_Contact), "upload")
+#7 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Controller.php(345): HTML_QuickForm_Page->handle("upload")
+#8 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Utils/Wrapper.php(117): CRM_Core_Controller->run()
+#9 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(297): CRM_Utils_Wrapper->run("CRM_Contact_Form_Contact", "New Contact", (Array:1))
+#10 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(72): CRM_Core_Invoke::runItem((Array:13))
+#11 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(52): CRM_Core_Invoke::_invoke((Array:3))
+#12 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm.php(463): CRM_Core_Invoke::invoke((Array:3))
+#13 [internal function](): CiviCRM_For_WordPress->invoke("")
+#14 /var/www/vhosts/coopersquare.org/httpdocs/wp-includes/plugin.php(429): call_user_func_array((Array:2), (Array:1))
+#15 /var/www/vhosts/coopersquare.org/httpdocs/wp-admin/admin.php(217): do_action("toplevel_page_CiviCRM")
+#16 {main}
+
+
+Mar 20 02:32:25  [info] $IDS Detector Details = Array
+(
+    [0] => Array
+        (
+            [name] => note
+            [value] => Very Good Site <a href=" http://www.chocolatepoker.rs/informacije/najbolji-poker-softver/ ">order arcoxia</a>  will be sent by the provider using paper or electronic batch.
+ <a href=" http://www.chocolatepoker.com/online-poker-bonuses/ ">75 mg topamax weight loss</a>  Y ou will be required to sign a waiver
+ <a href=" http://www.tribeoftwopress.com/availablebooks.html ">where to buy retin-a gel in canada</a>  collaborative activities, including activities related to HIV/AIDS, bilateral student and
+ 
+            [page] => /civi?page=CiviCRM&q=civicrm/contribute/transact
+            [userid] => 
+            [session] => 45tmkv09io8q1ngissn38rsjv5
+            [ip] => 192.96.211.104
+            [reaction] => 0
+            [impact] => 25
+        )
+
+)
+
+
+Mar 20 02:32:28  [info] $IDS Detector Details = Array
+(
+    [0] => Array
+        (
+            [name] => note
+            [value] => Very Good Site <a href=" http://www.chocolatepoker.rs/informacije/najbolji-poker-softver/ ">order arcoxia</a>  will be sent by the provider using paper or electronic batch.
+ <a href=" http://www.chocolatepoker.com/online-poker-bonuses/ ">75 mg topamax weight loss</a>  Y ou will be required to sign a waiver
+ <a href=" http://www.tribeoftwopress.com/availablebooks.html ">where to buy retin-a gel in canada</a>  collaborative activities, including activities related to HIV/AIDS, bilateral student and
+            [page] => /civi?page=CiviCRM&q=civicrm/contribute/transact
+            [userid] => 
+            [session] => 45tmkv09io8q1ngissn38rsjv5
+            [ip] => 192.96.211.104
+            [reaction] => 0
+            [impact] => 25
+        )
+
+)
+
+
+Mar 20 02:32:31  [info] $IDS Detector Details = Array
+(
+    [0] => Array
+        (
+            [name] => note
+            [value] => How would you like the money? <a href=" http://www.chocolatepoker.rs/informacije/najbolji-poker-softver/ ">buy cheap arcoxia</a>  77 Discontinued Product/Service ID Number
+ <a href=" http://pizzagalleryandgrill.com/instagram/ ">do you need a prescription to buy acyclovir</a>  If submitting an adjustment or a void, enter the appropriate Transaction Control
+ <a href=" http://www.huntercommunications.com/privacy-policy ">retin a for wrinkles 2012</a>  The respective images from two different sourcesFront operation panel
+ <a href=" http://www.blackberry-france.com/a-propos/ ">zithromax cost australia</a>  sliding scale clinics, etc.
+ 
+            [page] => /civi?page=CiviCRM&q=civicrm/contribute/transact
+            [userid] => 
+            [session] => 45tmkv09io8q1ngissn38rsjv5
+            [ip] => 192.96.211.104
+            [reaction] => 0
+            [impact] => 28
+        )
+
+)
+
+
+Mar 20 02:32:35  [info] $IDS Detector Details = Array
+(
+    [0] => Array
+        (
+            [name] => note
+            [value] => How would you like the money? <a href=" http://www.chocolatepoker.rs/informacije/najbolji-poker-softver/ ">buy cheap arcoxia</a>  77 Discontinued Product/Service ID Number
+ <a href=" http://pizzagalleryandgrill.com/instagram/ ">do you need a prescription to buy acyclovir</a>  If submitting an adjustment or a void, enter the appropriate Transaction Control
+ <a href=" http://www.huntercommunications.com/privacy-policy ">retin a for wrinkles 2012</a>  The respective images from two different sourcesFront operation panel
+ <a href=" http://www.blackberry-france.com/a-propos/ ">zithromax cost australia</a>  sliding scale clinics, etc.
+            [page] => /civi?page=CiviCRM&q=civicrm/contribute/transact
+            [userid] => 
+            [session] => 45tmkv09io8q1ngissn38rsjv5
+            [ip] => 192.96.211.104
+            [reaction] => 0
+            [impact] => 28
+        )
+
+)
+
+
+Mar 20 05:38:31  [info] $IDS Detector Details = Array
+(
+    [0] => Array
+        (
+            [name] => note
+            [value] => I need to charge up my phone <a href=" http://www.all-tech-mechanical.com/cooling-services/ ">where did you buy clomid online</a>  04 = Lost Prescription - in
+ <a href=" http://www.eastwest.nu/geldleihen-9672/ ">much does effexor cost without insurance</a>  5p-8p Monday ± Friday 966-6561
+ <a href=" http://www.cleansingwithfood.com/store/ ">methotrexate injections</a>  Links to statewide and national pharmacy organizations and agencies
+ 
+            [page] => /civi?page=CiviCRM&q=civicrm/contribute/transact
+            [userid] => 
+            [session] => gkg6k919pcioacn704t03jigh2
+            [ip] => 192.96.211.104
+            [reaction] => 0
+            [impact] => 26
+        )
+
+)
+
+
+Mar 20 05:38:34  [info] $IDS Detector Details = Array
+(
+    [0] => Array
+        (
+            [name] => note
+            [value] => I need to charge up my phone <a href=" http://www.all-tech-mechanical.com/cooling-services/ ">where did you buy clomid online</a>  04 = Lost Prescription - in
+ <a href=" http://www.eastwest.nu/geldleihen-9672/ ">much does effexor cost without insurance</a>  5p-8p Monday Â± Friday 966-6561
+ <a href=" http://www.cleansingwithfood.com/store/ ">methotrexate injections</a>  Links to statewide and national pharmacy organizations and agencies
+            [page] => /civi?page=CiviCRM&q=civicrm/contribute/transact
+            [userid] => 
+            [session] => gkg6k919pcioacn704t03jigh2
+            [ip] => 192.96.211.104
+            [reaction] => 0
+            [impact] => 26
+        )
+
+)
+
+
+Mar 26 13:47:22  [info] $IDS Detector Details = Array
+(
+    [0] => Array
+        (
+            [name] => note
+            [value] => Could you ask him to call me? <a href=" http://www.spid.it/gestione-rischio-clinico/ ">phenergan 12.5 mg iv</a>  5. Durable Medical Equipment (DME) claims. DME includes any claim identified by
+ <a href=" http://angelicakitchen.com/periactin/ ">buy periactin uk</a>  promote population-based health maintenance and disease sign-off
+ <a href=" http://angelicakitchen.com/maxalt/ ">maxalt cost</a>  or other terms of affiliation between the School and the agency. Unauthorized release of confidential
+ <a href=" http://falseprofitthemovie.com/blog/kickstarter-tipping-poin/ ">fda olmesartan</a>  activities Occasionally tardy to through on all skills. Follows
+ 
+            [page] => /civi?page=CiviCRM&q=civicrm/contribute/transact
+            [userid] => 
+            [session] => a0blcnsrlai9f8t0icgvb8u3p2
+            [ip] => 192.96.211.104
+            [reaction] => 0
+            [impact] => 29
+        )
+
+)
+
+
+Mar 26 13:47:24  [info] $IDS Detector Details = Array
+(
+    [0] => Array
+        (
+            [name] => note
+            [value] => Could you ask him to call me? <a href=" http://www.spid.it/gestione-rischio-clinico/ ">phenergan 12.5 mg iv</a>  5. Durable Medical Equipment (DME) claims. DME includes any claim identified by
+ <a href=" http://angelicakitchen.com/periactin/ ">buy periactin uk</a>  promote population-based health maintenance and disease sign-off
+ <a href=" http://angelicakitchen.com/maxalt/ ">maxalt cost</a>  or other terms of affiliation between the School and the agency. Unauthorized release of confidential
+ <a href=" http://falseprofitthemovie.com/blog/kickstarter-tipping-poin/ ">fda olmesartan</a>  activities Occasionally tardy to through on all skills. Follows
+            [page] => /civi?page=CiviCRM&q=civicrm/contribute/transact
+            [userid] => 
+            [session] => a0blcnsrlai9f8t0icgvb8u3p2
+            [ip] => 192.96.211.104
+            [reaction] => 0
+            [impact] => 29
+        )
+
+)
+
+
+Mar 27 06:55:12  [info] $IDS Detector Details = Array
+(
+    [0] => Array
+        (
+            [name] => note
+            [value] => Can you put it on the scales, please? <a href=" http://www.titanroofingandcontracting.com/about-us/ ">generic for robaxin</a>  1. Food security is an integral component of comprehensive HIV care.
+ <a href=" http://www.redplanetmusic.ch/accueil/ ">diflucan 250 mg</a>  For ambient, refrigerated or frozen drug supplies specify the storage conditions and the shelf life of the unopened product1.
+ <a href=" http://www.sectoris.com/sectoris.html ">motilium price</a>  Office of Experiential Training.
+ 
+            [page] => /civi?page=CiviCRM&q=civicrm/contribute/transact
+            [userid] => 
+            [session] => 9br37km8so52u0q3d68ulo3kt1
+            [ip] => 192.96.211.104
+            [reaction] => 0
+            [impact] => 28
+        )
+
+)
+
+
+Mar 27 06:55:16  [info] $IDS Detector Details = Array
+(
+    [0] => Array
+        (
+            [name] => note
+            [value] => Can you put it on the scales, please? <a href=" http://www.titanroofingandcontracting.com/about-us/ ">generic for robaxin</a>  1. Food security is an integral component of comprehensive HIV care.
+ <a href=" http://www.redplanetmusic.ch/accueil/ ">diflucan 250 mg</a>  For ambient, refrigerated or frozen drug supplies specify the storage conditions and the shelf life of the unopened product1.
+ <a href=" http://www.sectoris.com/sectoris.html ">motilium price</a>  Office of Experiential Training.
+            [page] => /civi?page=CiviCRM&q=civicrm/contribute/transact
+            [userid] => 
+            [session] => 9br37km8so52u0q3d68ulo3kt1
+            [ip] => 192.96.211.104
+            [reaction] => 0
+            [impact] => 28
+        )
+
+)
+
+
+Mar 27 06:55:19  [info] $IDS Detector Details = Array
+(
+    [0] => Array
+        (
+            [name] => note
+            [value] => What do you want to do when you've finished? <a href=" http://www.commissioningtogether.org.uk/useful-links/ ">price of ventolin</a>  2 = Compounded external lotion 7 = Compounded eye/ear drop
+ <a href=" http://www.jselabs.com/aboutpb.php ">trazodone buy</a>  dosage form, route and rate of administration, drug incompatibilities, and drug delivery
+ <a href=" http://udidregistrations.com/terms ">60 mg paxil day</a>  Any deductibles, co-insurances, and other plan limits applied to the claim.
+ 
+            [page] => /civi?page=CiviCRM&q=civicrm/contribute/transact
+            [userid] => 
+            [session] => 9br37km8so52u0q3d68ulo3kt1
+            [ip] => 192.96.211.104
+            [reaction] => 0
+            [impact] => 30
+        )
+
+)
+
+
+Mar 27 06:55:23  [info] $IDS Detector Details = Array
+(
+    [0] => Array
+        (
+            [name] => note
+            [value] => What do you want to do when you've finished? <a href=" http://www.commissioningtogether.org.uk/useful-links/ ">price of ventolin</a>  2 = Compounded external lotion 7 = Compounded eye/ear drop
+ <a href=" http://www.jselabs.com/aboutpb.php ">trazodone buy</a>  dosage form, route and rate of administration, drug incompatibilities, and drug delivery
+ <a href=" http://udidregistrations.com/terms ">60 mg paxil day</a>  Any deductibles, co-insurances, and other plan limits applied to the claim.
+            [page] => /civi?page=CiviCRM&q=civicrm/contribute/transact
+            [userid] => 
+            [session] => 9br37km8so52u0q3d68ulo3kt1
+            [ip] => 192.96.211.104
+            [reaction] => 0
+            [impact] => 30
+        )
+
+)
+
+
+Mar 29 07:07:44  [info] $Fatal Error Details = Array
+(
+    [message] => You do not have permission to access this page
+    [code] => 
+)
+
+
+Mar 29 07:07:44  [info] $backTrace = #0 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Error.php(320): CRM_Core_Error::backtrace("backTrace", TRUE)
+#1 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Utils/System/WordPress.php(398): CRM_Core_Error::fatal("You do not have permission to access this page")
+#2 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Utils/System.php(232): CRM_Utils_System_WordPress->permissionDenied()
+#3 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(244): CRM_Utils_System::permissionDenied()
+#4 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(72): CRM_Core_Invoke::runItem((Array:13))
+#5 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(52): CRM_Core_Invoke::_invoke((Array:2))
+#6 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm.php(463): CRM_Core_Invoke::invoke((Array:2))
+#7 [internal function](): CiviCRM_For_WordPress->invoke("")
+#8 /var/www/vhosts/coopersquare.org/httpdocs/wp-includes/plugin.php(199): call_user_func_array((Array:2), (Array:1))
+#9 /var/www/vhosts/coopersquare.org/httpdocs/wp-includes/post-template.php(166): apply_filters("the_content", "")
+#10 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/themes/csq_twentytwelve/content-page.php(21): the_content()
+#11 /var/www/vhosts/coopersquare.org/httpdocs/wp-includes/template.php(443): require("/var/www/vhosts/coopersquare.org/httpdocs/wp-content/themes/csq_twentytwelve/...")
+#12 /var/www/vhosts/coopersquare.org/httpdocs/wp-includes/template.php(417): load_template("/var/www/vhosts/coopersquare.org/httpdocs/wp-content/themes/csq_twentytwelve/...", FALSE)
+#13 /var/www/vhosts/coopersquare.org/httpdocs/wp-includes/general-template.php(132): locate_template((Array:2), TRUE, FALSE)
+#14 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/themes/csq_twentytwelve/page-templates/full-width.php(23): get_template_part("content", "page")
+#15 /var/www/vhosts/coopersquare.org/httpdocs/wp-includes/template-loader.php(74): include("/var/www/vhosts/coopersquare.org/httpdocs/wp-content/themes/csq_twentytwelve/...")
+#16 /var/www/vhosts/coopersquare.org/httpdocs/wp-blog-header.php(16): require_once("/var/www/vhosts/coopersquare.org/httpdocs/wp-includes/template-loader.php")
+#17 /var/www/vhosts/coopersquare.org/httpdocs/index.php(17): require("/var/www/vhosts/coopersquare.org/httpdocs/wp-blog-header.php")
+#18 {main}
+
+
+Mar 29 16:01:11  [info] $Fatal Error Details = Array
+(
+    [callback] => Array
+        (
+            [0] => CRM_Core_Error
+            [1] => handle
+        )
+
+    [code] => -19
+    [message] => DB Error: no such field
+    [mode] => 16
+    [debug_info] => SELECT SQL_CALC_FOUND_ROWS contact_civireport.sort_name as civicrm_contact_contact_target, activity_civireport.id as civicrm_activity_id, activity_civireport.source_record_id as civicrm_activity_source_record_id, activity_civireport.activity_type_id as civicrm_activity_activity_type_id, activity_civireport.subject as civicrm_activity_activity_subject, activity_civireport.activity_date_time as civicrm_activity_activity_date_time, activity_assignment_civireport.contact_id as civicrm_activity_assignment_contact_id, activity_target_civireport.contact_id as civicrm_activity_target_contact_id, activity_source_civireport.contact_id as civicrm_activity_source_contact_id, case_activity_civireport.case_id as civicrm_case_activity_case_id, value_circase_3_civireport.issue_area_s__75 as civicrm_value_circase_3_custom_75, value_circase_3_civireport.outcome_classification_73 as civicrm_value_circase_3_custom_73, value_circase_3_civireport.any_of_the_below_outcomes_achiev_41 as civicrm_value_circase_3_custom_41, value_circase_3_civireport.date_of_outcome_42 as civicrm_value_circase_3_custom_42, value_circase_3_civireport.does_this_client_s_issue_stay_th_74 as civicrm_value_circase_3_custom_74, value_circase_3_civireport.ia_reason_for_coming_to_csc_44 as civicrm_value_circase_3_custom_44, value_circase_3_civireport.ia_background_information_45 as civicrm_value_circase_3_custom_45, value_circase_3_civireport.ia_strengths_46 as civicrm_value_circase_3_custom_46, value_circase_3_civireport.ia_needs_47 as civicrm_value_circase_3_custom_47, value_circase_3_civireport.short_term_goals_48 as civicrm_value_circase_3_custom_48, value_circase_3_civireport.short_term_goal_timeline_49 as civicrm_value_circase_3_custom_49, value_circase_3_civireport.long_term_goals_50 as civicrm_value_circase_3_custom_50, value_circase_3_civireport.long_term_goal_timeline_51 as civicrm_value_circase_3_custom_51, value_circase_3_civireport.isp_what_will_you_do__52 as civicrm_value_circase_3_custom_52, value_circase_3_civireport.isp_what_will_the_client_do__53 as civicrm_value_circase_3_custom_53  
+        FROM civicrm_activity activity_civireport
+
+             LEFT JOIN civicrm_activity_contact  activity_target_civireport
+                    ON activity_civireport.id = activity_target_civireport.activity_id AND
+                       activity_target_civireport.record_type_id = 3
+             LEFT JOIN civicrm_activity_contact activity_assignment_civireport
+                    ON activity_civireport.id = activity_assignment_civireport.activity_id AND
+                       activity_assignment_civireport.record_type_id = 1
+             LEFT JOIN civicrm_activity_contact activity_source_civireport
+                    ON activity_civireport.id = activity_source_civireport.activity_id AND
+                       activity_source_civireport.record_type_id = 2
+             LEFT JOIN civicrm_contact contact_civireport
+                    ON activity_target_civireport.contact_id = contact_civireport.id
+             LEFT JOIN civicrm_contact civicrm_contact_assignee
+                    ON activity_assignment_civireport.contact_id = civicrm_contact_assignee.id
+             LEFT JOIN civicrm_contact civicrm_contact_source
+                    ON activity_source_civireport.contact_id = civicrm_contact_source.id
+             
+             LEFT JOIN civicrm_option_value
+                    ON ( activity_civireport.activity_type_id = civicrm_option_value.value )
+             LEFT JOIN civicrm_option_group
+                    ON civicrm_option_group.id = civicrm_option_value.option_group_id
+             LEFT JOIN civicrm_case_activity case_activity_civireport
+                    ON case_activity_civireport.activity_id = activity_civireport.id
+             LEFT JOIN civicrm_case
+                    ON case_activity_civireport.case_id = civicrm_case.id
+             LEFT JOIN civicrm_case_contact
+                    ON civicrm_case_contact.case_id = civicrm_case.id 
+LEFT JOIN civicrm_value_circase_3 value_circase_3_civireport ON value_circase_3_civireport.entity_id = activity_civireport.id  WHERE civicrm_option_group.name = 'activity_type' AND
+                                activity_civireport.is_test = 0 AND
+                                activity_civireport.is_deleted = 0 AND
+                                activity_civireport.is_current_revision = 1 AND ( activity_date_time >= 20140101000000 ) AND ( activity_date_time <= 20140331235959 ) AND  contact_civireport.id IN (
+                          SELECT DISTINCT cgroup_civireport.contact_id
+                          FROM civicrm_group_contact cgroup_civireport
+                          WHERE cgroup_civireport.group_id IN (32) AND cgroup_civireport.status = 'Added'
+                           UNION DISTINCT
+                  SELECT DISTINCT smartgroup_contact.contact_id
+                  FROM civicrm_group_contact_cache smartgroup_contact
+                  WHERE smartgroup_contact.group_id IN (32)  )  GROUP BY activity_civireport.id  ORDER BY activity_civireport.source_contact_id ASC, activity_civireport.activity_date_time ASC  LIMIT 0, 50 [nativecode=1054 ** Unknown column 'activity_civireport.source_contact_id' in 'order clause']
+    [type] => DB_Error
+    [user_info] => SELECT SQL_CALC_FOUND_ROWS contact_civireport.sort_name as civicrm_contact_contact_target, activity_civireport.id as civicrm_activity_id, activity_civireport.source_record_id as civicrm_activity_source_record_id, activity_civireport.activity_type_id as civicrm_activity_activity_type_id, activity_civireport.subject as civicrm_activity_activity_subject, activity_civireport.activity_date_time as civicrm_activity_activity_date_time, activity_assignment_civireport.contact_id as civicrm_activity_assignment_contact_id, activity_target_civireport.contact_id as civicrm_activity_target_contact_id, activity_source_civireport.contact_id as civicrm_activity_source_contact_id, case_activity_civireport.case_id as civicrm_case_activity_case_id, value_circase_3_civireport.issue_area_s__75 as civicrm_value_circase_3_custom_75, value_circase_3_civireport.outcome_classification_73 as civicrm_value_circase_3_custom_73, value_circase_3_civireport.any_of_the_below_outcomes_achiev_41 as civicrm_value_circase_3_custom_41, value_circase_3_civireport.date_of_outcome_42 as civicrm_value_circase_3_custom_42, value_circase_3_civireport.does_this_client_s_issue_stay_th_74 as civicrm_value_circase_3_custom_74, value_circase_3_civireport.ia_reason_for_coming_to_csc_44 as civicrm_value_circase_3_custom_44, value_circase_3_civireport.ia_background_information_45 as civicrm_value_circase_3_custom_45, value_circase_3_civireport.ia_strengths_46 as civicrm_value_circase_3_custom_46, value_circase_3_civireport.ia_needs_47 as civicrm_value_circase_3_custom_47, value_circase_3_civireport.short_term_goals_48 as civicrm_value_circase_3_custom_48, value_circase_3_civireport.short_term_goal_timeline_49 as civicrm_value_circase_3_custom_49, value_circase_3_civireport.long_term_goals_50 as civicrm_value_circase_3_custom_50, value_circase_3_civireport.long_term_goal_timeline_51 as civicrm_value_circase_3_custom_51, value_circase_3_civireport.isp_what_will_you_do__52 as civicrm_value_circase_3_custom_52, value_circase_3_civireport.isp_what_will_the_client_do__53 as civicrm_value_circase_3_custom_53  
+        FROM civicrm_activity activity_civireport
+
+             LEFT JOIN civicrm_activity_contact  activity_target_civireport
+                    ON activity_civireport.id = activity_target_civireport.activity_id AND
+                       activity_target_civireport.record_type_id = 3
+             LEFT JOIN civicrm_activity_contact activity_assignment_civireport
+                    ON activity_civireport.id = activity_assignment_civireport.activity_id AND
+                       activity_assignment_civireport.record_type_id = 1
+             LEFT JOIN civicrm_activity_contact activity_source_civireport
+                    ON activity_civireport.id = activity_source_civireport.activity_id AND
+                       activity_source_civireport.record_type_id = 2
+             LEFT JOIN civicrm_contact contact_civireport
+                    ON activity_target_civireport.contact_id = contact_civireport.id
+             LEFT JOIN civicrm_contact civicrm_contact_assignee
+                    ON activity_assignment_civireport.contact_id = civicrm_contact_assignee.id
+             LEFT JOIN civicrm_contact civicrm_contact_source
+                    ON activity_source_civireport.contact_id = civicrm_contact_source.id
+             
+             LEFT JOIN civicrm_option_value
+                    ON ( activity_civireport.activity_type_id = civicrm_option_value.value )
+             LEFT JOIN civicrm_option_group
+                    ON civicrm_option_group.id = civicrm_option_value.option_group_id
+             LEFT JOIN civicrm_case_activity case_activity_civireport
+                    ON case_activity_civireport.activity_id = activity_civireport.id
+             LEFT JOIN civicrm_case
+                    ON case_activity_civireport.case_id = civicrm_case.id
+             LEFT JOIN civicrm_case_contact
+                    ON civicrm_case_contact.case_id = civicrm_case.id 
+LEFT JOIN civicrm_value_circase_3 value_circase_3_civireport ON value_circase_3_civireport.entity_id = activity_civireport.id  WHERE civicrm_option_group.name = 'activity_type' AND
+                                activity_civireport.is_test = 0 AND
+                                activity_civireport.is_deleted = 0 AND
+                                activity_civireport.is_current_revision = 1 AND ( activity_date_time >= 20140101000000 ) AND ( activity_date_time <= 20140331235959 ) AND  contact_civireport.id IN (
+                          SELECT DISTINCT cgroup_civireport.contact_id
+                          FROM civicrm_group_contact cgroup_civireport
+                          WHERE cgroup_civireport.group_id IN (32) AND cgroup_civireport.status = 'Added'
+                           UNION DISTINCT
+                  SELECT DISTINCT smartgroup_contact.contact_id
+                  FROM civicrm_group_contact_cache smartgroup_contact
+                  WHERE smartgroup_contact.group_id IN (32)  )  GROUP BY activity_civireport.id  ORDER BY activity_civireport.source_contact_id ASC, activity_civireport.activity_date_time ASC  LIMIT 0, 50 [nativecode=1054 ** Unknown column 'activity_civireport.source_contact_id' in 'order clause']
+    [to_string] => [db_error: message="DB Error: no such field" code=-19 mode=callback callback=CRM_Core_Error::handle prefix="" info="SELECT SQL_CALC_FOUND_ROWS contact_civireport.sort_name as civicrm_contact_contact_target, activity_civireport.id as civicrm_activity_id, activity_civireport.source_record_id as civicrm_activity_source_record_id, activity_civireport.activity_type_id as civicrm_activity_activity_type_id, activity_civireport.subject as civicrm_activity_activity_subject, activity_civireport.activity_date_time as civicrm_activity_activity_date_time, activity_assignment_civireport.contact_id as civicrm_activity_assignment_contact_id, activity_target_civireport.contact_id as civicrm_activity_target_contact_id, activity_source_civireport.contact_id as civicrm_activity_source_contact_id, case_activity_civireport.case_id as civicrm_case_activity_case_id, value_circase_3_civireport.issue_area_s__75 as civicrm_value_circase_3_custom_75, value_circase_3_civireport.outcome_classification_73 as civicrm_value_circase_3_custom_73, value_circase_3_civireport.any_of_the_below_outcomes_achiev_41 as civicrm_value_circase_3_custom_41, value_circase_3_civireport.date_of_outcome_42 as civicrm_value_circase_3_custom_42, value_circase_3_civireport.does_this_client_s_issue_stay_th_74 as civicrm_value_circase_3_custom_74, value_circase_3_civireport.ia_reason_for_coming_to_csc_44 as civicrm_value_circase_3_custom_44, value_circase_3_civireport.ia_background_information_45 as civicrm_value_circase_3_custom_45, value_circase_3_civireport.ia_strengths_46 as civicrm_value_circase_3_custom_46, value_circase_3_civireport.ia_needs_47 as civicrm_value_circase_3_custom_47, value_circase_3_civireport.short_term_goals_48 as civicrm_value_circase_3_custom_48, value_circase_3_civireport.short_term_goal_timeline_49 as civicrm_value_circase_3_custom_49, value_circase_3_civireport.long_term_goals_50 as civicrm_value_circase_3_custom_50, value_circase_3_civireport.long_term_goal_timeline_51 as civicrm_value_circase_3_custom_51, value_circase_3_civireport.isp_what_will_you_do__52 as civicrm_value_circase_3_custom_52, value_circase_3_civireport.isp_what_will_the_client_do__53 as civicrm_value_circase_3_custom_53  
+        FROM civicrm_activity activity_civireport
+
+             LEFT JOIN civicrm_activity_contact  activity_target_civireport
+                    ON activity_civireport.id = activity_target_civireport.activity_id AND
+                       activity_target_civireport.record_type_id = 3
+             LEFT JOIN civicrm_activity_contact activity_assignment_civireport
+                    ON activity_civireport.id = activity_assignment_civireport.activity_id AND
+                       activity_assignment_civireport.record_type_id = 1
+             LEFT JOIN civicrm_activity_contact activity_source_civireport
+                    ON activity_civireport.id = activity_source_civireport.activity_id AND
+                       activity_source_civireport.record_type_id = 2
+             LEFT JOIN civicrm_contact contact_civireport
+                    ON activity_target_civireport.contact_id = contact_civireport.id
+             LEFT JOIN civicrm_contact civicrm_contact_assignee
+                    ON activity_assignment_civireport.contact_id = civicrm_contact_assignee.id
+             LEFT JOIN civicrm_contact civicrm_contact_source
+                    ON activity_source_civireport.contact_id = civicrm_contact_source.id
+             
+             LEFT JOIN civicrm_option_value
+                    ON ( activity_civireport.activity_type_id = civicrm_option_value.value )
+             LEFT JOIN civicrm_option_group
+                    ON civicrm_option_group.id = civicrm_option_value.option_group_id
+             LEFT JOIN civicrm_case_activity case_activity_civireport
+                    ON case_activity_civireport.activity_id = activity_civireport.id
+             LEFT JOIN civicrm_case
+                    ON case_activity_civireport.case_id = civicrm_case.id
+             LEFT JOIN civicrm_case_contact
+                    ON civicrm_case_contact.case_id = civicrm_case.id 
+LEFT JOIN civicrm_value_circase_3 value_circase_3_civireport ON value_circase_3_civireport.entity_id = activity_civireport.id  WHERE civicrm_option_group.name = 'activity_type' AND
+                                activity_civireport.is_test = 0 AND
+                                activity_civireport.is_deleted = 0 AND
+                                activity_civireport.is_current_revision = 1 AND ( activity_date_time >= 20140101000000 ) AND ( activity_date_time <= 20140331235959 ) AND  contact_civireport.id IN (
+                          SELECT DISTINCT cgroup_civireport.contact_id
+                          FROM civicrm_group_contact cgroup_civireport
+                          WHERE cgroup_civireport.group_id IN (32) AND cgroup_civireport.status = 'Added'
+                           UNION DISTINCT
+                  SELECT DISTINCT smartgroup_contact.contact_id
+                  FROM civicrm_group_contact_cache smartgroup_contact
+                  WHERE smartgroup_contact.group_id IN (32)  )  GROUP BY activity_civireport.id  ORDER BY activity_civireport.source_contact_id ASC, activity_civireport.activity_date_time ASC  LIMIT 0, 50 [nativecode=1054 ** Unknown column 'activity_civireport.source_contact_id' in 'order clause']"]
+)
+
+
+Mar 29 16:01:11  [info] $backTrace = #0 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Error.php(197): CRM_Core_Error::backtrace("backTrace", TRUE)
+#1 [internal function](): CRM_Core_Error::handle(Object(DB_Error))
+#2 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/PEAR.php(931): call_user_func((Array:2), Object(DB_Error))
+#3 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/DB.php(969): PEAR_Error->PEAR_Error("DB Error: no such field", -19, 16, (Array:2), "SELECT SQL_CALC_FOUND_ROWS contact_civireport.sort_name as civicrm_contact_co...")
+#4 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/PEAR.php(564): DB_Error->DB_Error(-19, 16, (Array:2), "SELECT SQL_CALC_FOUND_ROWS contact_civireport.sort_name as civicrm_contact_co...")
+#5 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/DB/common.php(1905): PEAR->raiseError(NULL, -19, NULL, NULL, "SELECT SQL_CALC_FOUND_ROWS contact_civireport.sort_name as civicrm_contact_co...", "DB_Error", TRUE)
+#6 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/DB/mysql.php(898): DB_common->raiseError(-19, NULL, NULL, NULL, "1054 ** Unknown column 'activity_civireport.source_contact_id' in 'order clause'")
+#7 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/DB/mysql.php(327): DB_mysql->mysqlRaiseError()
+#8 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/DB/common.php(1216): DB_mysql->simpleQuery("SELECT SQL_CALC_FOUND_ROWS contact_civireport.sort_name as civicrm_contact_co...")
+#9 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/DB/DataObject.php(2421): DB_common->query("SELECT SQL_CALC_FOUND_ROWS contact_civireport.sort_name as civicrm_contact_co...")
+#10 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/DB/DataObject.php(1613): DB_DataObject->_query("SELECT SQL_CALC_FOUND_ROWS contact_civireport.sort_name as civicrm_contact_co...")
+#11 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/DAO.php(158): DB_DataObject->query("SELECT SQL_CALC_FOUND_ROWS contact_civireport.sort_name as civicrm_contact_co...")
+#12 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/DAO.php(905): CRM_Core_DAO->query("SELECT SQL_CALC_FOUND_ROWS contact_civireport.sort_name as civicrm_contact_co...", TRUE)
+#13 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Report/Form.php(2190): CRM_Core_DAO::executeQuery("SELECT SQL_CALC_FOUND_ROWS contact_civireport.sort_name as civicrm_contact_co...")
+#14 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Report/Form.php(2573): CRM_Report_Form->buildRows("SELECT SQL_CALC_FOUND_ROWS contact_civireport.sort_name as civicrm_contact_co...", (Array:0))
+#15 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Report/Form/Activity.php(504): CRM_Report_Form->postProcess()
+#16 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Form.php(261): CRM_Report_Form_Activity->postProcess()
+#17 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/QuickForm/Action/Submit.php(73): CRM_Core_Form->mainProcess()
+#18 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/HTML/QuickForm/Controller.php(203): CRM_Core_QuickForm_Action_Submit->perform(Object(CRM_Report_Form_Activity), "submit")
+#19 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/HTML/QuickForm/Page.php(103): HTML_QuickForm_Controller->handle(Object(CRM_Report_Form_Activity), "submit")
+#20 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Controller.php(345): HTML_QuickForm_Page->handle("submit")
+#21 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Utils/Wrapper.php(117): CRM_Core_Controller->run()
+#22 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Report/Page/Report.php(77): CRM_Utils_Wrapper->run("CRM_Report_Form_Activity", NULL, NULL)
+#23 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(323): CRM_Report_Page_Report->run((Array:3), NULL)
+#24 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(72): CRM_Core_Invoke::runItem((Array:14))
+#25 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(52): CRM_Core_Invoke::_invoke((Array:3))
+#26 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm.php(463): CRM_Core_Invoke::invoke((Array:3))
+#27 [internal function](): CiviCRM_For_WordPress->invoke("")
+#28 /var/www/vhosts/coopersquare.org/httpdocs/wp-includes/plugin.php(429): call_user_func_array((Array:2), (Array:1))
+#29 /var/www/vhosts/coopersquare.org/httpdocs/wp-admin/admin.php(217): do_action("toplevel_page_CiviCRM")
+#30 {main}
+
+
+Mar 29 16:01:36  [info] $Fatal Error Details = Array
+(
+    [callback] => Array
+        (
+            [0] => CRM_Core_Error
+            [1] => handle
+        )
+
+    [code] => -19
+    [message] => DB Error: no such field
+    [mode] => 16
+    [debug_info] => SELECT SQL_CALC_FOUND_ROWS contact_civireport.sort_name as civicrm_contact_contact_target, activity_civireport.id as civicrm_activity_id, activity_civireport.source_record_id as civicrm_activity_source_record_id, activity_civireport.activity_type_id as civicrm_activity_activity_type_id, activity_civireport.subject as civicrm_activity_activity_subject, activity_civireport.activity_date_time as civicrm_activity_activity_date_time, activity_assignment_civireport.contact_id as civicrm_activity_assignment_contact_id, activity_target_civireport.contact_id as civicrm_activity_target_contact_id, activity_source_civireport.contact_id as civicrm_activity_source_contact_id, case_activity_civireport.case_id as civicrm_case_activity_case_id, value_circase_3_civireport.issue_area_s__75 as civicrm_value_circase_3_custom_75, value_circase_3_civireport.outcome_classification_73 as civicrm_value_circase_3_custom_73, value_circase_3_civireport.any_of_the_below_outcomes_achiev_41 as civicrm_value_circase_3_custom_41, value_circase_3_civireport.date_of_outcome_42 as civicrm_value_circase_3_custom_42, value_circase_3_civireport.does_this_client_s_issue_stay_th_74 as civicrm_value_circase_3_custom_74, value_circase_3_civireport.ia_reason_for_coming_to_csc_44 as civicrm_value_circase_3_custom_44, value_circase_3_civireport.ia_background_information_45 as civicrm_value_circase_3_custom_45, value_circase_3_civireport.ia_strengths_46 as civicrm_value_circase_3_custom_46, value_circase_3_civireport.ia_needs_47 as civicrm_value_circase_3_custom_47, value_circase_3_civireport.short_term_goals_48 as civicrm_value_circase_3_custom_48, value_circase_3_civireport.short_term_goal_timeline_49 as civicrm_value_circase_3_custom_49, value_circase_3_civireport.long_term_goals_50 as civicrm_value_circase_3_custom_50, value_circase_3_civireport.long_term_goal_timeline_51 as civicrm_value_circase_3_custom_51, value_circase_3_civireport.isp_what_will_you_do__52 as civicrm_value_circase_3_custom_52, value_circase_3_civireport.isp_what_will_the_client_do__53 as civicrm_value_circase_3_custom_53  
+        FROM civicrm_activity activity_civireport
+
+             LEFT JOIN civicrm_activity_contact  activity_target_civireport
+                    ON activity_civireport.id = activity_target_civireport.activity_id AND
+                       activity_target_civireport.record_type_id = 3
+             LEFT JOIN civicrm_activity_contact activity_assignment_civireport
+                    ON activity_civireport.id = activity_assignment_civireport.activity_id AND
+                       activity_assignment_civireport.record_type_id = 1
+             LEFT JOIN civicrm_activity_contact activity_source_civireport
+                    ON activity_civireport.id = activity_source_civireport.activity_id AND
+                       activity_source_civireport.record_type_id = 2
+             LEFT JOIN civicrm_contact contact_civireport
+                    ON activity_target_civireport.contact_id = contact_civireport.id
+             LEFT JOIN civicrm_contact civicrm_contact_assignee
+                    ON activity_assignment_civireport.contact_id = civicrm_contact_assignee.id
+             LEFT JOIN civicrm_contact civicrm_contact_source
+                    ON activity_source_civireport.contact_id = civicrm_contact_source.id
+             
+             LEFT JOIN civicrm_option_value
+                    ON ( activity_civireport.activity_type_id = civicrm_option_value.value )
+             LEFT JOIN civicrm_option_group
+                    ON civicrm_option_group.id = civicrm_option_value.option_group_id
+             LEFT JOIN civicrm_case_activity case_activity_civireport
+                    ON case_activity_civireport.activity_id = activity_civireport.id
+             LEFT JOIN civicrm_case
+                    ON case_activity_civireport.case_id = civicrm_case.id
+             LEFT JOIN civicrm_case_contact
+                    ON civicrm_case_contact.case_id = civicrm_case.id 
+LEFT JOIN civicrm_value_circase_3 value_circase_3_civireport ON value_circase_3_civireport.entity_id = activity_civireport.id  WHERE civicrm_option_group.name = 'activity_type' AND
+                                activity_civireport.is_test = 0 AND
+                                activity_civireport.is_deleted = 0 AND
+                                activity_civireport.is_current_revision = 1 AND ( activity_date_time >= 20140101000000 ) AND ( activity_date_time <= 20140331235959 ) GROUP BY activity_civireport.id  ORDER BY activity_civireport.source_contact_id ASC, activity_civireport.activity_date_time ASC  LIMIT 0, 50 [nativecode=1054 ** Unknown column 'activity_civireport.source_contact_id' in 'order clause']
+    [type] => DB_Error
+    [user_info] => SELECT SQL_CALC_FOUND_ROWS contact_civireport.sort_name as civicrm_contact_contact_target, activity_civireport.id as civicrm_activity_id, activity_civireport.source_record_id as civicrm_activity_source_record_id, activity_civireport.activity_type_id as civicrm_activity_activity_type_id, activity_civireport.subject as civicrm_activity_activity_subject, activity_civireport.activity_date_time as civicrm_activity_activity_date_time, activity_assignment_civireport.contact_id as civicrm_activity_assignment_contact_id, activity_target_civireport.contact_id as civicrm_activity_target_contact_id, activity_source_civireport.contact_id as civicrm_activity_source_contact_id, case_activity_civireport.case_id as civicrm_case_activity_case_id, value_circase_3_civireport.issue_area_s__75 as civicrm_value_circase_3_custom_75, value_circase_3_civireport.outcome_classification_73 as civicrm_value_circase_3_custom_73, value_circase_3_civireport.any_of_the_below_outcomes_achiev_41 as civicrm_value_circase_3_custom_41, value_circase_3_civireport.date_of_outcome_42 as civicrm_value_circase_3_custom_42, value_circase_3_civireport.does_this_client_s_issue_stay_th_74 as civicrm_value_circase_3_custom_74, value_circase_3_civireport.ia_reason_for_coming_to_csc_44 as civicrm_value_circase_3_custom_44, value_circase_3_civireport.ia_background_information_45 as civicrm_value_circase_3_custom_45, value_circase_3_civireport.ia_strengths_46 as civicrm_value_circase_3_custom_46, value_circase_3_civireport.ia_needs_47 as civicrm_value_circase_3_custom_47, value_circase_3_civireport.short_term_goals_48 as civicrm_value_circase_3_custom_48, value_circase_3_civireport.short_term_goal_timeline_49 as civicrm_value_circase_3_custom_49, value_circase_3_civireport.long_term_goals_50 as civicrm_value_circase_3_custom_50, value_circase_3_civireport.long_term_goal_timeline_51 as civicrm_value_circase_3_custom_51, value_circase_3_civireport.isp_what_will_you_do__52 as civicrm_value_circase_3_custom_52, value_circase_3_civireport.isp_what_will_the_client_do__53 as civicrm_value_circase_3_custom_53  
+        FROM civicrm_activity activity_civireport
+
+             LEFT JOIN civicrm_activity_contact  activity_target_civireport
+                    ON activity_civireport.id = activity_target_civireport.activity_id AND
+                       activity_target_civireport.record_type_id = 3
+             LEFT JOIN civicrm_activity_contact activity_assignment_civireport
+                    ON activity_civireport.id = activity_assignment_civireport.activity_id AND
+                       activity_assignment_civireport.record_type_id = 1
+             LEFT JOIN civicrm_activity_contact activity_source_civireport
+                    ON activity_civireport.id = activity_source_civireport.activity_id AND
+                       activity_source_civireport.record_type_id = 2
+             LEFT JOIN civicrm_contact contact_civireport
+                    ON activity_target_civireport.contact_id = contact_civireport.id
+             LEFT JOIN civicrm_contact civicrm_contact_assignee
+                    ON activity_assignment_civireport.contact_id = civicrm_contact_assignee.id
+             LEFT JOIN civicrm_contact civicrm_contact_source
+                    ON activity_source_civireport.contact_id = civicrm_contact_source.id
+             
+             LEFT JOIN civicrm_option_value
+                    ON ( activity_civireport.activity_type_id = civicrm_option_value.value )
+             LEFT JOIN civicrm_option_group
+                    ON civicrm_option_group.id = civicrm_option_value.option_group_id
+             LEFT JOIN civicrm_case_activity case_activity_civireport
+                    ON case_activity_civireport.activity_id = activity_civireport.id
+             LEFT JOIN civicrm_case
+                    ON case_activity_civireport.case_id = civicrm_case.id
+             LEFT JOIN civicrm_case_contact
+                    ON civicrm_case_contact.case_id = civicrm_case.id 
+LEFT JOIN civicrm_value_circase_3 value_circase_3_civireport ON value_circase_3_civireport.entity_id = activity_civireport.id  WHERE civicrm_option_group.name = 'activity_type' AND
+                                activity_civireport.is_test = 0 AND
+                                activity_civireport.is_deleted = 0 AND
+                                activity_civireport.is_current_revision = 1 AND ( activity_date_time >= 20140101000000 ) AND ( activity_date_time <= 20140331235959 ) GROUP BY activity_civireport.id  ORDER BY activity_civireport.source_contact_id ASC, activity_civireport.activity_date_time ASC  LIMIT 0, 50 [nativecode=1054 ** Unknown column 'activity_civireport.source_contact_id' in 'order clause']
+    [to_string] => [db_error: message="DB Error: no such field" code=-19 mode=callback callback=CRM_Core_Error::handle prefix="" info="SELECT SQL_CALC_FOUND_ROWS contact_civireport.sort_name as civicrm_contact_contact_target, activity_civireport.id as civicrm_activity_id, activity_civireport.source_record_id as civicrm_activity_source_record_id, activity_civireport.activity_type_id as civicrm_activity_activity_type_id, activity_civireport.subject as civicrm_activity_activity_subject, activity_civireport.activity_date_time as civicrm_activity_activity_date_time, activity_assignment_civireport.contact_id as civicrm_activity_assignment_contact_id, activity_target_civireport.contact_id as civicrm_activity_target_contact_id, activity_source_civireport.contact_id as civicrm_activity_source_contact_id, case_activity_civireport.case_id as civicrm_case_activity_case_id, value_circase_3_civireport.issue_area_s__75 as civicrm_value_circase_3_custom_75, value_circase_3_civireport.outcome_classification_73 as civicrm_value_circase_3_custom_73, value_circase_3_civireport.any_of_the_below_outcomes_achiev_41 as civicrm_value_circase_3_custom_41, value_circase_3_civireport.date_of_outcome_42 as civicrm_value_circase_3_custom_42, value_circase_3_civireport.does_this_client_s_issue_stay_th_74 as civicrm_value_circase_3_custom_74, value_circase_3_civireport.ia_reason_for_coming_to_csc_44 as civicrm_value_circase_3_custom_44, value_circase_3_civireport.ia_background_information_45 as civicrm_value_circase_3_custom_45, value_circase_3_civireport.ia_strengths_46 as civicrm_value_circase_3_custom_46, value_circase_3_civireport.ia_needs_47 as civicrm_value_circase_3_custom_47, value_circase_3_civireport.short_term_goals_48 as civicrm_value_circase_3_custom_48, value_circase_3_civireport.short_term_goal_timeline_49 as civicrm_value_circase_3_custom_49, value_circase_3_civireport.long_term_goals_50 as civicrm_value_circase_3_custom_50, value_circase_3_civireport.long_term_goal_timeline_51 as civicrm_value_circase_3_custom_51, value_circase_3_civireport.isp_what_will_you_do__52 as civicrm_value_circase_3_custom_52, value_circase_3_civireport.isp_what_will_the_client_do__53 as civicrm_value_circase_3_custom_53  
+        FROM civicrm_activity activity_civireport
+
+             LEFT JOIN civicrm_activity_contact  activity_target_civireport
+                    ON activity_civireport.id = activity_target_civireport.activity_id AND
+                       activity_target_civireport.record_type_id = 3
+             LEFT JOIN civicrm_activity_contact activity_assignment_civireport
+                    ON activity_civireport.id = activity_assignment_civireport.activity_id AND
+                       activity_assignment_civireport.record_type_id = 1
+             LEFT JOIN civicrm_activity_contact activity_source_civireport
+                    ON activity_civireport.id = activity_source_civireport.activity_id AND
+                       activity_source_civireport.record_type_id = 2
+             LEFT JOIN civicrm_contact contact_civireport
+                    ON activity_target_civireport.contact_id = contact_civireport.id
+             LEFT JOIN civicrm_contact civicrm_contact_assignee
+                    ON activity_assignment_civireport.contact_id = civicrm_contact_assignee.id
+             LEFT JOIN civicrm_contact civicrm_contact_source
+                    ON activity_source_civireport.contact_id = civicrm_contact_source.id
+             
+             LEFT JOIN civicrm_option_value
+                    ON ( activity_civireport.activity_type_id = civicrm_option_value.value )
+             LEFT JOIN civicrm_option_group
+                    ON civicrm_option_group.id = civicrm_option_value.option_group_id
+             LEFT JOIN civicrm_case_activity case_activity_civireport
+                    ON case_activity_civireport.activity_id = activity_civireport.id
+             LEFT JOIN civicrm_case
+                    ON case_activity_civireport.case_id = civicrm_case.id
+             LEFT JOIN civicrm_case_contact
+                    ON civicrm_case_contact.case_id = civicrm_case.id 
+LEFT JOIN civicrm_value_circase_3 value_circase_3_civireport ON value_circase_3_civireport.entity_id = activity_civireport.id  WHERE civicrm_option_group.name = 'activity_type' AND
+                                activity_civireport.is_test = 0 AND
+                                activity_civireport.is_deleted = 0 AND
+                                activity_civireport.is_current_revision = 1 AND ( activity_date_time >= 20140101000000 ) AND ( activity_date_time <= 20140331235959 ) GROUP BY activity_civireport.id  ORDER BY activity_civireport.source_contact_id ASC, activity_civireport.activity_date_time ASC  LIMIT 0, 50 [nativecode=1054 ** Unknown column 'activity_civireport.source_contact_id' in 'order clause']"]
+)
+
+
+Mar 29 16:01:36  [info] $backTrace = #0 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Error.php(197): CRM_Core_Error::backtrace("backTrace", TRUE)
+#1 [internal function](): CRM_Core_Error::handle(Object(DB_Error))
+#2 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/PEAR.php(931): call_user_func((Array:2), Object(DB_Error))
+#3 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/DB.php(969): PEAR_Error->PEAR_Error("DB Error: no such field", -19, 16, (Array:2), "SELECT SQL_CALC_FOUND_ROWS contact_civireport.sort_name as civicrm_contact_co...")
+#4 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/PEAR.php(564): DB_Error->DB_Error(-19, 16, (Array:2), "SELECT SQL_CALC_FOUND_ROWS contact_civireport.sort_name as civicrm_contact_co...")
+#5 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/DB/common.php(1905): PEAR->raiseError(NULL, -19, NULL, NULL, "SELECT SQL_CALC_FOUND_ROWS contact_civireport.sort_name as civicrm_contact_co...", "DB_Error", TRUE)
+#6 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/DB/mysql.php(898): DB_common->raiseError(-19, NULL, NULL, NULL, "1054 ** Unknown column 'activity_civireport.source_contact_id' in 'order clause'")
+#7 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/DB/mysql.php(327): DB_mysql->mysqlRaiseError()
+#8 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/DB/common.php(1216): DB_mysql->simpleQuery("SELECT SQL_CALC_FOUND_ROWS contact_civireport.sort_name as civicrm_contact_co...")
+#9 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/DB/DataObject.php(2421): DB_common->query("SELECT SQL_CALC_FOUND_ROWS contact_civireport.sort_name as civicrm_contact_co...")
+#10 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/DB/DataObject.php(1613): DB_DataObject->_query("SELECT SQL_CALC_FOUND_ROWS contact_civireport.sort_name as civicrm_contact_co...")
+#11 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/DAO.php(158): DB_DataObject->query("SELECT SQL_CALC_FOUND_ROWS contact_civireport.sort_name as civicrm_contact_co...")
+#12 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/DAO.php(905): CRM_Core_DAO->query("SELECT SQL_CALC_FOUND_ROWS contact_civireport.sort_name as civicrm_contact_co...", TRUE)
+#13 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Report/Form.php(2190): CRM_Core_DAO::executeQuery("SELECT SQL_CALC_FOUND_ROWS contact_civireport.sort_name as civicrm_contact_co...")
+#14 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Report/Form.php(2573): CRM_Report_Form->buildRows("SELECT SQL_CALC_FOUND_ROWS contact_civireport.sort_name as civicrm_contact_co...", (Array:0))
+#15 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Report/Form/Activity.php(504): CRM_Report_Form->postProcess()
+#16 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Form.php(261): CRM_Report_Form_Activity->postProcess()
+#17 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/QuickForm/Action/Submit.php(73): CRM_Core_Form->mainProcess()
+#18 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/HTML/QuickForm/Controller.php(203): CRM_Core_QuickForm_Action_Submit->perform(Object(CRM_Report_Form_Activity), "submit")
+#19 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/HTML/QuickForm/Page.php(103): HTML_QuickForm_Controller->handle(Object(CRM_Report_Form_Activity), "submit")
+#20 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Controller.php(345): HTML_QuickForm_Page->handle("submit")
+#21 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Utils/Wrapper.php(117): CRM_Core_Controller->run()
+#22 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Report/Page/Report.php(77): CRM_Utils_Wrapper->run("CRM_Report_Form_Activity", NULL, NULL)
+#23 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(323): CRM_Report_Page_Report->run((Array:3), NULL)
+#24 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(72): CRM_Core_Invoke::runItem((Array:14))
+#25 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(52): CRM_Core_Invoke::_invoke((Array:3))
+#26 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm.php(463): CRM_Core_Invoke::invoke((Array:3))
+#27 [internal function](): CiviCRM_For_WordPress->invoke("")
+#28 /var/www/vhosts/coopersquare.org/httpdocs/wp-includes/plugin.php(429): call_user_func_array((Array:2), (Array:1))
+#29 /var/www/vhosts/coopersquare.org/httpdocs/wp-admin/admin.php(217): do_action("toplevel_page_CiviCRM")
+#30 {main}
+
+
+Mar 31 19:29:03  [info] $Fatal Error Details = Array
+(
+    [callback] => Array
+        (
+            [0] => CRM_Core_Error
+            [1] => handle
+        )
+
+    [code] => -19
+    [message] => DB Error: no such field
+    [mode] => 16
+    [debug_info] => 
+  SELECT  contact.id as contactId, civicrm_activity.id as componentId, contact_source.sort_name as sort_name, contact_target.sort_name as target_sort_name, email as email
+    FROM  civicrm_activity as civicrm_activity INNER JOIN civicrm_contact contact ON ( contact.id = civicrm_activity.source_contact_id ) 
+INNER JOIN civicrm_contact contact_source ON ( contact_source.id = civicrm_activity.source_contact_id )
+LEFT JOIN civicrm_activity_contact ON (civicrm_activity_contact.activity_id = civicrm_activity.id)
+LEFT JOIN civicrm_contact as contact_target ON ( contact_target.id = civicrm_activity_contact.contact_id )
+ LEFT JOIN civicrm_email email ON ( contact_target.id = email.contact_id AND email.is_primary = 1 ) 
+   WHERE  civicrm_activity.id IN (8995,9033,9082,9003,9100,9051,9053,9090,9017,9071,9002,9016,9054,9064,9095,9068,9108,9101,9039,9044,9075,9050,9037,9057,9019,8993,9038,9059,8996,9043,9069,8988,8990,9024,9031,8994,8980,8982,8991,9106,8989,9041,9047,9099,9046,9035)
+Group By  componentId [nativecode=1054 ** Unknown column 'civicrm_activity.source_contact_id' in 'on clause']
+    [type] => DB_Error
+    [user_info] => 
+  SELECT  contact.id as contactId, civicrm_activity.id as componentId, contact_source.sort_name as sort_name, contact_target.sort_name as target_sort_name, email as email
+    FROM  civicrm_activity as civicrm_activity INNER JOIN civicrm_contact contact ON ( contact.id = civicrm_activity.source_contact_id ) 
+INNER JOIN civicrm_contact contact_source ON ( contact_source.id = civicrm_activity.source_contact_id )
+LEFT JOIN civicrm_activity_contact ON (civicrm_activity_contact.activity_id = civicrm_activity.id)
+LEFT JOIN civicrm_contact as contact_target ON ( contact_target.id = civicrm_activity_contact.contact_id )
+ LEFT JOIN civicrm_email email ON ( contact_target.id = email.contact_id AND email.is_primary = 1 ) 
+   WHERE  civicrm_activity.id IN (8995,9033,9082,9003,9100,9051,9053,9090,9017,9071,9002,9016,9054,9064,9095,9068,9108,9101,9039,9044,9075,9050,9037,9057,9019,8993,9038,9059,8996,9043,9069,8988,8990,9024,9031,8994,8980,8982,8991,9106,8989,9041,9047,9099,9046,9035)
+Group By  componentId [nativecode=1054 ** Unknown column 'civicrm_activity.source_contact_id' in 'on clause']
+    [to_string] => [db_error: message="DB Error: no such field" code=-19 mode=callback callback=CRM_Core_Error::handle prefix="" info="
+  SELECT  contact.id as contactId, civicrm_activity.id as componentId, contact_source.sort_name as sort_name, contact_target.sort_name as target_sort_name, email as email
+    FROM  civicrm_activity as civicrm_activity INNER JOIN civicrm_contact contact ON ( contact.id = civicrm_activity.source_contact_id ) 
+INNER JOIN civicrm_contact contact_source ON ( contact_source.id = civicrm_activity.source_contact_id )
+LEFT JOIN civicrm_activity_contact ON (civicrm_activity_contact.activity_id = civicrm_activity.id)
+LEFT JOIN civicrm_contact as contact_target ON ( contact_target.id = civicrm_activity_contact.contact_id )
+ LEFT JOIN civicrm_email email ON ( contact_target.id = email.contact_id AND email.is_primary = 1 ) 
+   WHERE  civicrm_activity.id IN (8995,9033,9082,9003,9100,9051,9053,9090,9017,9071,9002,9016,9054,9064,9095,9068,9108,9101,9039,9044,9075,9050,9037,9057,9019,8993,9038,9059,8996,9043,9069,8988,8990,9024,9031,8994,8980,8982,8991,9106,8989,9041,9047,9099,9046,9035)
+Group By  componentId [nativecode=1054 ** Unknown column 'civicrm_activity.source_contact_id' in 'on clause']"]
+)
+
+
+Mar 31 19:29:03  [info] $backTrace = #0 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Error.php(197): CRM_Core_Error::backtrace("backTrace", TRUE)
+#1 [internal function](): CRM_Core_Error::handle(Object(DB_Error))
+#2 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/PEAR.php(931): call_user_func((Array:2), Object(DB_Error))
+#3 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/DB.php(969): PEAR_Error->PEAR_Error("DB Error: no such field", -19, 16, (Array:2), "\n  SELECT  contact.id as contactId, civicrm_activity.id as componentId, cont...")
+#4 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/PEAR.php(564): DB_Error->DB_Error(-19, 16, (Array:2), "\n  SELECT  contact.id as contactId, civicrm_activity.id as componentId, cont...")
+#5 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/DB/common.php(1905): PEAR->raiseError(NULL, -19, NULL, NULL, "\n  SELECT  contact.id as contactId, civicrm_activity.id as componentId, cont...", "DB_Error", TRUE)
+#6 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/DB/mysql.php(898): DB_common->raiseError(-19, NULL, NULL, NULL, "1054 ** Unknown column 'civicrm_activity.source_contact_id' in 'on clause'")
+#7 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/DB/mysql.php(327): DB_mysql->mysqlRaiseError()
+#8 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/DB/common.php(1216): DB_mysql->simpleQuery("\n  SELECT  contact.id as contactId, civicrm_activity.id as componentId, cont...")
+#9 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/DB/DataObject.php(2421): DB_common->query("\n  SELECT  contact.id as contactId, civicrm_activity.id as componentId, cont...")
+#10 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/DB/DataObject.php(1613): DB_DataObject->_query("\n  SELECT  contact.id as contactId, civicrm_activity.id as componentId, cont...")
+#11 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/DAO.php(158): DB_DataObject->query("\n  SELECT  contact.id as contactId, civicrm_activity.id as componentId, cont...")
+#12 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/DAO.php(905): CRM_Core_DAO->query("\n  SELECT  contact.id as contactId, civicrm_activity.id as componentId, cont...", TRUE)
+#13 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Contact/BAO/Contact/Utils.php(807): CRM_Core_DAO::executeQuery("\n  SELECT  contact.id as contactId, civicrm_activity.id as componentId, cont...")
+#14 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Activity/Form/Task/Batch.php(85): CRM_Contact_BAO_Contact_Utils::contactDetails((Array:46), "Activity", (Array:3))
+#15 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Form.php(351): CRM_Activity_Form_Task_Batch->preProcess()
+#16 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/QuickForm/Action/Display.php(93): CRM_Core_Form->buildForm()
+#17 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/HTML/QuickForm/Controller.php(203): CRM_Core_QuickForm_Action_Display->perform(Object(CRM_Activity_Form_Task_Batch), "display")
+#18 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/HTML/QuickForm/Page.php(103): HTML_QuickForm_Controller->handle(Object(CRM_Activity_Form_Task_Batch), "display")
+#19 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Controller.php(345): HTML_QuickForm_Page->handle("display")
+#20 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(323): CRM_Core_Controller->run((Array:4), (Array:0))
+#21 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(72): CRM_Core_Invoke::runItem((Array:13))
+#22 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(52): CRM_Core_Invoke::_invoke((Array:4))
+#23 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm.php(463): CRM_Core_Invoke::invoke((Array:4))
+#24 [internal function](): CiviCRM_For_WordPress->invoke("")
+#25 /var/www/vhosts/coopersquare.org/httpdocs/wp-includes/plugin.php(429): call_user_func_array((Array:2), (Array:1))
+#26 /var/www/vhosts/coopersquare.org/httpdocs/wp-admin/admin.php(217): do_action("toplevel_page_CiviCRM")
+#27 {main}
+
+
+Mar 31 19:29:39  [info] $Fatal Error Details = Array
+(
+    [callback] => Array
+        (
+            [0] => CRM_Core_Error
+            [1] => handle
+        )
+
+    [code] => -19
+    [message] => DB Error: no such field
+    [mode] => 16
+    [debug_info] => 
+  SELECT  contact.id as contactId, civicrm_activity.id as componentId, contact_source.sort_name as sort_name, contact_target.sort_name as target_sort_name, email as email
+    FROM  civicrm_activity as civicrm_activity INNER JOIN civicrm_contact contact ON ( contact.id = civicrm_activity.source_contact_id ) 
+INNER JOIN civicrm_contact contact_source ON ( contact_source.id = civicrm_activity.source_contact_id )
+LEFT JOIN civicrm_activity_contact ON (civicrm_activity_contact.activity_id = civicrm_activity.id)
+LEFT JOIN civicrm_contact as contact_target ON ( contact_target.id = civicrm_activity_contact.contact_id )
+ LEFT JOIN civicrm_email email ON ( contact_target.id = email.contact_id AND email.is_primary = 1 ) 
+   WHERE  civicrm_activity.id IN (9108,9101,9100,9106,9095,9090,9075,9099,9071,9069,9064,9068,9082,9059,9054,9053,9051,9050,9046,9044,9043,9041,9047,9039,9038,9037,9035,9033,9031,9024,9019,9016,9017,9003,8993,8996,8995,8991,8990,8989,8988,8994,8982,9002)
+Group By  componentId [nativecode=1054 ** Unknown column 'civicrm_activity.source_contact_id' in 'on clause']
+    [type] => DB_Error
+    [user_info] => 
+  SELECT  contact.id as contactId, civicrm_activity.id as componentId, contact_source.sort_name as sort_name, contact_target.sort_name as target_sort_name, email as email
+    FROM  civicrm_activity as civicrm_activity INNER JOIN civicrm_contact contact ON ( contact.id = civicrm_activity.source_contact_id ) 
+INNER JOIN civicrm_contact contact_source ON ( contact_source.id = civicrm_activity.source_contact_id )
+LEFT JOIN civicrm_activity_contact ON (civicrm_activity_contact.activity_id = civicrm_activity.id)
+LEFT JOIN civicrm_contact as contact_target ON ( contact_target.id = civicrm_activity_contact.contact_id )
+ LEFT JOIN civicrm_email email ON ( contact_target.id = email.contact_id AND email.is_primary = 1 ) 
+   WHERE  civicrm_activity.id IN (9108,9101,9100,9106,9095,9090,9075,9099,9071,9069,9064,9068,9082,9059,9054,9053,9051,9050,9046,9044,9043,9041,9047,9039,9038,9037,9035,9033,9031,9024,9019,9016,9017,9003,8993,8996,8995,8991,8990,8989,8988,8994,8982,9002)
+Group By  componentId [nativecode=1054 ** Unknown column 'civicrm_activity.source_contact_id' in 'on clause']
+    [to_string] => [db_error: message="DB Error: no such field" code=-19 mode=callback callback=CRM_Core_Error::handle prefix="" info="
+  SELECT  contact.id as contactId, civicrm_activity.id as componentId, contact_source.sort_name as sort_name, contact_target.sort_name as target_sort_name, email as email
+    FROM  civicrm_activity as civicrm_activity INNER JOIN civicrm_contact contact ON ( contact.id = civicrm_activity.source_contact_id ) 
+INNER JOIN civicrm_contact contact_source ON ( contact_source.id = civicrm_activity.source_contact_id )
+LEFT JOIN civicrm_activity_contact ON (civicrm_activity_contact.activity_id = civicrm_activity.id)
+LEFT JOIN civicrm_contact as contact_target ON ( contact_target.id = civicrm_activity_contact.contact_id )
+ LEFT JOIN civicrm_email email ON ( contact_target.id = email.contact_id AND email.is_primary = 1 ) 
+   WHERE  civicrm_activity.id IN (9108,9101,9100,9106,9095,9090,9075,9099,9071,9069,9064,9068,9082,9059,9054,9053,9051,9050,9046,9044,9043,9041,9047,9039,9038,9037,9035,9033,9031,9024,9019,9016,9017,9003,8993,8996,8995,8991,8990,8989,8988,8994,8982,9002)
+Group By  componentId [nativecode=1054 ** Unknown column 'civicrm_activity.source_contact_id' in 'on clause']"]
+)
+
+
+Mar 31 19:29:39  [info] $backTrace = #0 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Error.php(197): CRM_Core_Error::backtrace("backTrace", TRUE)
+#1 [internal function](): CRM_Core_Error::handle(Object(DB_Error))
+#2 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/PEAR.php(931): call_user_func((Array:2), Object(DB_Error))
+#3 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/DB.php(969): PEAR_Error->PEAR_Error("DB Error: no such field", -19, 16, (Array:2), "\n  SELECT  contact.id as contactId, civicrm_activity.id as componentId, cont...")
+#4 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/PEAR.php(564): DB_Error->DB_Error(-19, 16, (Array:2), "\n  SELECT  contact.id as contactId, civicrm_activity.id as componentId, cont...")
+#5 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/DB/common.php(1905): PEAR->raiseError(NULL, -19, NULL, NULL, "\n  SELECT  contact.id as contactId, civicrm_activity.id as componentId, cont...", "DB_Error", TRUE)
+#6 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/DB/mysql.php(898): DB_common->raiseError(-19, NULL, NULL, NULL, "1054 ** Unknown column 'civicrm_activity.source_contact_id' in 'on clause'")
+#7 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/DB/mysql.php(327): DB_mysql->mysqlRaiseError()
+#8 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/DB/common.php(1216): DB_mysql->simpleQuery("\n  SELECT  contact.id as contactId, civicrm_activity.id as componentId, cont...")
+#9 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/DB/DataObject.php(2421): DB_common->query("\n  SELECT  contact.id as contactId, civicrm_activity.id as componentId, cont...")
+#10 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/DB/DataObject.php(1613): DB_DataObject->_query("\n  SELECT  contact.id as contactId, civicrm_activity.id as componentId, cont...")
+#11 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/DAO.php(158): DB_DataObject->query("\n  SELECT  contact.id as contactId, civicrm_activity.id as componentId, cont...")
+#12 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/DAO.php(905): CRM_Core_DAO->query("\n  SELECT  contact.id as contactId, civicrm_activity.id as componentId, cont...", TRUE)
+#13 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Contact/BAO/Contact/Utils.php(807): CRM_Core_DAO::executeQuery("\n  SELECT  contact.id as contactId, civicrm_activity.id as componentId, cont...")
+#14 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Activity/Form/Task/Batch.php(85): CRM_Contact_BAO_Contact_Utils::contactDetails((Array:44), "Activity", (Array:3))
+#15 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Form.php(351): CRM_Activity_Form_Task_Batch->preProcess()
+#16 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/QuickForm/Action/Display.php(93): CRM_Core_Form->buildForm()
+#17 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/HTML/QuickForm/Controller.php(203): CRM_Core_QuickForm_Action_Display->perform(Object(CRM_Activity_Form_Task_Batch), "display")
+#18 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/HTML/QuickForm/Page.php(103): HTML_QuickForm_Controller->handle(Object(CRM_Activity_Form_Task_Batch), "display")
+#19 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Controller.php(345): HTML_QuickForm_Page->handle("display")
+#20 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(323): CRM_Core_Controller->run((Array:4), (Array:0))
+#21 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(72): CRM_Core_Invoke::runItem((Array:13))
+#22 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(52): CRM_Core_Invoke::_invoke((Array:4))
+#23 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm.php(463): CRM_Core_Invoke::invoke((Array:4))
+#24 [internal function](): CiviCRM_For_WordPress->invoke("")
+#25 /var/www/vhosts/coopersquare.org/httpdocs/wp-includes/plugin.php(429): call_user_func_array((Array:2), (Array:1))
+#26 /var/www/vhosts/coopersquare.org/httpdocs/wp-admin/admin.php(217): do_action("toplevel_page_CiviCRM")
+#27 {main}
+
+
+Mar 31 19:31:16  [info] $Fatal Error Details = Array
+(
+    [callback] => Array
+        (
+            [0] => CRM_Core_Error
+            [1] => handle
+        )
+
+    [code] => -19
+    [message] => DB Error: no such field
+    [mode] => 16
+    [debug_info] => 
+  SELECT  contact.id as contactId, civicrm_activity.id as componentId, contact_source.sort_name as sort_name, contact_target.sort_name as target_sort_name, email as email
+    FROM  civicrm_activity as civicrm_activity INNER JOIN civicrm_contact contact ON ( contact.id = civicrm_activity.source_contact_id ) 
+INNER JOIN civicrm_contact contact_source ON ( contact_source.id = civicrm_activity.source_contact_id )
+LEFT JOIN civicrm_activity_contact ON (civicrm_activity_contact.activity_id = civicrm_activity.id)
+LEFT JOIN civicrm_contact as contact_target ON ( contact_target.id = civicrm_activity_contact.contact_id )
+ LEFT JOIN civicrm_email email ON ( contact_target.id = email.contact_id AND email.is_primary = 1 ) 
+   WHERE  civicrm_activity.id IN (8995,9033,9082,9003,9100,9051,9053,9090,9017,9071,9002,9016,9054,9064,9095,9068,9108,9101,9039,9044,9075,9050,9037,9057,9019,8993,9038,9059,8996,9043,9069,8988,8990,9024,9031,8994,8980,8982,8991,9106,8989,9041,9047,9099,9046,9035)
+Group By  componentId [nativecode=1054 ** Unknown column 'civicrm_activity.source_contact_id' in 'on clause']
+    [type] => DB_Error
+    [user_info] => 
+  SELECT  contact.id as contactId, civicrm_activity.id as componentId, contact_source.sort_name as sort_name, contact_target.sort_name as target_sort_name, email as email
+    FROM  civicrm_activity as civicrm_activity INNER JOIN civicrm_contact contact ON ( contact.id = civicrm_activity.source_contact_id ) 
+INNER JOIN civicrm_contact contact_source ON ( contact_source.id = civicrm_activity.source_contact_id )
+LEFT JOIN civicrm_activity_contact ON (civicrm_activity_contact.activity_id = civicrm_activity.id)
+LEFT JOIN civicrm_contact as contact_target ON ( contact_target.id = civicrm_activity_contact.contact_id )
+ LEFT JOIN civicrm_email email ON ( contact_target.id = email.contact_id AND email.is_primary = 1 ) 
+   WHERE  civicrm_activity.id IN (8995,9033,9082,9003,9100,9051,9053,9090,9017,9071,9002,9016,9054,9064,9095,9068,9108,9101,9039,9044,9075,9050,9037,9057,9019,8993,9038,9059,8996,9043,9069,8988,8990,9024,9031,8994,8980,8982,8991,9106,8989,9041,9047,9099,9046,9035)
+Group By  componentId [nativecode=1054 ** Unknown column 'civicrm_activity.source_contact_id' in 'on clause']
+    [to_string] => [db_error: message="DB Error: no such field" code=-19 mode=callback callback=CRM_Core_Error::handle prefix="" info="
+  SELECT  contact.id as contactId, civicrm_activity.id as componentId, contact_source.sort_name as sort_name, contact_target.sort_name as target_sort_name, email as email
+    FROM  civicrm_activity as civicrm_activity INNER JOIN civicrm_contact contact ON ( contact.id = civicrm_activity.source_contact_id ) 
+INNER JOIN civicrm_contact contact_source ON ( contact_source.id = civicrm_activity.source_contact_id )
+LEFT JOIN civicrm_activity_contact ON (civicrm_activity_contact.activity_id = civicrm_activity.id)
+LEFT JOIN civicrm_contact as contact_target ON ( contact_target.id = civicrm_activity_contact.contact_id )
+ LEFT JOIN civicrm_email email ON ( contact_target.id = email.contact_id AND email.is_primary = 1 ) 
+   WHERE  civicrm_activity.id IN (8995,9033,9082,9003,9100,9051,9053,9090,9017,9071,9002,9016,9054,9064,9095,9068,9108,9101,9039,9044,9075,9050,9037,9057,9019,8993,9038,9059,8996,9043,9069,8988,8990,9024,9031,8994,8980,8982,8991,9106,8989,9041,9047,9099,9046,9035)
+Group By  componentId [nativecode=1054 ** Unknown column 'civicrm_activity.source_contact_id' in 'on clause']"]
+)
+
+
+Mar 31 19:31:16  [info] $backTrace = #0 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Error.php(197): CRM_Core_Error::backtrace("backTrace", TRUE)
+#1 [internal function](): CRM_Core_Error::handle(Object(DB_Error))
+#2 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/PEAR.php(931): call_user_func((Array:2), Object(DB_Error))
+#3 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/DB.php(969): PEAR_Error->PEAR_Error("DB Error: no such field", -19, 16, (Array:2), "\n  SELECT  contact.id as contactId, civicrm_activity.id as componentId, cont...")
+#4 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/PEAR.php(564): DB_Error->DB_Error(-19, 16, (Array:2), "\n  SELECT  contact.id as contactId, civicrm_activity.id as componentId, cont...")
+#5 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/DB/common.php(1905): PEAR->raiseError(NULL, -19, NULL, NULL, "\n  SELECT  contact.id as contactId, civicrm_activity.id as componentId, cont...", "DB_Error", TRUE)
+#6 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/DB/mysql.php(898): DB_common->raiseError(-19, NULL, NULL, NULL, "1054 ** Unknown column 'civicrm_activity.source_contact_id' in 'on clause'")
+#7 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/DB/mysql.php(327): DB_mysql->mysqlRaiseError()
+#8 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/DB/common.php(1216): DB_mysql->simpleQuery("\n  SELECT  contact.id as contactId, civicrm_activity.id as componentId, cont...")
+#9 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/DB/DataObject.php(2421): DB_common->query("\n  SELECT  contact.id as contactId, civicrm_activity.id as componentId, cont...")
+#10 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/DB/DataObject.php(1613): DB_DataObject->_query("\n  SELECT  contact.id as contactId, civicrm_activity.id as componentId, cont...")
+#11 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/DAO.php(158): DB_DataObject->query("\n  SELECT  contact.id as contactId, civicrm_activity.id as componentId, cont...")
+#12 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/DAO.php(905): CRM_Core_DAO->query("\n  SELECT  contact.id as contactId, civicrm_activity.id as componentId, cont...", TRUE)
+#13 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Contact/BAO/Contact/Utils.php(807): CRM_Core_DAO::executeQuery("\n  SELECT  contact.id as contactId, civicrm_activity.id as componentId, cont...")
+#14 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Activity/Form/Task/Batch.php(85): CRM_Contact_BAO_Contact_Utils::contactDetails((Array:46), "Activity", (Array:3))
+#15 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Form.php(351): CRM_Activity_Form_Task_Batch->preProcess()
+#16 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/QuickForm/Action/Display.php(93): CRM_Core_Form->buildForm()
+#17 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/HTML/QuickForm/Controller.php(203): CRM_Core_QuickForm_Action_Display->perform(Object(CRM_Activity_Form_Task_Batch), "display")
+#18 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/HTML/QuickForm/Page.php(103): HTML_QuickForm_Controller->handle(Object(CRM_Activity_Form_Task_Batch), "display")
+#19 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Controller.php(345): HTML_QuickForm_Page->handle("display")
+#20 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(323): CRM_Core_Controller->run((Array:4), (Array:0))
+#21 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(72): CRM_Core_Invoke::runItem((Array:13))
+#22 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(52): CRM_Core_Invoke::_invoke((Array:4))
+#23 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm.php(463): CRM_Core_Invoke::invoke((Array:4))
+#24 [internal function](): CiviCRM_For_WordPress->invoke("")
+#25 /var/www/vhosts/coopersquare.org/httpdocs/wp-includes/plugin.php(429): call_user_func_array((Array:2), (Array:1))
+#26 /var/www/vhosts/coopersquare.org/httpdocs/wp-admin/admin.php(217): do_action("toplevel_page_CiviCRM")
+#27 {main}
+
+
+Mar 31 19:31:40  [info] $Fatal Error Details = Array
+(
+    [callback] => Array
+        (
+            [0] => CRM_Core_Error
+            [1] => handle
+        )
+
+    [code] => -19
+    [message] => DB Error: no such field
+    [mode] => 16
+    [debug_info] => 
+  SELECT  contact.id as contactId, civicrm_activity.id as componentId, contact_source.sort_name as sort_name, contact_target.sort_name as target_sort_name, email as email
+    FROM  civicrm_activity as civicrm_activity INNER JOIN civicrm_contact contact ON ( contact.id = civicrm_activity.source_contact_id ) 
+INNER JOIN civicrm_contact contact_source ON ( contact_source.id = civicrm_activity.source_contact_id )
+LEFT JOIN civicrm_activity_contact ON (civicrm_activity_contact.activity_id = civicrm_activity.id)
+LEFT JOIN civicrm_contact as contact_target ON ( contact_target.id = civicrm_activity_contact.contact_id )
+ LEFT JOIN civicrm_email email ON ( contact_target.id = email.contact_id AND email.is_primary = 1 ) 
+   WHERE  civicrm_activity.id IN (8995,9033,9082,9003,9100,9051,9053,9090,9017,9071,9002,9016,9054,9064,9095,9068,9108,9101,9039,9044,9075,9050,9037,9057,9019,8993,9038,9059,8996,9043,9069,8988,8990,9024,9031,8994,8980,8982,8991,9106,8989,9041,9047,9099,9046,9035)
+Group By  componentId [nativecode=1054 ** Unknown column 'civicrm_activity.source_contact_id' in 'on clause']
+    [type] => DB_Error
+    [user_info] => 
+  SELECT  contact.id as contactId, civicrm_activity.id as componentId, contact_source.sort_name as sort_name, contact_target.sort_name as target_sort_name, email as email
+    FROM  civicrm_activity as civicrm_activity INNER JOIN civicrm_contact contact ON ( contact.id = civicrm_activity.source_contact_id ) 
+INNER JOIN civicrm_contact contact_source ON ( contact_source.id = civicrm_activity.source_contact_id )
+LEFT JOIN civicrm_activity_contact ON (civicrm_activity_contact.activity_id = civicrm_activity.id)
+LEFT JOIN civicrm_contact as contact_target ON ( contact_target.id = civicrm_activity_contact.contact_id )
+ LEFT JOIN civicrm_email email ON ( contact_target.id = email.contact_id AND email.is_primary = 1 ) 
+   WHERE  civicrm_activity.id IN (8995,9033,9082,9003,9100,9051,9053,9090,9017,9071,9002,9016,9054,9064,9095,9068,9108,9101,9039,9044,9075,9050,9037,9057,9019,8993,9038,9059,8996,9043,9069,8988,8990,9024,9031,8994,8980,8982,8991,9106,8989,9041,9047,9099,9046,9035)
+Group By  componentId [nativecode=1054 ** Unknown column 'civicrm_activity.source_contact_id' in 'on clause']
+    [to_string] => [db_error: message="DB Error: no such field" code=-19 mode=callback callback=CRM_Core_Error::handle prefix="" info="
+  SELECT  contact.id as contactId, civicrm_activity.id as componentId, contact_source.sort_name as sort_name, contact_target.sort_name as target_sort_name, email as email
+    FROM  civicrm_activity as civicrm_activity INNER JOIN civicrm_contact contact ON ( contact.id = civicrm_activity.source_contact_id ) 
+INNER JOIN civicrm_contact contact_source ON ( contact_source.id = civicrm_activity.source_contact_id )
+LEFT JOIN civicrm_activity_contact ON (civicrm_activity_contact.activity_id = civicrm_activity.id)
+LEFT JOIN civicrm_contact as contact_target ON ( contact_target.id = civicrm_activity_contact.contact_id )
+ LEFT JOIN civicrm_email email ON ( contact_target.id = email.contact_id AND email.is_primary = 1 ) 
+   WHERE  civicrm_activity.id IN (8995,9033,9082,9003,9100,9051,9053,9090,9017,9071,9002,9016,9054,9064,9095,9068,9108,9101,9039,9044,9075,9050,9037,9057,9019,8993,9038,9059,8996,9043,9069,8988,8990,9024,9031,8994,8980,8982,8991,9106,8989,9041,9047,9099,9046,9035)
+Group By  componentId [nativecode=1054 ** Unknown column 'civicrm_activity.source_contact_id' in 'on clause']"]
+)
+
+
+Mar 31 19:31:40  [info] $backTrace = #0 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Error.php(197): CRM_Core_Error::backtrace("backTrace", TRUE)
+#1 [internal function](): CRM_Core_Error::handle(Object(DB_Error))
+#2 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/PEAR.php(931): call_user_func((Array:2), Object(DB_Error))
+#3 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/DB.php(969): PEAR_Error->PEAR_Error("DB Error: no such field", -19, 16, (Array:2), "\n  SELECT  contact.id as contactId, civicrm_activity.id as componentId, cont...")
+#4 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/PEAR.php(564): DB_Error->DB_Error(-19, 16, (Array:2), "\n  SELECT  contact.id as contactId, civicrm_activity.id as componentId, cont...")
+#5 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/DB/common.php(1905): PEAR->raiseError(NULL, -19, NULL, NULL, "\n  SELECT  contact.id as contactId, civicrm_activity.id as componentId, cont...", "DB_Error", TRUE)
+#6 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/DB/mysql.php(898): DB_common->raiseError(-19, NULL, NULL, NULL, "1054 ** Unknown column 'civicrm_activity.source_contact_id' in 'on clause'")
+#7 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/DB/mysql.php(327): DB_mysql->mysqlRaiseError()
+#8 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/DB/common.php(1216): DB_mysql->simpleQuery("\n  SELECT  contact.id as contactId, civicrm_activity.id as componentId, cont...")
+#9 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/DB/DataObject.php(2421): DB_common->query("\n  SELECT  contact.id as contactId, civicrm_activity.id as componentId, cont...")
+#10 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/DB/DataObject.php(1613): DB_DataObject->_query("\n  SELECT  contact.id as contactId, civicrm_activity.id as componentId, cont...")
+#11 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/DAO.php(158): DB_DataObject->query("\n  SELECT  contact.id as contactId, civicrm_activity.id as componentId, cont...")
+#12 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/DAO.php(905): CRM_Core_DAO->query("\n  SELECT  contact.id as contactId, civicrm_activity.id as componentId, cont...", TRUE)
+#13 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Contact/BAO/Contact/Utils.php(807): CRM_Core_DAO::executeQuery("\n  SELECT  contact.id as contactId, civicrm_activity.id as componentId, cont...")
+#14 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Activity/Form/Task/Batch.php(85): CRM_Contact_BAO_Contact_Utils::contactDetails((Array:46), "Activity", (Array:3))
+#15 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Form.php(351): CRM_Activity_Form_Task_Batch->preProcess()
+#16 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/QuickForm/Action/Display.php(93): CRM_Core_Form->buildForm()
+#17 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/HTML/QuickForm/Controller.php(203): CRM_Core_QuickForm_Action_Display->perform(Object(CRM_Activity_Form_Task_Batch), "display")
+#18 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/HTML/QuickForm/Page.php(103): HTML_QuickForm_Controller->handle(Object(CRM_Activity_Form_Task_Batch), "display")
+#19 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Controller.php(345): HTML_QuickForm_Page->handle("display")
+#20 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(323): CRM_Core_Controller->run((Array:4), (Array:0))
+#21 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(72): CRM_Core_Invoke::runItem((Array:13))
+#22 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(52): CRM_Core_Invoke::_invoke((Array:4))
+#23 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm.php(463): CRM_Core_Invoke::invoke((Array:4))
+#24 [internal function](): CiviCRM_For_WordPress->invoke("")
+#25 /var/www/vhosts/coopersquare.org/httpdocs/wp-includes/plugin.php(429): call_user_func_array((Array:2), (Array:1))
+#26 /var/www/vhosts/coopersquare.org/httpdocs/wp-admin/admin.php(217): do_action("toplevel_page_CiviCRM")
+#27 {main}
+
+

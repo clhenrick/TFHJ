@@ -1,0 +1,142 @@
+Internal Contact ID,First Name,Middle Name,Last Name,Spouse of,Spouse of,Employee of,Do Not Mail,Street Address,Additional Address 1,City,State,Postal Code,Postal Code Suffix,Phone,Phone,Phone,Email,Preferred Mail Format,CAPfy11 :: MSAccess-mainimport,CAPfy12 :: MSAccess-mainimport,MHA :: MSAccess-mainimport,Volunteer? :: MSAccess-mainimport,Nick Name,CAPfy13 :: MSAccess-mainimport
+1491,Bruce,M.,Fuller,,,,FALSE,65 2nd Avenue,6-F,Manhattan,NY,10003,,2125332404,,,,,FALSE,TRUE,FALSE,,,FALSE
+1492,Cherry,,Heims,,,,FALSE,21 E. 2nd Street,16,Manhattan,NY,10003,,2129827501,,212-529-6326,cherryheims@hotmail.com,,FALSE,TRUE,FALSE,,Blunder from Down Under,FALSE
+1493,Israel,,Irizarry,,,,FALSE,347 E 5th St,,Manhattan,NY,10003,,,,,,,FALSE,FALSE,FALSE,,,FALSE
+1494,Dana,,Kristal,,,,FALSE,21 East 2nd street,15,Manhattan,NY,,,2127806036,,,,,FALSE,TRUE,FALSE,,SOCBGB,FALSE
+1495,Ben,,Levkov,,,,FALSE,86 East 4th Street,25,,,,,,6462426517,,blevkov@gmail.com,,FALSE,TRUE,FALSE,,,FALSE
+1496,Jing,,Lin,,,,FALSE,99 E 7th St,2,Manhattan,NY,,,,,,,,FALSE,FALSE,FALSE,,,FALSE
+1497,Frankie,,Gonzalez,,,,FALSE,27 E 3rd St,,Manhattan,NY,,,,,,,,FALSE,FALSE,TRUE,,,FALSE
+1498,Ken,,Nochimson,,,,FALSE,33 2nd Ave,LOFT,Manhattan,NY,,,,,,,,FALSE,FALSE,FALSE,,,FALSE
+1499,Harold,,Parness,,,,FALSE,E 6th St,,10009,,,,,,,,,FALSE,FALSE,FALSE,,,FALSE
+1500,Cheryl,,Pulliam,,,,FALSE,81-11 Pettit Ave,2K,Queens,NY,11373,,,,,,,FALSE,FALSE,FALSE,,,FALSE
+1501,Bryan,,Richgruber,,,,FALSE,118 E 4th Street,21,Manhattan,NY,,,,3477495762,,mrhaljordan@gmail.com,,FALSE,TRUE,FALSE,,,FALSE
+1502,Denise,,Roberts,,,,FALSE,120 E 4th Street,15,Manhattan,NY,10003,,,,,watusiny@gmail.com,,FALSE,FALSE,FALSE,,,FALSE
+1503,Ana,,Rodriguez,,,,FALSE,65 E 4th St,,,,,,,,,,,FALSE,FALSE,TRUE,,,FALSE
+1504,Rosamaria,,Sagastume,,,,FALSE,58 E 4th Street,7,Manhattan,NY,10003,,9179686822,646-385-3223,2129927008,eastvillagelady@gmail.com,,FALSE,TRUE,TRUE,,,FALSE
+1505,Margot,,Soriano,,,,FALSE,1878 Harrison Avenue,,Bronx,NY,10453,,7187558213,,,,,FALSE,FALSE,FALSE,,,FALSE
+1506,Scott,,Valins,,,,FALSE,516 E 13th Street,2,Manhattan,NY,,,,,,scott.valins@gmail.com,,FALSE,FALSE,FALSE,,,FALSE
+1507,Alberto,,Vasquez,,,,FALSE,94 Ave A,4,Manhattan,NY,10009,,9176985774,,,albeartico@gmail.com,,FALSE,TRUE,FALSE,,,FALSE
+1508,Marie,,Christopher,,,,FALSE,210 Stanton St,122,,,10002,,2122286739,,,mariechristopherles@yahoo.com,,FALSE,FALSE,FALSE,,,FALSE
+1509,Erin,,Dunner,,,,FALSE,234 E 2nd St,4B,New York,NY,10009,,6462690292,,,,,FALSE,FALSE,FALSE,,,FALSE
+1510,Ellie,,Covan,,,,FALSE,258 Bowery,FL 2,New York,NY,10012,,9173044710,,,ellieandelvis@dixonplace.org,,FALSE,FALSE,FALSE,,,FALSE
+1511,Matt,,Metzgar,,,,TRUE,25 E 3rd St,5C,,,10003,,9178479180,,,mattmetzgar@gmail.com,,FALSE,FALSE,TRUE,,,FALSE
+1512,Anna,,Sarr,,,,FALSE,46 E 1st St,3D,New York,NY,10003,,2125985908,,,annasarr@earthlink.net,,FALSE,FALSE,FALSE,,,FALSE
+1513,Jasmine,,Gomez,,,,FALSE,67 E 4th St,1A,,,10003,,9175497097,,,gomezgj@gmail.com,,FALSE,FALSE,TRUE,,,FALSE
+1514,Diane,,Daniels,Davis,Lisa,,FALSE,35 Montgomery St,11,NY,NY,10002,,9174458924,,,,,FALSE,TRUE,FALSE,,,FALSE
+1515,Erica,,Henegen,,,,FALSE,435 E 12th St,,NY,NY,,,9175823173,,,eri822@hotmail.com,,FALSE,FALSE,FALSE,,,FALSE
+1516,Roger,,O'Neill,,,Catholic Worker,FALSE,36 E 1st St,FL 2,NY,NY,10003,,2122541640,,,,,FALSE,FALSE,FALSE,Yes,,FALSE
+1517,Mercedes,,Arroyo,,,,FALSE,57 E. 4th Street,2-C,Manhattan,NY,10003,,212-300-7572,,,,No,FALSE,TRUE,TRUE,No,,FALSE
+1518,Sara,,Banks,,,,FALSE,34 Saint Marks,2,Manhattan,NY,10003,,646-483-4785,,,ms.sara.banks@gmail.com,No,FALSE,TRUE,FALSE,No,,TRUE
+1519,Lynn,,Barurbean,,,,FALSE,329 E 6th Street,11,Manhattan,NY,10003,,212-477-2004,917-596-4950,,leapb@aol.com,added,FALSE,FALSE,FALSE,Yes,,FALSE
+1520,Richard,,Bell,,,,FALSE,301 E 10th St,,Manhattan,NY,,,2129824883,,,,,FALSE,FALSE,FALSE,,,FALSE
+1521,Sherry,,Bender,,,,FALSE,506 E 11th St,,Manhattan,NY,,,2122606929,347-387-1825,,,,FALSE,FALSE,FALSE,,,FALSE
+1522,Jane,,Casserly,,,,FALSE,197 E 7th Street,9,Manhattan,NY,10009,,917-804-8071,212-460-8725,,jcat197@hotmail.com,added,FALSE,TRUE,FALSE,No,,TRUE
+1523,Victoria,,Chryssafi,,,,FALSE,141 E.3rd Street,12-D,Manhattan,NY,10009,,212-982-0129,,,,N/A,FALSE,TRUE,FALSE,No,,FALSE
+1524,Elvira,,Colorado,,,,FALSE,85 Kenmare St.,40,Manhattan,NY,12,,212-431-1666,,,,No,FALSE,FALSE,FALSE,,,FALSE
+1525,Carol,,Davidson,,,,FALSE,231 2nd Ave,8,Manhattan,NY,10003,,212-475-8782,347-341-6710,,,N/A,FALSE,TRUE,FALSE,Yes,,TRUE
+1526,Irene,,Demchyshyn,,,,FALSE,233 E 12th Street,3B,Manhattan,NY,10003,,212-473-1885,,,irene@workman.com,added,FALSE,TRUE,FALSE,No,,FALSE
+1527,Roy,B.,Denis,,,,FALSE,"338 E. 6th St.,",8,Manhattan,NY,10003,,212-982-7944,347-744-54089,,,N/A,FALSE,TRUE,FALSE,No,,FALSE
+1528,John,,Doe,,,,FALSE,328 E 6th St,,Manhattan,NY,10009,,,,,,,FALSE,FALSE,FALSE,,,FALSE
+1529,Jennie,,Gonzalez,,,,FALSE,708 E. 4th St.,3-B,Manhattan,NY,10009,,None,,,,No,FALSE,FALSE,FALSE,No,,FALSE
+1530,Linda,,Gregg,,,,FALSE,103 St marks Pl,2B,Manhattan,NY,10009,,,,,,,FALSE,FALSE,FALSE,,,FALSE
+1531,Chisato,,Hirota,,,,FALSE,512 E 11th St,3C,Manhattan,NY,,,6465380257,,,,,FALSE,FALSE,FALSE,,,FALSE
+1532,Kris,,Hursh,,,,FALSE,205 East 4th Street,2,Manhattan,NY,10009,,917-297-4498,,,,No,FALSE,FALSE,FALSE,No,,FALSE
+1533,jared,,kotz,,,,FALSE,504 E 12th St,,Manhattan,NY,,,,,,,,FALSE,FALSE,FALSE,,,FALSE
+1534,Geovenne,,Lazo,,,,FALSE,58 East 3rd Street,Bsmt,Manhattan,NY,10003,,646-978-7692,,,yovih@hotmail.com,No,FALSE,FALSE,FALSE,No,,FALSE
+1535,Bob,,Levis,,,,FALSE,331 East 12th St,,Manhattan,NY,10003,,,,,levis4402@yahoo.com,,FALSE,FALSE,FALSE,,,FALSE
+1536,Susan,,McCarthy,,,,FALSE,106 E 7th St,,Manhattan,NY,10003,,,,,,,FALSE,FALSE,FALSE,,,FALSE
+1537,Cointa,,Nunez,,,,FALSE,504 Grand street,A63,Manhattan,NY,,,212-677-6246,,,,No,FALSE,FALSE,FALSE,No,,FALSE
+1538,Damian,,Panitz,,,,FALSE,44 E 1st Street,3,Manhattan,NY,10003,,917-687-8981,,,soundsrightsound@gmail.com,added,FALSE,FALSE,FALSE,No,,FALSE
+1539,Shane,Wolf,Reader,,,,FALSE,65 2nd Ave,2F,Manhattan,NY,10003,,3618777026,,,shane@nynf.org,added,FALSE,TRUE,FALSE,No,,FALSE
+1540,Aurora,,Sanchez,,,,FALSE,190 E. 2nd Street,20,Manhattan,NY,10009,,212-375-8707,,,,No,FALSE,TRUE,FALSE,No,,FALSE
+1541,Julia,,Spatafora,,,,FALSE,21 E 2nd St,28,Manhattan,NY,10003,,,3473534887,,,,FALSE,FALSE,FALSE,,,TRUE
+1542,Jack,,Streitman,,,,FALSE,308 E 6th Street,16,Manhattan,NY,10003,,212-254-4844,,,js112@columbia.edu,No,FALSE,FALSE,FALSE,No,,FALSE
+1543,Rosa,,Valdez,,,,FALSE,40 Madison Street,8-J,Manhattan,NY,10038,,,212-732-8540,,,No,FALSE,FALSE,FALSE,No,,FALSE
+1544,Jose,,Castro,,,,FALSE,346 E 21st St,,New York,NY,10010,,3472802483,ooo 6468087547,,josecastro1919@yahoo.com,added,FALSE,FALSE,TRUE,Yes,Pen-gay-jo,FALSE
+1545,Jennifer,,Cushman,,,,FALSE,309 E 8th Street,D3,Manhattan,NY,10009,,,203-918-6215,,guapaji@yahoo.com,added,FALSE,TRUE,FALSE,No,,FALSE
+1546,April,,Fulton,,,,FALSE,156 Driggs Ave,,Brooklyn,NY,,,,,,,,FALSE,FALSE,FALSE,,,FALSE
+1547,Nick,,Kaiser,,,,FALSE,55 E 2nd Street,5,Manhattan,NY,10003,,917-495-9515,,,,No,FALSE,FALSE,FALSE,No,,FALSE
+1548,Susan,,Penn,,,,FALSE,,,,,,,,,,,,FALSE,FALSE,FALSE,,,FALSE
+1549,Bill,,Moss,,,,FALSE,325 E 5th St,3,Manhattan,NY,10003,,212-729-3123,,,bill.moss@gmail.com,added,FALSE,FALSE,FALSE,No,,FALSE
+1550,Cecily,,Coddington,,,,FALSE,54 E 3rd St,23,New York,NY,10003,,,,,,,FALSE,FALSE,FALSE,,,FALSE
+1551,Yuriy,,Bodnaruk,,,,FALSE,325 E 5th St,F1,Manhattan,NY,,,347-828-9009,,,y.bodnaruk@gmail.com,added,FALSE,FALSE,FALSE,No,,TRUE
+1552,Maurita,,Cardone,,,,FALSE,104 Second Avenue,20,Manhattan,NY,10003,,347-636-5128,,,,No,FALSE,FALSE,FALSE,No,,TRUE
+1553,Juan,,Collazo,,,,FALSE,94 E 1st St,,Manhattan,NY,,,212677xxxx,,,,,FALSE,FALSE,FALSE,,,FALSE
+1554,Jack,,Cutler,,,,FALSE,20 Ave A,2D,Manhattan,NY,10009,,646-226-4721,,,,null,FALSE,FALSE,FALSE,No,,TRUE
+1555,Olivia,,Delgado,,,,FALSE,174 Elton St.,2,Brooklyn,NY,,,646-639-2074,,,,No,FALSE,FALSE,FALSE,No,,TRUE
+1556,Maxwell,,Deutsch,,,,FALSE,1111 St Johns Pl,,Brooklyn,NY,,,7168683966,,,themaxwelld@gmail.com,,FALSE,FALSE,FALSE,,,FALSE
+1557,Theresa,,Diamond,,,,FALSE,482 W Broadway,,Manhattan,NY,10012,,,,,,,FALSE,FALSE,FALSE,,,FALSE
+1558,Enrico,,Fales,,,,FALSE,230 E 2nd St,,Manhattan,NY,10009,,,,,,,FALSE,FALSE,FALSE,,,FALSE
+1559,Eric,,Gorham,,,,FALSE,270 E 2nd St,5B,Manhattan,NY,10009,,6463994191,,,ericgorham@gmail.com,added,FALSE,FALSE,FALSE,Yes,Chaka Khan,TRUE
+1560,Rose,,Guardino,,,,FALSE,200 E 5th Street,7L,Manhattan,NY,10003,,646-448-4405,,,,No,FALSE,FALSE,FALSE,No,,TRUE
+1561,Mouctar,,Guisse,,,,FALSE,326 E 109th St,2R,Manhattan,NY,10029,,,,,,,FALSE,FALSE,FALSE,,,FALSE
+1562,Ilakshi,,Patel,,,,FALSE,7 St Marks Pl,,Manhattan,NY,10003,,3124460974,,,ilakshi7@hotmail.com,added,FALSE,FALSE,FALSE,No,,TRUE
+1563,Scott,,Kuhlke,,,,FALSE,118 E 4th Street,21,Manhattan,NY,10003,,415-517-4636,,,scottkuhlke@yahoo.com,added,FALSE,FALSE,FALSE,No,,TRUE
+1565,Mary,,Ortini,,,,FALSE,174 Thompson St,,Manhattan,NY,10012,,"2124772029 (no VM, call after 5pm)",,,,,FALSE,FALSE,FALSE,,,FALSE
+1566,John,,Patsalos,,,,FALSE,132 Orchard St,4,Manhattan,NY,10002,,212-353-3449,,,cosmoyannis@netzero.net,added,FALSE,FALSE,FALSE,No,,TRUE
+1567,Aquies,,Pena Fortunato,,,,FALSE,130 Baruch Place,A33,Manhattan,NY,10002,,401-585-9639,,,,No,FALSE,FALSE,FALSE,No,,FALSE
+1568,Mike,,Piekarski,,,,FALSE,120 E 4th Street,,Manhattan,NY,10003,,917-573-9315,,,mikpieman@aol.com,added,FALSE,FALSE,FALSE,No,,TRUE
+1569,Minerva,,Pomales,,,,FALSE,3505 Decatur Ave,5D,Bronx,NY,10467,,,,,,,FALSE,FALSE,FALSE,,,FALSE
+1570,Eulalia,,Ramirez,,,,FALSE,129-135 Ridge street,4E,Manhattan,NY,10002,,2126731287,,,,No,FALSE,FALSE,FALSE,,,TRUE
+1571,Carmel,,Sherman,,,,FALSE,325 E 5th St,C4,Manhattan,NY,10003,,917-344-9904,,,carmel_sherman@yahoo.com,added,FALSE,FALSE,FALSE,No,,TRUE
+1572,Leonidas,R.,Tejada,,,,FALSE,42 Clinton St.,1,Manhattan,NY,10002,,917-868-8379,,,,No,FALSE,FALSE,FALSE,No,,FALSE
+1573,Mike,,Valaire,,,,FALSE,214 First Ave,2,Manhattan,NY,10009,,646-853-2225,,,mgvnyc123@yahoo.com,added,FALSE,FALSE,FALSE,No,,TRUE
+1574,Mirta,,Vian,,,,FALSE,210 Thompson St,4CN,Manhattan,NY,10012,,,,,,,FALSE,FALSE,FALSE,,,FALSE
+1575,Yoichi,,Yamamoto,,,,FALSE,205 East 4th Street,5,Manhattan,NY,,,212-475-3173,,,,No,FALSE,FALSE,FALSE,No,,TRUE
+1576,Claire,,Ellis,,,,FALSE,199 Ave A,,,,,,,,,,,FALSE,FALSE,FALSE,,,FALSE
+1577,Julia,,Grace,,,,FALSE,83 2nd Ave,2A,NY,NY,10003,,(212) 529-2010,,,,,FALSE,FALSE,TRUE,,,FALSE
+1578,Mike,,Parng,,,,FALSE,120 E 4th St,,,,,,,,,,,FALSE,FALSE,FALSE,,,FALSE
+1579,Shawn,G,Chittle,,,,FALSE,173 Ave A,17,NY,NY,10009,,,9173558424,,chittle@gmail.com,added,FALSE,FALSE,FALSE,Yes,,FALSE
+1580,Grazia,Laura,Perigozzo,,,,FALSE,249 E 2nd St,4B,,,10009,,,,,grazialaura@hotmail.com,,FALSE,FALSE,FALSE,,,TRUE
+1581,Leonardo,J,Garcia,,,,FALSE,429 E 6th St,E1,New York,NY,10009,,2129950796,6465271534,6465271534,leojesusgarcia@yahoo.com,added,FALSE,FALSE,FALSE,Yes,,FALSE
+1582,Celestine,,Gray,,,,FALSE,205 Avenue C,15F,New York,NY,10009,,6466841359,,2124775340,celestine184@gmail.com,added,FALSE,FALSE,FALSE,,,FALSE
+1583,Ann,,Kennedy,,,,FALSE,61 E 3rd St,C,New york,NY,10003,,2124609761,,,annk7772000@yahoo.com,added,FALSE,FALSE,FALSE,Yes,Oswald,TRUE
+1584,Jill,,Ackerman,,,,FALSE,504 E 12th Street,27,Manhattan,NY,,,212-614-0065,,,mingum@verizon.net,added,FALSE,FALSE,FALSE,No,,FALSE
+1585,Milagros,,Arce,,,,FALSE,269 E 4th St,,Manhattan,NY,10009,,7188091783 (cell),2122609825 (shelter),,,,FALSE,FALSE,FALSE,,,TRUE
+1586,Asimida,,Besler,,,,FALSE,2424 E. 63rd St. Mill Basin,,Brooklyn,NY,11234,,718-877-2593,718-804-6500,,asimidabesler@yahoo.com,,FALSE,FALSE,TRUE,,,TRUE
+1587,Mary Ellen,,Bizzarri,,,,FALSE,143 Lulow,3,Manhattan,NY,,,718-541-2690,,,maryellenbizzarri@yahoo.com,added,FALSE,FALSE,FALSE,No,,FALSE
+1588,Philip,,Boehle,,,,FALSE,49 E. Walnut St.,,Long Beach,NY,11561,,516-368-1349,718-264-2931,,philipboehlejr@msn.com,,FALSE,FALSE,TRUE,,,TRUE
+1589,robert,,bononno,,,,FALSE,109 2 ave,6-May,Manhattan,NY,10009,,2126736891,,,rbononno@cloud9.net,,FALSE,FALSE,FALSE,,,FALSE
+1590,Stephen,,Callahan,,,,FALSE,61 E 3rd St,,Manhattan,NY,10003,,,,,,No,FALSE,FALSE,FALSE,Yes,,FALSE
+1591,Lourdes,,Cartagena,,,,FALSE,131-16 Rockaway Beach,,Queens,NY,11694,,917-371-1742,347-296-1126,,Lourdes124@aol.com,,FALSE,FALSE,TRUE,,,TRUE
+1592,Tchia,,Casselle,,,,FALSE,419 Centre St.,,Beach Haven,NJ,,,201-448-5663,,,tchiapet@sbcglobal.net,,FALSE,FALSE,TRUE,,,TRUE
+1593,Daniel,,Chembor,,,,FALSE,36 E. 4th Street,4FE,Manhattan,NY,10003,,212-673-1687,,,,No,FALSE,FALSE,FALSE,No,,TRUE
+1594,Shawn,,Chittle,,,,FALSE,173 Avenue A,17,Manhattan,NY,10009,,9173558424,,,chittle@gmail.com,added,FALSE,FALSE,FALSE,No,,TRUE
+1595,Isabel,,Drayton,,,,FALSE,98 St Marks,2A,Manhattan,NY,10003,,,,,,,FALSE,FALSE,FALSE,,,FALSE
+1596,Elizabeth,,Durovich,,,,FALSE,3705 Neptune Ave.,,Brooklyn,NY,11224,,786-246-9402,212-677-3160,,edurovich@aol.com,,FALSE,FALSE,TRUE,,,TRUE
+1597,Chris,,Gramling,,,,FALSE,342 E 8th St,2M,Manhattan,NY,10009,,6463733811,,,chrisg@logicentric.com,,FALSE,FALSE,FALSE,,,FALSE
+1598,,,Greene,,,,FALSE,195 Ave A,,Manhattan,NY,,,,,,,,FALSE,FALSE,FALSE,,,FALSE
+1599,Mohamed,,Hafiz,,,,FALSE,21 E.2nd Street,19,Manhattan,NY,10003,,646-322-5676,,,,No,FALSE,FALSE,FALSE,No,,TRUE
+1600,Man,,Kan Yam,,,,FALSE,200 E 5th St,10F,Manhattan,NY,10003,,"6467124484 (Linny, 10C)",2122062316,,homarylee@yahoo.com,added,FALSE,FALSE,FALSE,,,TRUE
+1601,Linda,,Maddocks,,,,FALSE,120 E 4th Street,,Manhattan,NY,10003,,,,,boodiba@yahoo.com,added,FALSE,FALSE,FALSE,No,,TRUE
+1602,Ed,L,Miller,,,,FALSE,379 E. 10th St.,C,Manhattan,NY,10009,,646-732-5003,,,lesballers@netzero.com,,FALSE,FALSE,TRUE,,,TRUE
+1603,Carine,,Montbertrand,,,,FALSE,143 Ludlow,,Manhattan,NY,10002,,,,,cmontbertrand@gmail.com,added,FALSE,FALSE,FALSE,No,,FALSE
+1604,Alan,,Roberts,,,,FALSE,515 E. 6th Street,C-5,Manhattan,NY,10009,,646-532-0222,,,,No,FALSE,FALSE,FALSE,No,,FALSE
+1605,Al,,Rubenstein,,,,FALSE,95 N 7th St,,Manhattan,NY,,,,,,,,FALSE,FALSE,FALSE,,,FALSE
+1606,Maria,,Santos,,,,FALSE,"330E.15th St.,",15,Manhattan,NY,10003,,,,,,No,FALSE,FALSE,FALSE,No,,FALSE
+1607,Jorge,,Torres,,,,FALSE,Homeless: shelter @ 333 Bowery,,Manhattan,NY,10003,,9175489522,,,,,FALSE,FALSE,FALSE,,,FALSE
+1608,Patty,,Tristan,,,,FALSE,605 E 11th St,A,Manhattan,NY,10009,,3475249258,,,ppowers@mindspring.com,added,FALSE,FALSE,FALSE,,,FALSE
+1609,Jerry,,Weiss,,,,FALSE,109 E 2nd St,,Manhattan,NY,,,,,,,,FALSE,FALSE,FALSE,,,FALSE
+1610,Dina,,Welsh,,,,FALSE,43 E 1st St,,Manhattan,NY,,,,,,,,FALSE,FALSE,FALSE,,,FALSE
+1611,Teimor,,Johnston,,,,FALSE,,,,,,,,,,,,FALSE,FALSE,FALSE,,,FALSE
+1612,Brigida,,Lanfranco,,,,FALSE,,,,,,,,,,,,FALSE,FALSE,FALSE,,,FALSE
+1613,Ivana,,Mellers,,,,FALSE,60 2nd Ave,8,New York,NY,10003,,2122544958,,,ivana.mellers@gmail.com,added,FALSE,FALSE,FALSE,,,FALSE
+1614,Rita,,Corso,,,,FALSE,255 W 88th St,,Manhattan,NY,,,2126771253 (fiance Alex),,,,,FALSE,FALSE,FALSE,,,FALSE
+1615,Anselm,M,Dastner,,,,FALSE,60 Ave B,2D,Manhattan,NY,10009,,917-536-3901,,,anselm@earthlink.net,added,FALSE,FALSE,FALSE,No,,TRUE
+1616,Armand,,Ruhlman,,,,FALSE,614 E 9th St,2W,Manhattan,NY,10009,,,,,armand.ruhlman@gmail.com,No,FALSE,FALSE,FALSE,No,,FALSE
+1617,Leon,,Gruenbaum,,,,FALSE,96 St Marks Pl,2,,,10009,,212-475-5363,,,,,FALSE,FALSE,FALSE,,,FALSE
+1619,Mila,,Peysakhova,,,,FALSE,433 E 80th St,3,,,10075,,9178554932,,,mila10021@yahoo.com,,FALSE,FALSE,FALSE,,,FALSE
+1626,Kelly,,Buttolph,,,,FALSE,56 Avenue C,4A,Manhattan,NY,10009,,212-477-4762,917-684-5203,,linekino@gmail.com,No,FALSE,FALSE,FALSE,No,,FALSE
+1627,Cherry,,Deleon,,,,FALSE,580 St Nicholas Ave,1C,Manhattan,NY,10030,,2127068508,,,,,FALSE,FALSE,FALSE,,,FALSE
+1628,Daniel,,Faust,,,,FALSE,215 Mulberry St,5,Manhattan,NY,,,212-925-2277,,,dfaust5@gmail.com,No,FALSE,FALSE,FALSE,No,,TRUE
+1629,Sheri,,Greenspan,,,,FALSE,508 East 12th Street,12,Manhattan,NY,10009,,212-979-8645,917-553-0027,,fuchsia111@aol.com,added,FALSE,FALSE,FALSE,No,,TRUE
+1630,Theodore,D,Griley,,,,FALSE,46 E 1st STreet,2L,Manhattan,NY,,,347-752-7020,,,treygriley@gmail.com,No,FALSE,FALSE,FALSE,No,,TRUE
+1631,Shannon,Marie,Hall,,,,FALSE,168 E 7th St,3C,Manhattan,NY,10003,,,,,shanstar22@gmail.com,,FALSE,FALSE,FALSE,,,FALSE
+1632,Edith,,Machinist,,,,FALSE,177 Ludlow,3A,Manhattan,NY,10002,,917-679-4242,,,edithmachinist.store@gmail.com,No,FALSE,FALSE,FALSE,No,,TRUE
+1633,Taylor,,Mead,,,,FALSE,163 Ludlow St,4D,Manhattan,NY,10002,,(212) 473-0308,,,,,FALSE,FALSE,FALSE,,,FALSE
+1634,Kristall,,O'Neill-Richardson,,,,FALSE,60 Ave B,2c,Manhattan,NY,10009,,917-445-1380,,,kristalllight@gmail.com,added,FALSE,FALSE,FALSE,No,,TRUE
+1635,Tom,Shadow,Paxton,,,,FALSE,338 Bowery,,Manhattan,NY,,,,,,,,FALSE,FALSE,FALSE,,,FALSE
+1636,Sal,,Porcaro,,,,FALSE,36 East 7th Street,4W,Manhattan,NY,10003,,646-419-0413,,,sleepyinthecity@aol.com,added,FALSE,FALSE,FALSE,No,,TRUE
+1637,Samantha,,Qualls,,,,FALSE,22 st. Marks place.,,Manhattan,NY,10003,,,,,samantha.n.qualls@gmail.com,,FALSE,FALSE,FALSE,,,FALSE
+1638,Thomas,,Walker,,,,FALSE,71 E 4th St,,Manhattan,NY,,,,,,,,FALSE,FALSE,TRUE,,,FALSE
+1639,Dorothy,,Williams,,,,FALSE,361 W 121st St,1W,Manhattan,NY,10027,,9176794525 (son Barry Shark),,,,,FALSE,FALSE,FALSE,,,FALSE

@@ -1,0 +1,30 @@
+# Define the path for civicrm source directory here
+CIVISOURCEDIR=
+
+#Define the path for civihr source directory here
+CIVIHRDIR=
+
+#Define the path for drupal directory here
+DRUPALDIR=
+
+#Define your DSN database name here, will be overriden by
+# DSNDBNAME=civicrm_tests_dev
+DSNDBNAME=
+
+# define your CiviCRM database name here, will be overriden by
+# CIVIDBNAME=civicrm_tests_dev
+CIVIDBNAME=
+
+# define your database usernamename here
+DBUSER=
+
+# define your database password here
+DBPASS=
+
+# Define the path which stores JUnit XML output files
+# default (if omitted): $CIVISOURCEDIR/build
+# TESTOUTDIR=
+
+# Define the location of a temporary SQL dump
+# default (if omitted): $CIVIHRDIR/bin/dump.sql
+# SQLDUMP=

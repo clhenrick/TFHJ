@@ -1,0 +1,250 @@
+Membership Type Id,Access Status,Membership Status Id,External Identifier (match to contact),- do not import -,- do not import -,- do not import -,- do not import -,Last Pay Amount,Last Pay Date,Membership Start Date,Membership Expiration Date,- do not import -,- do not import -,- do not import -,- do not import -,- do not import -,- do not import -,- do not import -,- do not import -,Last Pay Method,Source
+Individual,Inactive,Cancelled,12,Rebecca,Brooks,ret101110,,1,3/10/2009,3/10/2009,3/9/2010,none,none,,Cash,,BK,,,"Paid w Cash #, receipt #none by none",Referred by ; Added by BK
+Individual,Active,Grace,31,Robert,Pinter,,,1,4/27/2011,4/27/2011,12/31/2012,,,,,,,,,"Paid w  #, receipt # by",Referred by ; Added by
+Individual,Active,Inactive,61,Nicolas,Miguel,,,0,1/1/1959,1/1/1959,12/31/1959,,,,,,,,,"Paid w  #, receipt # by",Referred by ; Added by
+Individual,Active,Grace,65,Debra,Lamb,,,0,2/15/2012,1/1/1959,12/31/2012,,,,,,,,,"Paid w  #, receipt # by",Referred by ; Added by
+Individual,Active,Grace,72,Shirley,Campbell,vot#24,,1,12/14/2011,11/7/1979,12/31/2012,,DW hand,,,,,,,"Paid w  #, receipt # by DW hand",Referred by ; Added by
+Individual,Inactive,Cancelled,83,Lynette,Sheldon,ret120710,,0,6/3/2010,1/1/1959,12/7/2010,,,,,,GC,,,"Paid w  #, receipt # by",Referred by ; Added by GC
+Individual,Active,Grace,95,Miriam,Garcia,,,1,4/2/2011,1/1/1959,12/31/2012,,None,,,Flea Market,,,,"Paid w  #, receipt # by None",Referred by Flea Market; Added by
+Individual,Active,Inactive,111,Juliana,Liriano,,,0,1/1/1959,1/1/1959,12/31/1959,,,,,,,,,"Paid w  #, receipt # by",Referred by ; Added by
+Individual,Active,Inactive,113,Nancy,Blum,DO NOT MAIL; upd100410,,0,1/1/1959,1/1/1959,12/31/1959,,,,,,,,,"Paid w  #, receipt # by",Referred by ; Added by
+Individual,Inactive,Grace,118,Lucille,Lozada,vot#12,,-5,7/28/2011,1/1/1981,12/31/2012,,,,,,DW,,,"Paid w  #, receipt # by",Referred by ; Added by DW
+Individual,Active,Inactive,120,Maria,Montalvo,,,0,1/1/1959,1/1/1959,12/31/1959,,,,,,,,Yes,"Paid w  #, receipt # by",Referred by ; Added by
+Individual,Active,Inactive,122,Bonnie,Villanueva,,,0,1/1/1959,1/1/1959,12/31/1959,,,,,,,,,"Paid w  #, receipt # by",Referred by ; Added by
+Individual,Active,Grace,123,James,Wechsler,,,1,4/2/2011,4/2/2011,12/31/2012,,None,,,Flea Market/Client,Board,,,"Paid w  #, receipt # by None",Referred by Flea Market/Client; Added by Board
+Individual,Active,Inactive,130,Gaylein-Tuffaye,Juansen,,,0,1/1/1959,1/1/1959,12/31/1959,,,,,,,,,"Paid w  #, receipt # by",Referred by ; Added by
+Individual,Active,Grace,136,Kathy,Dremalas,ret092011?,,1,1/31/2011,1/31/2011,12/31/2012,2449,Dw hand,,Cash,Saw form,DW,,,"Paid w Cash #, receipt #2449 by Dw hand",Referred by Saw form; Added by DW
+Individual,Active,Inactive,139,George,Shustowicz,,,0,1/1/1959,1/1/1959,12/31/1959,,,,,,,,,"Paid w  #, receipt # by",Referred by ; Added by
+Individual,Inactive,MIA,145,Georgina,Martinez,,,0,1/1/1959,1/1/1959,1/1/1959,,,,,,,,in TA there,"Paid w  #, receipt # by",Referred by ; Added by
+Individual,Active,Grace,158,Pierre,Carrilero,vot#32,,2,1/27/2010,1/27/2010,12/31/2012,2350,,,Cash,,DW,,,"Paid w Cash #, receipt #2350 by",Referred by ; Added by DW
+Individual,Active,Grace,181,Petra,Rondon,,,1,2/15/2012,1/1/1959,12/31/2012,2425,JD hand,,Cash,,DW/JD,,,"Paid w Cash #, receipt #2425 by JD hand",Referred by ; Added by DW/JD
+Individual,Inactive,Deceased,194,Bob,Wynn,Dead,,0,1/1/1959,1/1/1959,1/1/1959,,,,,,,,,"Paid w  #, receipt # by",Referred by ; Added by
+Individual,Active,Inactive,207,Godson,Zosike,38,,0,1/1/1959,1/1/1959,12/31/1959,,,,,,From card added prior to 9/2008 Mailing,,,"Paid w  #, receipt # by",From card added prior to 9/2008 Mailing
+Individual,Active,Inactive,212,William,Reilly,Upd042810-?,,0,1/1/1959,1/1/1959,12/31/1959,,,,,,,,,"Paid w  #, receipt # by",Referred by ; Added by
+Individual,Active,Inactive,225,Elba,Quinones,,,0,1/1/1959,1/1/1959,12/31/1959,,,,,,,,,"Paid w  #, receipt # by",Referred by ; Added by
+Individual,Active,Grace,226,Cheryl,Freeman,vot#17,,2,2/17/2012,1/1/1959,12/31/2012,2557,hand,,,,DW,,,"Paid w  #, receipt #2557 by hand",Referred by ; Added by DW
+Individual,Active,Grace,230,Elsa,Martillo,,,0,12/14/2011,12/8/1976,12/31/2012,,,,,,DW,,,"Paid w  #, receipt # by",Referred by ; Added by DW
+Individual,Active,Grace,238,,,but longtime friend,,1,2/15/2012,2/15/2012,12/31/2012,,,,,,DW,,,"Paid w  #, receipt # by",Referred by ; Added by DW
+Individual,Active,Grace,265,Elba,Briceno,upd010411,,1,1/3/2011,1/1/1959,12/31/2012,2443,,,Cash,,CV,,,"Paid w Cash #, receipt #2443 by",Referred by ; Added by CV
+Individual,Active,Grace,284,Julia,Hanlon,,,1,2/15/2012,1/1/1959,12/31/2012,,,,,,,,,"Paid w  #, receipt # by",Referred by ; Added by
+Individual,Active,Grace,298,Amir,Bey,vot#15,,2,2/15/2012,5/29/1984,12/31/2012,2241,DW hand,,Cash,,DW,,,"Paid w Cash #, receipt #2241 by DW hand",Referred by ; Added by DW
+Individual,Inactive,MIA,304,Nicholas,Caturano,,,0,1/1/1959,1/1/1959,1/1/1959,,,,,,,,,"Paid w  #, receipt # by",Referred by ; Added by
+Individual,Active,Grace,309,Randi,Gordner,,,1,1/26/2011,1/26/2011,12/31/2012,2447,DW hand,,Cash,,DW,,,"Paid w Cash #, receipt #2447 by DW hand",Referred by ; Added by DW
+Individual,Active,Inactive,320,Corliss,Duke,Upd042810,,0,1/1/1959,1/1/1959,12/31/1959,,,,,,,,,"Paid w  #, receipt # by",Referred by ; Added by
+Individual,Inactive,MIA,322,Robert,Hirschfield,,,0,1/1/1959,1/1/1959,1/1/1959,,,,,,,,,"Paid w  #, receipt # by",Referred by ; Added by
+Individual,Active,Grace,325,Martha,Araujo,"vot#67, spouse of Galo Montenegro, but mail ret!",,3,10/6/2010,1/1/1959,12/31/2012,2407,DW hand,,,,DW,,,"Paid w  #, receipt #2407 by DW hand",Referred by ; Added by DW
+Individual,Active,Inactive,333,Edgar,Ramirez,,MHA,0,1/1/1959,10/1/2010,12/31/1959,,,,,Lucille,,,,"Paid w  #, receipt # by",Referred by Lucille; Added by
+Individual,Active,Grace,336,Elliot,Berke,,,1,4/2/2011,4/2/2011,12/31/2012,,None,,,Flea Market/Client,Board,,,"Paid w  #, receipt # by None",Referred by Flea Market/Client; Added by Board
+Individual,Active,Grace,339,Elizabeth,Brus,,,1,1/26/2011,1/26/2011,12/31/2012,2447,DW hand,,Cash,,Dw,,,"Paid w Cash #, receipt #2447 by DW hand",Referred by ; Added by Dw
+Individual,Active,Grace,352,Nehama,Jury,,,1,4/27/2011,9/22/2010,12/31/2012,,none,,Check,DW,DW,,,"Paid w Check #, receipt # by none",Referred by DW; Added by DW
+Individual,Active,Grace,355,Pat,Franklin,Upd042810-?,,1,12/14/2011,1/1/1959,12/31/2012,,DW hand,,Cash,,,,,"Paid w Cash #, receipt # by DW hand",Referred by ; Added by
+Individual,Inactive,MIA,405,Karen,Zeckendorf,,,0,1/1/1959,1/1/1959,1/1/1959,,,,,,,,,"Paid w  #, receipt # by",Referred by ; Added by
+Individual,Active,Grace,424,Carmen,Gonzalez,vot#70,,1,12/14/2011,1/1/1959,12/31/2012,,DW hand,,Cash,,DW,,,"Paid w Cash #, receipt # by DW hand",Referred by ; Added by DW
+Individual,Active,Grace,445,Roanna,Judelson,vot#71,,1,2/15/2012,1/1/1959,12/31/2012,,,,,,,,,"Paid w  #, receipt # by",Referred by ; Added by
+Individual,Active,Grace,447,,,,,1,12/2/2011,12/2/2011,12/31/2012,,,,,St Marks campaign,St Marks campaign,,,"Paid w  #, receipt # by",Referred by St Marks campaign; Added by St Marks campaign
+Individual,Inactive,Cancelled,450,Jessica R.,Hamila,ret042909,,0,1/1/1959,1/1/1959,4/29/2009,,,,,,,,,"Paid w  #, receipt # by",Referred by ; Added by
+Individual,Active,Grace,450,Jessica,Hamila,"vot#65, upd100610",,2,1/27/2010,1/1/1990,12/31/2012,2348,,,Cash,,DW,,,"Paid w Cash #, receipt #2348 by",Referred by ; Added by DW
+Individual,Active,Grace,454,Cynthia,Mount,"vot#26, upd092210",,1,4/30/2012,1/1/1959,12/31/2012,,none,,Cash,,,,,"Paid w Cash #, receipt # by none",Referred by ; Added by
+Individual,Active,Inactive,455,Carmen,Perez,,,0,1/1/1959,1/1/1959,12/31/1959,,,,,,,,,"Paid w  #, receipt # by",Referred by ; Added by
+Individual,Inactive,MIA,466,Miguel,Torres,,,0,1/1/1959,1/1/1959,1/1/1959,,,,,,,,,"Paid w  #, receipt # by",Referred by ; Added by
+Individual,Active,Grace,489,Jeanne,Mullen,,,1,5/7/2011,5/7/2011,12/31/2012,?,?,,?,Flea Market,Flea 5/2011,,,"Paid w ? #, receipt #? by ?",Referred by Flea Market; Added by Flea 5/2011
+Individual,Active,Inactive,507,Jesus B.,Santiago,,,0,1/1/1959,1/1/1959,12/31/1959,,,,,,,,Yes,"Paid w  #, receipt # by",Referred by ; Added by
+Individual,Active,Grace,532,Lucille,Carrasquero,Upd042810,,2,4/28/2010,1/1/1998,12/31/2012,,,,,,,,,"Paid w  #, receipt # by",Referred by ; Added by
+Individual,Active,Inactive,538,Angel,Ramirez,,,0,1/1/1959,1/1/1959,12/31/1959,,,,,,,,,"Paid w  #, receipt # by",Referred by ; Added by
+Individual,Active,Inactive,542,Walter & Cecile,Abish,,,0,1/1/1959,1/1/1959,12/31/1959,,,,,,,,,"Paid w  #, receipt # by",Referred by ; Added by
+Individual,Active,Inactive,546,Jose,Adames,,,0,1/1/1959,1/1/1959,12/31/1959,,,,,,,,,"Paid w  #, receipt # by",Referred by ; Added by
+Individual,Active,Grace,548,Katharine,Adams,,,1,5/7/2011,5/7/2011,12/31/2012,?,?,,?,Flea Market,Flea 5/2011,,,"Paid w ? #, receipt #? by ?",Referred by Flea Market; Added by Flea 5/2011
+Individual,Active,Grace,549,Peter,Addhin,,,10,6/24/1905,1/1/1959,12/31/2012,,,,,,,,,"Paid w  #, receipt # by",Referred by ; Added by
+Individual,Active,Inactive,550,Iris,Adorno,,,0,1/1/1959,1/1/1959,12/31/1959,,,,,,,,,"Paid w  #, receipt # by",Referred by ; Added by
+Individual,Active,Inactive,552,Jill,Anderson,,,0,1/1/1959,1/1/1959,12/31/1959,,,,,,,,,"Paid w  #, receipt # by",Referred by ; Added by
+Individual,Active,Inactive,554,Rosa & Ramesh,Andrade,,,0,1/1/1959,1/1/1959,12/31/1959,,,,,,,,,"Paid w  #, receipt # by",Referred by ; Added by
+Individual,Active,Inactive,555,Zoila,Andrade,,,0,1/1/1959,1/1/1959,12/31/1959,,,,,,,,,"Paid w  #, receipt # by",Referred by ; Added by
+Individual,Active,Inactive,556,Fr. Anthony,Aracich,,Nativity Church,0,1/1/1959,1/1/1959,12/31/1959,,,,,,,,,"Paid w  #, receipt # by",Referred by ; Added by
+Individual,Active,Inactive,557,J. Ed,Araiza,,,0,1/1/1959,1/1/1959,12/31/1959,,,,,,,,,"Paid w  #, receipt # by",Referred by ; Added by
+Individual,Active,Inactive,558,Margot,Arellano,,,0,1/1/1959,1/1/1959,12/31/1959,,,,,,,,,"Paid w  #, receipt # by",Referred by ; Added by
+Individual,Active,Inactive,564,RJ,Baker,,,0,1/1/1959,1/1/1959,12/31/1959,,,,,,,,,"Paid w  #, receipt # by",Referred by ; Added by
+Individual,Active,Grace,565,David,Barkin,upd092210,,5,9/26/2007,4/30/1990,12/31/2012,,,,,,,,,"Paid w  #, receipt # by",Referred by ; Added by
+Individual,Active,Inactive,566,Alfred & Carmen,Barreto,,,0,1/1/1959,1/1/1959,12/31/1959,,,,,,,,,"Paid w  #, receipt # by",Referred by ; Added by
+Individual,Active,Inactive,567,Robert,Barreto,,,0,1/1/1959,1/1/1959,12/31/1959,,,,,,,,,"Paid w  #, receipt # by",Referred by ; Added by
+Individual,Active,Grace,569,Fran,Baskin,vot#49,,1,12/15/2011,10/22/2009,12/31/2012,,DW hand,,cash,,,,,"Paid w cash #, receipt # by DW hand",Referred by ; Added by
+Individual,Active,Inactive,570,Irit,Bastry,upd082310,,0,1/1/1959,1/1/1959,12/31/1959,,,,,,,,,"Paid w  #, receipt # by",Referred by ; Added by
+Individual,Active,Inactive,572,Anne,Beazer,,,0,1/1/1959,1/1/1959,12/31/1959,,,,,,,,,"Paid w  #, receipt # by",Referred by ; Added by
+Individual,Active,Grace,573,Derek,Berg,,,2,4/27/2011,1/1/1959,12/31/2012,,,,,,,,,"Paid w  #, receipt # by",Referred by ; Added by
+Business,Active,Inactive,575,,Block Drugstore,,,0,1/1/1959,1/1/1959,12/31/1959,,,,,,,,,"Paid w  #, receipt # by",Referred by ; Added by
+Individual,Active,Grace,576,Steven,Boccia,,,1,2/15/2012,1/1/1959,12/31/2012,,,,,,,,,"Paid w  #, receipt # by",Referred by ; Added by
+Individual,Active,Inactive,577,Tony,Bonilla,upd120310 fr Elena,MHA,0,1/1/1959,10/1/2010,12/31/1959,,,,,Lucille,,,,"Paid w  #, receipt # by",Referred by Lucille; Added by
+Individual,Active,Inactive,578,Richard,Boodman,,,0,1/1/1959,1/1/1959,12/31/1959,,,,,,,,,"Paid w  #, receipt # by",Referred by ; Added by
+Individual,Active,Inactive,583,Chris,Brandt,,,0,1/1/1959,1/1/1959,12/31/1959,,,,,,,,,"Paid w  #, receipt # by",Referred by ; Added by
+Business,Active,Inactive,584,,BRC,Upd042810,,0,1/1/1959,1/1/1959,12/31/1959,,,,,,,,,"Paid w  #, receipt # by",Referred by ; Added by
+Individual,Active,Grace,585,Anna,Bressanin,,,1,4/2/2011,4/2/2011,12/31/2012,,None,,,Flea Market,Board,,,"Paid w  #, receipt # by None",Referred by Flea Market; Added by Board
+Individual,Active,Inactive,588,Natalie & Nigel,Brown,,,0,1/1/1959,1/1/1959,12/31/1959,,,,,,,,,"Paid w  #, receipt # by",Referred by ; Added by
+Individual,Active,Inactive,590,Mark,Bulvanoski,,,0,1/1/1959,1/1/1959,12/31/1959,,,,,,,,,"Paid w  #, receipt # by",Referred by ; Added by
+Individual,Active,Inactive,591,Geraldine,Burke,,,0,1/1/1959,1/1/1959,12/31/1959,,,,,,,,,"Paid w  #, receipt # by",Referred by ; Added by
+Individual,Active,Inactive,592,Vinie,Burrows,,,0,1/1/1959,1/1/1959,12/31/1959,,,,,,,,,"Paid w  #, receipt # by",Referred by ; Added by
+Individual,Active,Inactive,595,Katherine,Busch,,,0,1/1/1959,1/1/1959,12/31/1959,,,,,,,,,"Paid w  #, receipt # by",Referred by ; Added by
+Individual,Active,Inactive,597,Anthony,Cali Sr.,,,0,1/1/1959,1/1/1959,12/31/1959,,,,,,,,,"Paid w  #, receipt # by",Referred by ; Added by
+Individual,Active,Inactive,599,Lucus,Candela-Michelus,Upd042810,,0,1/1/1959,1/1/1959,12/31/1959,,,,,,,,,"Paid w  #, receipt # by",Referred by ; Added by
+Individual,Active,Inactive,608,Director,Catholic Worker,,,0,1/1/1959,1/1/1959,12/31/1959,,,,,,,,,"Paid w  #, receipt # by",Referred by ; Added by
+Individual,Active,Grace,609,Michael,Cavadias,7,,11,2/15/2012,5/19/2000,12/31/2012,,,,,,From card added prior to 9/2008 Mailing,,,"Paid w  #, receipt # by",From card added prior to 9/2008 Mailing
+Individual,Active,Inactive,612,Maya,Chafe,,,0,1/1/1959,1/1/1959,12/31/1959,,,,,,,,,"Paid w  #, receipt # by",Referred by ; Added by
+Individual,Active,Grace,614,Elaine,Chan,,,1,6/24/2011,1/1/2009,12/31/2012,2478,Dw hand,,Check,2009 Gala,DW,,,"Paid w Check #, receipt #2478 by Dw hand",Referred by 2009 Gala; Added by DW
+Individual,Active,Grace,619,Diane,Chow,,,1,2/15/2012,1/1/1959,12/31/2012,,,,,,,,,"Paid w  #, receipt # by",Referred by ; Added by
+Business,Active,Inactive,621,,Church of the Nativity,37,,0,1/1/1959,1/1/1959,12/31/1959,,,,,,From card added prior to 9/2008 Mailing,,,"Paid w  #, receipt # by",From card added prior to 9/2008 Mailing
+Individual,Active,Inactive,625,Deborah,Colon,,,0,1/1/1959,1/1/1959,12/31/1959,,,,,,,,,"Paid w  #, receipt # by",Referred by ; Added by
+Individual,Active,Grace,626,Efrain,Concepción,vot,,3,10/1/2010,1/1/1959,12/31/2012,,,,Cash,Lucille,,,,"Paid w Cash #, receipt # by",Referred by Lucille; Added by
+Individual,Active,Grace,627,Julia,Concepción,,,3,10/1/2010,1/1/1959,12/31/2012,,,,Cash,Lucille,,,,"Paid w Cash #, receipt # by",Referred by Lucille; Added by
+Business,Active,Inactive,631,Assembly of God,Cooper Square,,,0,1/1/1959,1/1/1959,12/31/1959,,,,,,,,,"Paid w  #, receipt # by",Referred by ; Added by
+Individual,Active,Inactive,632,Manuel,Corchado,,,0,1/1/1959,1/1/1959,12/31/1959,,,,,,,,,"Paid w  #, receipt # by",Referred by ; Added by
+Individual,Active,Inactive,636,John & Gail,Cowan,,,0,1/1/1959,1/1/1959,12/31/1959,,,,,,,,,"Paid w  #, receipt # by",Referred by ; Added by
+Individual,Active,Grace,637,Susan,Cox,,,1,5/7/2011,5/7/2011,12/31/2012,?,?,,?,Flea Market,Flea 5/2011,,,"Paid w ? #, receipt #? by ?",Referred by Flea Market; Added by Flea 5/2011
+Individual,Active,Inactive,638,Dorina,Cragnati,,,0,1/1/1959,1/1/1959,12/31/1959,,,,,,,,,"Paid w  #, receipt # by",Referred by ; Added by
+Individual,Active,Inactive,641,Francisca,Cruz,,,0,1/1/1959,1/1/1959,12/31/1959,,,,,,,,,"Paid w  #, receipt # by",Referred by ; Added by
+Individual,Active,Inactive,642,Susann,Dalton,,,0,1/1/1959,1/1/1959,12/31/1959,,,,,,,,,"Paid w  #, receipt # by",Referred by ; Added by
+Individual,Active,Inactive,644,Roland R.,Davie,,,0,1/1/1959,1/1/1959,12/31/1959,,,,,,,,,"Paid w  #, receipt # by",Referred by ; Added by
+Individual,Active,Grace,645,Pat,De Angelis,vot,,1,2/15/2012,1/1/1959,12/31/2012,,,,,,,,,"Paid w  #, receipt # by",Referred by ; Added by
+Individual,Active,Inactive,647,Tito & Maureen,Delgado,,,0,1/1/1959,1/1/1959,12/31/1959,,,,,,,,,"Paid w  #, receipt # by",Referred by ; Added by
+Individual,Active,Grace,649,Linda,Devitt,,,1,4/27/2011,5/2/1984,12/31/2012,,,,,,,,,"Paid w  #, receipt # by",Referred by ; Added by
+Individual,Inactive,Cancelled,650,,,ret080612,,1,6/5/2008,1/1/1959,8/6/2012,,,,,,,,,"Paid w  #, receipt # by",Referred by ; Added by
+Individual,Inactive,Cancelled,652,,,ret,,0,1/1/1959,1/1/1959,1/1/1959,,,,,,,,,"Paid w  #, receipt # by",Referred by ; Added by
+Business,Active,Expired,653,,Dress Shop,,,5,6/6/2009,6/6/2009,12/31/2010,2277,,,,,LS,,,"Paid w  #, receipt #2277 by",Referred by ; Added by LS
+Business,Active,Inactive,655,Alison,Duncan/Jen Abrams,,WOW Café,0,1/1/1959,1/1/1959,12/31/1959,,,,,,,,,"Paid w  #, receipt # by",Referred by ; Added by
+Individual,Active,Inactive,657,Phyllis,Eckhaus,,,0,1/1/1959,1/1/1959,12/31/1959,,,,,,,,,"Paid w  #, receipt # by",Referred by ; Added by
+Individual,Active,Inactive,658,Ann,Egbert,,,0,1/1/1959,1/1/1959,12/31/1959,,,,,,,,,"Paid w  #, receipt # by",Referred by ; Added by
+Individual,Active,Grace,660,Janice,Ellsworth,"vot#53, CU",,2,4/27/2011,1/1/1986,12/31/2012,None,None,,Cash,,,,,"Paid w Cash #, receipt #None by None",Referred by ; Added by
+Individual,Inactive,Cancelled,662,,,ret121811,,0,6/3/2010,6/3/2010,12/18/2011,,,,,,GC,,,"Paid w  #, receipt # by",Referred by ; Added by GC
+Individual,Active,Grace,663,Grace,Espana,,,2,9/22/2010,6/24/2010,12/31/2012,,,,,RGB final vote,,,,"Paid w  #, receipt # by",Referred by RGB final vote; Added by
+Individual,Active,Inactive,665,Robert,Espinal,,,0,1/1/1959,1/1/1959,12/31/1959,,,,,,,,,"Paid w  #, receipt # by",Referred by ; Added by
+Individual,Inactive,Cancelled,667,,,ret120611,,0,1/1/1959,1/1/1959,12/6/2011,,,,,,,,,"Paid w  #, receipt # by",Referred by ; Added by
+Individual,Active,Inactive,669,Jessica,Falstein,,,0,1/1/1959,1/1/1959,12/31/1959,,,,,,,,,"Paid w  #, receipt # by",Referred by ; Added by
+Individual,Active,Inactive,672,Ndiaw,Faye,,,0,1/1/1959,1/1/1959,12/31/1959,,,,,,,,,"Paid w  #, receipt # by",Referred by ; Added by
+Individual,Active,Inactive,674,Scott & Tracy,Fedonchik,,,0,1/1/1959,1/1/1959,12/31/1959,,,,,,,,,"Paid w  #, receipt # by",Referred by ; Added by
+Individual,Active,Inactive,680,Martha S.,Fiskin,,,0,1/1/1959,1/1/1959,12/31/1959,,,,,,,,,"Paid w  #, receipt # by",Referred by ; Added by
+Individual,Active,Grace,681,Siu Kuen,Fong,,,1,12/14/2011,10/2/2010,12/31/2012,,DW hand,,Cash,JR,JR/JD,,,"Paid w Cash #, receipt # by DW hand",Referred by JR; Added by JR/JD
+Individual,Active,Grace,682,Mary S.,Foster,vot,,2,10/6/2010,1/1/1959,12/31/2012,2239,DW hand,,Cash,,DW,,,"Paid w Cash #, receipt #2239 by DW hand",Referred by ; Added by DW
+Individual,Active,Inactive,687,Richard,Freedman,,,0,1/1/1959,1/1/1959,12/31/1959,,,,,,,,,"Paid w  #, receipt # by",Referred by ; Added by
+Individual,Active,Inactive,688,Francesca,Freeman,,,0,1/1/1959,1/1/1959,12/31/1959,,,,,,,,,"Paid w  #, receipt # by",Referred by ; Added by
+Individual,Active,Inactive,690,Father,Gannon,,Church of the Nativity,0,1/1/1959,1/1/1959,12/31/1959,,,,,,,,,"Paid w  #, receipt # by",Referred by ; Added by
+Individual,Active,Inactive,693,Leon,Garcia,,,0,1/1/1959,1/1/1959,12/31/1959,,,,,,,,,"Paid w  #, receipt # by",Referred by ; Added by
+Individual,Active,Inactive,695,Katherine,Garnett,Upd100410,,0,1/1/1959,1/1/1959,12/31/1959,,,,,,,,,"Paid w  #, receipt # by",Referred by ; Added by
+Individual,Active,Grace,700,Bryan,Gmitter,vot,,1,12/16/2008,7/19/2003,12/31/2012,2245,DW hand,,Cash,,DW,,,"Paid w Cash #, receipt #2245 by DW hand",Referred by ; Added by DW
+Individual,Active,Inactive,702,Antonio,Gomez,,,0,1/1/1959,1/1/1959,12/31/1959,,,,,,,,,"Paid w  #, receipt # by",Referred by ; Added by
+Individual,Active,Inactive,704,Gerardo,Gonzalez,,,0,1/1/1959,1/1/1959,12/31/1959,,,,,,,,,"Paid w  #, receipt # by",Referred by ; Added by
+Individual,Active,Inactive,706,Maria & Mercedes,Gonzalez,,,0,1/1/1959,1/1/1959,12/31/1959,,,,,,,,,"Paid w  #, receipt # by",Referred by ; Added by
+Individual,Active,Inactive,710,Anne,Gorrissen,,,0,1/1/1959,1/1/1959,12/31/1959,,,,,,,,,"Paid w  #, receipt # by",Referred by ; Added by
+Individual,Inactive,Cancelled,712,,,"ret042012, refused",,0,1/1/1959,1/1/1959,4/20/2012,,,,,,,,,"Paid w  #, receipt # by",Referred by ; Added by
+Individual,Active,Grace,714,Latisha,Griggs,,,1,12/14/2011,10/1/2007,12/31/2012,,DW hand,,Cash,,,,,"Paid w Cash #, receipt # by DW hand",Referred by ; Added by
+Individual,Active,Grace,715,Alex & Irene,Gross,upd092210,,1,4/27/2011,10/15/1992,12/31/2012,2250,"DJW hand, later none",,Cash,,DJW,,,"Paid w Cash #, receipt #2250 by DJW hand, later none",Referred by ; Added by DJW
+Business,Active,Inactive,720,,H & H Building Consultants,,,0,1/1/1959,1/1/1959,12/31/1959,,,,,,,,,"Paid w  #, receipt # by",Referred by ; Added by
+Individual,Active,Grace,722,Josie,Hamila,vot#13,,2,1/27/2010,1/1/1960,12/31/2012,2349,,,Cash,,DW,,,"Paid w Cash #, receipt #2349 by",Referred by ; Added by DW
+Individual,Active,Inactive,726,Mary Nell,Hawk,,,0,1/1/1959,1/1/1959,12/31/1959,,,,,,,,,"Paid w  #, receipt # by",Referred by ; Added by
+Individual,Inactive,Cancelled,728,Nathan,Heidenheimer,moved?,,0,7/1/2009,7/1/2009,7/1/2009,,,,,,,,,"Paid w  #, receipt # by",Referred by ; Added by
+Individual,Active,Inactive,729,Arlene,Hellerman,,,0,1/1/1959,1/1/1959,12/31/1959,,,,,,,,,"Paid w  #, receipt # by",Referred by ; Added by
+Individual,Active,Inactive,732,Carmen,Hernandez,,,0,1/1/1959,1/1/1959,12/31/1959,,,,,,,,,"Paid w  #, receipt # by",Referred by ; Added by
+Individual,Active,Grace,735,Ruth,Hernandez,,,2,3/2/2010,5/15/1998,12/31/2012,2353,CV hand,,Cash,,CV,,,"Paid w Cash #, receipt #2353 by CV hand",Referred by ; Added by CV
+Individual,Active,Inactive,738,Andre & Marco,Hidalgo,,,0,1/1/1959,1/1/1959,12/31/1959,,,,,,,,,"Paid w  #, receipt # by",Referred by ; Added by
+Individual,Active,Inactive,739,Katherine,Hidalgo,,,0,1/1/1959,1/1/1959,12/31/1959,,,,,,,,,"Paid w  #, receipt # by",Referred by ; Added by
+Individual,Active,Inactive,740,Robert,Hieger,,,0,1/1/1959,1/1/1959,12/31/1959,,,,,,,,,"Paid w  #, receipt # by",Referred by ; Added by
+Individual,Active,Inactive,742,Kam Sham,Ho,,,0,1/1/1959,1/1/1959,12/31/1959,,,,,,,,,"Paid w  #, receipt # by",Referred by ; Added by
+Individual,Active,Inactive,743,Dolores M.,Hoelle,,,0,1/1/1959,1/1/1959,12/31/1959,,,,,,,,,"Paid w  #, receipt # by",Referred by ; Added by
+Individual,Active,Inactive,746,Rob,Hollander,,,0,1/1/1959,1/1/1959,12/31/1959,,,,,,,,,"Paid w  #, receipt # by",Referred by ; Added by
+Individual,Active,Inactive,747,Idaree,Holt-Nelson,,,0,1/1/1959,1/1/1959,12/31/1959,,,,,,,,,"Paid w  #, receipt # by",Referred by ; Added by
+Individual,Active,Inactive,751,Michael,Howett,upd091312,,0,1/1/1959,1/1/1959,12/31/1959,,,,,,,,,"Paid w  #, receipt # by",Referred by ; Added by
+Individual,Active,Inactive,752,Cui Qun,Huang,,,0,1/1/1959,1/1/1959,12/31/1959,,,,,,,,,"Paid w  #, receipt # by",Referred by ; Added by
+Individual,Active,Inactive,753,J.L.,Huang,,,0,1/1/1959,1/1/1959,12/31/1959,,,,,,,,,"Paid w  #, receipt # by",Referred by ; Added by
+Individual,Active,Inactive,755,Jean Ann,Hughes,,,0,1/1/1959,1/1/1959,12/31/1959,,,,,,,,,"Paid w  #, receipt # by",Referred by ; Added by
+Individual,Active,Inactive,756,Polly,Hui,12,,0,1/1/1959,1/1/1959,12/31/1959,,,,,,From card added prior to 9/2008 Mailing,,,"Paid w  #, receipt # by",From card added prior to 9/2008 Mailing
+Individual,Active,Grace,757,Joseph,Hurd,upd 2/15/12,,2,2/15/2012,4/28/2010,12/31/2012,2364,DW hand,,,,DW,,,"Paid w  #, receipt #2364 by DW hand",Referred by ; Added by DW
+Individual,Active,Inactive,761,David,Johnson,vot#thisisforCharles57,,0,1/1/1959,1/1/1959,12/31/1959,,,,,,,,,"Paid w  #, receipt # by",Referred by ; Added by
+Individual,Active,Inactive,765,Lisa,Kaplan,,,0,1/1/1959,1/1/1959,12/31/1959,,,,,,,,,"Paid w  #, receipt # by",Referred by ; Added by
+Individual,Active,Inactive,766,Barry,Keating,,,0,1/1/1959,1/1/1959,12/31/1959,,,,,,,,,"Paid w  #, receipt # by",Referred by ; Added by
+Individual,Active,Inactive,767,Sophie,Keir,,,0,1/1/1959,1/1/1959,12/31/1959,,,,,,,,,"Paid w  #, receipt # by",Referred by ; Added by
+Individual,Active,Inactive,772,Milad,Khan,17,,0,1/1/1959,1/1/1959,12/31/1959,,,,,,From card added prior to 9/2008 Mailing,,,"Paid w  #, receipt # by",From card added prior to 9/2008 Mailing
+Individual,Active,Inactive,774,Tine,Kindermann,,,0,1/1/1959,1/1/1959,12/31/1959,,,,,,,,,"Paid w  #, receipt # by",Referred by ; Added by
+Individual,Active,Grace,777,Catherine,Ko,,,1,8/31/2010,8/31/2010,12/31/2012,,none,,Cash,Lucille,LC,,,"Paid w Cash #, receipt # by none",Referred by Lucille; Added by LC
+Individual,Active,Inactive,780,Lorna,Koppel,,,0,1/1/1959,1/1/1959,12/31/1959,,,,,,,,,"Paid w  #, receipt # by",Referred by ; Added by
+Individual,Active,Inactive,781,Zenia,Korduba,,,0,1/1/1959,1/1/1959,12/31/1959,,,,,,,,,"Paid w  #, receipt # by",Referred by ; Added by
+Individual,Active,Inactive,792,Karina,Lara,,,0,1/1/1959,1/1/1959,12/31/1959,,,,,,,,,"Paid w  #, receipt # by",Referred by ; Added by
+Individual,Active,Grace,793,John,Lee,,,1,12/14/2011,10/2/2010,12/31/2012,,DW hand,,Cash,JR,JR/JD,,,"Paid w Cash #, receipt # by DW hand",Referred by JR; Added by JR/JD
+Individual,Active,Inactive,794,Otia,Lee,,,0,1/1/1959,1/1/1959,12/31/1959,,,,,,,,,"Paid w  #, receipt # by",Referred by ; Added by
+Individual,Active,Inactive,796,Judith,Leiberman,,,0,1/1/1959,1/1/1959,12/31/1959,,,,,,,,,"Paid w  #, receipt # by",Referred by ; Added by
+Individual,Active,Grace,800,Alysha,Lewis,vot#31,,1,2/15/2012,1/1/1959,12/31/2012,,,,,,,,,"Paid w  #, receipt # by",Referred by ; Added by
+Individual,Active,Inactive,803,Ginn,Lim Ng,,,0,1/1/1959,1/1/1959,12/31/1959,,,,,,,,,"Paid w  #, receipt # by",Referred by ; Added by
+Individual,Active,Grace,805,Sheryl,London,,,1,6/28/2011,6/28/2011,12/31/2012,2480,Dw hand,,Cash,Rent Control question,DW,,,"Paid w Cash #, receipt #2480 by Dw hand",Referred by Rent Control question; Added by DW
+Individual,Active,Grace,806,Mel,London,,,1,6/28/2011,6/28/2011,12/31/2012,2480,Dw hand,,Cash,Rent Control question,DW,,,"Paid w Cash #, receipt #2480 by Dw hand",Referred by Rent Control question; Added by DW
+Individual,Inactive,Barred,808,,,"DelEO091312, lives at 8E3St",,2,5/20/2010,5/20/2010,12/31/2012,2380,DW hand,,Cash,Was trying to do comm. Organizing in Harlem,DW,Repairman/mover,,"Paid w Cash #, receipt #2380 by DW hand",Referred by Was trying to do comm. Organizing in Harlem; Added by DW
+Individual,Active,Inactive,809,David,Lukomnik,,,0,1/1/1959,1/1/1959,12/31/1959,,,,,,,,,"Paid w  #, receipt # by",Referred by ; Added by
+Individual,Active,Inactive,811,Katy,Lyle,,,0,1/1/1959,1/1/1959,12/31/1959,,,,,,,,,"Paid w  #, receipt # by",Referred by ; Added by
+Individual,Active,Inactive,814,Brother Carl,Malacalza,,LaSalle Academy,0,1/1/1959,1/1/1959,12/31/1959,,,,,,,,,"Paid w  #, receipt # by",Referred by ; Added by
+Individual,Active,Inactive,816,Tony,Manello,formerly at 69e4,,0,1/1/1959,1/1/1959,12/31/1959,,,,,,,,,"Paid w  #, receipt # by",Referred by ; Added by
+Individual,Active,Inactive,817,Barry,Marcus,,,0,1/1/1959,1/1/1959,12/31/1959,,,,,,,,,"Paid w  #, receipt # by",Referred by ; Added by
+Individual,Active,Grace,819,Blanca,Martinetti,,,5,10/17/2007,1/1/1959,12/31/2012,,,,,,,,,"Paid w  #, receipt # by",Referred by ; Added by
+Individual,Active,Inactive,820,Anibal,Martinez,Upd042810,,0,1/1/1959,1/1/1959,12/31/1959,,,,,,,,,"Paid w  #, receipt # by",Referred by ; Added by
+Individual,Active,Inactive,823,Sharon,Mattlin,,,0,1/1/1959,1/1/1959,12/31/1959,,,,,,,,,"Paid w  #, receipt # by",Referred by ; Added by
+Individual,Active,Inactive,826,Christopher,McCann,,,0,1/1/1959,1/1/1959,12/31/1959,,,,,,,,,"Paid w  #, receipt # by",Referred by ; Added by
+Individual,Active,Inactive,828,Shelly,McGuiness,,,0,1/1/1959,1/1/1959,12/31/1959,,,,,,,,Yes,"Paid w  #, receipt # by",Referred by ; Added by
+Individual,Inactive,Deceased,830,Corinne,McKinnon,died,,5,10/7/2007,1/1/1959,12/31/2012,,,,,,,,,"Paid w  #, receipt # by",Referred by ; Added by
+Individual,Active,Inactive,831,Kathleen M.,McMillan,DO NOT MAIL,,0,1/1/1959,1/1/1959,12/31/1959,,,,,,,,,"Paid w  #, receipt # by",Referred by ; Added by
+Individual,Active,Grace,835,Dean,Meller,,,2,9/27/2010,9/27/2010,12/31/2012,,none,,Cash,BK,BK,,,"Paid w Cash #, receipt # by none",Referred by BK; Added by BK
+Individual,Active,Inactive,836,Patricia,Melvin,,,0,1/1/1959,1/1/1959,12/31/1959,,,,,,,,,"Paid w  #, receipt # by",Referred by ; Added by
+Individual,Active,Inactive,839,Valois,Mickens-Zaborowsk,,,0,1/1/1959,1/1/1959,12/31/1959,,,,,,,,,"Paid w  #, receipt # by",Referred by ; Added by
+Business,Inactive,MIA,841,Millennium Filmmakers,,,,0,1/1/1959,1/1/1959,1/1/1959,,,1364,,,,,,"Paid w  #1364, receipt # by",Referred by ; Added by
+Individual,Active,Grace,842,Kate,Millett,,,1,4/2/2011,1/1/1959,12/31/2012,,,,,Flea Market,,,,"Paid w  #, receipt # by",Referred by Flea Market; Added by
+Individual,Active,Inactive,843,John James,Millstein,,,0,1/1/1959,1/1/1959,12/31/1959,,,,,,,,,"Paid w  #, receipt # by",Referred by ; Added by
+Individual,Active,Inactive,844,Daniel,Millstone,,,0,1/1/1959,1/1/1959,12/31/1959,,,,,,DW,,,"Paid w  #, receipt # by",Referred by ; Added by DW
+Individual,Active,Grace,848,Julio,Molina,upd091110,,1,2/15/2012,1/1/1959,12/31/2012,,,,,,,,,"Paid w  #, receipt # by",Referred by ; Added by
+Individual,Active,Inactive,853,Rebecca,Moore,,,0,1/1/1959,1/1/1959,12/31/1959,,,,,,,,,"Paid w  #, receipt # by",Referred by ; Added by
+Individual,Active,Inactive,854,Rami,Mor,,,0,1/1/1959,1/1/1959,12/31/1959,,,,,,,,,"Paid w  #, receipt # by",Referred by ; Added by
+Individual,Active,Inactive,864,Lynn,"Nachamie, M.D.",vot#18,,0,1/1/1959,1/1/1959,12/31/1959,,,,,,,,,"Paid w  #, receipt # by",Referred by ; Added by
+Individual,Active,Inactive,866,Daisy,Negron,,,0,1/1/1959,1/1/1959,12/31/1959,,,,,,,,,"Paid w  #, receipt # by",Referred by ; Added by
+Individual,Active,Inactive,869,Fook,Ng,,,0,1/1/1959,1/1/1959,12/31/1959,,,,,,,,,"Paid w  #, receipt # by",Referred by ; Added by
+Individual,Active,Inactive,875,Natan,Nuchi,,,0,1/1/1959,1/1/1959,12/31/1959,,,,,,,,,"Paid w  #, receipt # by",Referred by ; Added by
+Individual,Active,Inactive,878,Hisao,Oka,,,0,1/1/1959,1/1/1959,12/31/1959,,,,,,,,,"Paid w  #, receipt # by",Referred by ; Added by
+Business,Active,Inactive,879,Jose,Oliveras,Upd042810,Teatro Circulo,0,1/1/1959,1/1/1959,12/31/1959,,,,,,,,,"Paid w  #, receipt # by",Referred by ; Added by
+Individual,Active,Inactive,882,Carmen,Ortiz,,,0,1/1/1959,1/1/1959,12/31/1959,,,,,,,,,"Paid w  #, receipt # by",Referred by ; Added by
+Individual,Active,Inactive,885,Bonnie,Oshuns,,,0,1/1/1959,1/1/1959,12/31/1959,,,,,,,,,"Paid w  #, receipt # by",Referred by ; Added by
+Individual,Active,Inactive,887,Roy & Sophia,Pachecano,,,0,1/1/1959,1/1/1959,12/31/1959,,,,,,,,,"Paid w  #, receipt # by",Referred by ; Added by
+Individual,Active,Inactive,889,Lisa,Pakulsk,,,0,1/1/1959,1/1/1959,12/31/1959,,,,,,,,,"Paid w  #, receipt # by",Referred by ; Added by
+Individual,Active,Inactive,891,Alicia,Parham,formerly 56e4,,0,1/1/1959,1/1/1959,12/31/1959,,,,,,,,,"Paid w  #, receipt # by",Referred by ; Added by
+Individual,Active,Inactive,893,Brad,Pattinian,,,0,1/1/1959,1/1/1959,12/31/1959,,,,,,,,,"Paid w  #, receipt # by",Referred by ; Added by
+Individual,Active,Inactive,898,Herman,Petras,,,0,1/1/1959,1/1/1959,12/31/1959,,,,,,,,,"Paid w  #, receipt # by",Referred by ; Added by
+Individual,Active,Inactive,900,Claire,Picher,,,0,1/1/1959,1/1/1959,12/31/1959,,,,,,,,,"Paid w  #, receipt # by",Referred by ; Added by
+Individual,Active,Inactive,901,Pamela,Pier,,,0,1/1/1959,1/1/1959,12/31/1959,,,,,,,,,"Paid w  #, receipt # by",Referred by ; Added by
+Individual,Active,Inactive,903,Kym,Platt,24,,0,1/1/1959,1/1/1959,12/31/1959,,,,,,From card added prior to 9/2008 Mailing,,,"Paid w  #, receipt # by",From card added prior to 9/2008 Mailing
+Individual,Active,Inactive,908,Thelma,Pridgen,,,0,1/1/1959,1/1/1959,12/31/1959,,,,,,,,,"Paid w  #, receipt # by",Referred by ; Added by
+Individual,Active,Inactive,911,Erik,Quinn,,,0,1/1/1959,1/1/1959,12/31/1959,,,,,,,,,"Paid w  #, receipt # by",Referred by ; Added by
+Individual,Active,Inactive,913,Ana,Ramirez,,,0,1/1/1959,1/1/1959,12/31/1959,,,,,,,,,"Paid w  #, receipt # by",Referred by ; Added by
+Individual,Active,Inactive,914,José,Ramirez,,,0,1/1/1959,1/1/1959,12/31/1959,,,,,,,,,"Paid w  #, receipt # by",Referred by ; Added by
+Individual,Active,Inactive,923,Virginia,Reyes,22,,0,1/1/1959,1/1/1959,12/31/1959,,,,,,From card added prior to 9/2008 Mailing,,,"Paid w  #, receipt # by",From card added prior to 9/2008 Mailing
+Individual,Active,Inactive,924,Anne,Riccitelli,,,0,1/1/1959,1/1/1959,12/31/1959,,,,,,,,,"Paid w  #, receipt # by",Referred by ; Added by
+Individual,Active,Inactive,926,Roman,Rivas,,,0,1/1/1959,1/1/1959,12/31/1959,,,,,,,,,"Paid w  #, receipt # by",Referred by ; Added by
+Individual,Active,Inactive,927,Karen,Rivera,,,0,1/1/1959,1/1/1959,12/31/1959,,,,,,,,,"Paid w  #, receipt # by",Referred by ; Added by
+Individual,Active,Inactive,930,Negda,Rivera,,,0,1/1/1959,1/1/1959,12/31/1959,,,,,,,,,"Paid w  #, receipt # by",Referred by ; Added by
+Individual,Active,Inactive,932,Dada,Roberts,25,,0,1/1/1959,1/1/1959,12/31/1959,,,,,,From card added prior to 9/2008 Mailing,,,"Paid w  #, receipt # by",From card added prior to 9/2008 Mailing
+Individual,Active,Grace,933,Sandy,Robertson,,,1,10/18/2012,9/21/1988,12/31/2012,,hand,,Cash,,DJW,,Yes,"Paid w Cash #, receipt # by hand",Referred by ; Added by DJW
+Individual,Active,Inactive,938,"Nydia, Maria & Joshua",Rodriguez,,,0,1/1/1959,1/1/1959,12/31/1959,,,2388,,,,,,"Paid w  #2388, receipt # by",Referred by ; Added by
+Individual,Active,Inactive,943,Constancia,Romilly,,,0,1/1/1959,1/1/1959,12/31/1959,,,,,,,,,"Paid w  #, receipt # by",Referred by ; Added by
+Individual,Active,Inactive,946,Victoria,Rosario,,,0,1/1/1959,1/1/1959,12/31/1959,,,,,,,,,"Paid w  #, receipt # by",Referred by ; Added by
+Individual,Active,Inactive,947,Brian,Rose,,,0,1/1/1959,1/1/1959,12/31/1959,,,,,,,,,"Paid w  #, receipt # by",Referred by ; Added by
+Individual,Active,Inactive,948,William,Rosenbaum,,,0,1/1/1959,1/1/1959,12/31/1959,,,,,,,,Yes,"Paid w  #, receipt # by",Referred by ; Added by
+Individual,Active,Inactive,951,Kiell & Hideko,Rostad,,,0,1/1/1959,1/1/1959,12/31/1959,,,,,,,,,"Paid w  #, receipt # by",Referred by ; Added by
+Individual,Active,Inactive,954,Judith,Rubenstein,,,0,1/1/1959,1/1/1959,12/31/1959,,,,,,DW,,,"Paid w  #, receipt # by",Referred by ; Added by DW
+Individual,Active,Inactive,956,Wilma,Ruiz,,,0,1/1/1959,1/1/1959,12/31/1959,,,,,,,,,"Paid w  #, receipt # by",Referred by ; Added by
+Business,Active,Inactive,957,Billy,Russo,upd120810,"New York Theater Workshop, Managing Director",0,1/1/1959,1/1/1959,12/31/1959,,,,,,,,,"Paid w  #, receipt # by",Referred by ; Added by
+Individual,Active,Inactive,958,Kathy,Ryan,,,0,1/1/1959,1/1/1959,12/31/1959,,,,,,,,,"Paid w  #, receipt # by",Referred by ; Added by
+Individual,Active,Inactive,963,Claudia,Samson,,,0,1/1/1959,1/1/1959,12/31/1959,,,,,,,,,"Paid w  #, receipt # by",Referred by ; Added by
+Individual,Inactive,Deceased,964,Theresa,sandberry,voted; died,,5,10/6/2010,1/1/1959,12/31/2012,,,,,,,,,"Paid w  #, receipt # by",Referred by ; Added by
+Individual,Active,Inactive,965,Wallace,Sanders,,,0,1/1/1959,1/1/1959,12/31/1959,,,,,,,,,"Paid w  #, receipt # by",Referred by ; Added by
+Individual,Active,Grace,966,Ligia,Santiago,,,2,4/27/2011,2/21/2001,12/31/2012,2373,DW hand,,,,,,,"Paid w  #, receipt #2373 by DW hand",Referred by ; Added by
+Individual,Active,Inactive,969,Amy,Scarola,,,0,1/1/1959,1/1/1959,12/31/1959,,,,,,,,,"Paid w  #, receipt # by",Referred by ; Added by
+Individual,Active,Inactive,970,Dolores,Schaefer,,,0,1/1/1959,1/1/1959,12/31/1959,,,,,,,,,"Paid w  #, receipt # by",Referred by ; Added by
+Individual,Active,Inactive,973,Susan,Schropp,,,0,1/1/1959,1/1/1959,12/31/1959,,,,,,,,,"Paid w  #, receipt # by",Referred by ; Added by
+Business,Active,Inactive,976,,Second Avenue Chemist,Bus,,0,1/1/1959,1/1/1959,12/31/1959,,,,,,,,,"Paid w  #, receipt # by",Referred by ; Added by
+Individual,Active,Grace,977,Susana,Sedgwick,,,1,4/2/2011,4/2/2011,12/31/2012,,None,,,Flea Market,Board,,,"Paid w  #, receipt # by None",Referred by Flea Market; Added by Board
+Individual,Active,Grace,978,Fred,Seiden,,,0,10/22/2009,10/22/2009,12/31/2012,,,,donation 2011,ref by Fran/Harriet,??,,,"Paid w donation 2011 #, receipt # by",Referred by ref by Fran/Harriet; Added by ??
+Individual,Active,Inactive,979,,Seidman,,,0,1/1/1959,1/1/1959,12/31/1959,,,,,,,,,"Paid w  #, receipt # by",Referred by ; Added by
+Business,Active,Grace,982,Barbara,Shaum,BUS,Barbara Shaum Leather,10,12/14/2011,1/1/1959,12/31/2012,,DW hand,,Cash,,,,,"Paid w Cash #, receipt # by DW hand",Referred by ; Added by
+Individual,Active,Inactive,984,Joan,Shepard,,,0,1/1/1959,1/1/1959,12/31/1959,,,,,,,,,"Paid w  #, receipt # by",Referred by ; Added by
+Individual,Active,Inactive,986,Sandra,Siegel,,,0,1/1/1959,1/1/1959,12/31/1959,,,,,,,,,"Paid w  #, receipt # by",Referred by ; Added by
+Individual,Inactive,Cancelled,987,,,ret,,0,1/1/1959,1/1/1959,1/1/1959,,,,,,,,,"Paid w  #, receipt # by",Referred by ; Added by
+Individual,Active,Inactive,989,Trudy,Silver,,,0,1/1/1959,1/1/1959,12/31/1959,,,,,,,,,"Paid w  #, receipt # by",Referred by ; Added by
+Individual,Inactive,Cancelled,990,,,"ret121911, upd091110",,1,9/26/2009,9/26/2009,12/31/2010,2304,LS hand,,Cash,,LS,,,"Paid w Cash #, receipt #2304 by LS hand",Referred by ; Added by LS

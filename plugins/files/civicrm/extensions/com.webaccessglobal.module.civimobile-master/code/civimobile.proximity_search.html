@@ -1,0 +1,88 @@
+<div data-role="header">
+  <h3>Contacts proximity search</h3>
+  <a href="#" data-rel="back" class="ui-btn-left" data-icon="arrow-l" data-transition="slideup">Back</a>
+  <a href="<?php echo CRM_Utils_System::url('civicrm/mobile/'); ?>" data-ajax="false" data-direction="reverse" data-role="button" data-icon="home" data-transition="slide" data-iconpos="notext" class="ui-btn-right jqm-home">Home</a>
+</div>
+
+<div data-role="content" id="contact-contentz">
+  <div class="ui-listview-filter ui-bar-c">
+    <input type="search" name="postcode" id="cm-postcode" placeholder="Postcode" />
+  </div>
+  <div data-role="fieldcontain"><input type="checkbox" name="curLocation" id="useLocation" class="custom" />
+    <label for="useLocation">Use current location</label></div>
+  <br />
+  <div>
+    <ul id="cm-prox-contacts" data-role="listview" data-inset="false" data-filter="false"></ul>
+  </div>
+</div>
+
+<script type="text/javascript">
+  /**
+   * queries the API for an address, supplying a postcode as a parameter
+   *
+   * @param {string} postcode
+   * @return void
+   */
+  function searchContactByPostcode(postcode){
+    $.mobile.showPageLoadingMsg( 'Searching' );
+
+    if (postcode != null) {
+      CRM.api('Address','get',{'postal_code' : postcode}
+        ,{
+          success:function (data){
+            var proxContactSelector = $('#cm-prox-contacts');
+            if (data.count == 0) {
+              cmd = null;
+              proxContactSelector.hide();
+            }
+            else {
+              cmd = "refresh";
+              proxContactSelector.show();
+              proxContactSelector.empty();
+            }
+            /** iterates through results to create markup for list */
+            $.each(data.values, function(key, value) {
+              if(value.contact_id != null){
+                CRM.api('Contact','getsingle',{'version' :'3', 'contact_id' :value.contact_id}
+                  ,{
+                    success:function (data){
+                      proxContactSelector.append('<li role="option" tabindex="-1" data-ajax="true" data-theme="c"><a href="<?php echo CRM_Utils_System::url('civicrm/mobile/contact', 'action=view&cid='); ?>'+ value.contact_id +'" data-transition="slideup"data-role="contact-'+value.contact_id+'">'+data.display_name+'</a></li>');
+                      proxContactSelector.listview(cmd);
+                    }
+                  });
+              }
+            });
+          }
+        });
+    }
+    $.mobile.hidePageLoadingMsg( );
+  }
+
+  /**
+   * Queries API for contact within a certain radius of the user's location
+   *
+   * @param {object} params Object containing latitude and longitude properties
+   */
+  function searchContactByGeoLocation(params) {
+    $.mobile.showPageLoadingMsg( 'Searching' );
+    CRM.api('Contact','proximity',{'version' :'3', 'latitude': params.coords.latitude, 'longitude' :params.coords.longitude, 'distance' : 200, 'units' : 'miles'}
+      ,{
+        success:function (data){
+          var proxContactSelector = $('#cm-prox-contacts');
+          if (data.count == 0) {
+            proxContactSelector.hide();
+          }
+          else {
+            proxContactSelector.show();
+            proxContactSelector.empty();
+
+            $.each(data.values, function(key, value) {
+              $('#cm-prox-contacts').append('<li role="option" tabindex="-1" data-ajax="true" data-theme="c" id="event-'+value.contact_id+'" ><a href="<?php echo CRM_Utils_System::url('civicrm/mobile/contact', 'action=view&cid='); ?>'+ value.contact_id +'" data-transition="slideup" data-role="contact-'+value.contact_id+'">'+value.display_name+'</a></li>');
+            });
+            proxContactSelector.listview('refresh');
+          }
+          $.mobile.hidePageLoadingMsg( );
+        }
+      });
+  }
+</script>

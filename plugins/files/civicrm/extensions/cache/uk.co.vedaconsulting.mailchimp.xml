@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<extension key="uk.co.vedaconsulting.mailchimp" type="module">
+  <file>mailchimp</file>
+  <name>Mailchimp</name>
+  <description>CiviCRM and Mailchimp Integration. Builds on the existing work done by the science gallery, adding the ability to keep Mailchimp List and CiviCRM group in sync, keeping the entire process much simpler to setup.</description>
+  <license>AGPL-3.0</license>
+  <maintainer>
+    <author>Deepak Srivastava, Rajesh Sundararajan, Kajan, Parvez Saleh and Rich Lott (Artful Robot)</author>
+    <email>support@vedaconsulting.co.uk</email>
+  </maintainer>
+  <releaseDate>2014-12-29</releaseDate>
+  <version>1.6</version>
+  <develStage>stable</develStage>
+  <compatibility>
+    <ver>4.4</ver>
+    <ver>4.5</ver>
+  </compatibility>
+  <comments>Developed by Veda Consulting LTD and Artful Robot.</comments>
+  <civix>
+    <namespace>CRM/Mailchimp</namespace>
+  </civix>
+  <urls>
+    <url desc="Documentation">https://github.com/veda-consulting/uk.co.vedaconsulting.mailchimp/blob/master/README.md</url>
+  </urls>
+<downloadUrl>https://github.com/veda-consulting/uk.co.vedaconsulting.mailchimp/archive/1.6.zip</downloadUrl></extension>

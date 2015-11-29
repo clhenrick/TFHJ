@@ -1,0 +1,37 @@
+{*
++--------------------------------------------------------------------------+
+| Copyright IT Bliss LLC (c) 2012-2013                                     |
++--------------------------------------------------------------------------+
+| This program is free software: you can redistribute it and/or modify     |
+| it under the terms of the GNU Affero General Public License as published |
+| by the Free Software Foundation, either version 3 of the License, or     |
+| (at your option) any later version.                                      |
+|                                                                          |
+| This program is distributed in the hope that it will be useful,          |
+| but WITHOUT ANY WARRANTY; without even the implied warranty of           |
+| MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the            |
+| GNU Affero General Public License for more details.                      |
+|                                                                          |
+| You should have received a copy of the GNU Affero General Public License |
+| along with this program.  If not, see <http://www.gnu.org/licenses/>.    |
++--------------------------------------------------------------------------+
+*}
+{htxt id="oauth"}
+<p>{ts}There are multiple ways to obtain OAuth credentials from Google. By far the easiest, and recommended for this extension, is the first one indicated in the list below. In all cases this will only work with Google Apps for Business and Education accounts, so if you have a free Google Apps account you will need to upgrade.{/ts}</p>
+<ul>
+  <li><strong>{ts}Domain credentials{/ts}</strong><br />
+    {ts}Go to https://www.google.com/a/cpanel/<strong>yourdomain.org</strong>/SetupOAuth, click the 'Enable this consumer key' and 'Allow access to all APIs' checkboxes, hit the 'Save changes' button and then copy the OAuth consumer key and secrets into this form.{/ts}</li>
+  <li><strong>{ts}Internal application{/ts}</strong><br />
+    {ts}You will need to first create a project in the <a href="https://code.google.com/apis/console">Google API console</a>. Then, follow these <a href=">http://support.google.com/a/bin/answer.py?hl=en&answer=162106">instructions</a> to configure your domain. The scope needed for authorization is 'http(s)://www.google.com/m8/feeds/', but this may change in the future as we expand the features of this extension.{/ts}</li>
+  <li><strong>{ts}Marketplace application{/ts}</strong><br />
+    {ts}This method is not recommended for this extension. If you still want to use it, you will need to create a marketplace application, related OAuth credentials, and then install this application in the target domain(s).{/ts}</li>
+</ul>
+{/htxt}
+
+{htxt id="register"}
+<p>{ts}This option will send your registration information to Cividesk. Registering is important since it allows us to judge the level of interest for the developments we are producing, and hence plan for improvements or new developments accordingly.{/ts}</p>
+{/htxt}
+
+{htxt id="subscribe"}
+<p>{ts}This option will subscribe your email address to a low-traffic mailing list informing you of updates and improvements to Cividesk-produced extensions. You can of course unsubscribe at anytime.{/ts}</p>
+{/htxt}

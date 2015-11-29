@@ -1,0 +1,419 @@
+Last Name,First Name,Street Address,Supplemental Add 1,City,State,Zip,bday final,# to import,bday source,MHA Acc #,Apt Size,Income source (WAP),Income Date,MHA Source File Date,Age,,CAP look up,WAP-approx bday,2011 age - WAP,Apt home # fr MHA,Civi Phone,phone diff?,AGE,Email,WAP particip?,MAILING ADD,in civi?,import new #?
+Scott c/o JASA CGP,Evelyn,21 E 3RD ST,4C,New York,NY,10003,1931-11-14,,MHA,61,0,,,2013-10-03,82,,#N/A,#N/A,#N/A,#N/A,#N/A,"not in civi, no number anywhere",82.14794521,,NO,"Scott c/o JASA CGP, Evelyn",NO,NO
+Soto,Ramona,71 E 4TH ST,1B,New York,NY,10003,1925-07-25,,MHA,543,0,SSD,2012-06-30,2013-10-03,88,,#N/A,#N/A,#N/A,#N/A,#N/A,"not in civi, no number anywhere",88.45753425,,YES,,NO,NO
+Gordon,Herbert,73 E 4TH ST,5C,New York,NY,10003,1977-02-21,,MHA,281,1,,,2013-10-03,36,,#N/A,#N/A,#N/A,#N/A,#N/A,"not in civi, no number anywhere",36.84383562,,NO,,NO,NO
+Hardy,Michael,73 E 4TH ST,5C,New York,NY,10003,1955-07-21,,MHA,281,1,,,2013-10-03,58,,#N/A,#N/A,#N/A,#N/A,#N/A,"not in civi, no number anywhere",58.44931507,,NO,,NO,NO
+Sanabria,Dennis,75 E 4TH ST,4C,New York,NY,10003,1981-06-18,,MHA,445,0,,,2013-10-03,32,,#N/A,#N/A,#N/A,#N/A,#N/A,"not in civi, no number anywhere",32.52054795,,YES,,NO,NO
+Killian,Sean,13 E 3RD ST,4A,New York,NY,10003,,,none,41,1,,,2013-10-03,,,#N/A,#N/A,#N/A,2126748712,2126748712,already have this number,114.0410959,,NO,,YES,NO
+Hanlon,Julia,13 STANTON ST,5B,New York,NY,10002,1949-02-13,,MHA,29,1,SSI,2011-11-15,2013-10-03,64,,#N/A,01/01/2011,0,2127774904,2127774904,already have this number,64.88493151,,YES,,YES,NO
+Rose,Brian,13 STANTON ST,6A,New York,NY,10002,1954-04-09,,MHA,30,1,,,2013-10-03,59,,#N/A,#N/A,#N/A,2122605029,2122605029,already have this number,59.73150685,,YES,,YES,NO
+Espinal,Pedro,21 E 3RD ST,5A,New York,NY,10003,1961-07-09,,MHA,62,1,FS,2011-11-10,2013-10-03,52,,#N/A,01/01/1961,50,2124734731,2124734731,already have this number,52.47671233,,YES,,YES,NO
+Peralta (Girlfriend),Mirian,21 E 3RD ST,5A,New York,NY,10003,1970-05-29,,MHA,62,1,,,2013-10-03,43,,"Peralta, Miriam",#N/A,#N/A,2124734731,2124734731,already have this number,43.58356164,,NO,,YES,NO
+Bey,Amir,21 E 3RD ST,6C,New York,NY,10003,1950-02-19,,MHA,65,0,PS,2011-11-15,2013-10-03,63,,#N/A,01/01/1950,61,9176852383,9176852383,already have this number,63.86849315,,YES,,YES,NO
+Villegas,Rosalinda,21 E 3RD ST,4A,New York,NY,10003,1955-03-20,,MHA,59,1,SE,2011-10-17,2013-10-03,58,,"Villegas, Rosalinda",#N/A,#N/A,2122600761,2122600761,already have this number,58.78630137,,YES,,YES,NO
+Montalvo,Maria,21 E 3RD ST,4B,New York,NY,10003,1941-06-14,,MHA,60,2,SSD,2011-11-10,2013-10-03,72,,"Montalvo, Maria",01/01/1941,70,2122289247,2122289247,already have this number,72.55890411,,YES,,YES,NO
+Garcia,Richard,23 E 3RD ST,5B,New York,NY,10003,1970-07-12,,MHA,81,0,FS,2012-01-15,2013-10-03,43,,#N/A,01/01/2011,0,9173198566,9173198566,already have this number,43.4630137,,YES,,YES,NO
+Besler,Asimida,23 E 3RD ST,2D,New York,NY,10003,1985-12-26,,MHA,577,1,,,2013-10-03,28,,"Besler, Asimida",#N/A,#N/A,7188772593,7188772593,already have this number,27.99452055,,NO,,YES,NO
+Kopache,Thomas,23 E 3RD ST,5A,New York,NY,10003,1945-01-01,,WAP-approx,80,0,PEN,2011-10-24,2013-10-03,,,#N/A,01/01/1945,66,2125336791,2125336791,already have this number,69.00547945,,YES,,YES,NO
+Micula,Stasia,23 E 3RD ST,5C,New York,NY,10003,,,none,82,2,,,2013-10-03,,,#N/A,01/01/2011,0,2127772183,2127772183,already have this number,114.0410959,,YES,,YES,NO
+Weaver,Lois,25 E 3RD ST,3A,New York,NY,10003,,,none,90,0,SE,2012-07-14,2013-10-03,,,#N/A,#N/A,#N/A,2126141410,2126141410,already have this number,114.0410959,,YES,,YES,NO
+Marmol,Joseltio,25 E 3RD ST,2D,New York,NY,10003,1965-12-18,,MHA,494,1,SSI,2012-07-02,2013-10-03,48,,"Marmol, Joselito",#N/A,#N/A,6467265119,6467265119,already have this number,48.03013699,,YES,,YES,NO
+Keating,Barry,25 E 3RD ST,5B,New York,NY,10003,,,none,98,0,,,2013-10-03,,,#N/A,#N/A,#N/A,2124733409,2124733409,already have this number,114.0410959,,YES,,YES,NO
+Atkins,Michael,27 E 3RD ST,3C,New York,NY,10003,1962-01-01,,CAP-approx,107,1,SE,2012-02-09,2013-10-03,,,"Atkins, Michael",#N/A,#N/A,2126742392,2126742392,already have this number,51.99452055,,YES,,YES,NO
+Devitt,Linda,27 E 3RD ST,2C,New York,NY,10003,,,none,104,1,,,2013-10-03,,,#N/A,#N/A,#N/A,2122284132,2122284132,already have this number,114.0410959,,YES,,YES,NO
+Shustowicz,George,56 E 4TH ST,1D,New York,NY,10003,1950-05-02,,MHA,118,0,IRA,2011-12-19,2013-10-03,63,,#N/A,01/01/2011,0,#N/A,0,"in civi, no number anywhere",63.67123288,,YES,,YES,NO
+Hieger-Zosike,Joanie M.,56 E 4TH ST,BA,New York,NY,10003,1949-07-06,,MHA,432,0,,,2013-10-03,64,,#N/A,#N/A,#N/A,6462077341,6462077341,already have this number,64.49315068,,NO,,YES,NO
+Ramirez,Edgar,56 E 4TH ST,1C,New York,NY,10003,1957-09-12,,MHA,464,0,PS,2011-10-24,2013-10-03,56,,"Ramirez, Edgar",01/01/1947,64,2126141860,2126141860,already have this number,56.30136986,,YES,,YES,NO
+Mickens,Valois,56 E 4TH ST,5A,New York,NY,10003,1945-04-05,,MHA,128,2,SSI,2011-11-16,2013-10-03,68,,#N/A,01/01/1945,66,2122606274,2122606274,already have this number,68.74794521,,YES,,YES,NO
+Bagnato,Scott D.,57 E 4TH ST,5C,New York,NY,10003,,,none,145,1,,,2013-10-03,,,#N/A,#N/A,#N/A,2122541767,2122541767,already have this number,114.0410959,,NO,,YES,NO
+Fee,Maxine,57 E 4TH ST,3A,New York,NY,10003,,,none,138,2,PEN,2012-03-14,2013-10-03,,,#N/A,#N/A,#N/A,2122541728,2122541728,already have this number,114.0410959,,YES,,YES,NO
+Gonzalez,Carmen,57 E 4TH ST,3C,New York,NY,10003,1958-02-24,,CAP,418,1,SS,2012-02-14,2013-10-03,1,,"Gonzalez, Carmen",#N/A,#N/A,2125057629,2125057629,already have this number,55.84931507,,YES,,YES,NO
+Kalavsky,Joseph,57 E 4TH ST,2A,New York,NY,10003,,,none,135,2,SS,2012-03-01,2013-10-03,,,#N/A,#N/A,#N/A,2127774503,2127774503,already have this number,114.0410959,,YES,,YES,NO
+Martillo,Elsa,57 E 4TH ST,3B,New York,NY,10003,,,none,139,2,SS,2012-03-01,2013-10-03,,,#N/A,#N/A,#N/A,2125984974,2125984974,already have this number,114.0410959,,YES,,YES,NO
+Borowsky,Neal H.,57 E 4TH ST,2B,New York,NY,10003,,,none,552,2,,,2013-10-03,,,#N/A,#N/A,#N/A,2124754867,2124754867,already have this number,114.0410959,,YES,,YES,NO
+McCann,Christopher,58 E 4TH ST,5,New York,NY,10003,,,none,152,1,,,2013-10-03,,,#N/A,#N/A,#N/A,2125294301,2125294301,already have this number,114.0410959,,NO,,YES,NO
+Arroyo,William,58 E 4TH ST,8,New York,NY,10003,1945-01-01,,WAP-approx,155,1,PEN,2011-10-24,2013-10-03,,,#N/A,01/01/1945,66,2124755290,2124755290,already have this number,69.00547945,,YES,,YES,NO
+Polanco,Valerie,58 E 4TH ST,10,New York,NY,10003,1988-10-07,,MHA,544,0,PS,2011-12-03,2013-10-03,25,,#N/A,01/01/1988,23,3477236496,3477236496,already have this number,25.2109589,,YES,,YES,NO
+Reverby,Martin,58 E 4TH ST,1,New York,NY,10003,1949-01-01,,WAP-approx,148,0,SE,2011-11-02,2013-10-03,,,#N/A,01/01/1949,62,2125331650,2125331650,already have this number,65.00273973,,YES,,YES,NO
+Hamila ,Jessica Rose,60 E 4TH ST,6,New York,NY,10003,,,none,578,1,,,2013-10-03,,,#N/A,#N/A,#N/A,6463735414,6463735414,already have this number,114.0410959,,NO,,YES,NO
+Campbell,Shirley,60 E 4TH ST,1,New York,NY,10003,1940-04-18,,MHA,503,0,,,2013-10-03,73,,"Campbell, Shirley",#N/A,#N/A,2122542011,#N/A,already have this number,73.71506849,,NO,,YES,NO
+Araujo,Martha,60 E 4TH ST,10,New York,NY,10003,1951-12-27,,MHA,477,1,PS,2012-08-20,2013-10-03,62,,"Araujo, Martha",#N/A,#N/A,3472108437,3472108437,already have this number,62.01643836,,YES,,YES,NO
+Tank,John,60 E 4TH ST,17,New York,NY,10003,1942-12-29,,MHA,179,1,SE,2012-04-10,2013-10-03,71,,#N/A,#N/A,#N/A,2129824072,2129824072,already have this number,71.01643836,,YES,,YES,NO
+Fernandez,Ernest,60 E 4TH ST,12,New York,NY,10003,1934-07-21,,MHA,174,1,SS,2012-04-10,2013-10-03,79,,#N/A,#N/A,#N/A,2127779495,2127779495,already have this number,79.4630137,,YES,,YES,NO
+Cohen,Bella,60 E 4TH ST,4,New York,NY,10003,1947-01-11,,MHA,167,0,SSI,2012-07-15,2013-10-03,66,,"Cohen, Bella",#N/A,#N/A,2122542419,2122542419,already have this number,66.97808219,,YES,,YES,NO
+Simms,Donna A.,60 E 4TH ST,3,New York,NY,10003,1953-12-08,,MHA,166,0,UB,2012-07-19,2013-10-03,60,,#N/A,#N/A,#N/A,2124771109,2124771109,already have this number,60.06575342,,YES,,YES,NO
+Kinzel,Ursula,60 E 4TH ST,16,New York,NY,10003,1945-03-04,,MHA,500,1,,,2013-10-03,68,,#N/A,#N/A,#N/A,2122605303,2122605303,already have this number,68.83561644,,YES,,YES,NO
+Barkin,David,60 E 4TH ST,13,New York,NY,10003,1947-10-18,,MHA,512,0,,,2013-10-03,66,,#N/A,#N/A,#N/A,2122545684,2122545684,already have this number,66.2109589,,YES,,YES,NO
+Juansen,Gaylein T.,63 E 4TH ST,4D,New York,NY,10003,1947-08-05,,MHA,196,1,,,2013-10-03,66,,"Juansen, Gaylein",#N/A,#N/A,6462345203,6462345203,already have this number,66.41369863,,NO,,YES,NO
+Liriano,Luciano,63 E 4TH ST,5A,New York,NY,10003,1953-01-07,,MHA,197,2,,,2013-10-03,60,,"Liriano, Luciano",#N/A,#N/A,2125050481,2125050481,already have this number,60.98356164,,NO,,YES,NO
+Rodriguez,Oswald,63 E 4TH ST,1A,New York,NY,10003,1944-02-20,,MHA,187,0,,,2013-10-03,69,,#N/A,#N/A,#N/A,2122547507,2122547507,already have this number,69.87123288,,NO,,YES,NO
+Ko,Catherine,63 E 4TH ST,3D,New York,NY,10003,1940-10-24,,MHA,509,1,SS,2012-02-21,2013-10-03,73,,#N/A,#N/A,#N/A,#N/A,2124731357,"civi has number, MHA doesn't",73.19726027,,YES,,YES,NO
+Perez,Carmen,63 E 4TH ST,3A,New York,NY,10003,1938-07-19,,MHA,192,2,SS,2012-02-21,2013-10-03,75,,"Perez, Carmen",#N/A,#N/A,2129797326,2129797326,already have this number,75.46575342,,YES,,YES,NO
+Liriano,Juliana,63 E 4TH ST,5A,New York,NY,10003,1936-07-20,,MHA,197,2,SS,2012-02-21,2013-10-03,77,,"Liriano, Juliana",#N/A,#N/A,2125050481,2125050481,already have this number,77.4630137,,YES,,YES,NO
+Rodriguez,Maria,63 E 4TH ST,2C,New York,NY,10003,1945-03-16,,MHA,191,3,SS,2012-02-21,2013-10-03,68,,"Rodriguez, Maria",#N/A,#N/A,2129799397,2129799397,already have this number,68.80273973,,YES,,YES,NO
+Muniz,Albert,63 E 4TH ST,6A,New York,NY,10003,1958-05-09,,MHA,200,2,SSD,2012-03-28,2013-10-03,55,,#N/A,#N/A,#N/A,9173550136,9173550136,already have this number,55.64657534,,YES,,YES,NO
+Carrion,Rachel,63 E 4TH ST,4C,New York,NY,10003,1943-04-23,,MHA,195,1,SSI,2012-02-21,2013-10-03,70,,"Carrion, Rachel",#N/A,#N/A,2126740276,2126740276,already have this number,70.70136986,,YES,,YES,NO
+Harrington,Shannon,63 E 4TH ST,1B,New York,NY,10003,1958-09-26,,MHA,188,0,,,2013-10-03,55,,#N/A,#N/A,#N/A,3474316930,3474316930,already have this number,55.2630137,,YES,,YES,NO
+Shaw,Margaret,65 E 4TH ST,1A,New York,NY,10003,,,none,549,0,SE,2012-03-14,2013-10-03,,,#N/A,#N/A,#N/A,2124736377,2124736377,already have this number,114.0410959,,YES,,YES,NO
+Rondon,Petra,65 E 4TH ST,3A,New York,NY,10003,1938-08-05,,CAP,205,2,SSI,2012-02-16,2013-10-03,,,"Rondon, Petra",#N/A,#N/A,2129825687,2129825687,already have this number,75.41917808,,YES,,YES,NO
+Hamila,Roseann,65 E 4TH ST,4A,New York,NY,10003,1956-10-27,,CAP,208,2,SSI,2012-02-14,2013-10-03,,,"Hamila, Roseann",#N/A,#N/A,2127775811,2127775811,already have this number,57.17808219,,YES,,YES,NO
+Martinez,Georgina,67 E 4TH ST,5A,New York,NY,10003,1949-02-15,,CAP,228,2,,,2013-10-03,,,"Martinez, Georgina",01/01/2011,0,2126772095,2126772095,already have this number,64.87945205,,NO,,YES,NO
+Casselle,Tchia,67 E 4TH ST,2B,New York,NY,10003,1960-06-07,,MHA,576,0,,,2013-10-03,53,,"Casselle, Tchia",#N/A,#N/A,2014485663,2014485663,already have this number,53.56438356,,NO,,YES,NO
+Botter,Sandalia,67 E 4TH ST,2C,New York,NY,10003,,,none,220,1,"SS,BS",2011-11-21,2013-10-03,,,#N/A,01/01/2011,0,6463719551,6463719551,already have this number,114.0410959,,YES,,YES,NO
+Pennington,Norma,67 E 4TH ST,3A,New York,NY,10003,,,none,507,2,SSI,2011-11-02,2013-10-03,,,#N/A,01/01/2011,0,2122547350,2122547350,already have this number,114.0410959,,YES,,YES,NO
+Espinal,Fausto,69 E 4TH ST,1A,New York,NY,10003,1962-09-20,,MHA,420,0,,,2013-10-03,51,,#N/A,01/01/2011,0,6464835917,6464835917,already have this number,51.27671233,,NO,,YES,NO
+Boehle,Philip,69 E 4TH ST,6B,New York,NY,10003,1970-07-28,,MHA,580,0,,,2013-10-03,43,,"Boehle, Philip",#N/A,#N/A,5163681349,5163681349,already have this number,43.41917808,,NO,,YES,NO
+Garcia,Miriam,69 E 4TH ST,2C,New York,NY,10003,1955-04-29,,MHA,497,1,PS,2011-12-03,2013-10-03,58,,#N/A,01/01/1955,56,6469815504,6469815504,already have this number,58.67671233,,YES,,YES,NO
+Appleton,Robert,69 E 4TH ST,1B,New York,NY,10003,1951-03-22,,MHA,504,0,PS,2011-12-16,2013-10-03,62,,#N/A,01/01/1951,60,2122540533,2122540533,already have this number,62.78356164,,YES,,YES,NO
+Landou,Brigitte,69 E 4TH ST,6D,New York,NY,10003,1950-12-11,,MHA,253,1,SE,2011-11-22,2013-10-03,63,,"Landou, Brigitte",#VALUE!,NA,2125337875,2125337875,already have this number,63.06027397,,YES,,YES,NO
+Berg,Derek,71 E 4TH ST,5A,New York,NY,10003,1944-07-19,,MHA,264,2,,,2013-10-03,69,,#N/A,#N/A,#N/A,2127778607,2127778607,already have this number,69.46027397,,NO,,YES,NO
+Goldstein,Sharon,71 E 4TH ST,4B,New York,NY,10003,1946-11-15,,MHA,263,2,SSI,2012-03-26,2013-10-03,67,,#N/A,#N/A,#N/A,2126736802,2126736802,already have this number,67.13424658,,YES,,YES,NO
+Torres,Miguel,71 E 4TH ST,1C,New York,NY,10003,1928-04-29,,MHA,257,0,SSI,2012-06-30,2013-10-03,85,,"Torres, Miguel",#N/A,#N/A,2123878342,2123878342,already have this number,85.69315068,,YES,,YES,NO
+Torres-Bird,Maria,71 E 4TH ST,1A,New York,NY,10003,1947-07-19,,MHA,255,2,,,2013-10-03,66,,#N/A,#N/A,#N/A,2125058361,2125058361,already have this number,66.46027397,,YES,,YES,NO
+Monterrosa,Armando,73 E 4TH ST,2D,New York,NY,10003,1958-01-05,,MHA,271,1,,,2013-10-03,55,,#N/A,#N/A,#N/A,2129795265,2129795265,already have this number,55.98630137,,NO,,YES,NO
+Garcia,Migdalia,73 E 4TH ST,4D,New York,NY,10003,,,none,443,1,,,2013-10-03,,,#N/A,#N/A,#N/A,2123580266,2123580266,already have this number,114.0410959,,NO,,YES,NO
+Gomez,Justina,75 E 4TH ST,1A,New York,NY,10003,1929-05-08,,MHA,287,2,,,2013-10-03,84,,"Gomez, Justina",#N/A,#N/A,2126740102,2126740102,already have this number,84.66849315,,NO,,YES,NO
+Triana,Laura,75 E 4TH ST,2C,New York,NY,10003,1952-03-14,,MHA,289,0,,,2013-10-03,61,,#N/A,#N/A,#N/A,2128151319,2128151319,already have this number,61.80273973,,YES,,YES,NO
+Mcintosh,Setty,75 E 4TH ST,4B,New York,NY,10003,1975-07-27,,MHA,295,0,,,2013-10-03,38,,#N/A,#N/A,#N/A,9173311546,9173311546,already have this number,38.41917808,,YES,,YES,NO
+Boccia,Steven,75 E 4TH ST,5A,New York,NY,10003,1955-12-17,,MHA,298,0,,,2013-10-03,58,,#N/A,#N/A,#N/A,2124608263,2124608263,already have this number,58.04109589,,YES,,YES,NO
+Gmitter,Bryan,75 E 4TH ST,6A,New York,NY,10003,1973-11-12,,MHA,302,0,,,2013-10-03,40,,#N/A,#N/A,#N/A,9175702011,9175702011,already have this number,40.12328767,,YES,,YES,NO
+Concepcion,Loudres,77 E 4TH ST,1B,New York,NY,10003,1948-07-05,,MHA,309,1,,,2013-10-03,65,,"Concepcion, Lourdes",#N/A,#N/A,2123878714,2123878714,already have this number,65.49589041,,NO,,YES,NO
+Alberto,Bienvenida,77 E 4TH ST,1A,New York,NY,10003,1948-04-05,,MHA,308,1,SSI,,2013-10-03,65,,#N/A,#N/A,#N/A,#N/A,2124779420,"civi has number, MHA doesn't",65.74520548,,YES,,YES,NO
+Concepcion,Nimia,77 E 4TH ST,2C,New York,NY,10003,1931-12-08,,MHA,311,3,SSI,,2013-10-03,82,,"Concepcion, Nimia",#N/A,#N/A,2123531658,2123531658,already have this number,82.08219178,,YES,,YES,NO
+Lara,Erika,83 2ND AVE,4A,New York,NY,10003,1981-12-09,,CAP,3,3,,,2013-10-03,,,"Lara, Erika",#N/A,#N/A,9179958871,9179958871,already have this number,32.04383562,,NO,,YES,NO
+Cabassa,Margie,89 E 3RD ST,3B,New York,NY,10003,1951-09-14,,CAP,404,0,,,2013-10-03,,,"Cabassa, Margie",#N/A,#N/A,3478378858,3478378858,already have this number,62.30136986,,NO,,YES,NO
+Arian,Michael,89 E 3RD ST,BB,New York,NY,10003,1947-11-20,,MHA,516,0,,,2013-10-03,66,,#N/A,#N/A,#N/A,6468239051,6468239051,already have this number,66.12054795,,NO,,YES,NO
+Roca,Lena,89 E 3RD ST,5A,New York,NY,10003,,,none,422,0,,,2013-10-03,,,#N/A,#N/A,#N/A,6197570090,6197570090,already have this number,114.0410959,,NO,,YES,NO
+Hieger,Robert,9 E 3RD ST,4C,New York,NY,10003,1962-05-03,,MHA,13,0,SE,2012-05-15,2013-10-03,51,,#N/A,#N/A,#N/A,2125290615,2125290615,already have this number,51.66027397,,YES,,YES,NO
+Diaz,Rosa,9 E 3RD ST,2B,New York,NY,10003,1946-04-10,,MHA,8,3,SSD,2012-06-04,2013-10-03,67,,"Diaz, Rosa",#N/A,#N/A,2122287290,2122287290,already have this number,67.73424658,,YES,,YES,NO
+Scarola,Amy,9 E 3RD ST,3A,New York,NY,10003,1953-09-25,,MHA,9,2,,,2013-10-03,60,,#N/A,#N/A,#N/A,2122601517,2122601517,already have this number,60.26849315,,YES,,YES,NO
+Santiago,Haydee,9 E 3RD ST,4B,New York,NY,10003,1969-12-05,,MHA,410,0,,,2013-10-03,44,,#N/A,#N/A,#N/A,6466237915,6466237915,already have this number,44.0630137,,YES,,YES,NO
+Woldu,Lemlem,9 E 3RD ST,5B,New York,NY,10003,1974-12-14,,MHA,414,0,,,2013-10-03,39,,#N/A,#N/A,#N/A,6465524484,6465524484,already have this number,39.03561644,,YES,,YES,NO
+Cabarubias,Michael F.,13 E 3RD ST,1A,New York,NY,10003,,6465068517,none,35,1,,,2013-10-03,,,#N/A,#N/A,#N/A,6465068517,#N/A,"not in civi, number from MHA",114.0410959,,NO,,NO,primary
+Guzman,Kayleen A.,13 E 3RD ST,5B,New York,NY,10003,,3477570650,none,462,1,,,2013-10-03,,,#N/A,#N/A,#N/A,3477570650,#N/A,"not in civi, number from MHA",114.0410959,,NO,,NO,primary
+Nevares,Annette,13 E 3RD ST,5B,New York,NY,10003,,3477570650,none,462,1,,,2013-10-03,,,#N/A,#N/A,#N/A,3477570650,#N/A,"not in civi, number from MHA",114.0410959,,NO,,NO,primary
+Estevez  ,Leonarda,13 E 3RD ST,1B,New York,NY,10003,,6467255359,none,481,1,,,2013-10-03,,,#N/A,#N/A,#N/A,6467255359,#N/A,"not in civi, number from MHA",114.0410959,,NO,,NO,primary
+Estevez     Son,Bryan,13 E 3RD ST,1B,New York,NY,10003,,6467255359,none,481,1,,,2013-10-03,,,#N/A,#N/A,#N/A,6467255359,#N/A,"not in civi, number from MHA",114.0410959,,NO,,NO,primary
+Estevez   Daughter,Bryanna,13 E 3RD ST,1B,New York,NY,10003,,6467255359,none,481,1,,,2013-10-03,,,#N/A,#N/A,#N/A,6467255359,#N/A,"not in civi, number from MHA",114.0410959,,NO,,NO,primary
+Cowan,Gale,13 E 3RD ST,2A,New York,NY,10003,,2127771676,none,37,2,,,2013-10-03,,,#N/A,#N/A,#N/A,2127771676,#N/A,"not in civi, number from MHA",114.0410959,,NO,,NO,primary
+Mei,Lu Qi,13 E 3RD ST,3A,New York,NY,10003,,2124734857,none,39,2,,,2013-10-03,,,#N/A,#N/A,#N/A,2124734857,#N/A,"not in civi, number from MHA",114.0410959,,NO,,NO,primary
+Lin,Jian C.,13 E 3RD ST,3B,New York,NY,10003,1962-04-08,6466916619,MHA,523,0,,,2013-10-03,51,,#N/A,#N/A,#N/A,6466916619,#N/A,"not in civi, number from MHA",51.72876712,,NO,,NO,primary
+Elena,Melissa,13 STANTON ST,3B,New York,NY,10002,1996-01-08,6465971847,MHA,25,1,,,2013-10-03,17,,#N/A,#N/A,#N/A,6465971847,#N/A,"not in civi, number from MHA",17.95342466,,NO,,NO,primary
+Liriano,Franklin De La Cruz,13 STANTON ST,3B,New York,NY,10002,1993-06-20,6465971847,MHA,25,1,,,2013-10-03,20,,#N/A,#N/A,#N/A,6465971847,#N/A,"not in civi, number from MHA",20.50684932,,NO,,NO,primary
+Liriano,Ramon De La Cruz,13 STANTON ST,3B,New York,NY,10002,1991-09-21,6465971847,MHA,25,1,,,2013-10-03,22,,#N/A,#N/A,#N/A,6465971847,#N/A,"not in civi, number from MHA",22.25479452,,NO,,NO,primary
+Montoya - Montes,Andres,13 STANTON ST,6B,New York,NY,10002,1976-05-31,3476237713,MHA,31,1,,,2013-10-03,37,,#N/A,01/01/1976,35,3476237713,#N/A,"not in civi, number from MHA",37.57260274,,NO,,NO,primary
+Stoitzova,Rayna,13 STANTON ST,3A,New York,NY,10002,1951-07-19,9176093547,MHA,421,1,,,2013-10-03,62,,#N/A,#N/A,#N/A,9176093547,#N/A,"not in civi, number from MHA",62.45753425,,NO,,NO,primary
+Harris,Panama,13 STANTON ST,4B,New York,NY,10002,1988-11-12,9177019546,MHA,439,1,,,2013-10-03,25,,#N/A,#N/A,#N/A,9177019546,#N/A,"not in civi, number from MHA",25.11232877,,NO,,NO,primary
+Miller,Glen,13 STANTON ST,4A,New York,NY,10002,1959-07-02,6463164819,MHA,441,1,,,2013-10-03,54,,#N/A,#N/A,#N/A,6463164819,#N/A,"not in civi, number from MHA",54.49863014,,NO,,NO,primary
+Miller,Glenda,13 STANTON ST,4A,New York,NY,10002,1991-06-06,6463164819,MHA,441,1,,,2013-10-03,22,,#N/A,#N/A,#N/A,6463164819,#N/A,"not in civi, number from MHA",22.54794521,,NO,,NO,primary
+Miller,Sharon,13 STANTON ST,4A,New York,NY,10002,1985-03-13,6463164819,MHA,441,1,,,2013-10-03,28,,#N/A,#N/A,#N/A,6463164819,#N/A,"not in civi, number from MHA",28.78356164,,NO,,NO,primary
+Figueroa,Sandra,13 STANTON ST,2A,New York,NY,10002,1964-06-10,9175483627,MHA,22,1,PS,2011-12-11,2013-10-03,49,,#N/A,01/01/1964,47,9175483627,#N/A,"not in civi, number from MHA",49.55342466,,YES,,NO,primary
+Hughes,Veda,13 STANTON ST,2B,New York,NY,10002,1944-09-15,2124739566,MHA,23,1,PS,2011-12-06,2013-10-03,69,,#N/A,01/01/1944,67,2124739566,#N/A,"not in civi, number from MHA",69.30136986,,YES,,NO,primary
+Harris,Simone,13 STANTON ST,4B,New York,NY,10002,1953-02-10,9177019546,MHA,439,1,SE,2011-11-16,2013-10-03,60,,#N/A,01/01/1953,58,9177019546,#N/A,"not in civi, number from MHA",60.89041096,,YES,,NO,primary
+Stoitzov,Sacho,13 STANTON ST,3A,New York,NY,10002,1952-10-15,9176093547,MHA,421,1,AffSon,2011-12-03,2013-10-03,61,,#N/A,#N/A,#N/A,9176093547,#N/A,"not in civi, number from MHA",61.21369863,,YES,,NO,primary
+Stelzer,Steve,21 E 3RD ST,2A,New York,NY,10003,1944-08-02,7182393710,MHA,33,1,,,2013-10-03,69,,#N/A,#N/A,#N/A,7182393710,#N/A,"not in civi, number from MHA",69.42191781,,NO,,NO,primary
+Carrasquillo,Celeste A.,21 E 3RD ST,3A,New York,NY,10003,1998-08-26,9173711997,MHA,57,1,,,2013-10-03,15,,#N/A,#N/A,#N/A,9173711997,#N/A,"not in civi, number from MHA",15.32054795,,NO,,NO,primary
+Carrasquillo,Dalilah R,21 E 3RD ST,3A,New York,NY,10003,2003-02-14,9173711997,MHA,57,1,,,2013-10-03,10,,#N/A,#N/A,#N/A,9173711997,#N/A,"not in civi, number from MHA",10.84657534,,NO,,NO,primary
+Fernandez,Susan,21 E 3RD ST,3A,New York,NY,10003,1981-02-23,9173711997,MHA,57,1,,,2013-10-03,32,,#N/A,#N/A,#N/A,9173711997,#N/A,"not in civi, number from MHA",32.83561644,,NO,,NO,primary
+Pollock,Amanda,21 E 3RD ST,6A,New York,NY,10003,1968-05-17,6465705479,MHA,468,1,,,2013-10-03,45,,#N/A,#N/A,#N/A,6465705479,#N/A,"not in civi, number from MHA",45.61643836,,NO,,NO,primary
+Pollock,Jonah J. S.,21 E 3RD ST,6A,New York,NY,10003,2006-07-28,6465705479,MHA,468,1,,,2013-10-03,7,,#N/A,#N/A,#N/A,6465705479,#N/A,"not in civi, number from MHA",7.394520548,,NO,,NO,primary
+Montalvo,Alejandro,21 E 3RD ST,4B,New York,NY,10003,1980-08-20,2122289247,MHA,60,2,,,2013-10-03,33,,#N/A,#N/A,#N/A,2122289247,#N/A,"not in civi, number from MHA",33.34794521,,NO,,NO,primary
+Carrasquillo,Joseph,21 E 3RD ST,6B,New York,NY,10003,1986-01-26,9179695974,MHA,296,2,,,2013-10-03,27,,#N/A,#N/A,#N/A,9179695974,#N/A,"not in civi, number from MHA",27.90958904,,NO,,NO,primary
+Carrasquillo,Joseph Phillip,21 E 3RD ST,6B,New York,NY,10003,2007-10-16,9179695974,MHA,296,2,,,2013-10-03,6,,#N/A,#N/A,#N/A,9179695974,#N/A,"not in civi, number from MHA",6.175342466,,NO,,NO,primary
+Carrasquillo,Tamar,21 E 3RD ST,6B,New York,NY,10003,1961-10-28,9179695974,MHA,296,2,,,2013-10-03,52,,#N/A,#N/A,#N/A,9179695974,#N/A,"not in civi, number from MHA",52.17260274,,NO,,NO,primary
+Cen,Mei Qian,21 E 3RD ST,5B,New York,NY,10003,1975-01-22,9173400326,MHA,300,2,,,2013-10-03,38,,#N/A,#N/A,#N/A,9173400326,#N/A,"not in civi, number from MHA",38.92876712,,NO,,NO,primary
+Chui,Lin,21 E 3RD ST,5B,New York,NY,10003,1948-11-27,9173400326,MHA,300,2,,,2013-10-03,65,,#N/A,#N/A,#N/A,9173400326,#N/A,"not in civi, number from MHA",65.09863014,,NO,,NO,primary
+Perez,Roberto H.,21 E 3RD ST,2C,New York,NY,10003,1942-02-02,6462663961,MHA,56,0,,,2013-10-03,71,,#N/A,01/01/2011,0,6462663961,#N/A,"not in civi, number from MHA",71.92054795,,NO,,NO,primary
+Salcedo,Marcos,21 E 3RD ST,5C,New York,NY,10003,1990-06-27,3477738391,MHA,572,0,,,2013-10-03,23,,#N/A,#N/A,#N/A,3477738391,#N/A,"not in civi, number from MHA",23.49041096,,NO,,NO,primary
+Santa,Yeni,21 E 3RD ST,5C,New York,NY,10003,1989-01-06,3477738391,MHA,572,0,,,2013-10-03,24,,#N/A,#N/A,#N/A,3477738391,#N/A,"not in civi, number from MHA",24.96164384,,NO,,NO,primary
+Figueroa,William,21 E 3RD ST,3C,New York,NY,10003,1956-09-22,9172249003,MHA,426,0,PS,2011-11-16,2013-10-03,57,,#N/A,01/01/1956,55,9172249003,#N/A,"not in civi, number from MHA",57.2739726,,YES,,NO,primary
+Cen,Zhi Qiang,21 E 3RD ST,5B,New York,NY,10003,1948-10-17,9173400326,MHA,300,2,SSI,2011-12-20,2013-10-03,65,,#N/A,#N/A,#N/A,9173400326,#N/A,"not in civi, number from MHA",65.2109589,,YES,,NO,primary
+Carrasquillo,Jose,21 E 3RD ST,6B,New York,NY,10003,1960-07-04,9179695974,MHA,296,2,UB,2011-12-20,2013-10-03,53,,#N/A,01/01/1960,51,9179695974,#N/A,"not in civi, number from MHA",53.49041096,,YES,,NO,primary
+Rodriguez,Antonio S.,23 E 3RD ST,1C,New York,NY,10003,1949-08-04,7186008696,MHA,558,0,,,2013-10-03,64,,#N/A,#N/A,#N/A,7186008696,#N/A,"not in civi, number from MHA",64.41369863,,NO,,NO,primary
+Benjamin,McAnthony,23 E 3RD ST,1B,New York,NY,10003,1959-12-28,3473211036,MHA,569,0,,,2013-10-03,54,,#N/A,#N/A,#N/A,3473211036,#N/A,"not in civi, number from MHA",54.00821918,,NO,,NO,primary
+Eastman,Donald,23 E 3RD ST,2C,New York,NY,10003,1953-01-01,6463914666,WAP-approx,71,1,PS,2011-11-21,2013-10-03,,,#N/A,01/01/1953,58,6463914666,#N/A,"not in civi, number from MHA",61,,YES,,NO,primary
+Muniz,Robert,23 E 3RD ST,4A,New York,NY,10003,,2128440406,none,76,0,PS,2012-01-23,2013-10-03,,,#N/A,#N/A,#N/A,2128440406,#N/A,"not in civi, number from MHA",114.0410959,,YES,,NO,primary
+Goodman,Valerie,23 E 3RD ST,3D,New York,NY,10003,,2129829819,none,75,1,SE,2012-01-10,2013-10-03,,,#N/A,01/01/2011,0,2129829819,#N/A,"not in civi, number from MHA",114.0410959,,YES,,NO,primary
+Bastry,Irit,23 E 3RD ST,4C,New York,NY,10003,1957-01-01,2122603071,WAP-approx,78,1,SE,2011-12-09,2013-10-03,,,#N/A,01/01/1957,54,2122603071,#N/A,"not in civi, number from MHA",56.99726027,,YES,,NO,primary
+Mitchell,Eric,23 E 3RD ST,4D,New York,NY,10003,,2126747964,none,79,1,,,2013-10-03,,,#N/A,01/01/2011,0,2126747964,#N/A,"not in civi, number from MHA",114.0410959,,YES,,NO,primary
+Santana,Aracelis,23 E 3RD ST,2A,New York,NY,10003,,2127773419,none,70,2,,,2013-10-03,,,#N/A,01/01/2011,0,2127773419,#N/A,"not in civi, number from MHA",114.0410959,,YES,,NO,primary
+Chen,Jia Zhuo,25 E 3RD ST,2C,New York,NY,10003,,2122287345,none,88,1,,,2013-10-03,,,#N/A,#N/A,#N/A,2122287345,#N/A,"not in civi, number from MHA",114.0410959,,NO,,NO,primary
+Wright,Lafiesta,25 E 3RD ST,5D,New York,NY,10003,,2125330301,none,100,1,PS,2012-04-06,2013-10-03,,,#N/A,#N/A,#N/A,2125330301,#N/A,"not in civi, number from MHA",114.0410959,,YES,,NO,primary
+Cruz,Wilma,25 E 3RD ST,3C,New York,NY,10003,,2126741203,none,92,2,PS,2012-06-06,2013-10-03,,,#N/A,#N/A,#N/A,2126741203,#N/A,"not in civi, number from MHA",114.0410959,,YES,,NO,primary
+Markovich,Nick,25 E 3RD ST,3B,New York,NY,10003,,2127777789,none,91,0,PS,2012-06-06,2013-10-03,,,#N/A,#N/A,#N/A,2127777789,#N/A,"not in civi, number from MHA",114.0410959,,YES,,NO,primary
+Ferreira,Anthony,25 E 3RD ST,4A,New York,NY,10003,1971-01-31,3472768645,MHA,483,0,SE,2012-08-28,2013-10-03,42,,#N/A,#N/A,#N/A,3472768645,#N/A,"not in civi, number from MHA",42.90684932,,YES,,NO,primary
+Hirschfield,Robert,25 E 3RD ST,5A,New York,NY,10003,,2125053674,none,97,0,SSI,2012-04-14,2013-10-03,,,#N/A,#N/A,#N/A,2125053674,#N/A,"not in civi, number from MHA",114.0410959,,YES,,NO,primary
+Edinborgh,Federick,25 E 3RD ST,4D,New York,NY,10003,1946-10-12,2126745686,MHA,96,1,,,2013-10-03,67,,#N/A,#N/A,#N/A,2126745686,#N/A,"not in civi, number from MHA",67.22739726,,YES,,NO,primary
+Luk,Chung,25 E 3RD ST,4C,New York,NY,10003,1940-06-30,9176928304,MHA,524,1,,,2013-10-03,73,,#N/A,#N/A,#N/A,9176928304,#N/A,"not in civi, number from MHA",73.51506849,,YES,,NO,primary
+Garcia,Jose,25 E 3RD ST,4B,New York,NY,10003,,2128106596,none,94,0,,,2013-10-03,,,#N/A,#N/A,#N/A,2128106596,#N/A,"not in civi, number from MHA",114.0410959,,YES,,NO,primary
+Jiji,Elissa,25 E 3RD ST,1A,New York,NY,10003,,6465263349,none,482,0,,,2013-10-03,,,#N/A,#N/A,#N/A,6465263349,#N/A,"not in civi, number from MHA",114.0410959,,YES,,NO,primary
+Quinones,Jeanette,27 E 3RD ST,6B,New York,NY,10003,,7183161779,none,489,2,,,2013-10-03,,,#N/A,#N/A,#N/A,7183161779,#N/A,"not in civi, number from MHA",114.0410959,,NO,,NO,primary
+Quinones,Skye Lyn,27 E 3RD ST,6B,New York,NY,10003,,7183161779,none,489,2,,,2013-10-03,,,#N/A,#N/A,#N/A,7183161779,#N/A,"not in civi, number from MHA",114.0410959,,NO,,NO,primary
+Miller,Edward,27 E 3RD ST,1A,New York,NY,10003,1967-09-28,2122535003,MHA,574,0,,,2013-10-03,46,,#N/A,#N/A,#N/A,2122535003,#N/A,"not in civi, number from MHA",46.25205479,,NO,,NO,primary
+Kihlstedt,Maria,27 E 3RD ST,6A,New York,NY,10003,,2126773457,none,111,1,,,2013-10-03,,,#N/A,#N/A,#N/A,2126773457,#N/A,"not in civi, number from MHA",114.0410959,,YES,,NO,primary
+Quinones,Divine,27 E 3RD ST,6B,New York,NY,10003,,7183161779,none,489,2,,,2013-10-03,,,#N/A,#N/A,#N/A,7183161779,#N/A,"not in civi, number from MHA",114.0410959,,YES,,NO,primary
+Zaborowski,Christopher,56 E 4TH ST,5A,New York,NY,10003,1983-12-05,2122606274,MHA,128,2,,,2013-10-03,30,,#N/A,#N/A,#N/A,2122606274,#N/A,"not in civi, number from MHA",30.05479452,,NO,,NO,primary
+Figueroa,Emmanuel,56 E 4TH ST,5C,New York,NY,10003,1997-12-11,9174824657,MHA,129,2,,,2013-10-03,16,,#N/A,#N/A,#N/A,9174824657,#N/A,"not in civi, number from MHA",16.02739726,,NO,,NO,primary
+McNaughton,Luis,56 E 4TH ST,4A,New York,NY,10003,1957-03-14,9177166817,MHA,510,2,,,2013-10-03,56,,#N/A,#N/A,#N/A,9177166817,#N/A,"not in civi, number from MHA",56.8,,NO,,NO,primary
+Wong,Casey,56 E 4TH ST,4A,New York,NY,10003,1986-11-24,9177166817,MHA,510,2,,,2013-10-03,27,,#N/A,#N/A,#N/A,9177166817,#N/A,"not in civi, number from MHA",27.08219178,,NO,,NO,primary
+Ng,Jack L.,56 E 4TH ST,2B,New York,NY,10003,1963-12-28,2122606351,MHA,119,0,,,2013-10-03,50,,#N/A,01/01/2011,0,2122606351,#N/A,"not in civi, number from MHA",50.00547945,,NO,,NO,primary
+Elaine Agard,Teana,56 E 4TH ST,3D,New York,NY,10003,2011-07-26,3472477123,MHA,124,0,,,2013-10-03,2,,#N/A,#N/A,#N/A,3472477123,#N/A,"not in civi, number from MHA",2.397260274,,NO,,NO,primary
+Nowell,Isaiah,56 E 4TH ST,3D,New York,NY,10003,2004-06-21,3472477123,MHA,124,0,,,2013-10-03,9,,#N/A,#N/A,#N/A,3472477123,#N/A,"not in civi, number from MHA",9.495890411,,NO,,NO,primary
+Parham,Alicia,56 E 4TH ST,3D,New York,NY,10003,1978-08-31,3472477123,MHA,124,0,,,2013-10-03,35,,#N/A,#N/A,#N/A,3472477123,#N/A,"not in civi, number from MHA",35.32054795,,NO,,NO,primary
+Rodriguez,Lydia Inez,56 E 4TH ST,3C,New York,NY,10003,1978-08-28,9173128146,MHA,413,0,,,2013-10-03,35,,#N/A,#N/A,#N/A,9173128146,#N/A,"not in civi, number from MHA",35.32876712,,NO,,NO,primary
+Ruiz,Sadeicha,56 E 4TH ST,2D,New York,NY,10003,1978-08-08,3478433464,MHA,518,0,PS,2011-11-16,2013-10-03,35,,#N/A,01/01/2011,0,3478433464,#N/A,"not in civi, number from MHA",35.38356164,,YES,,NO,primary
+Velez,Milton,56 E 4TH ST,2A,New York,NY,10003,1961-03-27,7182197459,MHA,519,0,PS,2011-12-12,2013-10-03,52,,#N/A,01/01/2011,0,7182197459,#N/A,"not in civi, number from MHA",52.76164384,,YES,,NO,primary
+Nova,Nicholas,56 E 4TH ST,3A,New York,NY,10003,1952-01-15,9175286296,MHA,122,0,SSI,2011-11-07,2013-10-03,61,,#N/A,01/01/1952,59,9175286296,#N/A,"not in civi, number from MHA",61.96438356,,YES,,NO,primary
+Sau King,Chin Lee,56 E 4TH ST,2C,New York,NY,10003,1918-01-11,2124750681,MHA,120,0,,,2013-10-03,95,,#N/A,01/01/2011,0,2124750681,#N/A,"not in civi, number from MHA",95.99726027,,YES,,NO,primary
+Parham,Quiana,56 E 4TH ST,3D,New York,NY,10003,1983-09-05,3472477123,MHA,124,0,,,2013-10-03,30,,#N/A,01/01/2011,0,3472477123,#N/A,"not in civi, number from MHA",30.30410959,,YES,,NO,primary
+Huang,Rong Xi,57 E 4TH ST,4A,New York,NY,10003,1955-03-04,2123880473,MHA,536,2,,,2013-10-03,58,,#N/A,#N/A,#N/A,2123880473,#N/A,"not in civi, number from MHA",58.83013699,,NO,,NO,primary
+Velez,Myrna,57 E 4TH ST,6C,New York,NY,10003,1982-07-14,6466703608,MHA,466,1,,,2013-10-03,31,,#N/A,#N/A,#N/A,6466703608,#N/A,"not in civi, number from MHA",31.44931507,,YES,,NO,primary
+Carty,Doreen,57 E 4TH ST,4C,New York,NY,10003,,2123530037,none,142,1,,,2013-10-03,,,#N/A,#N/A,#N/A,2123530037,#N/A,"not in civi, number from MHA",114.0410959,,YES,,NO,primary
+Trammell,Michael,57 E 4TH ST,5B,New York,NY,10003,,6462954325,none,144,2,,,2013-10-03,,,#N/A,#N/A,#N/A,6462954325,#N/A,"not in civi, number from MHA",114.0410959,,YES,,NO,primary
+Fukuda,Keiko,58 E 4TH ST,11,New York,NY,10003,1985-07-26,6465451127,MHA,502,1,,,2013-10-03,28,,#N/A,#N/A,#N/A,6465451127,#N/A,"not in civi, number from MHA",28.41369863,,NO,,NO,primary
+Cusamano (occupant),Thomas,58 E 4TH ST,4,New York,NY,10003,,9179452412,none,151,1,,,2013-10-03,,,#N/A,#N/A,#N/A,9179452412,#N/A,"not in civi, number from MHA",114.0410959,,NO,,NO,primary
+Ko,Chiu,58 E 4TH ST,12,New York,NY,10003,1939-01-01,2125298468,WAP-approx,159,1,,,2013-10-03,,,#N/A,01/01/1939,72,2125298468,#N/A,"not in civi, number from MHA",75.0109589,,NO,,NO,primary
+Fong,Siu K. M.,58 E 4TH ST,6,New York,NY,10003,1938-01-01,2124750065,WAP-approx,153,0,,,2013-10-03,,,#N/A,01/01/1938,73,2124750065,#N/A,"not in civi, number from MHA",76.0109589,,NO,,NO,primary
+Alexis,Austin,58 E 4TH ST,9,New York,NY,10003,1954-01-01,2122607525,WAP-approx,156,0,PS,2011-10-13,2013-10-03,,,#N/A,01/01/1954,57,2122607525,#N/A,"not in civi, number from MHA",60,,YES,,NO,primary
+Lee,Yungan,58 E 4TH ST,13,New York,NY,10003,,2124770069,none,160,2,,,2013-10-03,,,#N/A,01/01/2011,0,2124770069,#N/A,"not in civi, number from MHA",114.0410959,,Refused,,NO,primary
+Corber,Mitchell,58 E 4TH ST,3,New York,NY,10003,,2122542803,none,150,0,,,2013-10-03,,,#N/A,01/01/2011,0,2122542803,#N/A,"not in civi, number from MHA",114.0410959,,Refused,,NO,primary
+Burton,James J.,58 E 4TH ST,15,New York,NY,10003,,2126777686,none,162,2,SE,2012-01-04,2013-10-03,,,#N/A,#N/A,#N/A,2126777686,#N/A,"not in civi, number from MHA",114.0410959,,YES,,NO,primary
+McCann,Stephen,58 E 4TH ST,5,New York,NY,10003,1946-01-01,2125294301,WAP-approx,152,1,SSI,2011-11-21,2013-10-03,,,#N/A,01/01/1946,65,2125294301,#N/A,"not in civi, number from MHA",68.00547945,,YES,,NO,primary
+Cali Jr.,Anthony,58 E 4TH ST,11,New York,NY,10003,1983-08-10,6465451127,MHA,502,1,W2,2011-12-06,2013-10-03,30,,#N/A,#N/A,#N/A,6465451127,#N/A,"not in civi, number from MHA",30.37534247,,YES,,NO,primary
+Salazar,Ariel,60 E 4TH ST,14,New York,NY,10003,1984-05-11,9179925824,MHA,429,1,,,2013-10-03,29,,#N/A,#N/A,#N/A,9179925824,#N/A,"not in civi, number from MHA",29.62191781,,NO,,NO,primary
+Fielding,Sean,60 E 4TH ST,6,New York,NY,10003,,6463735414,none,578,1,,,2013-10-03,,,#N/A,#N/A,#N/A,6463735414,#N/A,"not in civi, number from MHA",114.0410959,,NO,,NO,primary
+Ramirez,Jose R.,60 E 4TH ST,5,New York,NY,10003,1925-03-19,2122285930,MHA,168,0,,,2013-10-03,88,,#N/A,#N/A,#N/A,2122285930,#N/A,"not in civi, number from MHA",88.80821918,,NO,,NO,primary
+Chiang,Jean,60 E 4TH ST,7,New York,NY,10003,1954-04-06,6466600616,MHA,170,0,,,2013-10-03,59,,#N/A,#N/A,#N/A,6466600616,#N/A,"not in civi, number from MHA",59.73972603,,YES,,NO,primary
+Waren,Mark,60 E 4TH ST,19,New York,NY,10003,1959-09-13,9176936841,MHA,181,0,,,2013-10-03,54,,#N/A,#N/A,#N/A,9176936841,#N/A,"not in civi, number from MHA",54.29863014,,YES,,NO,primary
+Khan,Saif U.,60 E 4TH ST,9,New York,NY,10003,1961-09-01,2127778757,MHA,457,0,,,2013-10-03,52,,#N/A,#N/A,#N/A,2127778757,#N/A,"not in civi, number from MHA",52.32876712,,YES,,NO,primary
+Urban,Ralph,63 E 4TH ST,3C,New York,NY,10003,1943-04-11,2125293126,MHA,193,1,,,2013-10-03,70,,#N/A,#N/A,#N/A,2125293126,#N/A,"not in civi, number from MHA",70.73424658,,NO,P.O Box 1010,NO,primary
+Harrington,Olivia,63 E 4TH ST,4A,New York,NY,10003,1989-01-31,9173854541,MHA,194,2,,,2013-10-03,24,,#N/A,#N/A,#N/A,9173854541,#N/A,"not in civi, number from MHA",24.89315068,,NO,,NO,primary
+Farrell,Grace,63 E 4TH ST,6A,New York,NY,10003,1946-02-02,9173550136,MHA,200,2,,,2013-10-03,67,,#N/A,#N/A,#N/A,9173550136,#N/A,"not in civi, number from MHA",67.91780822,,NO,,NO,primary
+Muniz,Oliver,63 E 4TH ST,6A,New York,NY,10003,1998-09-20,9173550136,MHA,200,2,,,2013-10-03,15,,#N/A,#N/A,#N/A,9173550136,#N/A,"not in civi, number from MHA",15.25205479,,NO,,NO,primary
+Hernandez,Gabriel,63 E 4TH ST,2C,New York,NY,10003,1989-11-01,2129799397,MHA,191,3,,,2013-10-03,24,,#N/A,#N/A,#N/A,2129799397,#N/A,"not in civi, number from MHA",24.14246575,,NO,,NO,primary
+Hernandez,Joel,63 E 4TH ST,2C,New York,NY,10003,1986-06-14,2129799397,MHA,191,3,,,2013-10-03,27,,#N/A,#N/A,#N/A,2129799397,#N/A,"not in civi, number from MHA",27.52876712,,NO,,NO,primary
+Hernandez,Jonathan,63 E 4TH ST,2C,New York,NY,10003,1991-08-05,2129799397,MHA,191,3,,,2013-10-03,22,,#N/A,#N/A,#N/A,2129799397,#N/A,"not in civi, number from MHA",22.38356164,,NO,,NO,primary
+Hernandez,Mario,63 E 4TH ST,2C,New York,NY,10003,1988-04-04,2129799397,MHA,191,3,,,2013-10-03,25,,#N/A,#N/A,#N/A,2129799397,#N/A,"not in civi, number from MHA",25.72054795,,NO,,NO,primary
+Stringer,Richard,63 E 4TH ST,2A,New York,NY,10003,1946-08-19,9179232229,MHA,189,0,,,2013-10-03,67,,#N/A,#N/A,#N/A,9179232229,#N/A,"not in civi, number from MHA",67.37534247,,NO,,NO,primary
+Apollo,Benjamin,63 E 4TH ST,5D,New York,NY,10003,1950-04-11,2122606056,MHA,199,1,SE,2012-04-20,2013-10-03,63,,#N/A,#N/A,#N/A,2122606056,#N/A,"not in civi, number from MHA",63.72876712,,YES,,NO,primary
+Jakowec,Alexander,63 E 4TH ST,6C,New York,NY,10003,1962-09-13,6464602940,MHA,201,1,,,2013-10-03,51,,#N/A,#N/A,#N/A,6464602940,#N/A,"not in civi, number from MHA",51.29589041,,YES,,NO,primary
+Morrison,Corinne,63 E 4TH ST,4A,New York,NY,10003,1949-02-02,9173854541,MHA,194,2,,,2013-10-03,64,,#N/A,#N/A,#N/A,9173854541,#N/A,"not in civi, number from MHA",64.91506849,,YES,,NO,primary
+Stringer,Nancy,63 E 4TH ST,2A,New York,NY,10003,1951-12-03,9179232229,MHA,189,0,,,2013-10-03,62,,#N/A,#N/A,#N/A,9179232229,#N/A,"not in civi, number from MHA",62.08219178,,YES,,NO,primary
+Davis,Catherine E.,63 E 4TH ST,2B,New York,NY,10003,1947-10-26,9179926543,MHA,480,0,,,2013-10-03,66,,#N/A,#N/A,#N/A,9179926543,#N/A,"not in civi, number from MHA",66.1890411,,YES,,NO,primary
+Antoni,Ian,65 E 4TH ST,3D,New York,NY,10003,,8455180392,none,556,1,,,2013-10-03,,,#N/A,#N/A,#N/A,8455180392,#N/A,"not in civi, number from MHA",114.0410959,,NO,,NO,primary
+Hernandez,Cristian,65 E 4TH ST,2A,New York,NY,10003,1989-12-05,6462281611,MHA,20,2,,,2013-10-03,24,,#N/A,#N/A,#N/A,6462281611,#N/A,"not in civi, number from MHA",24.04931507,,NO,,NO,primary
+Bevans,Nathalie S.,65 E 4TH ST,6C,New York,NY,10003,,3476173200,none,213,3,PS,2012-03-16,2013-10-03,,,#N/A,#N/A,#N/A,3476173200,#N/A,"not in civi, number from MHA",114.0410959,,YES,,NO,primary
+Wu,Yi Yan,65 E 4TH ST,5A,New York,NY,10003,,2125299669,none,210,2,W2,2012-02-14,2013-10-03,,,#N/A,#N/A,#N/A,2125299669,#N/A,"not in civi, number from MHA",114.0410959,,YES,,NO,primary
+Hobgood,Howard,65 E 4TH ST,6A,New York,NY,10003,,7873087295,none,212,2,W2,2012-02-14,2013-10-03,,,#N/A,#N/A,#N/A,7873087295,#N/A,"not in civi, number from MHA",114.0410959,,YES,665 E. 181st Street #2G,NO,primary
+Antoni,Shara,65 E 4TH ST,3D,New York,NY,10003,1989-08-15,8455180392,MHA,556,1,,,2013-10-03,24,,#N/A,#N/A,#N/A,8455180392,#N/A,"not in civi, number from MHA",24.35616438,,YES,,NO,primary
+Desinor,Myrlande,65 E 4TH ST,4D,New York,NY,10003,,7183469600,none,455,1,,,2013-10-03,,,#N/A,#N/A,#N/A,7183469600,#N/A,"not in civi, number from MHA",114.0410959,,YES,,NO,primary
+Ortiz,Emily,67 E 4TH ST,5C,New York,NY,10003,1983-01-29,9175497740,MHA,560,1,,,2013-10-03,30,,#N/A,#N/A,#N/A,9175497740,#N/A,"not in civi, number from MHA",30.90410959,,NO,,NO,primary
+Petruska,Jason,67 E 4TH ST,3C,New York,NY,10003,,3476120789,none,223,1,,,2013-10-03,,,#N/A,01/01/2011,0,3476120789,#N/A,"not in civi, number from MHA",114.0410959,,NO,,NO,primary
+Galindo,Valerie,67 E 4TH ST,3D,New York,NY,10003,,6464674700,none,493,1,,,2013-10-03,,,#N/A,#N/A,#N/A,6464674700,#N/A,"not in civi, number from MHA",114.0410959,,NO,,NO,primary
+Baez,Karina,67 E 4TH ST,5D,New York,NY,10003,,9176476269,none,546,1,,,2013-10-03,,,#N/A,#N/A,#N/A,9176476269,#N/A,"not in civi, number from MHA",114.0410959,,NO,,NO,primary
+Huang,Cui Q.,67 E 4TH ST,2D,New York,NY,10003,1964-01-01,2122281883,WAP-approx,221,1,,,2013-10-03,,,#N/A,01/01/1964,47,2122281883,#N/A,"not in civi, number from MHA",49.99452055,,NO,,NO,primary
+Fedonchik,Scott,67 E 4TH ST,6A,New York,NY,10003,,2124750710,none,231,2,,,2013-10-03,,,#N/A,01/01/2011,0,2124750710,#N/A,"not in civi, number from MHA",114.0410959,,NO,,NO,primary
+Fedonchik (Son),Henry,67 E 4TH ST,6A,New York,NY,10003,,2124750710,none,231,2,,,2013-10-03,,,#N/A,#N/A,#N/A,2124750710,#N/A,"not in civi, number from MHA",114.0410959,,NO,,NO,primary
+Fedonchik (Spouse),Tracey,67 E 4TH ST,6A,New York,NY,10003,,2124750710,none,231,2,,,2013-10-03,,,#N/A,#N/A,#N/A,2124750710,#N/A,"not in civi, number from MHA",114.0410959,,NO,,NO,primary
+Pennington,Jonathan,67 E 4TH ST,3A,New York,NY,10003,,2122547350,none,507,2,,,2013-10-03,,,#N/A,#N/A,#N/A,2122547350,#N/A,"not in civi, number from MHA",114.0410959,,NO,,NO,primary
+Suriel,Josseny,67 E 4TH ST,1B,New York,NY,10003,1984-07-04,6464180250,MHA,485,0,,,2013-10-03,29,,#N/A,01/01/2011,0,6464180250,#N/A,"not in civi, number from MHA",29.4739726,,NO,,NO,primary
+Gomez,Gisela J.,67 E 4TH ST,1A,New York,NY,10003,1984-12-01,9175497097,MHA,496,0,,,2013-10-03,29,,#N/A,#N/A,#N/A,9175497097,#N/A,"not in civi, number from MHA",29.0630137,,NO,,NO,primary
+Glover,Brian P.,67 E 4TH ST,4C,New York,NY,10003,,2126738265,none,226,1,,,2013-10-03,,,#N/A,01/01/2011,0,2126738265,#N/A,"not in civi, number from MHA",114.0410959,,Refused,,NO,primary
+Smith,Lisa,67 E 4TH ST,6D,New York,NY,10003,,9172078931,none,233,1,SE,2011-11-28,2013-10-03,,,#N/A,01/01/2011,0,9172078931,#N/A,"not in civi, number from MHA",114.0410959,,YES,,NO,primary
+Rosenbaum,Leonard,69 E 4TH ST,3C,New York,NY,10003,1941-08-24,2127770302,MHA,242,1,,,2013-10-03,72,,#N/A,#N/A,#N/A,2127770302,#N/A,"not in civi, number from MHA",72.36438356,,NO,,NO,primary
+Cochran,Jackie,69 E 4TH ST,5D,New York,NY,10003,1963-06-07,2128821796,MHA,249,1,,,2013-10-03,50,,#N/A,01/01/2011,0,2128821796,#N/A,"not in civi, number from MHA",50.56438356,,NO,,NO,primary
+Keane,Brian,69 E 4TH ST,6C,New York,NY,10003,1953-05-15,9173631013,MHA,252,1,,,2013-10-03,60,,#N/A,#N/A,#N/A,9173631013,#N/A,"not in civi, number from MHA",60.63287671,,NO,,NO,primary
+Greber,Denise,69 E 4TH ST,4C,New York,NY,10003,1971-03-30,9174005990,MHA,447,1,,,2013-10-03,42,,#N/A,#VALUE!,NA,9174005990,#N/A,"not in civi, number from MHA",42.74794521,,NO,,NO,primary
+Restrepo,Federico,69 E 4TH ST,4C,New York,NY,10003,1964-06-01,9174005990,MHA,447,1,,,2013-10-03,49,,#N/A,#N/A,#N/A,9174005990,#N/A,"not in civi, number from MHA",49.57808219,,NO,,NO,primary
+Ramos,Sharie J.,69 E 4TH ST,4D,New York,NY,10003,1986-10-18,9175871139,MHA,559,1,,,2013-10-03,27,,#N/A,01/01/2011,0,9175871139,#N/A,"not in civi, number from MHA",27.18356164,,NO,,NO,primary
+Heidenheimer,Nathaniel,69 E 4TH ST,2A,New York,NY,10003,,6462215582,none,539,2,,,2013-10-03,,,#N/A,#N/A,#N/A,6462215582,#N/A,"not in civi, number from MHA",114.0410959,,NO,,NO,primary
+Heidenheimer,Sonya,69 E 4TH ST,2A,New York,NY,10003,,6462215582,none,539,2,,,2013-10-03,,,#N/A,#N/A,#N/A,6462215582,#N/A,"not in civi, number from MHA",114.0410959,,NO,,NO,primary
+Attar,Victor,69 E 4TH ST,4B,New York,NY,10003,1937-04-15,2129826749,MHA,244,0,,,2013-10-03,76,,#N/A,01/01/2011,0,2129826749,#N/A,"not in civi, number from MHA",76.7260274,,NO,,NO,primary
+Jeffet,Guela,69 E 4TH ST,4B,New York,NY,10003,1942-02-18,2129826749,MHA,244,0,,,2013-10-03,71,,#N/A,#N/A,#N/A,2129826749,#N/A,"not in civi, number from MHA",71.87671233,,NO,,NO,primary
+Yuen,Hui Chao,69 E 4TH ST,5A,New York,NY,10003,1951-10-10,2126732757,MHA,247,0,,,2013-10-03,62,,#N/A,#N/A,#N/A,2126732757,#N/A,"not in civi, number from MHA",62.23013699,,NO,,NO,primary
+Durouich,Elizabeth,69 E 4TH ST,5B,New York,NY,10003,1985-05-21,2126773160,MHA,575,0,,,2013-10-03,28,,#N/A,#N/A,#N/A,2126773160,#N/A,"not in civi, number from MHA",28.59452055,,NO,,NO,primary
+Yuen,Ying Ping,69 E 4TH ST,5A,New York,NY,10003,1943-10-02,2126732757,MHA,247,0,PS,2012-01-03,2013-10-03,70,,#N/A,#VALUE!,NA,2126732757,#N/A,"not in civi, number from MHA",70.25753425,,YES,,NO,primary
+Concepcion,Luciano,69 E 4TH ST,4A,New York,NY,10003,1965-12-27,2123881107,MHA,454,0,UA,2011-11-22,2013-10-03,48,,#N/A,#VALUE!,NA,2123881107,#N/A,"not in civi, number from MHA",48.00547945,,YES,,NO,primary
+Bird,Guillermo,71 E 4TH ST,1A,New York,NY,10003,1973-05-12,2125058361,MHA,255,2,,,2013-10-03,40,,#N/A,#N/A,#N/A,2125058361,#N/A,"not in civi, number from MHA",40.62739726,,NO,,NO,primary
+Cintron,Gloria,71 E 4TH ST,2A,New York,NY,10003,1951-01-11,2122608544,MHA,258,2,,,2013-10-03,62,,#N/A,#N/A,#N/A,2122608544,#N/A,"not in civi, number from MHA",62.97534247,,NO,,NO,primary
+Gonzalez,Anthony Lee,71 E 4TH ST,2B,New York,NY,10003,1984-07-27,3475382384,MHA,259,2,,,2013-10-03,29,,#N/A,#N/A,#N/A,3475382384,#N/A,"not in civi, number from MHA",29.4109589,,NO,,NO,primary
+Muniz,Carlos,71 E 4TH ST,2B,New York,NY,10003,1961-09-29,3475382384,MHA,259,2,,,2013-10-03,52,,#N/A,#N/A,#N/A,3475382384,#N/A,"not in civi, number from MHA",52.25205479,,NO,,NO,primary
+Abrams ,Leonard,71 E 4TH ST,3A,New York,NY,10003,1954-12-14,3474854742,MHA,260,2,,,2013-10-03,59,,#N/A,#N/A,#N/A,3474854742,#N/A,"not in civi, number from MHA",59.04931507,,NO,,NO,primary
+Walker ,Palmer Thomas Lee,71 E 4TH ST,3A,New York,NY,10003,1988-02-09,3474854742,MHA,260,2,,,2013-10-03,25,,#N/A,#N/A,#N/A,3474854742,#N/A,"not in civi, number from MHA",25.87123288,,NO,,NO,primary
+Wu,Alan,71 E 4TH ST,3B,New York,NY,10003,1967-12-14,2124751721,MHA,261,2,,,2013-10-03,46,,#N/A,#N/A,#N/A,2124751721,#N/A,"not in civi, number from MHA",46.04109589,,NO,,NO,primary
+Wu,Frank,71 E 4TH ST,3B,New York,NY,10003,1964-10-20,2124751721,MHA,261,2,,,2013-10-03,49,,#N/A,#N/A,#N/A,2124751721,#N/A,"not in civi, number from MHA",49.19178082,,NO,,NO,primary
+McClary Rivera,Sencere Messiah,71 E 4TH ST,4A,New York,NY,10003,2009-08-16,6462106407,MHA,262,2,,,2013-10-03,4,,#N/A,#N/A,#N/A,6462106407,#N/A,"not in civi, number from MHA",4.339726027,,NO,,NO,primary
+Goldstein,Claudia,71 E 4TH ST,4B,New York,NY,10003,1980-06-07,2126736802,MHA,263,2,,,2013-10-03,33,,#N/A,#N/A,#N/A,2126736802,#N/A,"not in civi, number from MHA",33.55068493,,NO,,NO,primary
+Berg,Seth,71 E 4TH ST,5A,New York,NY,10003,2005-07-19,2127778607,MHA,264,2,,,2013-10-03,8,,#N/A,#N/A,#N/A,2127778607,#N/A,"not in civi, number from MHA",8.419178082,,NO,,NO,primary
+Betances,Natalie,71 E 4TH ST,5B,New York,NY,10003,1999-02-21,2127800345,MHA,265,2,,,2013-10-03,14,,#N/A,#N/A,#N/A,2127800345,#N/A,"not in civi, number from MHA",14.83013699,,NO,,NO,primary
+Collazo,Joseph,71 E 4TH ST,5B,New York,NY,10003,1993-10-29,2127800345,MHA,265,2,,,2013-10-03,20,,#N/A,#N/A,#N/A,2127800345,#N/A,"not in civi, number from MHA",20.14794521,,NO,,NO,primary
+Serrano,Sabrina Cecelia,71 E 4TH ST,5B,New York,NY,10003,2011-03-15,2127800345,MHA,265,2,,,2013-10-03,2,,#N/A,#N/A,#N/A,2127800345,#N/A,"not in civi, number from MHA",2.761643836,,NO,,NO,primary
+Valle,Carmen,71 E 4TH ST,6A,New York,NY,10003,1948-11-17,2126737824,MHA,266,2,,,2013-10-03,65,,#N/A,#N/A,#N/A,2126737824,#N/A,"not in civi, number from MHA",65.1260274,,NO,,NO,primary
+Salazar,Alfredo,71 E 4TH ST,6B,New York,NY,10003,1988-06-11,2125058191,MHA,267,2,,,2013-10-03,25,,#N/A,#N/A,#N/A,2125058191,#N/A,"not in civi, number from MHA",25.53424658,,NO,,NO,primary
+Salazar,Dominga,71 E 4TH ST,6B,New York,NY,10003,1959-10-18,2125058191,MHA,267,2,,,2013-10-03,54,,#N/A,#N/A,#N/A,2125058191,#N/A,"not in civi, number from MHA",54.20273973,,NO,,NO,primary
+Cintron,Edicel,71 E 4TH ST,2A,New York,NY,10003,1944-06-17,2122608544,MHA,258,2,PS,2012-04-15,2013-10-03,69,,#N/A,#N/A,#N/A,2122608544,#N/A,"not in civi, number from MHA",69.54794521,,YES,,NO,primary
+Carraballo,Carmen,71 E 4TH ST,2B,New York,NY,10003,1939-11-15,3475382384,MHA,259,2,SSD,2012-04-04,2013-10-03,74,,#N/A,#N/A,#N/A,3475382384,#N/A,"not in civi, number from MHA",74.13972603,,YES,,NO,primary
+Lo Wu,Shuet Kuen,71 E 4TH ST,3B,New York,NY,10003,1945-09-07,2124751721,MHA,261,2,,,2013-10-03,68,,#N/A,#N/A,#N/A,2124751721,#N/A,"not in civi, number from MHA",68.32328767,,YES,,NO,primary
+De La Cruz,Ivette,71 E 4TH ST,5B,New York,NY,10003,1977-08-07,2127800345,MHA,265,2,,,2013-10-03,36,,#N/A,#N/A,#N/A,2127800345,#N/A,"not in civi, number from MHA",36.38630137,,YES,,NO,primary
+Ng,Pak Hong,73 E 4TH ST,3C,New York,NY,10003,1931-09-07,,MHA,274,1,,,2013-10-03,82,,#N/A,#N/A,#N/A,,#N/A,"not in civi, number from MHA",82.33424658,,NO,,NO,primary
+Wong,Mei Hang,73 E 4TH ST,3C,New York,NY,10003,1937-04-10,6462073596,MHA,274,1,,,2013-10-03,76,,#N/A,#N/A,#N/A,6462073596,#N/A,"not in civi, number from MHA",76.73972603,,NO,,NO,primary
+Chan,Yuk Kee,73 E 4TH ST,3D,New York,NY,10003,1969-02-14,2122191431,MHA,275,1,,,2013-10-03,44,,#N/A,#N/A,#N/A,2122191431,#N/A,"not in civi, number from MHA",44.86849315,,NO,,NO,primary
+Ho,Ching Yuen,73 E 4TH ST,3D,New York,NY,10003,1969-02-14,2122191431,MHA,275,1,,,2013-10-03,44,,#N/A,#N/A,#N/A,2122191431,#N/A,"not in civi, number from MHA",44.86849315,,NO,,NO,primary
+Ho,Kenneth,73 E 4TH ST,3D,New York,NY,10003,1992-02-25,2122191431,MHA,275,1,,,2013-10-03,21,,#N/A,#N/A,#N/A,2122191431,#N/A,"not in civi, number from MHA",21.82465753,,NO,,NO,primary
+Ho,Kwok Pui,73 E 4TH ST,3D,New York,NY,10003,1962-07-01,2122191431,MHA,275,1,,,2013-10-03,51,,#N/A,#N/A,#N/A,2122191431,#N/A,"not in civi, number from MHA",51.49863014,,NO,,NO,primary
+Ho,Lawrence,73 E 4TH ST,3D,New York,NY,10003,1989-06-23,2122191431,MHA,275,1,,,2013-10-03,24,,#N/A,#N/A,#N/A,2122191431,#N/A,"not in civi, number from MHA",24.50136986,,NO,,NO,primary
+Li,Zhi Jun,73 E 4TH ST,5D,New York,NY,10003,1950-06-12,7184064613,MHA,282,1,,,2013-10-03,63,,#N/A,#N/A,#N/A,7184064613,#N/A,"not in civi, number from MHA",63.55890411,,NO,,NO,primary
+Mo,Qiu hua Angel,73 E 4TH ST,5D,New York,NY,10003,1980-08-26,7184064613,MHA,282,1,,,2013-10-03,33,,#N/A,#N/A,#N/A,7184064613,#N/A,"not in civi, number from MHA",33.33150685,,NO,,NO,primary
+Lorenzo,Nathan Mariano,73 E 4TH ST,6C,New York,NY,10003,1970-07-10,6463770068,MHA,412,1,,,2013-10-03,43,,#N/A,#N/A,#N/A,6463770068,#N/A,"not in civi, number from MHA",43.46849315,,NO,,NO,primary
+Lorenzo (Wife),Miriam,73 E 4TH ST,6C,New York,NY,10003,1969-08-07,6463770068,MHA,412,1,,,2013-10-03,44,,#N/A,#N/A,#N/A,6463770068,#N/A,"not in civi, number from MHA",44.39178082,,NO,,NO,primary
+Tsuji,Yukio,73 E 4TH ST,4C,New York,NY,10003,1948-03-01,6465268605,MHA,448,1,,,2013-10-03,65,,#N/A,#N/A,#N/A,6465268605,#N/A,"not in civi, number from MHA",65.84109589,,NO,,NO,primary
+Cruz,Amy,73 E 4TH ST,1A,New York,NY,10003,1976-04-04,3472293735,MHA,268,2,,,2013-10-03,37,,#N/A,#N/A,#N/A,3472293735,#N/A,"not in civi, number from MHA",37.72876712,,NO,,NO,primary
+Cruz,Victor,73 E 4TH ST,1A,New York,NY,10003,1944-08-25,3472293735,MHA,268,2,,,2013-10-03,69,,#N/A,#N/A,#N/A,3472293735,#N/A,"not in civi, number from MHA",69.35890411,,NO,,NO,primary
+Cruz,Victor Jose,73 E 4TH ST,1A,New York,NY,10003,1981-06-19,3472293735,MHA,268,2,,,2013-10-03,32,,#N/A,#N/A,#N/A,3472293735,#N/A,"not in civi, number from MHA",32.51780822,,NO,,NO,primary
+Perez,Lilliam,73 E 4TH ST,1A,New York,NY,10003,1947-02-03,3472293735,MHA,268,2,,,2013-10-03,66,,#N/A,#N/A,#N/A,3472293735,#N/A,"not in civi, number from MHA",66.91506849,,NO,,NO,primary
+Williams,Cheryl,73 E 4TH ST,3A,New York,NY,10003,1958-09-16,2122609233,MHA,272,0,,,2013-10-03,55,,#N/A,#N/A,#N/A,2122609233,#N/A,"not in civi, number from MHA",55.29041096,,NO,,NO,primary
+Meade,Robert,73 E 4TH ST,4A,New York,NY,10003,1974-09-14,9174950162,MHA,276,0,,,2013-10-03,39,,#N/A,#N/A,#N/A,9174950162,#N/A,"not in civi, number from MHA",39.28493151,,NO,,NO,primary
+Shen,Yong Mei,73 E 4TH ST,5A,New York,NY,10003,1967-09-04,9177751708,MHA,280,0,,,2013-10-03,46,,#N/A,#N/A,#N/A,9177751708,#N/A,"not in civi, number from MHA",46.31780822,,NO,,NO,primary
+Wang,Shiwen,73 E 4TH ST,5A,New York,NY,10003,1963-02-06,9177751708,MHA,280,0,,,2013-10-03,50,,#N/A,#N/A,#N/A,9177751708,#N/A,"not in civi, number from MHA",50.89589041,,NO,,NO,primary
+Wang,Yu,73 E 4TH ST,5A,New York,NY,10003,1992-12-06,9177751708,MHA,280,0,,,2013-10-03,21,,#N/A,#N/A,#N/A,9177751708,#N/A,"not in civi, number from MHA",21.04383562,,NO,,NO,primary
+Washington,Rico,73 E 4TH ST,6A,New York,NY,10003,1976-07-23,6463382150,MHA,283,0,,,2013-10-03,37,,#N/A,#N/A,#N/A,6463382150,#N/A,"not in civi, number from MHA",37.42739726,,NO,,NO,primary
+Dickerson,Marzett,73 E 4TH ST,5B,New York,NY,10003,1975-02-18,6463265408,MHA,417,0,,,2013-10-03,38,,#N/A,#N/A,#N/A,6463265408,#N/A,"not in civi, number from MHA",38.85479452,,NO,,NO,primary
+Cepeda,Hector,75 E 4TH ST,2A,New York,NY,10003,1959-10-13,6465458475,MHA,517,2,EMP,2013-01-22,2013-10-03,54,,#N/A,#N/A,#N/A,6465458475,#N/A,"not in civi, number from MHA",54.21643836,,YES,,NO,primary
+Camara,Assatou,75 E 4TH ST,4D,New York,NY,10003,1978-01-02,9176876305,MHA,297,1,,,2013-10-03,35,,#N/A,#N/A,#N/A,9176876305,#N/A,"not in civi, number from MHA",35.98082192,,NO,,NO,primary
+Mbathie,Birane,75 E 4TH ST,4D,New York,NY,10003,1971-11-24,9176876305,MHA,297,1,,,2013-10-03,42,,#N/A,#N/A,#N/A,9176876305,#N/A,"not in civi, number from MHA",42.09315068,,NO,,NO,primary
+Corchado,Myrna,75 E 4TH ST,6D,New York,NY,10003,1954-03-16,6465464560,MHA,305,1,,,2013-10-03,59,,#N/A,#N/A,#N/A,6465464560,#N/A,"not in civi, number from MHA",59.79726027,,NO,,NO,primary
+Chen,Hong Hui,75 E 4TH ST,2D,New York,NY,10003,1952-06-21,9178862928,MHA,446,1,,,2013-10-03,61,,#N/A,#N/A,#N/A,9178862928,#N/A,"not in civi, number from MHA",61.53150685,,NO,,NO,primary
+Chen,Yu Ye,75 E 4TH ST,2D,New York,NY,10003,1953-07-27,9178862928,MHA,446,1,,,2013-10-03,60,,#N/A,#N/A,#N/A,9178862928,#N/A,"not in civi, number from MHA",60.43287671,,NO,,NO,primary
+Fernandez Gomez,Altagracia,75 E 4TH ST,1A,New York,NY,10003,1962-05-14,2126740102,MHA,287,2,,,2013-10-03,51,,#N/A,#N/A,#N/A,2126740102,#N/A,"not in civi, number from MHA",51.63013699,,NO,,NO,primary
+Milton,Connor A. N.,75 E 4TH ST,3A,New York,NY,10003,1990-03-12,4072847805,MHA,291,2,,,2013-10-03,23,,#N/A,#N/A,#N/A,4072847805,#N/A,"not in civi, number from MHA",23.78356164,,NO,,NO,primary
+Rivera,Jose,75 E 4TH ST,2A,New York,NY,10003,1976-06-17,6465458475,MHA,517,2,,,2013-10-03,37,,#N/A,#N/A,#N/A,6465458475,#N/A,"not in civi, number from MHA",37.5260274,,NO,,NO,primary
+Portelli,Pamela,75 E 4TH ST,4B,New York,NY,10003,1984-12-21,9173311546,MHA,295,0,,,2013-10-03,29,,#N/A,#N/A,#N/A,9173311546,#N/A,"not in civi, number from MHA",29.00821918,,NO,,NO,primary
+Feliciano,Victoria,75 E 4TH ST,6C,New York,NY,10003,1978-05-04,2124777982,MHA,304,0,,,2013-10-03,35,,#N/A,#N/A,#N/A,2124777982,#N/A,"not in civi, number from MHA",35.64657534,,NO,,NO,primary
+Colaianni,Giancarlo,75 E 4TH ST,4A,New York,NY,10003,1980-09-28,6466456648,MHA,584,0,,,2013-10-03,33,,#N/A,#N/A,#N/A,6466456648,#N/A,"not in civi, number from MHA",33.24109589,,NO,,NO,primary
+Hernandez,Patrizia,75 E 4TH ST,4A,New York,NY,10003,1980-04-12,6466456648,MHA,584,0,,,2013-10-03,33,,#N/A,#N/A,#N/A,6466456648,#N/A,"not in civi, number from MHA",33.70410959,,NO,,NO,primary
+Sosa,Christopher,75 E 4TH ST,5C,New York,NY,10003,1971-11-16,2126731971,MHA,451,0,PS,2012-10-03,2013-10-03,42,,#N/A,#N/A,#N/A,2126731971,#N/A,"not in civi, number from MHA",42.11506849,,YES,,NO,primary
+Mora,Abraham,75 E 4TH ST,5B,New York,NY,10003,1987-07-20,6464190396,MHA,472,0,,,2013-10-03,26,,#N/A,#N/A,#N/A,6464190396,#N/A,"not in civi, number from MHA",26.43013699,,NO,,NO,primary
+Nachamie Selonick,Lynn,75 E 4TH ST,3D,New York,NY,10003,1953-05-14,8452006255,MHA,293,1,,,2013-10-03,60,,#N/A,#N/A,#N/A,8452006255,#N/A,"not in civi, number from MHA",60.63561644,,YES,,NO,primary
+Milton,Jeffrey,75 E 4TH ST,3A,New York,NY,10003,1956-06-17,4072847805,MHA,291,2,,,2013-10-03,57,,#N/A,#N/A,#N/A,4072847805,#N/A,"not in civi, number from MHA",57.53972603,,YES,,NO,primary
+Wilson,Sebrina,75 E 4TH ST,3C,New York,NY,10003,1976-09-08,9177494438,MHA,292,0,,,2013-10-03,37,,#N/A,#N/A,#N/A,9177494438,#N/A,"not in civi, number from MHA",37.29863014,,YES,,NO,primary
+Davie,Annie,77 E 4TH ST,5C,New York,NY,10003,1980-01-23,9175235910,MHA,315,1,,,2013-10-03,33,,#N/A,#N/A,#N/A,9175235910,#N/A,"not in civi, number from MHA",33.92328767,,NO,,NO,primary
+Davie,Brielle,77 E 4TH ST,5C,New York,NY,10003,2007-09-27,9175235910,MHA,315,1,,,2013-10-03,6,,#N/A,#N/A,#N/A,9175235910,#N/A,"not in civi, number from MHA",6.22739726,,NO,,NO,primary
+Cipriani,Mario,77 E 4TH ST,3A,New York,NY,10003,1959-04-27,2122281649,MHA,312,2,,,2013-10-03,54,,#N/A,#N/A,#N/A,2122281649,#N/A,"not in civi, number from MHA",54.67945205,,NO,,NO,primary
+Urena-Cipriani,Esperanza,77 E 4TH ST,3A,New York,NY,10003,1954-10-15,2122281649,MHA,312,2,,,2013-10-03,59,,#N/A,#N/A,#N/A,2122281649,#N/A,"not in civi, number from MHA",59.21369863,,NO,,NO,primary
+Franco,Danyel Antonio,77 E 4TH ST,5A,New York,NY,10003,2011-10-02,2128100402,MHA,314,2,,,2013-10-03,2,,#N/A,#N/A,#N/A,2128100402,#N/A,"not in civi, number from MHA",2.210958904,,NO,,NO,primary
+Franco,David,77 E 4TH ST,5A,New York,NY,10003,1969-11-13,2128100402,MHA,314,2,,,2013-10-03,44,,#N/A,#N/A,#N/A,2128100402,#N/A,"not in civi, number from MHA",44.12328767,,NO,,NO,primary
+Franco,Dreanna A.,77 E 4TH ST,5A,New York,NY,10003,2002-11-24,2128100402,MHA,314,2,,,2013-10-03,11,,#N/A,#N/A,#N/A,2128100402,#N/A,"not in civi, number from MHA",11.07123288,,NO,,NO,primary
+Taylor,Lyric Nine,77 E 4TH ST,5A,New York,NY,10003,1999-12-31,2128100402,MHA,314,2,,,2013-10-03,14,,#N/A,#N/A,#N/A,2128100402,#N/A,"not in civi, number from MHA",13.97260274,,NO,,NO,primary
+Burke,Geraldine Malloy,77 E 4TH ST,6A,New York,NY,10003,1948-12-27,2126779254,MHA,317,2,,,2013-10-03,65,,#N/A,#N/A,#N/A,2126779254,#N/A,"not in civi, number from MHA",65.01643836,,NO,Cooper Station P.O Box 454,NO,primary
+Hernandez Burke,Raul Allen,77 E 4TH ST,6A,New York,NY,10003,1989-04-15,2126779254,MHA,317,2,,,2013-10-03,24,,#N/A,#N/A,#N/A,2126779254,#N/A,"not in civi, number from MHA",24.69041096,,NO,Cooper Station P.O Box 454,NO,primary
+Hernandez-Burke,Erika Malloy,77 E 4TH ST,6A,New York,NY,10003,1991-12-21,2126779254,MHA,317,2,,,2013-10-03,22,,#N/A,#N/A,#N/A,2126779254,#N/A,"not in civi, number from MHA",22.00547945,,NO,Cooper Station P.O Box 454,NO,primary
+Charles Profanato,Joseph,77 E 4TH ST,4A,New York,NY,10003,1997-01-08,2124208684,MHA,405,2,,,2013-10-03,16,,#N/A,#N/A,#N/A,2124208684,#N/A,"not in civi, number from MHA",16.95068493,,NO,,NO,primary
+Concepcion,Nelson,77 E 4TH ST,2C,New York,NY,10003,1938-01-01,2123531658,MHA,311,3,,,2013-10-03,75,,#N/A,#N/A,#N/A,2123531658,#N/A,"not in civi, number from MHA",76.0109589,,NO,,NO,primary
+Cipriani,Ginette,77 E 4TH ST,3C,New York,NY,10003,1990-02-05,9179715323,MHA,313,3,,,2013-10-03,23,,#N/A,#N/A,#N/A,9179715323,#N/A,"not in civi, number from MHA",23.87945205,,NO,,NO,primary
+Cipriani,Joanne,77 E 4TH ST,3C,New York,NY,10003,1986-05-12,9179715323,MHA,313,3,,,2013-10-03,27,,#N/A,#N/A,#N/A,9179715323,#N/A,"not in civi, number from MHA",27.61917808,,NO,,NO,primary
+Feliz,Joanne,77 E 4TH ST,3C,New York,NY,10003,2012-04-02,9179715323,MHA,313,3,,,2013-10-03,1,,#N/A,#N/A,#N/A,9179715323,#N/A,"not in civi, number from MHA",1.709589041,,NO,,NO,primary
+Noonan,Felix,77 E 4TH ST,4C,New York,NY,10003,1995-08-07,9174007316,MHA,397,3,,,2013-10-03,18,,#N/A,#N/A,#N/A,9174007316,#N/A,"not in civi, number from MHA",18.37534247,,NO,,NO,primary
+Noonan,Wanda,77 E 4TH ST,4C,New York,NY,10003,1994-07-03,9174007316,MHA,397,3,,,2013-10-03,19,,#N/A,#N/A,#N/A,9174007316,#N/A,"not in civi, number from MHA",19.47123288,,NO,,NO,primary
+Urena,Carol,77 E 4TH ST,5A,New York,NY,10003,1978-04-02,2128100402,MHA,314,2,,,2013-10-03,35,,#N/A,#N/A,#N/A,2128100402,#N/A,"not in civi, number from MHA",35.73424658,,YES,,NO,primary
+Hernandez,Ruben,77 E 4TH ST,6A,New York,NY,10003,1954-04-21,2126779254,MHA,317,2,,,2013-10-03,59,,#N/A,#N/A,#N/A,2126779254,#N/A,"not in civi, number from MHA",59.69863014,,YES,Cooper Station P.O Box 454,NO,primary
+Profanato,Jo Ann,77 E 4TH ST,4A,New York,NY,10003,1957-05-14,2124208684,MHA,405,2,,,2013-10-03,56,,#N/A,#N/A,#N/A,2124208684,#N/A,"not in civi, number from MHA",56.63287671,,YES,,NO,primary
+Roberts,Debra,77 E 4TH ST,2A,New York,NY,10003,1958-10-04,9178854112,MHA,310,0,,,2013-10-03,55,,#N/A,#N/A,#N/A,9178854112,#N/A,"not in civi, number from MHA",55.24109589,,YES,,NO,primary
+Locorriere,Elizabeth,77 E 4TH ST,6D,New York,NY,10003,1971-10-16,6464023250,MHA,319,0,,,2013-10-03,42,,#N/A,#N/A,#N/A,6464023250,#N/A,"not in civi, number from MHA",42.2,,YES,,NO,primary
+Rapczynska,Leokadia,77 E 4TH ST,2B,New York,NY,10003,1941-09-24,2124605395,MHA,411,0,,,2013-10-03,72,,#N/A,#N/A,#N/A,2124605395,#N/A,"not in civi, number from MHA",72.27945205,,YES,,NO,primary
+Lara,Grace,83 2ND AVE,4A,New York,NY,10003,1959-07-09,9179958871,MHA,3,3,EMP,2011-10-14,2013-10-03,54,,#N/A,01/01/1959,52,9179958871,#N/A,"not in civi, number from MHA",54.47945205,,YES,,NO,primary
+Hernandez-Welch,Nelly,83 2ND AVE,2A,New York,NY,10003,1981-09-02,2125292010,MHA,1,3,,,2013-10-03,32,,#N/A,#N/A,#N/A,2125292010,#N/A,"not in civi, number from MHA",32.31232877,,NO,,NO,primary
+Nkhereanye,Kelebohile,83 2ND AVE,3A,New York,NY,10003,1964-08-02,3476663091,MHA,2,3,,,2013-10-03,49,,#N/A,#N/A,#N/A,3476663091,#N/A,"not in civi, number from MHA",49.40821918,,NO,,NO,primary
+Nkhereanye,Neo,83 2ND AVE,3A,New York,NY,10003,1978-09-03,3476663091,MHA,2,3,,,2013-10-03,35,,#N/A,#N/A,#N/A,3476663091,#N/A,"not in civi, number from MHA",35.31232877,,NO,,NO,primary
+Nkhereanye,Thabo,83 2ND AVE,3A,New York,NY,10003,,3476663091,none,2,3,,,2013-10-03,,,#N/A,#N/A,#N/A,3476663091,#N/A,"not in civi, number from MHA",114.0410959,,NO,,NO,primary
+Lara,Angel,83 2ND AVE,4A,New York,NY,10003,,9179958871,none,3,3,,,2013-10-03,,,#N/A,#N/A,#N/A,9179958871,#N/A,"not in civi, number from MHA",114.0410959,,NO,,NO,primary
+Lara,Yura,83 2ND AVE,4A,New York,NY,10003,,9179958871,none,3,3,,,2013-10-03,,,#N/A,#N/A,#N/A,9179958871,#N/A,"not in civi, number from MHA",114.0410959,,NO,,NO,primary
+Salazar,Belgica,83 2ND AVE,5A,New York,NY,10003,,2122536318,none,4,3,,,2013-10-03,,,#N/A,#N/A,#N/A,2122536318,#N/A,"not in civi, number from MHA",114.0410959,,NO,,NO,primary
+Salazar,Erickson,83 2ND AVE,5A,New York,NY,10003,,2122536318,none,4,3,,,2013-10-03,,,#N/A,#N/A,#N/A,2122536318,#N/A,"not in civi, number from MHA",114.0410959,,NO,,NO,primary
+Salazar,Frank,83 2ND AVE,5A,New York,NY,10003,,2122536318,none,4,3,,,2013-10-03,,,#N/A,#N/A,#N/A,2122536318,#N/A,"not in civi, number from MHA",114.0410959,,NO,,NO,primary
+Salazar,Maria,83 2ND AVE,5A,New York,NY,10003,1955-01-01,2122536318,WAP-approx,4,3,SE,2011-10-14,2013-10-03,,,#N/A,01/01/1955,56,2122536318,#N/A,"not in civi, number from MHA",59,,YES,,NO,primary
+Nkhereanye,Margaret,83 2ND AVE,3A,New York,NY,10003,,3476663091,none,2,3,"SSI,EMP",2011-10-14,2013-10-03,,,#N/A,#N/A,#N/A,3476663091,#N/A,"not in civi, number from MHA",114.0410959,,YES,,NO,primary
+Benjamin,McLean,89 E 3RD ST,BA,New York,NY,10003,1952-04-12,2124206094,MHA,416,1,,,2013-10-03,61,,#N/A,#N/A,#N/A,2124206094,#N/A,"not in civi, number from MHA",61.72328767,,NO,,NO,primary
+Thomas,Hugh A.,89 E 3RD ST,2B,New York,NY,10003,,2122545463,none,398,1,,,2013-10-03,,,#N/A,#N/A,#N/A,2122545463,#N/A,"not in civi, number from MHA",114.0410959,,NO,,NO,primary
+Hernandez,Jose,89 E 3RD ST,1B,New York,NY,10003,,6316820477,none,399,1,,,2013-10-03,,,#N/A,#N/A,#N/A,6316820477,#N/A,"not in civi, number from MHA",114.0410959,,NO,,NO,primary
+Rosado,Lynette,89 E 3RD ST,3C,New York,NY,10003,,6463585561,none,127,2,,,2013-10-03,,,#N/A,#N/A,#N/A,6463585561,#N/A,"not in civi, number from MHA",114.0410959,,NO,,NO,primary
+Lorenzo,Francisco,89 E 3RD ST,5C,New York,NY,10003,,2125050588,none,408,2,,,2013-10-03,,,#N/A,#N/A,#N/A,2125050588,#N/A,"not in civi, number from MHA",114.0410959,,NO,,NO,primary
+Torres,Mariah Ann,89 E 3RD ST,4A,New York,NY,10003,2004-11-24,8134203948,MHA,471,0,,,2013-10-03,9,,#N/A,#N/A,#N/A,8134203948,#N/A,"not in civi, number from MHA",9.068493151,,NO,,NO,primary
+Vias,Krystal Ann,89 E 3RD ST,4A,New York,NY,10003,1983-01-30,8134203948,MHA,471,0,,,2013-10-03,30,,#N/A,#N/A,#N/A,8134203948,#N/A,"not in civi, number from MHA",30.90136986,,NO,,NO,primary
+Brown,Nigel,89 E 3RD ST,3A,New York,NY,10003,1988-04-09,6462339687,MHA,554,0,,,2013-10-03,25,,#N/A,#N/A,#N/A,6462339687,#N/A,"not in civi, number from MHA",25.70684932,,NO,,NO,primary
+Ramirez Jr.,Lorenzo,89 E 3RD ST,5B,New York,NY,10003,,3475132773,none,427,0,,,2013-10-03,,,#N/A,#N/A,#N/A,3475132773,#N/A,"not in civi, number from MHA",114.0410959,,NO,,NO,primary
+Ramirez,Hircania,9 E 3RD ST,2A,New York,NY,10003,1959-06-12,2123750909,MHA,7,2,,,2013-10-03,54,,#N/A,#N/A,#N/A,2123750909,#N/A,"not in civi, number from MHA",54.55342466,,NO,,NO,primary
+Ramirez,Ricardo A.,9 E 3RD ST,2A,New York,NY,10003,2000-01-05,2123750909,MHA,7,2,,,2013-10-03,13,,#N/A,#N/A,#N/A,2123750909,#N/A,"not in civi, number from MHA",13.95890411,,NO,,NO,primary
+Bloch,Mark,9 E 3RD ST,3A,New York,NY,10003,1956-01-23,2122601517,MHA,9,2,,,2013-10-03,57,,#N/A,#N/A,#N/A,2122601517,#N/A,"not in civi, number from MHA",57.93972603,,NO,,NO,primary
+Bloch,Simon Jupiter,9 E 3RD ST,3A,New York,NY,10003,1995-02-12,2122601517,MHA,9,2,,,2013-10-03,18,,#N/A,#N/A,#N/A,2122601517,#N/A,"not in civi, number from MHA",18.85753425,,NO,,NO,primary
+Briceno,Guillermo,9 E 3RD ST,5A,New York,NY,10003,1983-11-17,6467842607,MHA,14,2,,,2013-10-03,30,,#N/A,#N/A,#N/A,6467842607,#N/A,"not in civi, number from MHA",30.10410959,,NO,,NO,primary
+Keels,Tammy,9 E 3RD ST,4A,New York,NY,10003,1978-12-07,3474693032,MHA,553,2,,,2013-10-03,35,,#N/A,#N/A,#N/A,3474693032,#N/A,"not in civi, number from MHA",35.05205479,,NO,,NO,primary
+Hall,Jordan,9 E 3RD ST,4A,New York,NY,10003,2003-10-26,3474693032,MHA,553,2,,,2013-10-03,10,,#N/A,#N/A,#N/A,3474693032,#N/A,"not in civi, number from MHA",10.15068493,,NO,,NO,primary
+Hall Keels,Jazsmen,9 E 3RD ST,4A,New York,NY,10003,1998-09-18,3474693032,MHA,553,2,,,2013-10-03,15,,#N/A,#N/A,#N/A,3474693032,#N/A,"not in civi, number from MHA",15.25753425,,NO,,NO,primary
+Keels,Cyrus,9 E 3RD ST,4A,New York,NY,10003,2006-05-19,3474693032,MHA,553,2,,,2013-10-03,7,,#N/A,#N/A,#N/A,3474693032,#N/A,"not in civi, number from MHA",7.58630137,,NO,,NO,primary
+Keels,Kenneth,9 E 3RD ST,4A,New York,NY,10003,1976-01-26,3474693032,MHA,553,2,,,2013-10-03,37,,#N/A,#N/A,#N/A,3474693032,#N/A,"not in civi, number from MHA",37.91780822,,NO,,NO,primary
+Tai,Landtyn,9 E 3RD ST,1A,New York,NY,10003,2009-10-30,9179726963,MHA,557,2,,,2013-10-03,4,,#N/A,#N/A,#N/A,9179726963,#N/A,"not in civi, number from MHA",4.134246575,,NO,,NO,primary
+Tai,Roebling,9 E 3RD ST,1A,New York,NY,10003,2007-11-13,9179726963,MHA,557,2,,,2013-10-03,6,,#N/A,#N/A,#N/A,9179726963,#N/A,"not in civi, number from MHA",6.098630137,,NO,,NO,primary
+Diaz,Elijah,9 E 3RD ST,2B,New York,NY,10003,2010-01-03,2122287290,MHA,8,3,,,2013-10-03,3,,#N/A,#N/A,#N/A,2122287290,#N/A,"not in civi, number from MHA",3.956164384,,NO,,NO,primary
+Diaz,Karina,9 E 3RD ST,2B,New York,NY,10003,1987-09-17,2122287290,MHA,8,3,,,2013-10-03,26,,#N/A,#N/A,#N/A,2122287290,#N/A,"not in civi, number from MHA",26.26849315,,NO,,NO,primary
+Gonzalez,Gilbert D.,9 E 3RD ST,3B,New York,NY,10003,1955-06-23,9179378854,MHA,10,3,,,2013-10-03,58,,#N/A,#N/A,#N/A,9179378854,#N/A,"not in civi, number from MHA",58.5260274,,NO,,NO,primary
+Vargas,Robert,9 E 3RD ST,3B,New York,NY,10003,1989-11-12,9179378854,MHA,10,3,,,2013-10-03,24,,#N/A,#N/A,#N/A,9179378854,#N/A,"not in civi, number from MHA",24.11232877,,NO,,NO,primary
+Abreu,Fesehatsion G.,9 E 3RD ST,5B,New York,NY,10003,1973-07-12,6465524484,MHA,414,0,,,2013-10-03,40,,#N/A,#N/A,#N/A,6465524484,#N/A,"not in civi, number from MHA",40.46027397,,NO,,NO,primary
+Fesehatsion,Senay G.,9 E 3RD ST,5B,New York,NY,10003,2010-02-19,6465524484,MHA,414,0,,,2013-10-03,3,,#N/A,#N/A,#N/A,6465524484,#N/A,"not in civi, number from MHA",3.82739726,,NO,,NO,primary
+Payne,Sandra,9 E 3RD ST,5C,New York,NY,10003,1951-08-20,2129825368,MHA,16,0,SE,2012-05-10,2013-10-03,62,,#N/A,#N/A,#N/A,2129825368,#N/A,"not in civi, number from MHA",62.36986301,,YES,,NO,primary
+Gonzalez,Marilia,9 E 3RD ST,3B,New York,NY,10003,1954-04-16,9179378854,MHA,10,3,,,2013-10-03,59,,#N/A,#N/A,#N/A,9179378854,#N/A,"not in civi, number from MHA",59.71232877,,YES,,NO,primary
+Wilcher,Pnina,13 E 3RD ST,4B,New York,NY,10003,,2126730310,none,42,1,,,2013-10-03,,,#N/A,#N/A,#N/A,2126730310,0,"in civi, but had no number",114.0410959,,NO,,YES,primary
+Guzman,Daniel,13 E 3RD ST,5B,New York,NY,10003,,3477570650,none,462,1,,,2013-10-03,,,#N/A,#N/A,#N/A,3477570650,0,"in civi, but had no number",114.0410959,,NO,,YES,primary
+Guzman Jr.,Daniel,13 E 3RD ST,5B,New York,NY,10003,,3477570650,none,462,1,,,2013-10-03,,,#N/A,#N/A,#N/A,3477570650,0,"in civi, but had no number",114.0410959,,NO,,YES,primary
+Estevez  ,Carlos,13 E 3RD ST,1B,New York,NY,10003,,6467255359,none,481,1,,,2013-10-03,,,#N/A,#N/A,#N/A,6467255359,0,"in civi, but had no number",114.0410959,,NO,,YES,primary
+Zosike,Godson E.,13 STANTON ST,5A,New York,NY,10002,1961-11-08,2126148460,MHA,28,1,,,2013-10-03,52,,#N/A,#N/A,#N/A,2126148460,0,"in civi, but had no number",52.14246575,,NO,,YES,primary
+Soto,Adam,21 E 3RD ST,3B,New York,NY,10003,1970-11-10,9172396208,MHA,58,2,FS,2011-11-17,2013-10-03,43,,#N/A,01/01/1970,41,9172396208,0,"in civi, but had no number",43.13150685,,YES,,YES,primary
+Soto (Son),Adam G.,21 E 3RD ST,3B,New York,NY,10003,1992-06-18,9172396208,MHA,58,2,FS,2011-11-17,2013-10-03,21,,#N/A,01/01/1970,41,9172396208,0,"in civi, but had no number",21.51232877,,YES,,YES,primary
+Villegas,Carlos,21 E 3RD ST,4A,New York,NY,10003,1946-02-01,2122600761,MHA,59,1,,,2013-10-03,67,,#N/A,#N/A,#N/A,2122600761,0,"in civi, but had no number",67.92054795,,NO,,YES,primary
+Duke,Corliss I.,21 E 3RD ST,1A,New York,NY,10003,1955-03-31,2124605798,MHA,511,1,,,2013-10-03,58,,#N/A,01/01/1955,56,2124605798,0,"in civi, but had no number",58.75616438,,NO,,YES,primary
+Carrasquillo,David,21 E 3RD ST,3A,New York,NY,10003,1976-05-28,9173711997,MHA,57,1,PS,2011-11-10,2013-10-03,37,,#N/A,01/01/1976,35,9173711997,0,"in civi, but had no number",37.58082192,,YES,,YES,primary
+Carrasquillo Jr.,David,21 E 3RD ST,3A,New York,NY,10003,2004-09-21,9173711997,MHA,57,1,PS,2011-11-10,2013-10-03,9,,#N/A,01/01/1976,35,9173711997,0,"in civi, but had no number",9.243835616,,YES,,YES,primary
+Santana,Danilo,23 E 3RD ST,3C,New York,NY,10003,,2126142023,none,74,1,,,2013-10-03,,,#N/A,01/01/2011,0,2126142023,0,"in civi, but had no number",114.0410959,,NO,,YES,primary
+Wright,Rebecca,23 E 3RD ST,3A,New York,NY,10003,,2125056269,none,73,2,,,2013-10-03,,,#N/A,01/01/2011,0,2125056269,0,"in civi, but had no number",114.0410959,,YES,,YES,primary
+Yataco,Miryam,23 E 3RD ST,4B,New York,NY,10003,,9177286120,none,77,0,,,2013-10-03,,,#N/A,#N/A,#N/A,9177286120,0,"in civi, but had no number",114.0410959,,YES,,YES,primary
+Concepcion,Efrain,25 E 3RD ST,Bsmt,New York,NY,10003,,9175095670,none,437,0,,,2013-10-03,,,#N/A,#N/A,#N/A,9175095670,0,"in civi, but had no number",114.0410959,,NO,,YES,primary
+Rios,Carlos & Marisol,25 E 3RD ST,2A,New York,NY,10003,,6464904457,none,87,2,PS,2012-07-06,2013-10-03,,,#N/A,#N/A,#N/A,6464904457,0,"in civi, but had no number",114.0410959,,YES,,YES,primary
+Reilly,William,25 E 3RD ST,5C,New York,NY,10003,,2122430004,none,99,1,SE,2012-05-05,2013-10-03,,,#N/A,#N/A,#N/A,2122430004,0,"in civi, but had no number",114.0410959,,YES,,YES,primary
+Serrano,Jospeh,25 E 3RD ST,1B,New York,NY,10003,,2126773633,none,84,0,SSI,2012-07-06,2013-10-03,,,#N/A,#N/A,#N/A,2126773633,0,"in civi, but had no number",114.0410959,,YES,,YES,primary
+Franklin,Pat,25 E 3RD ST,1C,New York,NY,10003,,2129796802,none,85,0,,,2013-10-03,,,#N/A,#N/A,#N/A,2129796802,0,"in civi, but had no number",114.0410959,,YES,,YES,primary
+Kaycoff,Virginia,27 E 3RD ST,5A,New York,NY,10003,,2126732052,none,109,1,,,2013-10-03,,,#N/A,#N/A,#N/A,2126732052,0,"in civi, but had no number",114.0410959,,YES,,YES,primary
+Thomas,Mark,27 E 3RD ST,5B,New York,NY,10003,,2124774645,none,110,2,,,2013-10-03,,,#N/A,#N/A,#N/A,2124774645,0,"in civi, but had no number",114.0410959,,YES,,YES,primary
+Ramirez,Ana,56 E 4TH ST,5C,New York,NY,10003,1957-06-13,9174824657,MHA,129,2,"SSI,BS",2011-10-16,2013-10-03,56,,#N/A,01/01/1958,53,9174824657,0,"in civi, but had no number",56.55068493,,YES,,YES,primary
+Nelson,Idaree,57 E 4TH ST,6A,New York,NY,10003,,6466000378,none,555,2,,,2013-10-03,,,#N/A,#N/A,#N/A,6466000378,0,"in civi, but had no number",114.0410959,,NO,,YES,primary
+Zapata,Sandra,57 E 4TH ST,1B,New York,NY,10003,1974-10-05,3475205178,MHA,495,1,PS,2012-03-01,2013-10-03,39,,#N/A,#N/A,#N/A,3475205178,0,"in civi, but had no number",39.22739726,,YES,,YES,primary
+Valerio,Christian,57 E 4TH ST,2C,New York,NY,10003,,2126739439,none,137,1,PS,2012-02-14,2013-10-03,,,#N/A,#N/A,#N/A,2126739439,0,"in civi, but had no number",114.0410959,,YES,,YES,primary
+Paulino,Maria,57 E 4TH ST,5A,New York,NY,10003,,2126775020,none,143,2,PS,2012-02-28,2013-10-03,,,#N/A,#N/A,#N/A,2126775020,0,"in civi, but had no number",114.0410959,,YES,,YES,primary
+Viera,Myrna,58 E 4TH ST,4,New York,NY,10003,1962-01-01,9179452412,WAP-approx,151,1,SSI,2011-11-17,2013-10-03,,,#N/A,01/01/1962,49,9179452412,0,"in civi, but had no number",51.99452055,,YES,,YES,primary
+Rivas,Roman,60 E 4TH ST,8,New York,NY,10003,1963-10-10,6462842969,MHA,171,1,PS,2012-09-04,2013-10-03,50,,#N/A,#N/A,#N/A,6462842969,0,"in civi, but had no number",50.22191781,,YES,,YES,primary
+Salazar,Geronimo,60 E 4TH ST,14,New York,NY,10003,1982-07-03,9179925824,MHA,429,1,SE,2012-04-15,2013-10-03,31,,#N/A,#N/A,#N/A,9179925824,0,"in civi, but had no number",31.47945205,,YES,,YES,primary
+Ruiz,Manuel,60 E 4TH ST,18,New York,NY,10003,,6466549059,none,583,1,,,2013-10-03,,,#N/A,#N/A,#N/A,6466549059,0,"in civi, but had no number",114.0410959,,YES,,YES,primary
+Saddler,Veronica,60 E 4TH ST,22,New York,NY,10003,1950-04-10,9176731540,MHA,184,0,,,2013-10-03,63,,#N/A,#N/A,#N/A,9176731540,0,"in civi, but had no number",63.73150685,,YES,,YES,primary
+Lara,Karina,65 E 4TH ST,2C,New York,NY,10003,1980-07-04,9175141477,MHA,579,3,,,2013-10-03,33,,#N/A,#N/A,#N/A,9175141477,0,"in civi, but had no number",33.47671233,,NO,,YES,primary
+Hernandez,Ana,65 E 4TH ST,2A,New York,NY,10003,1965-08-05,6462281611,MHA,20,2,PS,2012-03-16,2013-10-03,48,,"Hernandez, Ana",#N/A,#N/A,6462281611,0,"in civi, but had no number",48.4,,YES,,YES,primary
+Rodriguez,Rosa,67 E 4TH ST,2A,New York,NY,10003,,9176560458,none,478,0,,,2013-10-03,,,#N/A,01/01/2011,0,9176560458,0,"in civi, but had no number",114.0410959,,NO,,YES,primary
+Burgos,Clara,67 E 4TH ST,4A,New York,NY,10003,,2122530226,none,225,2,,,2013-10-03,,,#N/A,01/01/2011,0,2122530226,0,"in civi, but had no number",114.0410959,,Refused,,YES,primary
+Rosenbaum,William,69 E 4TH ST,3C,New York,NY,10003,1936-03-14,2127770302,MHA,242,1,,,2013-10-03,77,,#N/A,01/01/2011,0,2127770302,0,"in civi, but had no number",77.81369863,,NO,,YES,primary
+Cay,Nannette,69 E 4TH ST,3D,New York,NY,10003,1978-01-31,6467737273,MHA,452,1,PS,2012-01-18,2013-10-03,35,,#N/A,#N/A,#N/A,6467737273,0,"in civi, but had no number",35.90136986,,YES,,YES,primary
+Rodriguez,Daniel,69 E 4TH ST,3A,New York,NY,10003,1950-10-20,2122282418,MHA,449,0,SSI,2011-11-22,2013-10-03,63,,#N/A,#VALUE!,NA,2122282418,0,"in civi, but had no number",63.20273973,,YES,,YES,primary
+Nunez,Franklin,69 E 4TH ST,3B,New York,NY,10003,1974-10-24,6468943870,MHA,450,0,W2,2011-12-12,2013-10-03,39,,#N/A,01/01/2011,0,6468943870,0,"in civi, but had no number",39.17534247,,YES,,YES,primary
+Salazar,Geronimo,71 E 4TH ST,6B,New York,NY,10003,1956-10-10,2125058191,MHA,267,2,SE,2012-04-15,2013-10-03,57,,#N/A,#N/A,#N/A,2125058191,0,"in civi, but had no number",57.22465753,,YES,,YES,primary
+Zurita,Hamlet,71 E 4TH ST,6A,New York,NY,10003,1955-01-04,2126737824,MHA,266,2,,,2013-10-03,58,,#N/A,#N/A,#N/A,2126737824,0,"in civi, but had no number",58.99178082,,YES,,YES,primary
+Cali Sr.,Anthony,73 E 4TH ST,2C,New York,NY,10003,1960-01-05,2125980535,MHA,501,1,,,2013-10-03,53,,#N/A,#N/A,#N/A,2125980535,0,"in civi, but had no number",53.98630137,,NO,,YES,primary
+Freedman,Richard,73 E 4TH ST,3B,New York,NY,10003,1935-11-24,2126775977,MHA,273,0,,,2013-10-03,78,,#N/A,#N/A,#N/A,2126775977,0,"in civi, but had no number",78.11780822,,NO,,YES,primary
+Pattinian,Brad,73 E 4TH ST,6B,New York,NY,10003,1980-04-14,6468725328,MHA,284,0,,,2013-10-03,33,,#N/A,#N/A,#N/A,6468725328,0,"in civi, but had no number",33.69863014,,NO,,YES,primary
+Foster,Mary S.,75 E 4TH ST,6B,New York,NY,10003,1955-04-20,2126734590,MHA,303,0,SE,2013-02-13,2013-10-03,58,,#N/A,#N/A,#N/A,2126734590,0,"in civi, but had no number",58.70136986,,YES,,YES,primary
+Faye,Ndiaw,75 E 4TH ST,4D,New York,NY,10003,1948-03-10,9176876305,MHA,297,1,,,2013-10-03,65,,#N/A,#N/A,#N/A,9176876305,0,"in civi, but had no number",65.81643836,,NO,,YES,primary
+Noonan,Thomas P.,77 E 4TH ST,4C,New York,NY,10003,1951-04-12,9174007316,MHA,397,3,,,2013-10-03,62,,#N/A,#N/A,#N/A,9174007316,0,"in civi, but had no number",62.7260274,,NO,,YES,primary
+Concepcion,Pascasio,77 E 4TH ST,1B,New York,NY,10003,1929-05-24,2123878714,MHA,309,1,SSI,,2013-10-03,84,,"Concepcion, Pascacio",#N/A,#N/A,2123878714,0,"in civi, but had no number",84.62465753,,YES,,YES,primary
+Johnson,David F.,89 E 3RD ST,1A,New York,NY,10003,,2125338432,none,403,1,,,2013-10-03,,,#N/A,#N/A,#N/A,2125338432,0,"in civi, but had no number",114.0410959,,NO,,YES,primary
+Giommi,Francisco,89 E 3RD ST,2A,New York,NY,10003,,6464846631,none,465,1,,,2013-10-03,,,#N/A,#N/A,#N/A,6464846631,0,"in civi, but had no number",114.0410959,,NO,,YES,primary
+Perez,Karla,89 E 3RD ST,4C,New York,NY,10003,,6463340878,none,290,2,,,2013-10-03,,,#N/A,#N/A,#N/A,6463340878,0,"in civi, but had no number",114.0410959,,NO,,YES,primary
+Cotto,Jason,89 E 3RD ST,4A,New York,NY,10003,,8134203948,none,471,0,,,2013-10-03,,,#N/A,#N/A,#N/A,8134203948,0,"in civi, but had no number",114.0410959,,NO,,YES,primary
+Chez,Ken W.,9 E 3RD ST,1A,New York,NY,10003,1973-03-31,9179726963,MHA,557,2,,,2013-10-03,40,,#N/A,#N/A,#N/A,9179726963,0,"in civi, but had no number",40.74246575,,NO,,YES,primary
+Tai,James,9 E 3RD ST,1A,New York,NY,10003,1974-04-03,9179726963,MHA,557,2,,,2013-10-03,39,,#N/A,#N/A,#N/A,9179726963,0,"in civi, but had no number",39.73424658,,NO,,YES,primary
+Santiago,Anibal L.,9 E 3RD ST,4B,New York,NY,10003,1964-05-03,6466237915,MHA,410,0,,,2013-10-03,49,,#N/A,#N/A,#N/A,6466237915,0,"in civi, but had no number",49.65753425,,NO,,YES,primary
+Ramos,Jose,9 E 3RD ST,1B,New York,NY,10003,1964-04-29,9178489111,MHA,522,0,,,2013-10-03,49,,#N/A,#N/A,#N/A,9178489111,0,"in civi, but had no number",49.66849315,,YES,,YES,primary

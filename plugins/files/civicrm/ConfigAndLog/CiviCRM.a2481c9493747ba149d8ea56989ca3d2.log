@@ -1,0 +1,697 @@
+Sep 03 19:49:43  [info] $Fatal Error Details = Array
+(
+    [message] => null is not of the type Integer
+    [code] => 
+)
+
+
+Sep 03 19:49:43  [info] $backTrace = #0 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Error.php(314): CRM_Core_Error::backtrace("backTrace", TRUE)
+#1 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Utils/Type.php(227): CRM_Core_Error::fatal("null is not of the type Integer")
+#2 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Member/Page/AJAX.php(53): CRM_Utils_Type::escape("null", "Integer")
+#3 [internal function](): CRM_Member_Page_AJAX::getMemberTypeDefaults((Array:3))
+#4 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(187): call_user_func((Array:2), (Array:3))
+#5 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(51): CRM_Core_Invoke::_invoke((Array:3))
+#6 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm.php(271): CRM_Core_Invoke::invoke((Array:3))
+#7 [internal function](): civicrm_wp_invoke("")
+#8 /var/www/vhosts/coopersquare.org/httpdocs/wp-includes/plugin.php(406): call_user_func_array("civicrm_wp_invoke", (Array:1))
+#9 /var/www/vhosts/coopersquare.org/httpdocs/wp-admin/admin.php(151): do_action("toplevel_page_CiviCRM")
+#10 {main}
+
+
+Sep 03 19:49:44  [info] $Fatal Error Details = Array
+(
+    [message] => null is not of the type Integer
+    [code] => 
+)
+
+
+Sep 03 19:49:44  [info] $backTrace = #0 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Error.php(314): CRM_Core_Error::backtrace("backTrace", TRUE)
+#1 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Utils/Type.php(227): CRM_Core_Error::fatal("null is not of the type Integer")
+#2 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Member/Page/AJAX.php(53): CRM_Utils_Type::escape("null", "Integer")
+#3 [internal function](): CRM_Member_Page_AJAX::getMemberTypeDefaults((Array:3))
+#4 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(187): call_user_func((Array:2), (Array:3))
+#5 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(51): CRM_Core_Invoke::_invoke((Array:3))
+#6 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm.php(271): CRM_Core_Invoke::invoke((Array:3))
+#7 [internal function](): civicrm_wp_invoke("")
+#8 /var/www/vhosts/coopersquare.org/httpdocs/wp-includes/plugin.php(406): call_user_func_array("civicrm_wp_invoke", (Array:1))
+#9 /var/www/vhosts/coopersquare.org/httpdocs/wp-admin/admin.php(151): do_action("toplevel_page_CiviCRM")
+#10 {main}
+
+
+Sep 03 19:49:45  [info] $Fatal Error Details = Array
+(
+    [message] => null is not of the type Integer
+    [code] => 
+)
+
+
+Sep 03 19:49:45  [info] $backTrace = #0 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Error.php(314): CRM_Core_Error::backtrace("backTrace", TRUE)
+#1 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Utils/Type.php(227): CRM_Core_Error::fatal("null is not of the type Integer")
+#2 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Member/Page/AJAX.php(53): CRM_Utils_Type::escape("null", "Integer")
+#3 [internal function](): CRM_Member_Page_AJAX::getMemberTypeDefaults((Array:3))
+#4 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(187): call_user_func((Array:2), (Array:3))
+#5 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(51): CRM_Core_Invoke::_invoke((Array:3))
+#6 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm.php(271): CRM_Core_Invoke::invoke((Array:3))
+#7 [internal function](): civicrm_wp_invoke("")
+#8 /var/www/vhosts/coopersquare.org/httpdocs/wp-includes/plugin.php(406): call_user_func_array("civicrm_wp_invoke", (Array:1))
+#9 /var/www/vhosts/coopersquare.org/httpdocs/wp-admin/admin.php(151): do_action("toplevel_page_CiviCRM")
+#10 {main}
+
+
+Sep 03 19:49:45  [info] $Fatal Error Details = Array
+(
+    [message] => null is not of the type Integer
+    [code] => 
+)
+
+
+Sep 03 19:49:45  [info] $backTrace = #0 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Error.php(314): CRM_Core_Error::backtrace("backTrace", TRUE)
+#1 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Utils/Type.php(227): CRM_Core_Error::fatal("null is not of the type Integer")
+#2 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Member/Page/AJAX.php(53): CRM_Utils_Type::escape("null", "Integer")
+#3 [internal function](): CRM_Member_Page_AJAX::getMemberTypeDefaults((Array:3))
+#4 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(187): call_user_func((Array:2), (Array:3))
+#5 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(51): CRM_Core_Invoke::_invoke((Array:3))
+#6 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm.php(271): CRM_Core_Invoke::invoke((Array:3))
+#7 [internal function](): civicrm_wp_invoke("")
+#8 /var/www/vhosts/coopersquare.org/httpdocs/wp-includes/plugin.php(406): call_user_func_array("civicrm_wp_invoke", (Array:1))
+#9 /var/www/vhosts/coopersquare.org/httpdocs/wp-admin/admin.php(151): do_action("toplevel_page_CiviCRM")
+#10 {main}
+
+
+Sep 03 19:49:46  [info] $Fatal Error Details = Array
+(
+    [message] => null is not of the type Integer
+    [code] => 
+)
+
+
+Sep 03 19:49:46  [info] $backTrace = #0 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Error.php(314): CRM_Core_Error::backtrace("backTrace", TRUE)
+#1 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Utils/Type.php(227): CRM_Core_Error::fatal("null is not of the type Integer")
+#2 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Member/Page/AJAX.php(53): CRM_Utils_Type::escape("null", "Integer")
+#3 [internal function](): CRM_Member_Page_AJAX::getMemberTypeDefaults((Array:3))
+#4 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(187): call_user_func((Array:2), (Array:3))
+#5 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(51): CRM_Core_Invoke::_invoke((Array:3))
+#6 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm.php(271): CRM_Core_Invoke::invoke((Array:3))
+#7 [internal function](): civicrm_wp_invoke("")
+#8 /var/www/vhosts/coopersquare.org/httpdocs/wp-includes/plugin.php(406): call_user_func_array("civicrm_wp_invoke", (Array:1))
+#9 /var/www/vhosts/coopersquare.org/httpdocs/wp-admin/admin.php(151): do_action("toplevel_page_CiviCRM")
+#10 {main}
+
+
+Sep 03 19:49:48  [info] $Fatal Error Details = Array
+(
+    [message] => null is not of the type Integer
+    [code] => 
+)
+
+
+Sep 03 19:49:48  [info] $backTrace = #0 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Error.php(314): CRM_Core_Error::backtrace("backTrace", TRUE)
+#1 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Utils/Type.php(227): CRM_Core_Error::fatal("null is not of the type Integer")
+#2 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Member/Page/AJAX.php(53): CRM_Utils_Type::escape("null", "Integer")
+#3 [internal function](): CRM_Member_Page_AJAX::getMemberTypeDefaults((Array:3))
+#4 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(187): call_user_func((Array:2), (Array:3))
+#5 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(51): CRM_Core_Invoke::_invoke((Array:3))
+#6 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm.php(271): CRM_Core_Invoke::invoke((Array:3))
+#7 [internal function](): civicrm_wp_invoke("")
+#8 /var/www/vhosts/coopersquare.org/httpdocs/wp-includes/plugin.php(406): call_user_func_array("civicrm_wp_invoke", (Array:1))
+#9 /var/www/vhosts/coopersquare.org/httpdocs/wp-admin/admin.php(151): do_action("toplevel_page_CiviCRM")
+#10 {main}
+
+
+Sep 03 19:53:00  [info] $Fatal Error Details = Array
+(
+    [message] => null is not of the type Integer
+    [code] => 
+)
+
+
+Sep 03 19:53:00  [info] $backTrace = #0 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Error.php(314): CRM_Core_Error::backtrace("backTrace", TRUE)
+#1 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Utils/Type.php(227): CRM_Core_Error::fatal("null is not of the type Integer")
+#2 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Member/Page/AJAX.php(53): CRM_Utils_Type::escape("null", "Integer")
+#3 [internal function](): CRM_Member_Page_AJAX::getMemberTypeDefaults((Array:3))
+#4 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(187): call_user_func((Array:2), (Array:3))
+#5 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(51): CRM_Core_Invoke::_invoke((Array:3))
+#6 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm.php(271): CRM_Core_Invoke::invoke((Array:3))
+#7 [internal function](): civicrm_wp_invoke("")
+#8 /var/www/vhosts/coopersquare.org/httpdocs/wp-includes/plugin.php(406): call_user_func_array("civicrm_wp_invoke", (Array:1))
+#9 /var/www/vhosts/coopersquare.org/httpdocs/wp-admin/admin.php(151): do_action("toplevel_page_CiviCRM")
+#10 {main}
+
+
+Sep 03 19:54:01  [info] $Fatal Error Details = Array
+(
+    [message] => Could not find valid value for id
+    [code] => 
+)
+
+
+Sep 03 19:54:01  [info] $backTrace = #0 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Error.php(314): CRM_Core_Error::backtrace("backTrace", TRUE)
+#1 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Utils/Request.php(106): CRM_Core_Error::fatal("Could not find valid value for id")
+#2 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Batch/Form/Entry.php(86): CRM_Utils_Request::retrieve("id", "Positive", Object(CRM_Batch_Form_Entry), TRUE)
+#3 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Form.php(338): CRM_Batch_Form_Entry->preProcess()
+#4 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/QuickForm/Action/Display.php(93): CRM_Core_Form->buildForm()
+#5 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/HTML/QuickForm/Controller.php(203): CRM_Core_QuickForm_Action_Display->perform(Object(CRM_Batch_Form_Entry), "display")
+#6 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/HTML/QuickForm/Page.php(103): HTML_QuickForm_Controller->handle(Object(CRM_Batch_Form_Entry), "display")
+#7 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Controller.php(310): HTML_QuickForm_Page->handle("display")
+#8 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Utils/Wrapper.php(116): CRM_Core_Controller->run()
+#9 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(194): CRM_Utils_Wrapper->run("CRM_Batch_Form_Entry", NULL, NULL)
+#10 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(51): CRM_Core_Invoke::_invoke((Array:3))
+#11 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm.php(271): CRM_Core_Invoke::invoke((Array:3))
+#12 [internal function](): civicrm_wp_invoke("")
+#13 /var/www/vhosts/coopersquare.org/httpdocs/wp-includes/plugin.php(406): call_user_func_array("civicrm_wp_invoke", (Array:1))
+#14 /var/www/vhosts/coopersquare.org/httpdocs/wp-admin/admin.php(151): do_action("toplevel_page_CiviCRM")
+#15 {main}
+
+
+Sep 03 19:54:21  [info] $Fatal Error Details = Array
+(
+    [message] => The requested Profile (gid=3) is disabled OR it is not configured to be used for 'Profile' listings in its Settings OR there is no Profile with that ID OR you do not have permission to access this profile. Please contact the site administrator if you need assistance.
+    [code] => 
+)
+
+
+Sep 03 19:54:21  [info] $backTrace = #0 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Error.php(314): CRM_Core_Error::backtrace("backTrace", TRUE)
+#1 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/BAO/UFGroup.php(487): CRM_Core_Error::fatal("The requested Profile (gid=3) is disabled OR it is not configured to be used ...")
+#2 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/BAO/UFGroup.php(232): CRM_Core_BAO_UFGroup::getFields(3, FALSE, 2, 5, FALSE, FALSE, "Profile", 5, NULL, 5)
+#3 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Profile/Page/Listings.php(150): CRM_Core_BAO_UFGroup::getListingFields(2, 5, FALSE, NULL, FALSE, "Profile", 5)
+#4 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Profile/Page/Listings.php(284): CRM_Profile_Page_Listings->preProcess()
+#5 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(363): CRM_Profile_Page_Listings->run()
+#6 [internal function](): CRM_Core_Invoke::profile((Array:2))
+#7 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(187): call_user_func((Array:2), (Array:2))
+#8 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(51): CRM_Core_Invoke::_invoke((Array:2))
+#9 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm.php(271): CRM_Core_Invoke::invoke((Array:2))
+#10 [internal function](): civicrm_wp_invoke("")
+#11 /var/www/vhosts/coopersquare.org/httpdocs/wp-includes/plugin.php(406): call_user_func_array("civicrm_wp_invoke", (Array:1))
+#12 /var/www/vhosts/coopersquare.org/httpdocs/wp-admin/admin.php(151): do_action("toplevel_page_CiviCRM")
+#13 {main}
+
+
+Sep 03 20:06:49  [info] $Fatal Error Details = Array
+(
+    [message] => null is not of the type Integer
+    [code] => 
+)
+
+
+Sep 03 20:06:49  [info] $backTrace = #0 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Error.php(314): CRM_Core_Error::backtrace("backTrace", TRUE)
+#1 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Utils/Type.php(227): CRM_Core_Error::fatal("null is not of the type Integer")
+#2 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Member/Page/AJAX.php(53): CRM_Utils_Type::escape("null", "Integer")
+#3 [internal function](): CRM_Member_Page_AJAX::getMemberTypeDefaults((Array:3))
+#4 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(187): call_user_func((Array:2), (Array:3))
+#5 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(51): CRM_Core_Invoke::_invoke((Array:3))
+#6 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm.php(271): CRM_Core_Invoke::invoke((Array:3))
+#7 [internal function](): civicrm_wp_invoke("")
+#8 /var/www/vhosts/coopersquare.org/httpdocs/wp-includes/plugin.php(406): call_user_func_array("civicrm_wp_invoke", (Array:1))
+#9 /var/www/vhosts/coopersquare.org/httpdocs/wp-admin/admin.php(151): do_action("toplevel_page_CiviCRM")
+#10 {main}
+
+
+Sep 04 04:21:20  [info] $Fatal Error Details = Array
+(
+    [callback] => Array
+        (
+            [0] => CRM_Core_Error
+            [1] => handle
+        )
+
+    [code] => -19
+    [message] => DB Error: no such field
+    [mode] => 16
+    [debug_info] => SELECT DISTINCT UPPER(LEFT(contact_a.sort_name, 1)) as sort_name  FROM civicrm_contact contact_a WHERE  (  ( contact_a.is_deleted = Yes AND contact_a.contact_type IN ('Individual') )  )  AND (contact_a.is_deleted = 0)    ORDER BY UPPER(LEFT(contact_a.sort_name, 1)) asc  [nativecode=1054 ** Unknown column 'Yes' in 'where clause']
+    [type] => DB_Error
+    [user_info] => SELECT DISTINCT UPPER(LEFT(contact_a.sort_name, 1)) as sort_name  FROM civicrm_contact contact_a WHERE  (  ( contact_a.is_deleted = Yes AND contact_a.contact_type IN ('Individual') )  )  AND (contact_a.is_deleted = 0)    ORDER BY UPPER(LEFT(contact_a.sort_name, 1)) asc  [nativecode=1054 ** Unknown column 'Yes' in 'where clause']
+    [to_string] => [db_error: message="DB Error: no such field" code=-19 mode=callback callback=CRM_Core_Error::handle prefix="" info="SELECT DISTINCT UPPER(LEFT(contact_a.sort_name, 1)) as sort_name  FROM civicrm_contact contact_a WHERE  (  ( contact_a.is_deleted = Yes AND contact_a.contact_type IN ('Individual') )  )  AND (contact_a.is_deleted = 0)    ORDER BY UPPER(LEFT(contact_a.sort_name, 1)) asc  [nativecode=1054 ** Unknown column 'Yes' in 'where clause']"]
+)
+
+
+Sep 04 04:21:20  [info] $backTrace = #0 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Error.php(196): CRM_Core_Error::backtrace("backTrace", TRUE)
+#1 [internal function](): CRM_Core_Error::handle(Object(DB_Error))
+#2 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/PEAR.php(931): call_user_func((Array:2), Object(DB_Error))
+#3 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/DB.php(968): PEAR_Error->PEAR_Error("DB Error: no such field", -19, 16, (Array:2), "SELECT DISTINCT UPPER(LEFT(contact_a.sort_name, 1)) as sort_name  FROM civicr...")
+#4 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/PEAR.php(564): DB_Error->DB_Error(-19, 16, (Array:2), "SELECT DISTINCT UPPER(LEFT(contact_a.sort_name, 1)) as sort_name  FROM civicr...")
+#5 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/DB/common.php(1903): PEAR->raiseError(NULL, -19, NULL, NULL, "SELECT DISTINCT UPPER(LEFT(contact_a.sort_name, 1)) as sort_name  FROM civicr...", "DB_Error", TRUE)
+#6 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/DB/mysql.php(898): DB_common->raiseError(-19, NULL, NULL, NULL, "1054 ** Unknown column 'Yes' in 'where clause'")
+#7 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/DB/mysql.php(327): DB_mysql->mysqlRaiseError()
+#8 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/DB/common.php(1216): DB_mysql->simpleQuery("SELECT DISTINCT UPPER(LEFT(contact_a.sort_name, 1)) as sort_name  FROM civicr...")
+#9 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/DB/DataObject.php(2421): DB_common->query("SELECT DISTINCT UPPER(LEFT(contact_a.sort_name, 1)) as sort_name  FROM civicr...")
+#10 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/DB/DataObject.php(1613): DB_DataObject->_query("SELECT DISTINCT UPPER(LEFT(contact_a.sort_name, 1)) as sort_name  FROM civicr...")
+#11 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/DAO.php(155): DB_DataObject->query("SELECT DISTINCT UPPER(LEFT(contact_a.sort_name, 1)) as sort_name  FROM civicr...")
+#12 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/DAO.php(922): CRM_Core_DAO->query("SELECT DISTINCT UPPER(LEFT(contact_a.sort_name, 1)) as sort_name  FROM civicr...", TRUE)
+#13 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Contact/BAO/Query.php(3985): CRM_Core_DAO::executeQuery("SELECT DISTINCT UPPER(LEFT(contact_a.sort_name, 1)) as sort_name  FROM civicr...")
+#14 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Contact/Selector.php(1038): CRM_Contact_BAO_Query->searchQuery(NULL, NULL, NULL, FALSE, FALSE, TRUE)
+#15 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Utils/PagerAToZ.php(85): CRM_Contact_Selector->alphabetQuery()
+#16 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Utils/PagerAToZ.php(111): CRM_Utils_PagerAToZ::getDynamicCharacters(Object(CRM_Contact_Selector), FALSE)
+#17 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Utils/PagerAToZ.php(54): CRM_Utils_PagerAToZ::createLinks(Object(CRM_Contact_Selector), NULL, FALSE)
+#18 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Contact/Form/Search.php(920): CRM_Utils_PagerAToZ::getAToZBar(Object(CRM_Contact_Selector), NULL)
+#19 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Contact/Form/Search/Builder.php(381): CRM_Contact_Form_Search->postProcess()
+#20 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Form.php(246): CRM_Contact_Form_Search_Builder->postProcess()
+#21 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/QuickForm/Action/Refresh.php(75): CRM_Core_Form->mainProcess()
+#22 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/HTML/QuickForm/Controller.php(203): CRM_Core_QuickForm_Action_Refresh->perform(Object(CRM_Contact_Form_Search_Builder), "refresh")
+#23 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/HTML/QuickForm/Page.php(103): HTML_QuickForm_Controller->handle(Object(CRM_Contact_Form_Search_Builder), "refresh")
+#24 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Controller.php(310): HTML_QuickForm_Page->handle("refresh")
+#25 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(220): CRM_Core_Controller->run((Array:4), (Array:0))
+#26 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(51): CRM_Core_Invoke::_invoke((Array:4))
+#27 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm.php(271): CRM_Core_Invoke::invoke((Array:4))
+#28 [internal function](): civicrm_wp_invoke("")
+#29 /var/www/vhosts/coopersquare.org/httpdocs/wp-includes/plugin.php(406): call_user_func_array("civicrm_wp_invoke", (Array:1))
+#30 /var/www/vhosts/coopersquare.org/httpdocs/wp-admin/admin.php(151): do_action("toplevel_page_CiviCRM")
+#31 {main}
+
+
+Sep 10 22:13:08  [info] $Fatal Error Details = Array
+(
+    [message] => We can't load the requested web page. This page requires cookies to be enabled in your browser settings. Please check this setting and enable cookies (if they are not enabled). Then try again. If this error persists, contact the site adminstrator for assistance.<br /><br />Site Administrators: This error may indicate that users are accessing this page using a domain or URL other than the configured Base URL. EXAMPLE: Base URL is http://example.org, but some users are accessing the page via http://www.example.org or a domain alias like http://myotherexample.org.<br /><br />Error type: Could not find a valid session key.
+    [code] => 
+)
+
+
+Sep 10 22:13:08  [info] $backTrace = #0 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Error.php(314): CRM_Core_Error::backtrace("backTrace", TRUE)
+#1 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Controller.php(272): CRM_Core_Error::fatal("We can't load the requested web page. This page requires cookies to be enable...")
+#2 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Controller.php(176): CRM_Core_Controller->key("CRM_Contact_Controller_Search", TRUE, FALSE)
+#3 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Contact/Controller/Search.php(54): CRM_Core_Controller->__construct("Advanced Search", TRUE)
+#4 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(215) : eval()'d code(1): CRM_Contact_Controller_Search->__construct("Advanced Search", TRUE, "512", NULL, "false")
+#5 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(215): eval()
+#6 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(51): CRM_Core_Invoke::_invoke((Array:4))
+#7 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm.php(271): CRM_Core_Invoke::invoke((Array:4))
+#8 [internal function](): civicrm_wp_invoke("")
+#9 /var/www/vhosts/coopersquare.org/httpdocs/wp-includes/plugin.php(406): call_user_func_array("civicrm_wp_invoke", (Array:1))
+#10 /var/www/vhosts/coopersquare.org/httpdocs/wp-admin/admin.php(151): do_action("toplevel_page_CiviCRM")
+#11 {main}
+
+
+Sep 11 19:25:33  [info] $Fatal Error Details = Array
+(
+    [message] => APILogin is not set for this payment processor<p>Key is not set for this payment processor
+    [code] => 
+)
+
+
+Sep 11 19:25:33  [info] $backTrace = #0 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Error.php(314): CRM_Core_Error::backtrace("backTrace", TRUE)
+#1 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Event/Form/Registration.php(376): CRM_Core_Error::fatal("APILogin is not set for this payment processor<p>Key is not set for this paym...")
+#2 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Event/Form/Registration/Register.php(80): CRM_Event_Form_Registration->preProcess()
+#3 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Form.php(338): CRM_Event_Form_Registration_Register->preProcess()
+#4 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/QuickForm/Action/Display.php(93): CRM_Core_Form->buildForm()
+#5 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/HTML/QuickForm/Controller.php(203): CRM_Core_QuickForm_Action_Display->perform(Object(CRM_Event_Form_Registration_Register), "display")
+#6 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/HTML/QuickForm/Page.php(103): HTML_QuickForm_Controller->handle(Object(CRM_Event_Form_Registration_Register), "display")
+#7 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Controller.php(310): HTML_QuickForm_Page->handle("display")
+#8 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(220): CRM_Core_Controller->run((Array:3), NULL)
+#9 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(51): CRM_Core_Invoke::_invoke((Array:3))
+#10 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm.php(271): CRM_Core_Invoke::invoke((Array:3))
+#11 [internal function](): civicrm_wp_invoke("")
+#12 /var/www/vhosts/coopersquare.org/httpdocs/wp-includes/plugin.php(406): call_user_func_array("civicrm_wp_invoke", (Array:1))
+#13 /var/www/vhosts/coopersquare.org/httpdocs/wp-admin/admin.php(151): do_action("toplevel_page_CiviCRM")
+#14 {main}
+
+
+Sep 11 19:26:34  [info] $Fatal Error Details = Array
+(
+    [message] => APILogin is not set for this payment processor<p>Key is not set for this payment processor
+    [code] => 
+)
+
+
+Sep 11 19:26:34  [info] $backTrace = #0 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Error.php(314): CRM_Core_Error::backtrace("backTrace", TRUE)
+#1 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Event/Form/Registration.php(376): CRM_Core_Error::fatal("APILogin is not set for this payment processor<p>Key is not set for this paym...")
+#2 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Event/Form/Registration/Register.php(80): CRM_Event_Form_Registration->preProcess()
+#3 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Form.php(338): CRM_Event_Form_Registration_Register->preProcess()
+#4 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/QuickForm/Action/Display.php(93): CRM_Core_Form->buildForm()
+#5 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/HTML/QuickForm/Controller.php(203): CRM_Core_QuickForm_Action_Display->perform(Object(CRM_Event_Form_Registration_Register), "display")
+#6 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/HTML/QuickForm/Page.php(103): HTML_QuickForm_Controller->handle(Object(CRM_Event_Form_Registration_Register), "display")
+#7 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Controller.php(310): HTML_QuickForm_Page->handle("display")
+#8 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(220): CRM_Core_Controller->run((Array:3), NULL)
+#9 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(51): CRM_Core_Invoke::_invoke((Array:3))
+#10 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm.php(271): CRM_Core_Invoke::invoke((Array:3))
+#11 [internal function](): civicrm_wp_invoke("")
+#12 /var/www/vhosts/coopersquare.org/httpdocs/wp-includes/plugin.php(406): call_user_func_array("civicrm_wp_invoke", (Array:1))
+#13 /var/www/vhosts/coopersquare.org/httpdocs/wp-admin/admin.php(151): do_action("toplevel_page_CiviCRM")
+#14 {main}
+
+
+Sep 12 16:10:34  [info] $Fatal Error Details = Array
+(
+    [message] => APILogin is not set for this payment processor<p>Key is not set for this payment processor
+    [code] => 
+)
+
+
+Sep 12 16:10:34  [info] $backTrace = #0 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Error.php(314): CRM_Core_Error::backtrace("backTrace", TRUE)
+#1 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Event/Form/Registration.php(376): CRM_Core_Error::fatal("APILogin is not set for this payment processor<p>Key is not set for this paym...")
+#2 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Event/Form/Registration/Register.php(80): CRM_Event_Form_Registration->preProcess()
+#3 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Form.php(338): CRM_Event_Form_Registration_Register->preProcess()
+#4 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/QuickForm/Action/Display.php(93): CRM_Core_Form->buildForm()
+#5 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/HTML/QuickForm/Controller.php(203): CRM_Core_QuickForm_Action_Display->perform(Object(CRM_Event_Form_Registration_Register), "display")
+#6 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/HTML/QuickForm/Page.php(103): HTML_QuickForm_Controller->handle(Object(CRM_Event_Form_Registration_Register), "display")
+#7 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Controller.php(310): HTML_QuickForm_Page->handle("display")
+#8 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(220): CRM_Core_Controller->run((Array:3), NULL)
+#9 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(51): CRM_Core_Invoke::_invoke((Array:3))
+#10 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm.php(271): CRM_Core_Invoke::invoke((Array:3))
+#11 [internal function](): civicrm_wp_invoke("")
+#12 /var/www/vhosts/coopersquare.org/httpdocs/wp-includes/plugin.php(406): call_user_func_array("civicrm_wp_invoke", (Array:1))
+#13 /var/www/vhosts/coopersquare.org/httpdocs/wp-admin/admin.php(151): do_action("toplevel_page_CiviCRM")
+#14 {main}
+
+
+Sep 12 18:24:01  [info] $Fatal Error Details = Array
+(
+    [message] => Could not find valid value for id
+    [code] => 
+)
+
+
+Sep 12 18:24:01  [info] $backTrace = #0 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Error.php(314): CRM_Core_Error::backtrace("backTrace", TRUE)
+#1 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Utils/Request.php(106): CRM_Core_Error::fatal("Could not find valid value for id")
+#2 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Event/StateMachine/Registration.php(52): CRM_Utils_Request::retrieve("id", "Positive", Object(CRM_Event_Controller_Registration), TRUE)
+#3 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Event/Controller/Registration.php(43): CRM_Event_StateMachine_Registration->__construct(Object(CRM_Event_Controller_Registration), TRUE)
+#4 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(215) : eval()'d code(1): CRM_Event_Controller_Registration->__construct("Event Registration", TRUE, "null", NULL, "false")
+#5 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(215): eval()
+#6 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(51): CRM_Core_Invoke::_invoke((Array:3))
+#7 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm.php(271): CRM_Core_Invoke::invoke((Array:3))
+#8 [internal function](): civicrm_wp_invoke("<p><span style=\"font-size: 1rem; line-height: 1.714285714;\">Cooper Square C...")
+#9 /var/www/vhosts/coopersquare.org/httpdocs/wp-includes/plugin.php(173): call_user_func_array("civicrm_wp_invoke", (Array:1))
+#10 /var/www/vhosts/coopersquare.org/httpdocs/wp-includes/post-template.php(166): apply_filters("the_content", "<span style=\"font-size: 1rem; line-height: 1.714285714;\">Cooper Square Comm...")
+#11 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/themes/csq_twentytwelve/content.php(46): the_content("Read More <span class=\"meta-nav\">&rarr;</span>")
+#12 /var/www/vhosts/coopersquare.org/httpdocs/wp-includes/template.php(409): require("/var/www/vhosts/coopersquare.org/httpdocs/wp-content/themes/csq_twentytwelve/...")
+#13 /var/www/vhosts/coopersquare.org/httpdocs/wp-includes/template.php(383): load_template("/var/www/vhosts/coopersquare.org/httpdocs/wp-content/themes/csq_twentytwelve/...", FALSE)
+#14 /var/www/vhosts/coopersquare.org/httpdocs/wp-includes/general-template.php(128): locate_template((Array:2), TRUE, FALSE)
+#15 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/themes/csq_twentytwelve/single.php(18): get_template_part("content", FALSE)
+#16 /var/www/vhosts/coopersquare.org/httpdocs/wp-includes/template-loader.php(47): include("/var/www/vhosts/coopersquare.org/httpdocs/wp-content/themes/csq_twentytwelve/...")
+#17 /var/www/vhosts/coopersquare.org/httpdocs/wp-blog-header.php(16): require_once("/var/www/vhosts/coopersquare.org/httpdocs/wp-includes/template-loader.php")
+#18 /var/www/vhosts/coopersquare.org/httpdocs/index.php(17): require("/var/www/vhosts/coopersquare.org/httpdocs/wp-blog-header.php")
+#19 {main}
+
+
+Sep 12 18:41:17  [info] $Fatal Error Details = Array
+(
+    [message] => Could not find valid value for id
+    [code] => 
+)
+
+
+Sep 12 18:41:17  [info] $backTrace = #0 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Error.php(314): CRM_Core_Error::backtrace("backTrace", TRUE)
+#1 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Utils/Request.php(106): CRM_Core_Error::fatal("Could not find valid value for id")
+#2 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Event/StateMachine/Registration.php(52): CRM_Utils_Request::retrieve("id", "Positive", Object(CRM_Event_Controller_Registration), TRUE)
+#3 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Event/Controller/Registration.php(43): CRM_Event_StateMachine_Registration->__construct(Object(CRM_Event_Controller_Registration), TRUE)
+#4 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(215) : eval()'d code(1): CRM_Event_Controller_Registration->__construct("Event Registration", TRUE, "null", NULL, "false")
+#5 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(215): eval()
+#6 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(51): CRM_Core_Invoke::_invoke((Array:3))
+#7 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm.php(271): CRM_Core_Invoke::invoke((Array:3))
+#8 [internal function](): civicrm_wp_invoke("<p><span style=\"font-size: 1rem; line-height: 1.714285714;\">Cooper Square C...")
+#9 /var/www/vhosts/coopersquare.org/httpdocs/wp-includes/plugin.php(173): call_user_func_array("civicrm_wp_invoke", (Array:1))
+#10 /var/www/vhosts/coopersquare.org/httpdocs/wp-includes/post-template.php(166): apply_filters("the_content", "<span style=\"font-size: 1rem; line-height: 1.714285714;\">Cooper Square Comm...")
+#11 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/themes/csq_twentytwelve/content.php(46): the_content("Read More <span class=\"meta-nav\">&rarr;</span>")
+#12 /var/www/vhosts/coopersquare.org/httpdocs/wp-includes/template.php(409): require("/var/www/vhosts/coopersquare.org/httpdocs/wp-content/themes/csq_twentytwelve/...")
+#13 /var/www/vhosts/coopersquare.org/httpdocs/wp-includes/template.php(383): load_template("/var/www/vhosts/coopersquare.org/httpdocs/wp-content/themes/csq_twentytwelve/...", FALSE)
+#14 /var/www/vhosts/coopersquare.org/httpdocs/wp-includes/general-template.php(128): locate_template((Array:2), TRUE, FALSE)
+#15 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/themes/csq_twentytwelve/single.php(18): get_template_part("content", FALSE)
+#16 /var/www/vhosts/coopersquare.org/httpdocs/wp-includes/template-loader.php(47): include("/var/www/vhosts/coopersquare.org/httpdocs/wp-content/themes/csq_twentytwelve/...")
+#17 /var/www/vhosts/coopersquare.org/httpdocs/wp-blog-header.php(16): require_once("/var/www/vhosts/coopersquare.org/httpdocs/wp-includes/template-loader.php")
+#18 /var/www/vhosts/coopersquare.org/httpdocs/index.php(17): require("/var/www/vhosts/coopersquare.org/httpdocs/wp-blog-header.php")
+#19 {main}
+
+
+Sep 12 18:41:18  [info] $Fatal Error Details = Array
+(
+    [message] => Could not find valid value for id
+    [code] => 
+)
+
+
+Sep 12 18:41:18  [info] $backTrace = #0 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Error.php(314): CRM_Core_Error::backtrace("backTrace", TRUE)
+#1 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Utils/Request.php(106): CRM_Core_Error::fatal("Could not find valid value for id")
+#2 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Event/StateMachine/Registration.php(52): CRM_Utils_Request::retrieve("id", "Positive", Object(CRM_Event_Controller_Registration), TRUE)
+#3 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Event/Controller/Registration.php(43): CRM_Event_StateMachine_Registration->__construct(Object(CRM_Event_Controller_Registration), TRUE)
+#4 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(215) : eval()'d code(1): CRM_Event_Controller_Registration->__construct("Event Registration", TRUE, "null", NULL, "false")
+#5 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(215): eval()
+#6 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(51): CRM_Core_Invoke::_invoke((Array:3))
+#7 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm.php(271): CRM_Core_Invoke::invoke((Array:3))
+#8 [internal function](): civicrm_wp_invoke("<p><span style=\"font-size: 1rem; line-height: 1.714285714;\">Cooper Square C...")
+#9 /var/www/vhosts/coopersquare.org/httpdocs/wp-includes/plugin.php(173): call_user_func_array("civicrm_wp_invoke", (Array:1))
+#10 /var/www/vhosts/coopersquare.org/httpdocs/wp-includes/post-template.php(166): apply_filters("the_content", "<span style=\"font-size: 1rem; line-height: 1.714285714;\">Cooper Square Comm...")
+#11 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/themes/csq_twentytwelve/content.php(46): the_content("Read More <span class=\"meta-nav\">&rarr;</span>")
+#12 /var/www/vhosts/coopersquare.org/httpdocs/wp-includes/template.php(409): require("/var/www/vhosts/coopersquare.org/httpdocs/wp-content/themes/csq_twentytwelve/...")
+#13 /var/www/vhosts/coopersquare.org/httpdocs/wp-includes/template.php(383): load_template("/var/www/vhosts/coopersquare.org/httpdocs/wp-content/themes/csq_twentytwelve/...", FALSE)
+#14 /var/www/vhosts/coopersquare.org/httpdocs/wp-includes/general-template.php(128): locate_template((Array:2), TRUE, FALSE)
+#15 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/themes/csq_twentytwelve/single.php(18): get_template_part("content", FALSE)
+#16 /var/www/vhosts/coopersquare.org/httpdocs/wp-includes/template-loader.php(47): include("/var/www/vhosts/coopersquare.org/httpdocs/wp-content/themes/csq_twentytwelve/...")
+#17 /var/www/vhosts/coopersquare.org/httpdocs/wp-blog-header.php(16): require_once("/var/www/vhosts/coopersquare.org/httpdocs/wp-includes/template-loader.php")
+#18 /var/www/vhosts/coopersquare.org/httpdocs/index.php(17): require("/var/www/vhosts/coopersquare.org/httpdocs/wp-blog-header.php")
+#19 {main}
+
+
+Sep 12 18:55:18  [info] $Fatal Error Details = Array
+(
+    [message] => Could not find valid value for id
+    [code] => 
+)
+
+
+Sep 12 18:55:18  [info] $backTrace = #0 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Error.php(314): CRM_Core_Error::backtrace("backTrace", TRUE)
+#1 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Utils/Request.php(106): CRM_Core_Error::fatal("Could not find valid value for id")
+#2 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Event/StateMachine/Registration.php(52): CRM_Utils_Request::retrieve("id", "Positive", Object(CRM_Event_Controller_Registration), TRUE)
+#3 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Event/Controller/Registration.php(43): CRM_Event_StateMachine_Registration->__construct(Object(CRM_Event_Controller_Registration), TRUE)
+#4 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(215) : eval()'d code(1): CRM_Event_Controller_Registration->__construct("Event Registration", TRUE, "null", NULL, "false")
+#5 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(215): eval()
+#6 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(51): CRM_Core_Invoke::_invoke((Array:3))
+#7 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm.php(271): CRM_Core_Invoke::invoke((Array:3))
+#8 [internal function](): civicrm_wp_invoke("<p><span style=\"font-size: 1rem; line-height: 1.714285714;\">Cooper Square C...")
+#9 /var/www/vhosts/coopersquare.org/httpdocs/wp-includes/plugin.php(173): call_user_func_array("civicrm_wp_invoke", (Array:1))
+#10 /var/www/vhosts/coopersquare.org/httpdocs/wp-includes/post-template.php(166): apply_filters("the_content", "<span style=\"font-size: 1rem; line-height: 1.714285714;\">Cooper Square Comm...")
+#11 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/themes/csq_twentytwelve/content.php(46): the_content("Read More <span class=\"meta-nav\">&rarr;</span>")
+#12 /var/www/vhosts/coopersquare.org/httpdocs/wp-includes/template.php(409): require("/var/www/vhosts/coopersquare.org/httpdocs/wp-content/themes/csq_twentytwelve/...")
+#13 /var/www/vhosts/coopersquare.org/httpdocs/wp-includes/template.php(383): load_template("/var/www/vhosts/coopersquare.org/httpdocs/wp-content/themes/csq_twentytwelve/...", FALSE)
+#14 /var/www/vhosts/coopersquare.org/httpdocs/wp-includes/general-template.php(128): locate_template((Array:2), TRUE, FALSE)
+#15 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/themes/csq_twentytwelve/single.php(18): get_template_part("content", FALSE)
+#16 /var/www/vhosts/coopersquare.org/httpdocs/wp-includes/template-loader.php(47): include("/var/www/vhosts/coopersquare.org/httpdocs/wp-content/themes/csq_twentytwelve/...")
+#17 /var/www/vhosts/coopersquare.org/httpdocs/wp-blog-header.php(16): require_once("/var/www/vhosts/coopersquare.org/httpdocs/wp-includes/template-loader.php")
+#18 /var/www/vhosts/coopersquare.org/httpdocs/index.php(17): require("/var/www/vhosts/coopersquare.org/httpdocs/wp-blog-header.php")
+#19 {main}
+
+
+Sep 12 18:55:20  [info] $Fatal Error Details = Array
+(
+    [message] => Could not find valid value for id
+    [code] => 
+)
+
+
+Sep 12 18:55:20  [info] $backTrace = #0 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Error.php(314): CRM_Core_Error::backtrace("backTrace", TRUE)
+#1 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Utils/Request.php(106): CRM_Core_Error::fatal("Could not find valid value for id")
+#2 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Event/StateMachine/Registration.php(52): CRM_Utils_Request::retrieve("id", "Positive", Object(CRM_Event_Controller_Registration), TRUE)
+#3 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Event/Controller/Registration.php(43): CRM_Event_StateMachine_Registration->__construct(Object(CRM_Event_Controller_Registration), TRUE)
+#4 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(215) : eval()'d code(1): CRM_Event_Controller_Registration->__construct("Event Registration", TRUE, "null", NULL, "false")
+#5 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(215): eval()
+#6 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(51): CRM_Core_Invoke::_invoke((Array:3))
+#7 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm.php(271): CRM_Core_Invoke::invoke((Array:3))
+#8 [internal function](): civicrm_wp_invoke("<p><span style=\"font-size: 1rem; line-height: 1.714285714;\">Cooper Square C...")
+#9 /var/www/vhosts/coopersquare.org/httpdocs/wp-includes/plugin.php(173): call_user_func_array("civicrm_wp_invoke", (Array:1))
+#10 /var/www/vhosts/coopersquare.org/httpdocs/wp-includes/post-template.php(166): apply_filters("the_content", "<span style=\"font-size: 1rem; line-height: 1.714285714;\">Cooper Square Comm...")
+#11 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/themes/csq_twentytwelve/content.php(46): the_content("Read More <span class=\"meta-nav\">&rarr;</span>")
+#12 /var/www/vhosts/coopersquare.org/httpdocs/wp-includes/template.php(409): require("/var/www/vhosts/coopersquare.org/httpdocs/wp-content/themes/csq_twentytwelve/...")
+#13 /var/www/vhosts/coopersquare.org/httpdocs/wp-includes/template.php(383): load_template("/var/www/vhosts/coopersquare.org/httpdocs/wp-content/themes/csq_twentytwelve/...", FALSE)
+#14 /var/www/vhosts/coopersquare.org/httpdocs/wp-includes/general-template.php(128): locate_template((Array:2), TRUE, FALSE)
+#15 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/themes/csq_twentytwelve/single.php(18): get_template_part("content", FALSE)
+#16 /var/www/vhosts/coopersquare.org/httpdocs/wp-includes/template-loader.php(47): include("/var/www/vhosts/coopersquare.org/httpdocs/wp-content/themes/csq_twentytwelve/...")
+#17 /var/www/vhosts/coopersquare.org/httpdocs/wp-blog-header.php(16): require_once("/var/www/vhosts/coopersquare.org/httpdocs/wp-includes/template-loader.php")
+#18 /var/www/vhosts/coopersquare.org/httpdocs/index.php(17): require("/var/www/vhosts/coopersquare.org/httpdocs/wp-blog-header.php")
+#19 {main}
+
+
+Sep 12 18:55:23  [info] $Fatal Error Details = Array
+(
+    [message] => Could not find valid value for id
+    [code] => 
+)
+
+
+Sep 12 18:55:23  [info] $backTrace = #0 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Error.php(314): CRM_Core_Error::backtrace("backTrace", TRUE)
+#1 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Utils/Request.php(106): CRM_Core_Error::fatal("Could not find valid value for id")
+#2 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Event/StateMachine/Registration.php(52): CRM_Utils_Request::retrieve("id", "Positive", Object(CRM_Event_Controller_Registration), TRUE)
+#3 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Event/Controller/Registration.php(43): CRM_Event_StateMachine_Registration->__construct(Object(CRM_Event_Controller_Registration), TRUE)
+#4 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(215) : eval()'d code(1): CRM_Event_Controller_Registration->__construct("Event Registration", TRUE, "null", NULL, "false")
+#5 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(215): eval()
+#6 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(51): CRM_Core_Invoke::_invoke((Array:3))
+#7 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm.php(271): CRM_Core_Invoke::invoke((Array:3))
+#8 [internal function](): civicrm_wp_invoke("<p><span style=\"font-size: 1rem; line-height: 1.714285714;\">Cooper Square C...")
+#9 /var/www/vhosts/coopersquare.org/httpdocs/wp-includes/plugin.php(173): call_user_func_array("civicrm_wp_invoke", (Array:1))
+#10 /var/www/vhosts/coopersquare.org/httpdocs/wp-includes/post-template.php(166): apply_filters("the_content", "<span style=\"font-size: 1rem; line-height: 1.714285714;\">Cooper Square Comm...")
+#11 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/themes/csq_twentytwelve/content.php(46): the_content("Read More <span class=\"meta-nav\">&rarr;</span>")
+#12 /var/www/vhosts/coopersquare.org/httpdocs/wp-includes/template.php(409): require("/var/www/vhosts/coopersquare.org/httpdocs/wp-content/themes/csq_twentytwelve/...")
+#13 /var/www/vhosts/coopersquare.org/httpdocs/wp-includes/template.php(383): load_template("/var/www/vhosts/coopersquare.org/httpdocs/wp-content/themes/csq_twentytwelve/...", FALSE)
+#14 /var/www/vhosts/coopersquare.org/httpdocs/wp-includes/general-template.php(128): locate_template((Array:2), TRUE, FALSE)
+#15 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/themes/csq_twentytwelve/single.php(18): get_template_part("content", FALSE)
+#16 /var/www/vhosts/coopersquare.org/httpdocs/wp-includes/template-loader.php(47): include("/var/www/vhosts/coopersquare.org/httpdocs/wp-content/themes/csq_twentytwelve/...")
+#17 /var/www/vhosts/coopersquare.org/httpdocs/wp-blog-header.php(16): require_once("/var/www/vhosts/coopersquare.org/httpdocs/wp-includes/template-loader.php")
+#18 /var/www/vhosts/coopersquare.org/httpdocs/index.php(17): require("/var/www/vhosts/coopersquare.org/httpdocs/wp-blog-header.php")
+#19 {main}
+
+
+Sep 12 18:55:25  [info] $Fatal Error Details = Array
+(
+    [message] => Could not find valid value for id
+    [code] => 
+)
+
+
+Sep 12 18:55:25  [info] $backTrace = #0 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Error.php(314): CRM_Core_Error::backtrace("backTrace", TRUE)
+#1 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Utils/Request.php(106): CRM_Core_Error::fatal("Could not find valid value for id")
+#2 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Event/StateMachine/Registration.php(52): CRM_Utils_Request::retrieve("id", "Positive", Object(CRM_Event_Controller_Registration), TRUE)
+#3 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Event/Controller/Registration.php(43): CRM_Event_StateMachine_Registration->__construct(Object(CRM_Event_Controller_Registration), TRUE)
+#4 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(215) : eval()'d code(1): CRM_Event_Controller_Registration->__construct("Event Registration", TRUE, "null", NULL, "false")
+#5 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(215): eval()
+#6 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(51): CRM_Core_Invoke::_invoke((Array:3))
+#7 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm.php(271): CRM_Core_Invoke::invoke((Array:3))
+#8 [internal function](): civicrm_wp_invoke("<p><span style=\"font-size: 1rem; line-height: 1.714285714;\">Cooper Square C...")
+#9 /var/www/vhosts/coopersquare.org/httpdocs/wp-includes/plugin.php(173): call_user_func_array("civicrm_wp_invoke", (Array:1))
+#10 /var/www/vhosts/coopersquare.org/httpdocs/wp-includes/post-template.php(166): apply_filters("the_content", "<span style=\"font-size: 1rem; line-height: 1.714285714;\">Cooper Square Comm...")
+#11 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/themes/csq_twentytwelve/content.php(46): the_content("Read More <span class=\"meta-nav\">&rarr;</span>")
+#12 /var/www/vhosts/coopersquare.org/httpdocs/wp-includes/template.php(409): require("/var/www/vhosts/coopersquare.org/httpdocs/wp-content/themes/csq_twentytwelve/...")
+#13 /var/www/vhosts/coopersquare.org/httpdocs/wp-includes/template.php(383): load_template("/var/www/vhosts/coopersquare.org/httpdocs/wp-content/themes/csq_twentytwelve/...", FALSE)
+#14 /var/www/vhosts/coopersquare.org/httpdocs/wp-includes/general-template.php(128): locate_template((Array:2), TRUE, FALSE)
+#15 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/themes/csq_twentytwelve/single.php(18): get_template_part("content", FALSE)
+#16 /var/www/vhosts/coopersquare.org/httpdocs/wp-includes/template-loader.php(47): include("/var/www/vhosts/coopersquare.org/httpdocs/wp-content/themes/csq_twentytwelve/...")
+#17 /var/www/vhosts/coopersquare.org/httpdocs/wp-blog-header.php(16): require_once("/var/www/vhosts/coopersquare.org/httpdocs/wp-includes/template-loader.php")
+#18 /var/www/vhosts/coopersquare.org/httpdocs/index.php(17): require("/var/www/vhosts/coopersquare.org/httpdocs/wp-blog-header.php")
+#19 {main}
+
+
+Sep 12 19:14:29  [info] $Fatal Error Details = Array
+(
+    [message] => Could not find valid value for id
+    [code] => 
+)
+
+
+Sep 12 19:14:29  [info] $backTrace = #0 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Error.php(314): CRM_Core_Error::backtrace("backTrace", TRUE)
+#1 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Utils/Request.php(106): CRM_Core_Error::fatal("Could not find valid value for id")
+#2 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Event/StateMachine/Registration.php(52): CRM_Utils_Request::retrieve("id", "Positive", Object(CRM_Event_Controller_Registration), TRUE)
+#3 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Event/Controller/Registration.php(43): CRM_Event_StateMachine_Registration->__construct(Object(CRM_Event_Controller_Registration), TRUE)
+#4 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(215) : eval()'d code(1): CRM_Event_Controller_Registration->__construct("Event Registration", TRUE, "null", NULL, "false")
+#5 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(215): eval()
+#6 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(51): CRM_Core_Invoke::_invoke((Array:3))
+#7 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm.php(271): CRM_Core_Invoke::invoke((Array:3))
+#8 [internal function](): civicrm_wp_invoke("<p><span style=\"font-size: 1rem; line-height: 1.714285714;\">Cooper Square C...")
+#9 /var/www/vhosts/coopersquare.org/httpdocs/wp-includes/plugin.php(173): call_user_func_array("civicrm_wp_invoke", (Array:1))
+#10 /var/www/vhosts/coopersquare.org/httpdocs/wp-includes/post-template.php(166): apply_filters("the_content", "<span style=\"font-size: 1rem; line-height: 1.714285714;\">Cooper Square Comm...")
+#11 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/themes/csq_twentytwelve/content.php(46): the_content("Read More <span class=\"meta-nav\">&rarr;</span>")
+#12 /var/www/vhosts/coopersquare.org/httpdocs/wp-includes/template.php(409): require("/var/www/vhosts/coopersquare.org/httpdocs/wp-content/themes/csq_twentytwelve/...")
+#13 /var/www/vhosts/coopersquare.org/httpdocs/wp-includes/template.php(383): load_template("/var/www/vhosts/coopersquare.org/httpdocs/wp-content/themes/csq_twentytwelve/...", FALSE)
+#14 /var/www/vhosts/coopersquare.org/httpdocs/wp-includes/general-template.php(128): locate_template((Array:2), TRUE, FALSE)
+#15 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/themes/csq_twentytwelve/single.php(18): get_template_part("content", FALSE)
+#16 /var/www/vhosts/coopersquare.org/httpdocs/wp-includes/template-loader.php(47): include("/var/www/vhosts/coopersquare.org/httpdocs/wp-content/themes/csq_twentytwelve/...")
+#17 /var/www/vhosts/coopersquare.org/httpdocs/wp-blog-header.php(16): require_once("/var/www/vhosts/coopersquare.org/httpdocs/wp-includes/template-loader.php")
+#18 /var/www/vhosts/coopersquare.org/httpdocs/index.php(17): require("/var/www/vhosts/coopersquare.org/httpdocs/wp-blog-header.php")
+#19 {main}
+
+
+Sep 12 19:17:21  [info] $Fatal Error Details = Array
+(
+    [message] => Could not find valid value for id
+    [code] => 
+)
+
+
+Sep 12 19:17:21  [info] $backTrace = #0 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Error.php(314): CRM_Core_Error::backtrace("backTrace", TRUE)
+#1 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Utils/Request.php(106): CRM_Core_Error::fatal("Could not find valid value for id")
+#2 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Event/StateMachine/Registration.php(52): CRM_Utils_Request::retrieve("id", "Positive", Object(CRM_Event_Controller_Registration), TRUE)
+#3 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Event/Controller/Registration.php(43): CRM_Event_StateMachine_Registration->__construct(Object(CRM_Event_Controller_Registration), TRUE)
+#4 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(215) : eval()'d code(1): CRM_Event_Controller_Registration->__construct("Event Registration", TRUE, "null", NULL, "false")
+#5 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(215): eval()
+#6 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(51): CRM_Core_Invoke::_invoke((Array:3))
+#7 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm.php(271): CRM_Core_Invoke::invoke((Array:3))
+#8 [internal function](): civicrm_wp_invoke("<p><span style=\"font-size: 1rem; line-height: 1.714285714;\">Cooper Square C...")
+#9 /var/www/vhosts/coopersquare.org/httpdocs/wp-includes/plugin.php(173): call_user_func_array("civicrm_wp_invoke", (Array:1))
+#10 /var/www/vhosts/coopersquare.org/httpdocs/wp-includes/post-template.php(166): apply_filters("the_content", "<span style=\"font-size: 1rem; line-height: 1.714285714;\">Cooper Square Comm...")
+#11 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/themes/csq_twentytwelve/content.php(46): the_content("Read More <span class=\"meta-nav\">&rarr;</span>")
+#12 /var/www/vhosts/coopersquare.org/httpdocs/wp-includes/template.php(409): require("/var/www/vhosts/coopersquare.org/httpdocs/wp-content/themes/csq_twentytwelve/...")
+#13 /var/www/vhosts/coopersquare.org/httpdocs/wp-includes/template.php(383): load_template("/var/www/vhosts/coopersquare.org/httpdocs/wp-content/themes/csq_twentytwelve/...", FALSE)
+#14 /var/www/vhosts/coopersquare.org/httpdocs/wp-includes/general-template.php(128): locate_template((Array:2), TRUE, FALSE)
+#15 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/themes/csq_twentytwelve/single.php(18): get_template_part("content", FALSE)
+#16 /var/www/vhosts/coopersquare.org/httpdocs/wp-includes/template-loader.php(47): include("/var/www/vhosts/coopersquare.org/httpdocs/wp-content/themes/csq_twentytwelve/...")
+#17 /var/www/vhosts/coopersquare.org/httpdocs/wp-blog-header.php(16): require_once("/var/www/vhosts/coopersquare.org/httpdocs/wp-includes/template-loader.php")
+#18 /var/www/vhosts/coopersquare.org/httpdocs/index.php(17): require("/var/www/vhosts/coopersquare.org/httpdocs/wp-blog-header.php")
+#19 {main}
+
+
+Sep 12 19:33:18  [info] $Fatal Error Details = Array
+(
+    [message] => Could not find valid value for id
+    [code] => 
+)
+
+
+Sep 12 19:33:18  [info] $backTrace = #0 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Error.php(314): CRM_Core_Error::backtrace("backTrace", TRUE)
+#1 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Utils/Request.php(106): CRM_Core_Error::fatal("Could not find valid value for id")
+#2 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Event/StateMachine/Registration.php(52): CRM_Utils_Request::retrieve("id", "Positive", Object(CRM_Event_Controller_Registration), TRUE)
+#3 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Event/Controller/Registration.php(43): CRM_Event_StateMachine_Registration->__construct(Object(CRM_Event_Controller_Registration), TRUE)
+#4 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(215) : eval()'d code(1): CRM_Event_Controller_Registration->__construct("Event Registration", TRUE, "null", NULL, "false")
+#5 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(215): eval()
+#6 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(51): CRM_Core_Invoke::_invoke((Array:3))
+#7 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm.php(271): CRM_Core_Invoke::invoke((Array:3))
+#8 [internal function](): civicrm_wp_invoke("<p><span style=\"font-size: 1rem; line-height: 1.714285714;\">Cooper Square C...")
+#9 /var/www/vhosts/coopersquare.org/httpdocs/wp-includes/plugin.php(173): call_user_func_array("civicrm_wp_invoke", (Array:1))
+#10 /var/www/vhosts/coopersquare.org/httpdocs/wp-includes/post-template.php(166): apply_filters("the_content", "<span style=\"font-size: 1rem; line-height: 1.714285714;\">Cooper Square Comm...")
+#11 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/themes/csq_twentytwelve/content.php(46): the_content("Read More <span class=\"meta-nav\">&rarr;</span>")
+#12 /var/www/vhosts/coopersquare.org/httpdocs/wp-includes/template.php(409): require("/var/www/vhosts/coopersquare.org/httpdocs/wp-content/themes/csq_twentytwelve/...")
+#13 /var/www/vhosts/coopersquare.org/httpdocs/wp-includes/template.php(383): load_template("/var/www/vhosts/coopersquare.org/httpdocs/wp-content/themes/csq_twentytwelve/...", FALSE)
+#14 /var/www/vhosts/coopersquare.org/httpdocs/wp-includes/general-template.php(128): locate_template((Array:2), TRUE, FALSE)
+#15 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/themes/csq_twentytwelve/single.php(18): get_template_part("content", FALSE)
+#16 /var/www/vhosts/coopersquare.org/httpdocs/wp-includes/template-loader.php(47): include("/var/www/vhosts/coopersquare.org/httpdocs/wp-content/themes/csq_twentytwelve/...")
+#17 /var/www/vhosts/coopersquare.org/httpdocs/wp-blog-header.php(16): require_once("/var/www/vhosts/coopersquare.org/httpdocs/wp-includes/template-loader.php")
+#18 /var/www/vhosts/coopersquare.org/httpdocs/index.php(17): require("/var/www/vhosts/coopersquare.org/httpdocs/wp-blog-header.php")
+#19 {main}
+
+
+Sep 12 19:33:20  [info] $Fatal Error Details = Array
+(
+    [message] => Could not find valid value for id
+    [code] => 
+)
+
+
+Sep 12 19:33:20  [info] $backTrace = #0 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Error.php(314): CRM_Core_Error::backtrace("backTrace", TRUE)
+#1 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Utils/Request.php(106): CRM_Core_Error::fatal("Could not find valid value for id")
+#2 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Event/StateMachine/Registration.php(52): CRM_Utils_Request::retrieve("id", "Positive", Object(CRM_Event_Controller_Registration), TRUE)
+#3 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Event/Controller/Registration.php(43): CRM_Event_StateMachine_Registration->__construct(Object(CRM_Event_Controller_Registration), TRUE)
+#4 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(215) : eval()'d code(1): CRM_Event_Controller_Registration->__construct("Event Registration", TRUE, "null", NULL, "false")
+#5 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(215): eval()
+#6 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(51): CRM_Core_Invoke::_invoke((Array:3))
+#7 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm.php(271): CRM_Core_Invoke::invoke((Array:3))
+#8 [internal function](): civicrm_wp_invoke("<p><span style=\"font-size: 1rem; line-height: 1.714285714;\">Cooper Square C...")
+#9 /var/www/vhosts/coopersquare.org/httpdocs/wp-includes/plugin.php(173): call_user_func_array("civicrm_wp_invoke", (Array:1))
+#10 /var/www/vhosts/coopersquare.org/httpdocs/wp-includes/post-template.php(166): apply_filters("the_content", "<span style=\"font-size: 1rem; line-height: 1.714285714;\">Cooper Square Comm...")
+#11 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/themes/csq_twentytwelve/content.php(46): the_content("Read More <span class=\"meta-nav\">&rarr;</span>")
+#12 /var/www/vhosts/coopersquare.org/httpdocs/wp-includes/template.php(409): require("/var/www/vhosts/coopersquare.org/httpdocs/wp-content/themes/csq_twentytwelve/...")
+#13 /var/www/vhosts/coopersquare.org/httpdocs/wp-includes/template.php(383): load_template("/var/www/vhosts/coopersquare.org/httpdocs/wp-content/themes/csq_twentytwelve/...", FALSE)
+#14 /var/www/vhosts/coopersquare.org/httpdocs/wp-includes/general-template.php(128): locate_template((Array:2), TRUE, FALSE)
+#15 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/themes/csq_twentytwelve/single.php(18): get_template_part("content", FALSE)
+#16 /var/www/vhosts/coopersquare.org/httpdocs/wp-includes/template-loader.php(47): include("/var/www/vhosts/coopersquare.org/httpdocs/wp-content/themes/csq_twentytwelve/...")
+#17 /var/www/vhosts/coopersquare.org/httpdocs/wp-blog-header.php(16): require_once("/var/www/vhosts/coopersquare.org/httpdocs/wp-includes/template-loader.php")
+#18 /var/www/vhosts/coopersquare.org/httpdocs/index.php(17): require("/var/www/vhosts/coopersquare.org/httpdocs/wp-blog-header.php")
+#19 {main}
+
+
+Sep 12 21:09:30  [info] $Fatal Error Details = Array
+(
+    [message] => Could not find valid value for id
+    [code] => 
+)
+
+
+Sep 12 21:09:30  [info] $backTrace = #0 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Error.php(314): CRM_Core_Error::backtrace("backTrace", TRUE)
+#1 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Utils/Request.php(106): CRM_Core_Error::fatal("Could not find valid value for id")
+#2 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Event/StateMachine/Registration.php(52): CRM_Utils_Request::retrieve("id", "Positive", Object(CRM_Event_Controller_Registration), TRUE)
+#3 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Event/Controller/Registration.php(43): CRM_Event_StateMachine_Registration->__construct(Object(CRM_Event_Controller_Registration), TRUE)
+#4 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(215) : eval()'d code(1): CRM_Event_Controller_Registration->__construct("Event Registration", TRUE, "null", NULL, "false")
+#5 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(215): eval()
+#6 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(51): CRM_Core_Invoke::_invoke((Array:3))
+#7 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm.php(271): CRM_Core_Invoke::invoke((Array:3))
+#8 [internal function](): civicrm_wp_invoke("")
+#9 /var/www/vhosts/coopersquare.org/httpdocs/wp-includes/plugin.php(406): call_user_func_array("civicrm_wp_invoke", (Array:1))
+#10 /var/www/vhosts/coopersquare.org/httpdocs/wp-settings.php(308): do_action("init")
+#11 /var/www/vhosts/coopersquare.org/httpdocs/wp-config.php(90): require_once("/var/www/vhosts/coopersquare.org/httpdocs/wp-settings.php")
+#12 /var/www/vhosts/coopersquare.org/httpdocs/wp-load.php(29): require_once("/var/www/vhosts/coopersquare.org/httpdocs/wp-config.php")
+#13 /var/www/vhosts/coopersquare.org/httpdocs/wp-blog-header.php(12): require_once("/var/www/vhosts/coopersquare.org/httpdocs/wp-load.php")
+#14 /var/www/vhosts/coopersquare.org/httpdocs/index.php(17): require("/var/www/vhosts/coopersquare.org/httpdocs/wp-blog-header.php")
+#15 {main}
+
+

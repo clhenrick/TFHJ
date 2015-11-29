@@ -1,0 +1,32 @@
+===================================
+CiviMobile Extension
+===================================
+
+Mobile application for few specific actions in CiviCRM
+
+Current feature includes:
+
+* Contacts
+- Search Contacts
+- Add/Update/View Contacts
+- Proximity search for contacts
+
+* Events
+- participant search and checkin
+
+* Survey
+- Search for suvery
+- Record survey responses
+
+Requirement: CiviCRM v4.3.x
+
+Contributors:
+
+Web Access        - webaccessglobal.com
+Kurund Jalmi      - civicrm.org
+Peter McAndrew    - thirdsectordesign.org
+Erawat Chamanont
+
+
+
+

@@ -1,0 +1,52 @@
+<?php require_once('civimobile.header.php'); ?>
+
+<div data-role="page" id="cm-contact-form">
+  <div data-role="header">
+    <h1 id="contact-header">Edit contact</h1>
+    <a href="#" id="save-contact-button" data-role="button" data-icon="check" class="ui-btn-right jqm-save">Save</a>
+    <a href="#" id="back-contact-button" data-rel="back" class="ui-btn-left" data-icon="arrow-l">Back</a>
+  </div><!-- /header -->
+
+  <div data-role="content" id="crm-contact-fields"></div><!-- /content -->
+
+  <script type="text/javascript">
+    var contactID = "<?php if (isset($_GET['cid'])) { echo $_GET['cid']; }?>";
+    var action = "<?php if (isset($_GET['action'])) { echo $_GET['action']; }?>";
+    var pid = "<?php if (isset($_GET['pid'])) { echo $_GET['pid']; }?>";
+    function contactCreate() {
+      $.mobile.showPageLoadingMsg( 'Loading' );
+      if (action == "add") {
+        var dataUrl = "<?php echo CRM_Utils_System::url('civicrm/profile/create','reset=1&json=1', false, null, false);?>";
+        $('#contact-header').text('Add Contact');
+        buildProfile( pid, "crm-contact-fields", null, dataUrl );
+      }
+      else {
+        var dataUrl = "<?php echo CRM_Utils_System::url('civicrm/profile/edit','reset=1&json=1', false, null, false);?>";
+        buildProfile( null, "crm-contact-fields", contactID, dataUrl );
+      }
+      $.mobile.hidePageLoadingMsg( );
+    }
+
+    function saveContact() {
+      var viewUrl = "<?php echo CRM_Utils_System::url('civicrm/mobile/contact','action=view&cid=', false, null, false);?>";
+      if (action == "add"){
+        saveProfile( pid, contactID, viewUrl );
+      }
+      else{
+        saveProfile( null, contactID, viewUrl );
+      }
+    }
+
+    function goBackContact() {
+      if (action == "add"){
+        $.mobile.changePage('#cm-contact-search');
+      }
+      else{
+        var viewURL = "<?php echo CRM_Utils_System::url('civicrm/mobile/contact','action=view&cid=', false, null, false);?>";
+        $.mobile.changePage( viewURL + contactID);
+      }
+    }
+  </script>
+</div><!-- /page -->
+
+<?php require_once('civimobile.footer.php')?>

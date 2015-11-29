@@ -1,0 +1,81 @@
+.hrjob-tree-region {
+}
+.hrjob-tree-block {
+    border: 1px solid black;
+    background: #eee;
+    width: 23%;
+    padding: 0em 0.5em;
+}
+.hrjob-main-region {
+    width: 73%;
+    float: right;
+    padding: 0em 0.5em;
+}
+
+.hrjob-toggle .on-open, .hrjob-toggle .on-closed {
+    font-family: "Courier New", Courier, monospace;
+}
+.hrjob-toggle.closed .on-open {
+    display: none;
+}
+.hrjob-toggle.open .on-closed {
+    display: none;
+}
+.hrjob-toggle:hover, .hrjob-table .ui-icon:hover {
+    cursor: pointer;
+}
+
+strong.hrjob-role-toggle:hover {
+    text-decoration: underline;
+}
+
+.hrjob-leave-table {
+    table-layout: fixed;
+}
+.hrjob-role-table {
+    table-layout: fixed;
+}
+table.hrjob-role-table > tbody > tr.deleted {
+    color: red;
+    text-decoration: line-through;
+}
+table.hrjob-role-table > tbody > tr.deleted .hrjob-role-remove {
+    display: none;
+}
+table.hrjob-role-table > tbody > tr.undeleted .hrjob-role-restore {
+    display: none;
+}
+
+.hrjob-nav.ui-icon  {
+    float: right;
+    border: 1px solid transparent;
+}
+.hrjob-nav.ui-icon.selected  {
+    border: 1px solid black;
+}
+a.hrjob-nav.selected {
+    color: #000000;
+    font-weight: bold;
+}
+.hrjob-container input, .hrjob-container select, .hrjob-container textarea {
+    width: 95%;
+}
+.hrjob-duplicate-notice {
+    text-align: center;
+}
+.hrjob-tree-block .hrjob-inactive a {
+    color: red;
+}
+
+div.hrjob-tree-items {
+    display: inline-block;
+    width: 100%;
+}
+
+.hrjob-container button.crm-button {
+    /* passed important arg to not
+       inherit padding property of crm-button 
+       and use this one
+    */
+    padding: 2px 6px !important;
+}

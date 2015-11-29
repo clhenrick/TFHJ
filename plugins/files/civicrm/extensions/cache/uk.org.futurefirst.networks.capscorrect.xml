@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<extension key="uk.org.futurefirst.networks.capscorrect" type="module">
+  <file>capscorrect</file>
+  <name>Capitalisation Corrector</name>
+  <description>This module scans a set number of contacts each day and corrects contact names capitalisation on first and last names.</description>
+  <urls>
+    <url desc="Documentation">http://github.com/futurefirst/capscorrect/wiki</url>
+    <url desc="On GitHub">https://github.com/futurefirst/capscorrect</url>
+    <url desc="Future First">http://www.futurefirst.org.uk/</url>
+  </urls>
+  <license>AGPL-3.0</license>
+  <maintainer>
+    <author>Vitor Nobrega</author>
+    <email>vitor@futurefirst.org.uk</email>
+  </maintainer>
+  <releaseDate>2014-10-06</releaseDate>
+  <version>1.01</version>
+  <compatibility>
+    <ver>4.4</ver>
+    <ver>4.5</ver>
+  </compatibility>
+  <comments>The number of contacts scanned each day can be set in Civi's scheduled job settings page.</comments>
+  <civix>
+    <namespace>CRM/Capscorrect</namespace>
+  </civix>
+<downloadUrl>https://github.com/futurefirst/capscorrect/archive/1.01.zip</downloadUrl><develStage>stable</develStage></extension>

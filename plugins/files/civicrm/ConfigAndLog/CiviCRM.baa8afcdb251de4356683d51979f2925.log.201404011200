@@ -1,0 +1,1148 @@
+Apr 02 02:32:45  [info] $IDS Detector Details = Array
+(
+    [0] => Array
+        (
+            [name] => note
+            [value] => this post is fantastic <a href=" http://www.fclca.org/lamisil/ ">terbinafine costs</a>  The student participates in a journal club where available in the pharmacy
+ <a href=" http://www.fclca.org/elavil/ ">20 mg amitriptyline weight gain</a>  processor, and it is most suitable for high volume submitters. For additional information
+ <a href=" http://www.fclca.org/erythromycin/ ">erythromycin 333 mg acne</a>  An eligibility override for Excess Income/Spenddown
+ 
+            [page] => /civi?page=CiviCRM&q=civicrm/contribute/transact
+            [userid] => 
+            [session] => o094jgvoge6fkpdmcp37jijjv6
+            [ip] => 192.96.211.104
+            [reaction] => 0
+            [impact] => 25
+        )
+
+)
+
+
+Apr 02 02:32:49  [info] $IDS Detector Details = Array
+(
+    [0] => Array
+        (
+            [name] => note
+            [value] => this post is fantastic <a href=" http://www.fclca.org/lamisil/ ">terbinafine costs</a>  The student participates in a journal club where available in the pharmacy
+ <a href=" http://www.fclca.org/elavil/ ">20 mg amitriptyline weight gain</a>  processor, and it is most suitable for high volume submitters. For additional information
+ <a href=" http://www.fclca.org/erythromycin/ ">erythromycin 333 mg acne</a>  An eligibility override for Excess Income/Spenddown
+            [page] => /civi?page=CiviCRM&q=civicrm/contribute/transact
+            [userid] => 
+            [session] => o094jgvoge6fkpdmcp37jijjv6
+            [ip] => 192.96.211.104
+            [reaction] => 0
+            [impact] => 25
+        )
+
+)
+
+
+Apr 03 10:57:05  [info] $IDS Detector Details = Array
+(
+    [0] => Array
+        (
+            [name] => note
+            [value] => What do you study? <a href=" http://www.wcg.pe/methotrexate/ ">dosage methotrexate</a>  photo ID, prescription number, or drug name to verify correct information.
+ <a href=" http://www.wcg.pe/ibuprofen/ ">600 ibuprofen</a>  spiciness of the dish and change its texture. If the hostess feels that her dinner is not "hot" enough, a
+ <a href=" http://www.wcg.pe/lisinopril/ ">lisinopril 40 mg</a>  sites that are proposed by a student as a possible affiliated partner with COPHS; preferably,
+ 
+            [page] => /civi?page=CiviCRM&q=civicrm/contribute/transact
+            [userid] => 
+            [session] => d6s6p85o72hjvali0kdrbo8575
+            [ip] => 192.96.211.104
+            [reaction] => 0
+            [impact] => 30
+        )
+
+)
+
+
+Apr 03 10:57:07  [info] $IDS Detector Details = Array
+(
+    [0] => Array
+        (
+            [name] => note
+            [value] => What do you study? <a href=" http://www.wcg.pe/methotrexate/ ">dosage methotrexate</a>  photo ID, prescription number, or drug name to verify correct information.
+ <a href=" http://www.wcg.pe/ibuprofen/ ">600 ibuprofen</a>  spiciness of the dish and change its texture. If the hostess feels that her dinner is not "hot" enough, a
+ <a href=" http://www.wcg.pe/lisinopril/ ">lisinopril 40 mg</a>  sites that are proposed by a student as a possible affiliated partner with COPHS; preferably,
+            [page] => /civi?page=CiviCRM&q=civicrm/contribute/transact
+            [userid] => 
+            [session] => d6s6p85o72hjvali0kdrbo8575
+            [ip] => 192.96.211.104
+            [reaction] => 0
+            [impact] => 30
+        )
+
+)
+
+
+Apr 04 07:15:32  [info] $backTrace = #0 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Error.php(234): CRM_Core_Error::backtrace("backTrace", TRUE)
+#1 [internal function](): CRM_Core_Error::simpleHandler(Object(DB_Error))
+#2 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/PEAR.php(931): call_user_func((Array:2), Object(DB_Error))
+#3 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/DB.php(969): PEAR_Error->PEAR_Error("DB Error: connect failed", -24, 16, (Array:2), " [nativecode=Unknown MySQL server host 'coopersquare.org' (2)]")
+#4 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/PEAR.php(564): DB_Error->DB_Error(-24, 16, (Array:2), " [nativecode=Unknown MySQL server host 'coopersquare.org' (2)]")
+#5 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/DB/common.php(1905): PEAR->raiseError(NULL, -24, NULL, NULL, " [nativecode=Unknown MySQL server host 'coopersquare.org' (2)]", "DB_Error", TRUE)
+#6 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/DB/mysql.php(252): DB_common->raiseError(-24, NULL, NULL, NULL, "Unknown MySQL server host 'coopersquare.org' (2)")
+#7 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/DB.php(559): DB_mysql->connect((Array:10), FALSE)
+#8 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/DB/DataObject.php(2294): DB::connect((string))
+#9 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/DAO.php(196): DB_DataObject->_connect()
+#10 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/DAO.php(80): CRM_Core_DAO->initialize()
+#11 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/DAO/Domain.php(148): CRM_Core_DAO->__construct()
+#12 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/BAO/ConfigSetting.php(205): CRM_Core_DAO_Domain->__construct()
+#13 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Config.php(417): CRM_Core_BAO_ConfigSetting::retrieve((Array:0))
+#14 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Config.php(199): CRM_Core_Config->_initVariables()
+#15 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/bin/cli.class.php(206): CRM_Core_Config::singleton()
+#16 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/bin/cli.class.php(68): civicrm_cli->_bootstrap()
+#17 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/bin/cli.php(30): civicrm_cli->initialize()
+#18 {main}
+
+
+Apr 04 07:30:11  [info] $backTrace = #0 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Error.php(234): CRM_Core_Error::backtrace("backTrace", TRUE)
+#1 [internal function](): CRM_Core_Error::simpleHandler(Object(DB_Error))
+#2 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/PEAR.php(931): call_user_func((Array:2), Object(DB_Error))
+#3 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/DB.php(969): PEAR_Error->PEAR_Error("DB Error: connect failed", -24, 16, (Array:2), " [nativecode=Unknown MySQL server host 'coopersquare.org' (2)]")
+#4 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/PEAR.php(564): DB_Error->DB_Error(-24, 16, (Array:2), " [nativecode=Unknown MySQL server host 'coopersquare.org' (2)]")
+#5 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/DB/common.php(1905): PEAR->raiseError(NULL, -24, NULL, NULL, " [nativecode=Unknown MySQL server host 'coopersquare.org' (2)]", "DB_Error", TRUE)
+#6 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/DB/mysql.php(252): DB_common->raiseError(-24, NULL, NULL, NULL, "Unknown MySQL server host 'coopersquare.org' (2)")
+#7 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/DB.php(559): DB_mysql->connect((Array:10), FALSE)
+#8 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/DB/DataObject.php(2294): DB::connect((string))
+#9 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/DAO.php(196): DB_DataObject->_connect()
+#10 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/DAO.php(80): CRM_Core_DAO->initialize()
+#11 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/DAO/Domain.php(148): CRM_Core_DAO->__construct()
+#12 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/BAO/ConfigSetting.php(205): CRM_Core_DAO_Domain->__construct()
+#13 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Config.php(417): CRM_Core_BAO_ConfigSetting::retrieve((Array:0))
+#14 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Config.php(199): CRM_Core_Config->_initVariables()
+#15 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/bin/cli.class.php(206): CRM_Core_Config::singleton()
+#16 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/bin/cli.class.php(68): civicrm_cli->_bootstrap()
+#17 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/bin/cli.php(30): civicrm_cli->initialize()
+#18 {main}
+
+
+Apr 04 10:43:59  [info] Ignoring exception thrown by nullHandler: -1, DB Error: unknown error
+
+Apr 04 10:43:59  [info] $backTrace = #0 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Error.php(771): CRM_Core_Error::backtrace("backTrace", TRUE)
+#1 [internal function](): CRM_Core_Error::nullHandler(Object(DB_Error))
+#2 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/PEAR.php(931): call_user_func((Array:2), Object(DB_Error))
+#3 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/DB.php(969): PEAR_Error->PEAR_Error("DB Error: unknown error", -1, 16, (Array:2), " [nativecode=1065 ** Query was empty]")
+#4 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/PEAR.php(564): DB_Error->DB_Error(-1, 16, (Array:2), " [nativecode=1065 ** Query was empty]")
+#5 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/DB/common.php(1905): PEAR->raiseError(NULL, -1, NULL, NULL, " [nativecode=1065 ** Query was empty]", "DB_Error", TRUE)
+#6 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/DB/mysql.php(898): DB_common->raiseError(-1, NULL, NULL, NULL, "1065 ** Query was empty")
+#7 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/DB/mysql.php(327): DB_mysql->mysqlRaiseError()
+#8 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/DB/common.php(1216): DB_mysql->simpleQuery("")
+#9 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/DB/DataObject.php(2421): DB_common->query("")
+#10 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/DB/DataObject.php(1613): DB_DataObject->_query("")
+#11 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/DAO.php(158): DB_DataObject->query("")
+#12 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/DAO.php(905): CRM_Core_DAO->query("", TRUE)
+#13 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Contact/Selector.php(922): CRM_Core_DAO::executeQuery("")
+#14 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Contact/Selector.php(803): CRM_Contact_Selector->fillupPrevNextCache(Object(CRM_Utils_Sort), "civicrm search 9b7d9d1ad70c06c4e5416f1dab1e58d4_9404", 0, 500)
+#15 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Contact/Selector/Custom.php(352): CRM_Contact_Selector->buildPrevNextCache(Object(CRM_Utils_Sort))
+#16 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Selector/Controller.php(402): CRM_Contact_Selector_Custom->getRows(4, 0, 50, Object(CRM_Utils_Sort), 1, NULL)
+#17 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Selector/Controller.php(340): CRM_Core_Selector_Controller->getRows(Object(CRM_Contact_Selector_Controller))
+#18 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Contact/Form/Search.php(961): CRM_Core_Selector_Controller->run()
+#19 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Contact/Form/Search/Custom.php(135): CRM_Contact_Form_Search->postProcess()
+#20 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Form.php(261): CRM_Contact_Form_Search_Custom->postProcess()
+#21 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/QuickForm/Action/Refresh.php(75): CRM_Core_Form->mainProcess()
+#22 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/HTML/QuickForm/Controller.php(203): CRM_Core_QuickForm_Action_Refresh->perform(Object(CRM_Contact_Form_Search_Custom), "refresh")
+#23 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/HTML/QuickForm/Page.php(103): HTML_QuickForm_Controller->handle(Object(CRM_Contact_Form_Search_Custom), "refresh")
+#24 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Controller.php(345): HTML_QuickForm_Page->handle("refresh")
+#25 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(323): CRM_Core_Controller->run((Array:4), (Array:0))
+#26 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(72): CRM_Core_Invoke::runItem((Array:12))
+#27 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(52): CRM_Core_Invoke::_invoke((Array:4))
+#28 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm.php(463): CRM_Core_Invoke::invoke((Array:4))
+#29 [internal function](): CiviCRM_For_WordPress->invoke("")
+#30 /var/www/vhosts/coopersquare.org/httpdocs/wp-includes/plugin.php(429): call_user_func_array((Array:2), (Array:1))
+#31 /var/www/vhosts/coopersquare.org/httpdocs/wp-admin/admin.php(217): do_action("toplevel_page_CiviCRM")
+#32 {main}
+
+
+Apr 04 10:44:08  [info] Ignoring exception thrown by nullHandler: -2, DB Error: syntax error
+
+Apr 04 10:44:08  [info] $backTrace = #0 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Error.php(771): CRM_Core_Error::backtrace("backTrace", TRUE)
+#1 [internal function](): CRM_Core_Error::nullHandler(Object(DB_Error))
+#2 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/PEAR.php(931): call_user_func((Array:2), Object(DB_Error))
+#3 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/DB.php(969): PEAR_Error->PEAR_Error("DB Error: syntax error", -2, 16, (Array:2), "85 [nativecode=1064 ** You have an error in your SQL syntax; check the manual...")
+#4 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/PEAR.php(564): DB_Error->DB_Error(-2, 16, (Array:2), "85 [nativecode=1064 ** You have an error in your SQL syntax; check the manual...")
+#5 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/DB/common.php(1905): PEAR->raiseError(NULL, -2, NULL, NULL, "85 [nativecode=1064 ** You have an error in your SQL syntax; check the manual...", "DB_Error", TRUE)
+#6 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/DB/mysql.php(898): DB_common->raiseError(-2, NULL, NULL, NULL, "1064 ** You have an error in your SQL syntax; check the manual that correspon...")
+#7 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/DB/mysql.php(327): DB_mysql->mysqlRaiseError()
+#8 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/DB/common.php(1216): DB_mysql->simpleQuery("85")
+#9 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/DB/DataObject.php(2421): DB_common->query("85")
+#10 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/DB/DataObject.php(1613): DB_DataObject->_query("85")
+#11 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/DAO.php(158): DB_DataObject->query("85")
+#12 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/DAO.php(905): CRM_Core_DAO->query("85", TRUE)
+#13 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Contact/Selector.php(922): CRM_Core_DAO::executeQuery("85")
+#14 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Contact/Selector.php(803): CRM_Contact_Selector->fillupPrevNextCache(Object(CRM_Utils_Sort), "civicrm search 9b7d9d1ad70c06c4e5416f1dab1e58d4_9404", 0, 500)
+#15 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Contact/Selector/Custom.php(352): CRM_Contact_Selector->buildPrevNextCache(Object(CRM_Utils_Sort))
+#16 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Selector/Controller.php(402): CRM_Contact_Selector_Custom->getRows(4, 0, 50, Object(CRM_Utils_Sort), 1, NULL)
+#17 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Selector/Controller.php(340): CRM_Core_Selector_Controller->getRows(Object(CRM_Contact_Selector_Controller))
+#18 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Contact/Form/Search.php(961): CRM_Core_Selector_Controller->run()
+#19 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Contact/Form/Search/Custom.php(135): CRM_Contact_Form_Search->postProcess()
+#20 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Form.php(261): CRM_Contact_Form_Search_Custom->postProcess()
+#21 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/QuickForm/Action/Refresh.php(75): CRM_Core_Form->mainProcess()
+#22 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/HTML/QuickForm/Controller.php(203): CRM_Core_QuickForm_Action_Refresh->perform(Object(CRM_Contact_Form_Search_Custom), "refresh")
+#23 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/HTML/QuickForm/Page.php(103): HTML_QuickForm_Controller->handle(Object(CRM_Contact_Form_Search_Custom), "refresh")
+#24 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Controller.php(345): HTML_QuickForm_Page->handle("refresh")
+#25 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(323): CRM_Core_Controller->run((Array:4), (Array:0))
+#26 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(72): CRM_Core_Invoke::runItem((Array:12))
+#27 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(52): CRM_Core_Invoke::_invoke((Array:4))
+#28 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm.php(463): CRM_Core_Invoke::invoke((Array:4))
+#29 [internal function](): CiviCRM_For_WordPress->invoke("")
+#30 /var/www/vhosts/coopersquare.org/httpdocs/wp-includes/plugin.php(429): call_user_func_array((Array:2), (Array:1))
+#31 /var/www/vhosts/coopersquare.org/httpdocs/wp-admin/admin.php(217): do_action("toplevel_page_CiviCRM")
+#32 {main}
+
+
+Apr 04 10:44:22  [info] Ignoring exception thrown by nullHandler: -2, DB Error: syntax error
+
+Apr 04 10:44:22  [info] $backTrace = #0 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Error.php(771): CRM_Core_Error::backtrace("backTrace", TRUE)
+#1 [internal function](): CRM_Core_Error::nullHandler(Object(DB_Error))
+#2 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/PEAR.php(931): call_user_func((Array:2), Object(DB_Error))
+#3 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/DB.php(969): PEAR_Error->PEAR_Error("DB Error: syntax error", -2, 16, (Array:2), "174 [nativecode=1064 ** You have an error in your SQL syntax; check the manua...")
+#4 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/PEAR.php(564): DB_Error->DB_Error(-2, 16, (Array:2), "174 [nativecode=1064 ** You have an error in your SQL syntax; check the manua...")
+#5 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/DB/common.php(1905): PEAR->raiseError(NULL, -2, NULL, NULL, "174 [nativecode=1064 ** You have an error in your SQL syntax; check the manua...", "DB_Error", TRUE)
+#6 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/DB/mysql.php(898): DB_common->raiseError(-2, NULL, NULL, NULL, "1064 ** You have an error in your SQL syntax; check the manual that correspon...")
+#7 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/DB/mysql.php(327): DB_mysql->mysqlRaiseError()
+#8 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/DB/common.php(1216): DB_mysql->simpleQuery("174")
+#9 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/DB/DataObject.php(2421): DB_common->query("174")
+#10 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/DB/DataObject.php(1613): DB_DataObject->_query("174")
+#11 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/DAO.php(158): DB_DataObject->query("174")
+#12 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/DAO.php(905): CRM_Core_DAO->query("174", TRUE)
+#13 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Contact/Selector.php(922): CRM_Core_DAO::executeQuery("174")
+#14 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Contact/Selector.php(803): CRM_Contact_Selector->fillupPrevNextCache(Object(CRM_Utils_Sort), "civicrm search 9b7d9d1ad70c06c4e5416f1dab1e58d4_9404", 0, 500)
+#15 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Contact/Selector/Custom.php(352): CRM_Contact_Selector->buildPrevNextCache(Object(CRM_Utils_Sort))
+#16 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Selector/Controller.php(402): CRM_Contact_Selector_Custom->getRows(4, 0, 50, Object(CRM_Utils_Sort), 1, NULL)
+#17 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Selector/Controller.php(340): CRM_Core_Selector_Controller->getRows(Object(CRM_Contact_Selector_Controller))
+#18 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Contact/Form/Search.php(961): CRM_Core_Selector_Controller->run()
+#19 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Contact/Form/Search/Custom.php(135): CRM_Contact_Form_Search->postProcess()
+#20 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Form.php(261): CRM_Contact_Form_Search_Custom->postProcess()
+#21 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/QuickForm/Action/Refresh.php(75): CRM_Core_Form->mainProcess()
+#22 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/HTML/QuickForm/Controller.php(203): CRM_Core_QuickForm_Action_Refresh->perform(Object(CRM_Contact_Form_Search_Custom), "refresh")
+#23 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/HTML/QuickForm/Page.php(103): HTML_QuickForm_Controller->handle(Object(CRM_Contact_Form_Search_Custom), "refresh")
+#24 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Controller.php(345): HTML_QuickForm_Page->handle("refresh")
+#25 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(323): CRM_Core_Controller->run((Array:4), (Array:0))
+#26 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(72): CRM_Core_Invoke::runItem((Array:12))
+#27 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(52): CRM_Core_Invoke::_invoke((Array:4))
+#28 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm.php(463): CRM_Core_Invoke::invoke((Array:4))
+#29 [internal function](): CiviCRM_For_WordPress->invoke("")
+#30 /var/www/vhosts/coopersquare.org/httpdocs/wp-includes/plugin.php(429): call_user_func_array((Array:2), (Array:1))
+#31 /var/www/vhosts/coopersquare.org/httpdocs/wp-admin/admin.php(217): do_action("toplevel_page_CiviCRM")
+#32 {main}
+
+
+Apr 08 12:21:12  [info] $IDS Detector Details = Array
+(
+    [0] => Array
+        (
+            [name] => note
+            [value] => I'd like to withdraw $100, please <a href=" http://chimit.acm.org/minoxidil/ ">5 minoxidil foam generic</a>  medication order into the computer if the health system utilizes
+ <a href=" http://chimit.acm.org/renova/ ">order renova online</a>  consist of didactic reviews to include: Antibiotics, EBM, Kinetics, Lab Monitoring, and
+ <a href=" http://chimit.acm.org/levitra/ ">cheap generic levitra online canada</a>  may at times be equal to the manufacturers price, this would not continue following an
+ <a href=" http://chimit.acm.org/tenormin/ ">atenolol 150 mg</a>  Great Blue Double Bed and separate Double Bed
+ 
+            [page] => /civi?page=CiviCRM&q=civicrm/contribute/transact
+            [userid] => 
+            [session] => 75it9u872e3rc3l6emelaitl76
+            [ip] => 192.96.211.104
+            [reaction] => 0
+            [impact] => 25
+        )
+
+)
+
+
+Apr 08 12:21:14  [info] $IDS Detector Details = Array
+(
+    [0] => Array
+        (
+            [name] => note
+            [value] => I'd like to withdraw $100, please <a href=" http://chimit.acm.org/minoxidil/ ">5 minoxidil foam generic</a>  medication order into the computer if the health system utilizes
+ <a href=" http://chimit.acm.org/renova/ ">order renova online</a>  consist of didactic reviews to include: Antibiotics, EBM, Kinetics, Lab Monitoring, and
+ <a href=" http://chimit.acm.org/levitra/ ">cheap generic levitra online canada</a>  may at times be equal to the manufacturerÂs price, this would not continue following an
+ <a href=" http://chimit.acm.org/tenormin/ ">atenolol 150 mg</a>  Great Blue Double Bed and separate Double Bed
+            [page] => /civi?page=CiviCRM&q=civicrm/contribute/transact
+            [userid] => 
+            [session] => 75it9u872e3rc3l6emelaitl76
+            [ip] => 192.96.211.104
+            [reaction] => 0
+            [impact] => 25
+        )
+
+)
+
+
+Apr 08 17:29:22  [info] $IDS Detector Details = Array
+(
+    [0] => Array
+        (
+            [name] => note
+            [value] => I never went to university <a href=" http://www.fclca.org/topamax/ ">topamax normal dosage</a>  The New York State Department of Health (NYSDOH) is pleased to introduce a method
+ <a href=" http://www.fclca.org/zovirax/ ">2000 mg acyclovir</a>  Europe, Asia, Africa and the Middle East. These attacks may employ a wide variety of
+ <a href=" http://www.fclca.org/tetracycline/ ">tetracycline backorder</a>  medication via phone, fax or electronic submission when needed.
+ 
+            [page] => /civi?page=CiviCRM&q=civicrm/contribute/transact
+            [userid] => 
+            [session] => 3l215sme4f8r0u5l1451sqmke4
+            [ip] => 192.96.211.104
+            [reaction] => 0
+            [impact] => 25
+        )
+
+)
+
+
+Apr 08 17:29:25  [info] $IDS Detector Details = Array
+(
+    [0] => Array
+        (
+            [name] => note
+            [value] => I never went to university <a href=" http://www.fclca.org/topamax/ ">topamax normal dosage</a>  The New York State Department of Health (NYSDOH) is pleased to introduce a method
+ <a href=" http://www.fclca.org/zovirax/ ">2000 mg acyclovir</a>  Europe, Asia, Africa and the Middle East. These attacks may employ a wide variety of
+ <a href=" http://www.fclca.org/tetracycline/ ">tetracycline backorder</a>  medication via phone, fax or electronic submission when needed.
+            [page] => /civi?page=CiviCRM&q=civicrm/contribute/transact
+            [userid] => 
+            [session] => 3l215sme4f8r0u5l1451sqmke4
+            [ip] => 192.96.211.104
+            [reaction] => 0
+            [impact] => 25
+        )
+
+)
+
+
+Apr 09 22:45:18  [info] $IDS Detector Details = Array
+(
+    [0] => Array
+        (
+            [name] => note
+            [value] => Very funny pictures <a href=" http://www.pinballvalencia.com/evento-futuro-6o-torneo-de-pinballs-de-silla/ ">order medroxyprogesterone online</a>  Medicaid may be submitted for payment.
+ <a href=" http://www.niccoloathens.com/about/ ">10mg cipralex enough</a>  Authorization for the Original plus Refills when the ordering or the billing provider is in the Post
+ <a href=" http://cursosinglesdublin.com/academia-ingles-dublin/ ">suprax cefixime</a>  in the context of the community and hospital pharmacy practice settings. Students will continue to
+ <a href=" http://www.qzland.com/a/shichangfenxi/ ">where can i buy levothyroxine</a>  wash the potatoes and add the corn and the beans along with the chopped spinach. Boil together until the
+ 
+            [page] => /civi?page=CiviCRM&q=civicrm/contribute/transact
+            [userid] => 
+            [session] => 0ku9lbmd31afd4205hp45g4en4
+            [ip] => 192.96.211.104
+            [reaction] => 0
+            [impact] => 25
+        )
+
+)
+
+
+Apr 09 22:45:21  [info] $IDS Detector Details = Array
+(
+    [0] => Array
+        (
+            [name] => note
+            [value] => Very funny pictures <a href=" http://www.pinballvalencia.com/evento-futuro-6o-torneo-de-pinballs-de-silla/ ">order medroxyprogesterone online</a>  Medicaid may be submitted for payment.
+ <a href=" http://www.niccoloathens.com/about/ ">10mg cipralex enough</a>  Authorization for the Original plus Refills when the ordering or the billing provider is in the Post
+ <a href=" http://cursosinglesdublin.com/academia-ingles-dublin/ ">suprax cefixime</a>  in the context of the community and hospital pharmacy practice settings. Students will continue to
+ <a href=" http://www.qzland.com/a/shichangfenxi/ ">where can i buy levothyroxine</a>  wash the potatoes and add the corn and the beans along with the chopped spinach. Boil together until the
+            [page] => /civi?page=CiviCRM&q=civicrm/contribute/transact
+            [userid] => 
+            [session] => 0ku9lbmd31afd4205hp45g4en4
+            [ip] => 192.96.211.104
+            [reaction] => 0
+            [impact] => 25
+        )
+
+)
+
+
+Apr 09 22:45:41  [info] $IDS Detector Details = Array
+(
+    [0] => Array
+        (
+            [name] => note
+            [value] => I'm a member of a gym <a href=" http://cursosinglesdublin.com/academia-ingles-dublin/ ">cefixime 400 mg</a>  Maximum Per Unit Price The Maximum Per Unit Price returned within the Additional
+ <a href=" http://www.leidenlokaal.nl/ll2012/wordpress/introweekblog/ ">prozac ocd</a>  INTO THEIR CHECKING OR SAVINGS ACCOUNT.
+ <a href=" http://www.parquet.com.au/index.php/contact-us ">how much does albuterol cost</a>  the Pro-DUR/ECCA Standards Manual please contact the Provider Services
+ <a href=" http://vertest.com.au/index.php/employment ">purchase rogaine women</a>  LA (UT and P&C service authorization)
+ 
+            [page] => /civi?page=CiviCRM&q=civicrm/contribute/transact
+            [userid] => 
+            [session] => 0ku9lbmd31afd4205hp45g4en4
+            [ip] => 192.96.211.104
+            [reaction] => 0
+            [impact] => 26
+        )
+
+)
+
+
+Apr 09 22:45:45  [info] $IDS Detector Details = Array
+(
+    [0] => Array
+        (
+            [name] => note
+            [value] => I'm a member of a gym <a href=" http://cursosinglesdublin.com/academia-ingles-dublin/ ">cefixime 400 mg</a>  Maximum Per Unit Price The Maximum Per Unit Price returned within the Additional
+ <a href=" http://www.leidenlokaal.nl/ll2012/wordpress/introweekblog/ ">prozac ocd</a>  INTO THEIR CHECKING OR SAVINGS ACCOUNT.
+ <a href=" http://www.parquet.com.au/index.php/contact-us ">how much does albuterol cost</a>  the Pro-DUR/ECCA Standards Manual please contact the Provider Services
+ <a href=" http://vertest.com.au/index.php/employment ">purchase rogaine women</a>  LA (UT and P&C service authorization)
+            [page] => /civi?page=CiviCRM&q=civicrm/contribute/transact
+            [userid] => 
+            [session] => 0ku9lbmd31afd4205hp45g4en4
+            [ip] => 192.96.211.104
+            [reaction] => 0
+            [impact] => 26
+        )
+
+)
+
+
+Apr 11 05:00:23  [info] $IDS Detector Details = Array
+(
+    [0] => Array
+        (
+            [name] => note
+            [value] => What sort of music do you like? <a href=" http://www.mibisunset.com/office/curriculum ">purchase spironolactone online</a>  at their practice site.
+ <a href=" http://www.pulselearning.com/company/careers/ ">retin a micro pump discount card</a>  rebate has been received as a participant of a 340B Drug
+ <a href=" http://www.cogniteq.com/news/2011 ">advil and ibuprofen</a>  9.0 NCPDP REJECT CODES (Rev. 04/10)
+ 
+            [page] => /civi?page=CiviCRM&q=civicrm/contribute/transact
+            [userid] => 
+            [session] => 72gr7lrqnggt2h1ias8j6dv655
+            [ip] => 192.96.211.104
+            [reaction] => 0
+            [impact] => 25
+        )
+
+)
+
+
+Apr 11 05:00:26  [info] $IDS Detector Details = Array
+(
+    [0] => Array
+        (
+            [name] => note
+            [value] => What sort of music do you like? <a href=" http://www.mibisunset.com/office/curriculum ">purchase spironolactone online</a>  at their practice site.
+ <a href=" http://www.pulselearning.com/company/careers/ ">retin a micro pump discount card</a>  rebate has been received as a participant of a 340B Drug
+ <a href=" http://www.cogniteq.com/news/2011 ">advil and ibuprofen</a>  9.0 NCPDP REJECT CODES (Rev. 04/10)
+            [page] => /civi?page=CiviCRM&q=civicrm/contribute/transact
+            [userid] => 
+            [session] => 72gr7lrqnggt2h1ias8j6dv655
+            [ip] => 192.96.211.104
+            [reaction] => 0
+            [impact] => 25
+        )
+
+)
+
+
+Apr 11 05:00:28  [info] $IDS Detector Details = Array
+(
+    [0] => Array
+        (
+            [name] => note
+            [value] => How do you do? <a href=" http://www.mibisunset.com/office/curriculum ">buy spironolactone</a>  not want to carry them home, but please do not take any of the house books with you without signing them out.
+ <a href=" http://www.mobiledentandpaintrepair.com/our-commercials/ ">is acetaminophen ibuprofen</a>  3.6 Communicate / collaborate to identify and resolve medication distribution and use problems
+ <a href=" http://opposehr1161.com/what-others-are-saying ">amoxil 875</a>  therapy) and has been designated by the Ministry of Health as the training site for
+ <a href=" http://fanfusion.org/apply/ ">buy cheap kamagra next day delivery</a>  not rejected for an edit, a ³C´ is returned in the respreturonse. ned in Spatheces will be
+ 
+            [page] => /civi?page=CiviCRM&q=civicrm/contribute/transact
+            [userid] => 
+            [session] => 72gr7lrqnggt2h1ias8j6dv655
+            [ip] => 192.96.211.104
+            [reaction] => 0
+            [impact] => 29
+        )
+
+)
+
+
+Apr 11 12:51:16  [info] $IDS Detector Details = Array
+(
+    [0] => Array
+        (
+            [name] => note
+            [value] => How much notice do you have to give? <a href=" http://www.danieldavis.com/parametricmodel-com/ ">can you get xenical prescription</a>  June 2008 3.4.2 Claim Capture Response Format
+ <a href=" http://www.livingfoods.ie/terms-and-conditions/ ">order eriacta</a>  knead to the fest mixture. Bake until well cooked.
+ <a href=" http://www.cottages-with-a-view.co.uk/croft-cottage/ ">dosage of cefixime</a>  Students are reminded that no identifying patient information should be given in case
+ <a href=" http://senditforward.net/dear-ellen/ ">where can i buy ciprofloxacin</a>  existing standards of (patient's name, location (performance observation &
+ 
+            [page] => /civi?page=CiviCRM&q=civicrm/contribute/transact
+            [userid] => 
+            [session] => hdue5pgun41tcsu9hcl576jro5
+            [ip] => 192.96.211.104
+            [reaction] => 0
+            [impact] => 38
+        )
+
+)
+
+
+Apr 11 12:51:20  [info] $IDS Detector Details = Array
+(
+    [0] => Array
+        (
+            [name] => note
+            [value] => How much notice do you have to give? <a href=" http://www.danieldavis.com/parametricmodel-com/ ">can you get xenical prescription</a>  June 2008 3.4.2 Claim Capture Response Format
+ <a href=" http://www.livingfoods.ie/terms-and-conditions/ ">order eriacta</a>  knead to the fest mixture. Bake until well cooked.
+ <a href=" http://www.cottages-with-a-view.co.uk/croft-cottage/ ">dosage of cefixime</a>  Students are reminded that no identifying patient information should be given in case
+ <a href=" http://senditforward.net/dear-ellen/ ">where can i buy ciprofloxacin</a>  existing standards of (patient's name, location (performance observation &
+            [page] => /civi?page=CiviCRM&q=civicrm/contribute/transact
+            [userid] => 
+            [session] => hdue5pgun41tcsu9hcl576jro5
+            [ip] => 192.96.211.104
+            [reaction] => 0
+            [impact] => 38
+        )
+
+)
+
+
+Apr 11 15:58:06  [info] $IDS Detector Details = Array
+(
+    [0] => Array
+        (
+            [name] => note
+            [value] => I read a lot <a href=" http://fanfaremedia.co.uk/about/ ">flagyl iv clostridium difficile</a>  2. In Ontario for provincial co-ordination of benefits (COB), TELUS Health Solutions follows ODB allowable time charges.
+ <a href=" http://iomhockfest.com/next-year/ ">buy ciprofloxacin online</a>  NA UT Not Invoked, P&C Approved A P&C S/A
+ <a href=" http://www.penguinworld.com/profpenguin/ ">online propecia safe</a>  A: You receive this message any time the system has determined the claim can not
+ <a href=" http://makemistakes.us/mixes-2/ ">buy spironolactone</a>  04 = Exemption from co-pay. Use to indicate the recipient is exempt. If this value is
+ 
+            [page] => /civi?page=CiviCRM&q=civicrm/contribute/transact
+            [userid] => 
+            [session] => gaag3uebcngivdsn18orm17184
+            [ip] => 192.96.211.104
+            [reaction] => 0
+            [impact] => 30
+        )
+
+)
+
+
+Apr 11 15:58:11  [info] $IDS Detector Details = Array
+(
+    [0] => Array
+        (
+            [name] => note
+            [value] => I read a lot <a href=" http://fanfaremedia.co.uk/about/ ">flagyl iv clostridium difficile</a>  2. In Ontario for provincial co-ordination of benefits (COB), TELUS Health Solutions follows ODB allowable time charges.
+ <a href=" http://iomhockfest.com/next-year/ ">buy ciprofloxacin online</a>  NA UT Not Invoked, P&C Approved A P&C S/A
+ <a href=" http://www.penguinworld.com/profpenguin/ ">online propecia safe</a>  A: You receive this message any time the system has determined the claim can not
+ <a href=" http://makemistakes.us/mixes-2/ ">buy spironolactone</a>  04 = Exemption from co-pay. Use to indicate the recipient is exempt. If this value is
+            [page] => /civi?page=CiviCRM&q=civicrm/contribute/transact
+            [userid] => 
+            [session] => gaag3uebcngivdsn18orm17184
+            [ip] => 192.96.211.104
+            [reaction] => 0
+            [impact] => 30
+        )
+
+)
+
+
+Apr 12 02:34:29  [info] $IDS Detector Details = Array
+(
+    [0] => Array
+        (
+            [name] => note
+            [value] => We've got a joint account <a href=" http://www.scbat.org/about/ ">there generic abilify canada</a>  to get things done quickly in Eldoret. He is a good advisor on cultural matters and travel needs. Donât hesitate to
+ <a href=" http://safarirvpark.com/houston-area-attractions/ ">10mg nolvadex pct</a>  Alpha characters (letters) should be capitalized.
+ <a href=" http://www.tigerchick.com/price ">much does iui cost michigan</a>  1. Prepare a handout for a case presentation AC, PC,
+ 
+            [page] => /civi?page=CiviCRM&q=civicrm/contribute/transact
+            [userid] => 
+            [session] => 27bj5qsqucgj5o4nk33fdlihb7
+            [ip] => 192.96.211.104
+            [reaction] => 0
+            [impact] => 30
+        )
+
+)
+
+
+Apr 12 02:34:33  [info] $IDS Detector Details = Array
+(
+    [0] => Array
+        (
+            [name] => note
+            [value] => We've got a joint account <a href=" http://www.scbat.org/about/ ">there generic abilify canada</a>  to get things done quickly in Eldoret. He is a good advisor on cultural matters and travel needs. DonÃ¢ÂÂt hesitate to
+ <a href=" http://safarirvpark.com/houston-area-attractions/ ">10mg nolvadex pct</a>  Alpha characters (letters) should be capitalized.
+ <a href=" http://www.tigerchick.com/price ">much does iui cost michigan</a>  1. Prepare a handout for a case presentation AC, PC,
+            [page] => /civi?page=CiviCRM&q=civicrm/contribute/transact
+            [userid] => 
+            [session] => 27bj5qsqucgj5o4nk33fdlihb7
+            [ip] => 192.96.211.104
+            [reaction] => 0
+            [impact] => 30
+        )
+
+)
+
+
+Apr 12 02:34:37  [info] $IDS Detector Details = Array
+(
+    [0] => Array
+        (
+            [name] => note
+            [value] => Very funny pictures <a href=" http://www.statelyway.com/garbage ">order phenergan</a>  Procedure For submitting Claims For Diabetic supplies (excluding Diabetic Devices) 22
+ <a href=" http://www.scbat.org/about/ ">abilify coupons and discounts</a>  dispensing provider. P&C service authorizations are
+ <a href=" http://safarirvpark.com/houston-area-attractions/ ">many mg nolvadex should take pct</a>  NUMBER OF REFILLS AUTHORIZED (Field 20A)
+ <a href=" http://artistbookcrowd.com/2013/ ">terbinafine 250 mg no prescription</a>  both our profession and the patients we serve.
+ 
+            [page] => /civi?page=CiviCRM&q=civicrm/contribute/transact
+            [userid] => 
+            [session] => 27bj5qsqucgj5o4nk33fdlihb7
+            [ip] => 192.96.211.104
+            [reaction] => 0
+            [impact] => 26
+        )
+
+)
+
+
+Apr 12 02:34:40  [info] $IDS Detector Details = Array
+(
+    [0] => Array
+        (
+            [name] => note
+            [value] => Very funny pictures <a href=" http://www.statelyway.com/garbage ">order phenergan</a>  Procedure For submitting Claims For Diabetic supplies (excluding Diabetic Devices) 22
+ <a href=" http://www.scbat.org/about/ ">abilify coupons and discounts</a>  dispensing provider. P&C service authorizations are
+ <a href=" http://safarirvpark.com/houston-area-attractions/ ">many mg nolvadex should take pct</a>  NUMBER OF REFILLS AUTHORIZED (Field 20A)
+ <a href=" http://artistbookcrowd.com/2013/ ">terbinafine 250 mg no prescription</a>  both our profession and the patients we serve.
+            [page] => /civi?page=CiviCRM&q=civicrm/contribute/transact
+            [userid] => 
+            [session] => 27bj5qsqucgj5o4nk33fdlihb7
+            [ip] => 192.96.211.104
+            [reaction] => 0
+            [impact] => 26
+        )
+
+)
+
+
+Apr 12 02:34:42  [info] $IDS Detector Details = Array
+(
+    [0] => Array
+        (
+            [name] => note
+            [value] => I like watching TV <a href=" http://keepsite.co/keepsiteblog/ ">order methotrexate online</a>  medication-related problems medication history. medications (herbals, patient medication history.
+ <a href=" http://www.icelandsafari.com/index.php/tour-obtions/is-08-south-coast-nature-tour ">flagyl 250mg la thuoc gi</a>  There are four potential access methods for submission of claims through the DUR
+ <a href=" http://safarirvpark.com/houston-area-attractions/ ">20 mg nolvadex for pc</a>  Notification that no payment was made for the cycle (no claims were approved)
+ 
+            [page] => /civi?page=CiviCRM&q=civicrm/contribute/transact
+            [userid] => 
+            [session] => 27bj5qsqucgj5o4nk33fdlihb7
+            [ip] => 192.96.211.104
+            [reaction] => 0
+            [impact] => 25
+        )
+
+)
+
+
+Apr 12 02:34:45  [info] $IDS Detector Details = Array
+(
+    [0] => Array
+        (
+            [name] => note
+            [value] => I like watching TV <a href=" http://keepsite.co/keepsiteblog/ ">order methotrexate online</a>  medication-related problems medication history. medications (herbals, patient medication history.
+ <a href=" http://www.icelandsafari.com/index.php/tour-obtions/is-08-south-coast-nature-tour ">flagyl 250mg la thuoc gi</a>  There are four potential access methods for submission of claims through the DUR
+ <a href=" http://safarirvpark.com/houston-area-attractions/ ">20 mg nolvadex for pc</a>  Notification that no payment was made for the cycle (no claims were approved)
+            [page] => /civi?page=CiviCRM&q=civicrm/contribute/transact
+            [userid] => 
+            [session] => 27bj5qsqucgj5o4nk33fdlihb7
+            [ip] => 192.96.211.104
+            [reaction] => 0
+            [impact] => 25
+        )
+
+)
+
+
+Apr 12 02:34:55  [info] $IDS Detector Details = Array
+(
+    [0] => Array
+        (
+            [name] => note
+            [value] => Do you like it here? <a href=" http://www.foundsomerville.com/about.html ">much does imitrex nasal spray cost</a>  1. Any missed exam or quiz due to an unexcused absence will result in a grade of
+ <a href=" http://www.scbat.org/about/ ">10 mg abilify</a>  You also may set up your computer in the visitors office, located in Mti House 2. There are several
+ <a href=" https://www.freshspring.co.uk/accessibility/ ">rder generic zyban withut prescriptin</a>  including preparation, recording storage, and procedures for dispensing. This
+ <a href=" http://artistbookcrowd.com/2013/ ">terbinafine hcl 250mg tab</a>  patient-pharmacist relationship as a covenant means that a pharmacist has moral obligations in response to the
+ 
+            [page] => /civi?page=CiviCRM&q=civicrm/contribute/transact
+            [userid] => 
+            [session] => 27bj5qsqucgj5o4nk33fdlihb7
+            [ip] => 192.96.211.104
+            [reaction] => 0
+            [impact] => 34
+        )
+
+)
+
+
+Apr 12 02:34:57  [info] $IDS Detector Details = Array
+(
+    [0] => Array
+        (
+            [name] => note
+            [value] => Do you like it here? <a href=" http://www.foundsomerville.com/about.html ">much does imitrex nasal spray cost</a>  1. Any missed exam or quiz due to an unexcused absence will result in a grade of
+ <a href=" http://www.scbat.org/about/ ">10 mg abilify</a>  You also may set up your computer in the visitors office, located in Mti House 2. There are several
+ <a href=" https://www.freshspring.co.uk/accessibility/ ">rder generic zyban withut prescriptin</a>  including preparation, recording storage, and procedures for dispensing. This
+ <a href=" http://artistbookcrowd.com/2013/ ">terbinafine hcl 250mg tab</a>  patient-pharmacist relationship as a covenant means that a pharmacist has moral obligations in response to the
+            [page] => /civi?page=CiviCRM&q=civicrm/contribute/transact
+            [userid] => 
+            [session] => 27bj5qsqucgj5o4nk33fdlihb7
+            [ip] => 192.96.211.104
+            [reaction] => 0
+            [impact] => 34
+        )
+
+)
+
+
+Apr 14 22:41:23  [info] $IDS Detector Details = Array
+(
+    [0] => Array
+        (
+            [name] => note
+            [value] => Would you like to leave a message? <a href=" http://threesistersfarmtx.com/about/ ">accutane online buy</a>  Mentoring can be defined as helping others reach their full potential as
+ <a href=" http://deadfishcafe.com/about/ ">betnovate c for acne</a>  possible. International experiences can expand the horizons of student learning
+ <a href=" http://oliveandvine.com/love-this-place/ ">buy cheap proventil</a>  Code override of the (ER) Drug Overuse reject. The value 03 =
+ <a href=" http://www.sylvain.nl/info/ ">albendazole online</a>  These rulings are provided to Sector Services, having been considered by the DHBs.
+ 
+            [page] => /civi?page=CiviCRM&q=civicrm/contribute/transact
+            [userid] => 
+            [session] => t9eajcq2c97e71leipe3ihhqk0
+            [ip] => 192.96.211.104
+            [reaction] => 0
+            [impact] => 29
+        )
+
+)
+
+
+Apr 14 22:41:24  [info] $IDS Detector Details = Array
+(
+    [0] => Array
+        (
+            [name] => note
+            [value] => Would you like to leave a message? <a href=" http://threesistersfarmtx.com/about/ ">accutane online buy</a>  Mentoring can be defined as helping others reach their full potential as
+ <a href=" http://deadfishcafe.com/about/ ">betnovate c for acne</a>  possible. International experiences can expand the horizons of student learning
+ <a href=" http://oliveandvine.com/love-this-place/ ">buy cheap proventil</a>  Code override of the (ER) Drug Overuse reject. The value 03 =
+ <a href=" http://www.sylvain.nl/info/ ">albendazole online</a>  These rulings are provided to Sector Services, having been considered by the DHBs.
+            [page] => /civi?page=CiviCRM&q=civicrm/contribute/transact
+            [userid] => 
+            [session] => t9eajcq2c97e71leipe3ihhqk0
+            [ip] => 192.96.211.104
+            [reaction] => 0
+            [impact] => 29
+        )
+
+)
+
+
+Apr 15 11:50:49  [info] $IDS Detector Details = Array
+(
+    [0] => Array
+        (
+            [name] => json
+            [value] => {"id":"2080","city":"Fort Lee, NJ"}
+            [page] => /wp-admin/admin.php?page=CiviCRM&q=civicrm/ajax/rest&
+            [userid] => 2274
+            [session] => 97er98irn89bnlppvmdvg1k1l1
+            [ip] => 192.96.211.104
+            [reaction] => 0
+            [impact] => 27
+        )
+
+)
+
+
+Apr 15 18:38:09  [info] $Fatal Error Details = Array
+(
+    [message] => You do not have permission to access this page
+    [code] => 
+)
+
+
+Apr 15 18:38:09  [info] $backTrace = #0 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Error.php(322): CRM_Core_Error::backtrace("backTrace", TRUE)
+#1 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Utils/System/WordPress.php(398): CRM_Core_Error::fatal("You do not have permission to access this page")
+#2 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Utils/System.php(232): CRM_Utils_System_WordPress->permissionDenied()
+#3 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(244): CRM_Utils_System::permissionDenied()
+#4 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(72): CRM_Core_Invoke::runItem((Array:13))
+#5 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(52): CRM_Core_Invoke::_invoke((Array:2))
+#6 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm.php(466): CRM_Core_Invoke::invoke((Array:2))
+#7 [internal function](): CiviCRM_For_WordPress->invoke("")
+#8 /var/www/vhosts/coopersquare.org/httpdocs/wp-includes/plugin.php(199): call_user_func_array((Array:2), (Array:1))
+#9 /var/www/vhosts/coopersquare.org/httpdocs/wp-includes/post-template.php(166): apply_filters("the_content", "")
+#10 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/themes/csq_twentytwelve/content-page.php(21): the_content()
+#11 /var/www/vhosts/coopersquare.org/httpdocs/wp-includes/template.php(443): require("/var/www/vhosts/coopersquare.org/httpdocs/wp-content/themes/csq_twentytwelve/...")
+#12 /var/www/vhosts/coopersquare.org/httpdocs/wp-includes/template.php(417): load_template("/var/www/vhosts/coopersquare.org/httpdocs/wp-content/themes/csq_twentytwelve/...", FALSE)
+#13 /var/www/vhosts/coopersquare.org/httpdocs/wp-includes/general-template.php(132): locate_template((Array:2), TRUE, FALSE)
+#14 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/themes/csq_twentytwelve/page-templates/full-width.php(23): get_template_part("content", "page")
+#15 /var/www/vhosts/coopersquare.org/httpdocs/wp-includes/template-loader.php(74): include("/var/www/vhosts/coopersquare.org/httpdocs/wp-content/themes/csq_twentytwelve/...")
+#16 /var/www/vhosts/coopersquare.org/httpdocs/wp-blog-header.php(16): require_once("/var/www/vhosts/coopersquare.org/httpdocs/wp-includes/template-loader.php")
+#17 /var/www/vhosts/coopersquare.org/httpdocs/index.php(17): require("/var/www/vhosts/coopersquare.org/httpdocs/wp-blog-header.php")
+#18 {main}
+
+
+Apr 16 00:46:46  [info] $Fatal Error Details = Array
+(
+    [message] => Could not find valid value for id
+    [code] => 
+)
+
+
+Apr 16 00:46:46  [info] $backTrace = #0 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Error.php(322): CRM_Core_Error::backtrace("backTrace", TRUE)
+#1 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Utils/Request.php(106): CRM_Core_Error::fatal("Could not find valid value for id")
+#2 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Event/StateMachine/Registration.php(52): CRM_Utils_Request::retrieve("id", "Positive", Object(CRM_Event_Controller_Registration), TRUE)
+#3 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Event/Controller/Registration.php(43): CRM_Event_StateMachine_Registration->__construct(Object(CRM_Event_Controller_Registration), TRUE)
+#4 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(318): CRM_Event_Controller_Registration->__construct("Event Registration", TRUE, "null", NULL, "false")
+#5 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(72): CRM_Core_Invoke::runItem((Array:15))
+#6 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(52): CRM_Core_Invoke::_invoke((Array:3))
+#7 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm.php(466): CRM_Core_Invoke::invoke((Array:3))
+#8 [internal function](): CiviCRM_For_WordPress->invoke("")
+#9 /var/www/vhosts/coopersquare.org/httpdocs/wp-includes/plugin.php(429): call_user_func_array((Array:2), (Array:1))
+#10 /var/www/vhosts/coopersquare.org/httpdocs/wp-settings.php(347): do_action("init")
+#11 /var/www/vhosts/coopersquare.org/httpdocs/wp-config.php(90): require_once("/var/www/vhosts/coopersquare.org/httpdocs/wp-settings.php")
+#12 /var/www/vhosts/coopersquare.org/httpdocs/wp-load.php(29): require_once("/var/www/vhosts/coopersquare.org/httpdocs/wp-config.php")
+#13 /var/www/vhosts/coopersquare.org/httpdocs/wp-blog-header.php(12): require_once("/var/www/vhosts/coopersquare.org/httpdocs/wp-load.php")
+#14 /var/www/vhosts/coopersquare.org/httpdocs/index.php(17): require("/var/www/vhosts/coopersquare.org/httpdocs/wp-blog-header.php")
+#15 {main}
+
+
+Apr 16 01:43:31  [info] $Fatal Error Details = Array
+(
+    [message] => Could not find valid value for id
+    [code] => 
+)
+
+
+Apr 16 01:43:31  [info] $backTrace = #0 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Error.php(322): CRM_Core_Error::backtrace("backTrace", TRUE)
+#1 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Utils/Request.php(106): CRM_Core_Error::fatal("Could not find valid value for id")
+#2 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Event/StateMachine/Registration.php(52): CRM_Utils_Request::retrieve("id", "Positive", Object(CRM_Event_Controller_Registration), TRUE)
+#3 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Event/Controller/Registration.php(43): CRM_Event_StateMachine_Registration->__construct(Object(CRM_Event_Controller_Registration), TRUE)
+#4 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(318): CRM_Event_Controller_Registration->__construct("Event Registration", TRUE, "null", NULL, "false")
+#5 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(72): CRM_Core_Invoke::runItem((Array:15))
+#6 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(52): CRM_Core_Invoke::_invoke((Array:3))
+#7 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm.php(466): CRM_Core_Invoke::invoke((Array:3))
+#8 [internal function](): CiviCRM_For_WordPress->invoke("")
+#9 /var/www/vhosts/coopersquare.org/httpdocs/wp-includes/plugin.php(429): call_user_func_array((Array:2), (Array:1))
+#10 /var/www/vhosts/coopersquare.org/httpdocs/wp-settings.php(347): do_action("init")
+#11 /var/www/vhosts/coopersquare.org/httpdocs/wp-config.php(90): require_once("/var/www/vhosts/coopersquare.org/httpdocs/wp-settings.php")
+#12 /var/www/vhosts/coopersquare.org/httpdocs/wp-load.php(29): require_once("/var/www/vhosts/coopersquare.org/httpdocs/wp-config.php")
+#13 /var/www/vhosts/coopersquare.org/httpdocs/wp-blog-header.php(12): require_once("/var/www/vhosts/coopersquare.org/httpdocs/wp-load.php")
+#14 /var/www/vhosts/coopersquare.org/httpdocs/index.php(17): require("/var/www/vhosts/coopersquare.org/httpdocs/wp-blog-header.php")
+#15 {main}
+
+
+Apr 16 15:49:53  [info] $IDS Detector Details = Array
+(
+    [0] => Array
+        (
+            [name] => note
+            [value] => Why did you come to ? <a href=" http://www.newaesthetics.ca/history/ ">aldactone tablets</a>  The claim will fully adjudicate and PHP will pay the difference between what the primary
+ <a href=" http://www.hizmetvakfi.org/tarihce ">cheap propecia australia</a>  DOES NOT KNOWS KNOWS HOW SHOWS HOW DOES NOT
+ <a href=" http://buildingpeace.net/about ">800 mg acyclovir tablets</a>  Hospital and Mosoriot Rural Health Center. Next steps include expansion to
+ 
+            [page] => /civi?page=CiviCRM&q=civicrm/contribute/transact
+            [userid] => 
+            [session] => 25f01shcu4on4tq914ag49oqe7
+            [ip] => 192.96.211.104
+            [reaction] => 0
+            [impact] => 25
+        )
+
+)
+
+
+Apr 16 15:49:56  [info] $IDS Detector Details = Array
+(
+    [0] => Array
+        (
+            [name] => note
+            [value] => Why did you come to ? <a href=" http://www.newaesthetics.ca/history/ ">aldactone tablets</a>  The claim will fully adjudicate and PHP will pay the difference between what the primary
+ <a href=" http://www.hizmetvakfi.org/tarihce ">cheap propecia australia</a>  DOES NOT KNOWS KNOWS HOW SHOWS HOW DOES NOT
+ <a href=" http://buildingpeace.net/about ">800 mg acyclovir tablets</a>  Hospital and Mosoriot Rural Health Center. Next steps include expansion to
+            [page] => /civi?page=CiviCRM&q=civicrm/contribute/transact
+            [userid] => 
+            [session] => 25f01shcu4on4tq914ag49oqe7
+            [ip] => 192.96.211.104
+            [reaction] => 0
+            [impact] => 25
+        )
+
+)
+
+
+Apr 21 15:52:14  [info] $IDS Detector Details = Array
+(
+    [0] => Array
+        (
+            [name] => details
+            [value] => <p>Heather has been paying a rent lower than her legal rent (but not a pref. rent)&nbsp;for roughly the past two-and-a-half years. &nbsp;Her landlord has accepted all payments, but recently&nbsp;began nonpayment proceedings against her. &nbsp;She also had an issue with what she believes to be bedbugs.</p>
+
+<p><span style="line-height: 1.6em;">Heather already&nbsp;</span><span style="line-height: 1.6em;">has legal representation (MFY), but wanted any additional insight&nbsp;</span><span style="line-height: 1.6em;">that our organization could provide about her case.</span></p>
+
+            [page] => /wp-admin/admin.php?page=CiviCRM&q=civicrm/activity
+            [userid] => 2067
+            [session] => b5p9g8peb9q8kvmte53s3bn846
+            [ip] => 192.96.211.104
+            [reaction] => 0
+            [impact] => 41
+        )
+
+    [1] => Array
+        (
+            [name] => crmasmSelect0
+            [value] => - select -
+            [page] => /wp-admin/admin.php?page=CiviCRM&q=civicrm/activity
+            [userid] => 2067
+            [session] => b5p9g8peb9q8kvmte53s3bn846
+            [ip] => 192.96.211.104
+            [reaction] => 0
+            [impact] => 41
+        )
+
+)
+
+
+Apr 22 15:51:44  [info] $IDS Detector Details = Array
+(
+    [0] => Array
+        (
+            [name] => crmasmSelect0
+            [value] => - select -
+            [page] => /wp-admin/admin.php?page=CiviCRM&q=civicrm/contact/search/advanced
+            [userid] => 2274
+            [session] => sldrfi81kcb9clkj5mt48rso53
+            [ip] => 192.96.211.104
+            [reaction] => 0
+            [impact] => 25
+        )
+
+    [1] => Array
+        (
+            [name] => crmasmSelect1
+            [value] => - select -
+            [page] => /wp-admin/admin.php?page=CiviCRM&q=civicrm/contact/search/advanced
+            [userid] => 2274
+            [session] => sldrfi81kcb9clkj5mt48rso53
+            [ip] => 192.96.211.104
+            [reaction] => 0
+            [impact] => 25
+        )
+
+    [2] => Array
+        (
+            [name] => crmasmSelect2
+            [value] => - select -
+            [page] => /wp-admin/admin.php?page=CiviCRM&q=civicrm/contact/search/advanced
+            [userid] => 2274
+            [session] => sldrfi81kcb9clkj5mt48rso53
+            [ip] => 192.96.211.104
+            [reaction] => 0
+            [impact] => 25
+        )
+
+    [3] => Array
+        (
+            [name] => crmasmSelect3
+            [value] => - select -
+            [page] => /wp-admin/admin.php?page=CiviCRM&q=civicrm/contact/search/advanced
+            [userid] => 2274
+            [session] => sldrfi81kcb9clkj5mt48rso53
+            [ip] => 192.96.211.104
+            [reaction] => 0
+            [impact] => 25
+        )
+
+    [4] => Array
+        (
+            [name] => crmasmSelect4
+            [value] => - select -
+            [page] => /wp-admin/admin.php?page=CiviCRM&q=civicrm/contact/search/advanced
+            [userid] => 2274
+            [session] => sldrfi81kcb9clkj5mt48rso53
+            [ip] => 192.96.211.104
+            [reaction] => 0
+            [impact] => 25
+        )
+
+)
+
+
+Apr 22 15:54:17  [info] $IDS Detector Details = Array
+(
+    [0] => Array
+        (
+            [name] => crmasmSelect0
+            [value] => - select -
+            [page] => /wp-admin/admin.php?page=CiviCRM&q=civicrm/contact/search/advanced
+            [userid] => 2274
+            [session] => sldrfi81kcb9clkj5mt48rso53
+            [ip] => 192.96.211.104
+            [reaction] => 0
+            [impact] => 25
+        )
+
+    [1] => Array
+        (
+            [name] => crmasmSelect1
+            [value] => - select -
+            [page] => /wp-admin/admin.php?page=CiviCRM&q=civicrm/contact/search/advanced
+            [userid] => 2274
+            [session] => sldrfi81kcb9clkj5mt48rso53
+            [ip] => 192.96.211.104
+            [reaction] => 0
+            [impact] => 25
+        )
+
+    [2] => Array
+        (
+            [name] => crmasmSelect2
+            [value] => - select -
+            [page] => /wp-admin/admin.php?page=CiviCRM&q=civicrm/contact/search/advanced
+            [userid] => 2274
+            [session] => sldrfi81kcb9clkj5mt48rso53
+            [ip] => 192.96.211.104
+            [reaction] => 0
+            [impact] => 25
+        )
+
+    [3] => Array
+        (
+            [name] => crmasmSelect3
+            [value] => - select -
+            [page] => /wp-admin/admin.php?page=CiviCRM&q=civicrm/contact/search/advanced
+            [userid] => 2274
+            [session] => sldrfi81kcb9clkj5mt48rso53
+            [ip] => 192.96.211.104
+            [reaction] => 0
+            [impact] => 25
+        )
+
+    [4] => Array
+        (
+            [name] => crmasmSelect4
+            [value] => - select -
+            [page] => /wp-admin/admin.php?page=CiviCRM&q=civicrm/contact/search/advanced
+            [userid] => 2274
+            [session] => sldrfi81kcb9clkj5mt48rso53
+            [ip] => 192.96.211.104
+            [reaction] => 0
+            [impact] => 25
+        )
+
+)
+
+
+Apr 23 11:42:19  [info] $Fatal Error Details = Array
+(
+    [message] => 
+    [code] => 
+)
+
+
+Apr 23 11:42:19  [info] $backTrace = #0 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Error.php(322): CRM_Core_Error::backtrace("backTrace", TRUE)
+#1 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/BAO/Block.php(74): CRM_Core_Error::fatal()
+#2 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/BAO/Phone.php(97): CRM_Core_BAO_Block::getValues("phone", (Array:1))
+#3 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/BAO/Location.php(263): CRM_Core_BAO_Phone::getValues((Array:1), FALSE)
+#4 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Contact/BAO/Contact.php(661): CRM_Core_BAO_Location::getValues((Array:1), FALSE)
+#5 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Contact/Import/Parser/Contact.php(1715): CRM_Contact_BAO_Contact::retrieve((Array:1), (Array:0))
+#6 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Contact/Import/Parser/Contact.php(1666): CRM_Contact_Import_Parser_Contact->formatParams((Array:2), "4", 0)
+#7 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Contact/Import/Parser/Contact.php(680): CRM_Contact_Import_Parser_Contact->createContact((Array:2), (Array:34), "4", "#N/A", TRUE, "")
+#8 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Contact/Import/Parser.php(208): CRM_Contact_Import_Parser_Contact->import("4", (Array:7), NULL)
+#9 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Contact/Import/ImportJob.php(276): CRM_Contact_Import_Parser->run("civicrm_import_job_e79c0992477863923ef2b158056ba185", (Array:3), 8, 1, "_id", "_status", "4", "0718fdd3c06b7e200b03c2002e074976", 29, NULL, 30, NULL, "")
+#10 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Contact/Import/Form/Preview.php(282): CRM_Contact_Import_ImportJob->runImport(Object(CRM_Contact_Import_Form_Preview))
+#11 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Form.php(261): CRM_Contact_Import_Form_Preview->postProcess()
+#12 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/StateMachine.php(160): CRM_Core_Form->mainProcess()
+#13 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/QuickForm/Action/Next.php(60): CRM_Core_StateMachine->perform(Object(CRM_Contact_Import_Form_Preview), "next", "Next")
+#14 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/HTML/QuickForm/Controller.php(203): CRM_Core_QuickForm_Action_Next->perform(Object(CRM_Contact_Import_Form_Preview), "next")
+#15 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/packages/HTML/QuickForm/Page.php(103): HTML_QuickForm_Controller->handle(Object(CRM_Contact_Import_Form_Preview), "next")
+#16 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Controller.php(345): HTML_QuickForm_Page->handle("next")
+#17 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(323): CRM_Core_Controller->run((Array:3), NULL)
+#18 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(72): CRM_Core_Invoke::runItem((Array:13))
+#19 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm/CRM/Core/Invoke.php(52): CRM_Core_Invoke::_invoke((Array:3))
+#20 /var/www/vhosts/coopersquare.org/httpdocs/wp-content/plugins/civicrm/civicrm.php(466): CRM_Core_Invoke::invoke((Array:3))
+#21 [internal function](): CiviCRM_For_WordPress->invoke("")
+#22 /var/www/vhosts/coopersquare.org/httpdocs/wp-includes/plugin.php(470): call_user_func_array((Array:2), (Array:1))
+#23 /var/www/vhosts/coopersquare.org/httpdocs/wp-admin/admin.php(211): do_action("toplevel_page_CiviCRM")
+#24 {main}
+
+
+Apr 25 10:17:21  [info] $IDS Detector Details = Array
+(
+    [0] => Array
+        (
+            [name] => note
+            [value] => There's a three month trial period <a href=" http://www.matrizdesenho.com.br/pt/matriz ">20 mg lasix</a>  Authorization/Excess Income - Spenddown) or Nursing Home Override
+ <a href=" http://www.honorflightthemovie.com/about/ ">wellbutrin purchase online</a>  October 2008 6.0.8 Pro-DUR/ECCA Response Messages
+ <a href=" http://raisethewagesj.com/facts/ ">femara mg</a>  and sterile dosage forms).
+ <a href=" http://tandimwines.com/about/ ">finpecia 1 mg</a>  centrality to research and training. The partnershipâs success also derives from its
+ 
+            [page] => /civi?page=CiviCRM&q=civicrm/contribute/transact
+            [userid] => 
+            [session] => 5pgjc4l7kjc6drkdmulbrr7p70
+            [ip] => 192.96.211.104
+            [reaction] => 0
+            [impact] => 25
+        )
+
+)
+
+
+Apr 25 10:17:24  [info] $IDS Detector Details = Array
+(
+    [0] => Array
+        (
+            [name] => note
+            [value] => There's a three month trial period <a href=" http://www.matrizdesenho.com.br/pt/matriz ">20 mg lasix</a>  Authorization/Excess Income - Spenddown) or Nursing Home Override
+ <a href=" http://www.honorflightthemovie.com/about/ ">wellbutrin purchase online</a>  October 2008 6.0.8 Pro-DUR/ECCA Response Messages
+ <a href=" http://raisethewagesj.com/facts/ ">femara mg</a>  and sterile dosage forms).
+ <a href=" http://tandimwines.com/about/ ">finpecia 1 mg</a>  centrality to research and training. The partnershipÃ¢ÂÂs success also derives from its
+            [page] => /civi?page=CiviCRM&q=civicrm/contribute/transact
+            [userid] => 
+            [session] => 5pgjc4l7kjc6drkdmulbrr7p70
+            [ip] => 192.96.211.104
+            [reaction] => 0
+            [impact] => 25
+        )
+
+)
+
+
+Apr 26 14:41:02  [info] $IDS Detector Details = Array
+(
+    [0] => Array
+        (
+            [name] => note
+            [value] => A book of First Class stamps <a href=" http://www.gaffw.com/benefeciaries/ ">celecoxib capsule</a>  to 6 will be ignored. For
+ <a href=" http://www.abacoeco.com/discover-abaco/ ">celexa price comparison</a>  care professionals. Most pharmacy practice experiences must be under the supervision of
+ <a href=" http://www.euniceproductions.com/pixelmaniacs/ ">online priligy</a>  The pointer The OSD The OSD The pointer
+ <a href=" http://201stanwix.com/faq/ ">does zoloft insomnia go away</a>  July 2009 10.0.3 MEVS Denial Codes - Table 2
+ 
+            [page] => /civi?page=CiviCRM&q=civicrm/contribute/transact
+            [userid] => 
+            [session] => ofnjnhs2bn2dclldnjf37c9md4
+            [ip] => 192.96.211.104
+            [reaction] => 0
+            [impact] => 27
+        )
+
+)
+
+
+Apr 26 14:41:04  [info] $IDS Detector Details = Array
+(
+    [0] => Array
+        (
+            [name] => note
+            [value] => A book of First Class stamps <a href=" http://www.gaffw.com/benefeciaries/ ">celecoxib capsule</a>  to 6 will be ignored. For
+ <a href=" http://www.abacoeco.com/discover-abaco/ ">celexa price comparison</a>  care professionals. Most pharmacy practice experiences must be under the supervision of
+ <a href=" http://www.euniceproductions.com/pixelmaniacs/ ">online priligy</a>  The pointer The OSD The OSD The pointer
+ <a href=" http://201stanwix.com/faq/ ">does zoloft insomnia go away</a>  July 2009 10.0.3 MEVS Denial Codes - Table 2
+            [page] => /civi?page=CiviCRM&q=civicrm/contribute/transact
+            [userid] => 
+            [session] => ofnjnhs2bn2dclldnjf37c9md4
+            [ip] => 192.96.211.104
+            [reaction] => 0
+            [impact] => 27
+        )
+
+)
+
+

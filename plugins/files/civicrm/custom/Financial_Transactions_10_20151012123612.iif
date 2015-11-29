@@ -1,0 +1,986 @@
+!ACCNT	NAME	REFNUM	TIMESTAMP	ACCNTTYPE	OBAMOUNT	DESC	ACCNUM
+ACCNT	Payment Processor Account			OCASSET		Account to record payments into a payment processor merchant account	1120
+ACCNT	Direct Public Support:Fundraising:Gala:Tickets			INC			4472
+ACCNT	Deposit Bank Account			BANK		All manually recorded cash and cheques go to this account	1100
+ACCNT	Bank Fees			EXP		Payment processor fees and manually recorded banking fees	7020
+ACCNT	Direct Public Support:Fundraising:Gala:Ads			INC			4473
+ACCNT	Accounts Receivable			AR		Amounts to be received later (eg pay later event revenues)	11000
+ACCNT	Undeposited Funds			OCASSET		Funds received, but not yet deposited to a bank account	12000
+ACCNT	Direct Public Support:Fundraising:Gala:Sponsorships			INC			4475
+ACCNT	Member Dues			INC		Default account for Member Dues	4610
+ACCNT	Direct Public Support:Individual Contributions			INC		Default account for Donation	4450
+ACCNT	Direct Public Support:Fundraising:Gala:Supporters			INC			4476
+ACCNT	Direct Public Support:Fundraising:Gala:Silent Auction			INC			4474
+!CUST	NAME	REFNUM	TIMESTAMP	BADDR1	BADDR2	BADDR3	BADDR4	BADDR5	SADDR1	SADDR2	SADDR3	SADDR4	SADDR5	PHONE1	PHONE2	FAXNUM	EMAIL	NOTE	CONT1	CONT2	CTYPE	TERMS	TAXABLE	SALESTAXCODE	LIMIT	RESALENUM	REP	TAXITEM	NOTEPAD	SALUTATION	COMPANYNAME	FIRSTNAME	MIDINIT	LASTNAME	CUSTFLD1	CUSTFLD2	CUSTFLD3	CUSTFLD4	CUSTFLD5	CUSTFLD6	CUSTFLD7	CUSTFLD8	CUSTFLD9	CUSTFLD10	CUSTFLD11	CUSTFLD12	CUSTFLD13	CUSTFLD14	CUSTFLD15	JOBDESC	JOBTYPE	JOBSTATUS	JOBSTART	JOBPROJEND	JOBEND	HIDDEN	DELCOUNT	PRICELEVEL
+CUST	Cooper Square Committee																																																									
+CUST	Amy Starecheski																															Amy		Starecheski																								
+CUST	Manissa Maharawal																															Manissa		Maharawal																								
+CUST	Cynthia Cotts																															Cynthia		Cotts																								
+CUST	Rebecca Amato																															Rebecca		Amato																								
+CUST	Daniel Zajackowski																															Daniel		Zajackowski																								
+CUST	Egbert  Stolk																															Egbert 		Stolk																								
+CUST	Joshua Leon																															Joshua		Leon																								
+CUST	Sarah Aoanan																															Sarah		Aoanan																								
+CUST	Barbara  Carey																															Barbara 		Carey																								
+CUST	Nick Di iorio																															Nick		Di iorio																								
+CUST	Nandini Bagchee																															Nandini		Bagchee																								
+CUST	Mackenzie Smith																															Mackenzie		Smith																								
+CUST	Justin Carroll																															Justin		Carroll																								
+CUST	NYS Senator Brad Hoylman																																																									
+CUST	Castillo de Jagua II, El																																																									
+CUST	Sniff																																																									
+CUST	New Yorkers Foodmarket																																																									
+CUST	White Trash																																																									
+CUST	East Village Farm & Grocery																																																									
+CUST	New York City Pharmacy																																																									
+CUST	V-Nam Cafe																																																									
+CUST	Veritas Property Management LLC																																																									
+CUST	David Pultz																															David		Pultz																								
+CUST	Frances Goldin Literary Agency																																																									
+CUST	Barbara Shaum																															Barbara		Shaum																								
+CUST	Parmys Persian Fusion																																																									
+CUST	4th Street Food Co-op																																																									
+CUST	First Presbyterian Church																																																									
+CUST	Jimmys No. 43																																																									
+CUST	Bowery Hotel, LLC																																																									
+CUST	Block Drugs																																																									
+CUST	Block's Vision Care																																																									
+CUST	Apple Bank																																																									
+CUST	Frances Goldin																															Frances		Goldin																								
+CUST	Borinquen Exterminator																																																									
+CUST	James Lin																															James		Lin																								
+CUST	Edward Delgado																															Edward		Delgado																								
+CUST	10 Stanton Street Owners																																																									
+CUST	Harriet Miller																															Harriet		Miller																								
+CUST	Deborah Glick																															Deborah		Glick																								
+CUST	La MaMa, ETC.																																																									
+CUST	H. F. Hewitt Realty																																																									
+CUST	Piccola Strada																																																									
+CUST	Goldstein-Hall																																																									
+CUST	Cynthia Cotts																															Cynthia		Cotts																								
+CUST	Constancia Romilly																															Constancia		Romilly																								
+CUST	Joyce Ravitz																															Joyce		Ravitz																								
+CUST	Felicia Mednick																															Felicia		Mednick																								
+CUST	Lisa Kaplan																															Lisa		Kaplan																								
+CUST	Con Edison																																																									
+CUST	Urban Justice Center																																																									
+CUST	Ecosystems Strategies, Inc																																																									
+CUST	Gary Parker																															Gary		Parker																								
+CUST	Elizabeth Meixell																															Elizabeth		Meixell																								
+CUST	Katherine Von Hartz																															Katherine		Von Hartz																								
+CUST	Roberta Schine																															Roberta		Schine																								
+CUST	FABnyc																																																									
+CUST	Community Access																																																									
+CUST	Cube Building HDFC																																																									
+CUST	Coalition for a District Two Alternative																																																									
+CUST	Phyllis Bloom																															Phyllis		Bloom																								
+CUST	Barbara Lipski																															Barbara		Lipski																								
+CUST	Rosalyn Baxandall																															Rosalyn		Baxandall																								
+CUST	Rafay Khalid																															Rafay		Khalid																								
+CUST	Paula & Billy Caplan																															Paula & Billy		Caplan																								
+CUST	Dr. Jerrold Heller , DDS, PC																															Jerrold		Heller																								
+CUST	Ayo Harrington																															Ayo		Harrington																								
+CUST	Charles & Anne Johnson																																																									
+CUST	NYC Council Member Margaret Chin																																																									
+CUST	David McWater																															David		McWater																								
+CUST	University Settlement																																																									
+CUST	Housing Works Inc.																																																									
+CUST	Alex & Irene Gross																															Alex & Irene		Gross																								
+CUST	David Johnson																															David		Johnson																								
+CUST	Picture the Homeless																																																									
+CUST	David McReynolds																															David		McReynolds																								
+CUST	Harriet Putterman																															Harriet		Putterman																								
+CUST	Fred Seiden																															Fred		Seiden																								
+CUST	Frances Sussman																															Frances		Sussman																								
+CUST	Hugh & Nancy Thomas																																																									
+CUST	Charles Wertheimer																															Charles		Wertheimer																								
+CUST	Gloria Withim																															Gloria		Withim																								
+CUST	Mindy Gershon																															Mindy		Gershon																								
+CUST	Sue Kaplan																															Sue		Kaplan																								
+CUST	Genco Resources Development																																																									
+CUST	Ali Forney Center																																																									
+CUST	Commission for the Public Health System																																																									
+CUST	Rosie Mendez																															Rosie		Mendez																								
+CUST	Nereida Cancel																															Nereida		Cancel																								
+CUST	Rafaela (Ronnie) Billini																															Rafaela (Ronnie)		Billini																								
+CUST	10 Stanton Street Tenants Association																																																									
+CUST	Lower East Side Girls Club																																																									
+CUST	Angee Cortorreal																															Angee		Cortorreal																								
+CUST	Northern Manhattan Improvement Corporation																																																									
+CUST	Michael Zisser																															Michael		Zisser																								
+CUST	Frieda Bradlow																															Frieda		Bradlow																								
+CUST	Vinie Burrows																															Vinie		Burrows																								
+CUST	Katharine B Wolpe																															Katharine B		Wolpe																								
+CUST	Daniel Squadron																															Daniel		Squadron																								
+CUST	Anthony Feliciano																															Anthony		Feliciano																								
+CUST	David Barkin																															David		Barkin																								
+CUST	Julia Hanlon																															Julia		Hanlon																								
+CUST	Perry Winston																															Perry		Winston																								
+CUST	Maria Torres-Bird																															Maria		Torres-Bird																								
+CUST	Joanie M. Hieger-Zosike																															Joanie M.		Hieger-Zosike																								
+CUST	Chih Ping Yu																															Chih Ping		Yu																								
+CUST	Edward Osborne																															Edward		Osborne																								
+CUST	Angelito Ballo																															Angelito		Ballo																								
+CUST	Hedwig O'Hara																															Hedwig		O'Hara																								
+CUST	Works in Progress, Inc.																																																									
+CUST	Patrick Chang																															Patrick		Chang																								
+CUST	Josephine Maroonick																															Josephine		Maroonick																								
+CUST	Lucille Carrasquero																															Lucille		Carrasquero																								
+CUST	Kathy Goldman																															Kathy		Goldman																								
+CUST	Brian Sullivan																															Brian		Sullivan																								
+CUST	Shawn Dahl																															Shawn		Dahl																								
+CUST	Richard Kusack																															Richard		Kusack																								
+CUST	Steve Coe																															Steve		Coe																								
+CUST	c&k pavers gen. const. inc																																																									
+CUST	Patricia Pavez																															Patricia		Pavez																								
+CUST	Mary Nell Hawk																															Mary Nell		Hawk																								
+CUST	Rocky Chin																															Rocky		Chin																								
+CUST	Kelly Glenn																															Kelly		Glenn																								
+CUST	Thomas Kopache																															Thomas		Kopache																								
+CUST	Cal Hedigan																															Cal		Hedigan																								
+CUST	Margaret O'Sullivan																															Margaret		O'Sullivan																								
+CUST	Harvey Epstein																															Harvey		Epstein																								
+CUST	Adrian & Erica Karp																																																									
+CUST	Teresa Tam																															Teresa		Tam																								
+CUST	Maureen Friar																															Maureen		Friar																								
+CUST	Heidi Levy																															Heidi		Levy																								
+CUST	Dave Powell																															Dave		Powell																								
+CUST	Yonatan Tadele																															Yonatan		Tadele																								
+CUST	Roger DeGennaro																															Roger		DeGennaro																								
+CUST	Teriananda																															Teriananda		 																								
+CUST	Martha Araujo																															Martha		Araujo																								
+CUST	Marilyn Bennici																															Marilyn		Bennici																								
+CUST	Don Brophy																															Don		Brophy																								
+CUST	Siu Ling Chu																															Siu Ling		Chu																								
+CUST	Kathy Dremalas																															Kathy		Dremalas																								
+CUST	Elise Gardella																															Elise		Gardella																								
+CUST	Josie Hamila																															Josie		Hamila																								
+CUST	Shannon Harrington																															Shannon		Harrington																								
+CUST	Barbara Kaufman																															Barbara		Kaufman																								
+CUST	Michael Ladin																															Michael		Ladin																								
+CUST	Tom Mellers																															Tom		Mellers																								
+CUST	Carine Montbertrand																															Carine		Montbertrand																								
+CUST	Carmen Perez																															Carmen		Perez																								
+CUST	Carol Ruthberg																															Carol		Ruthberg																								
+CUST	Susana Sedgwick																															Susana		Sedgwick																								
+CUST	Judith Simonian																															Judith		Simonian																								
+CUST	Julia Spatafora																															Julia		Spatafora																								
+CUST	Ambrosia Tejada																															Ambrosia		Tejada																								
+!TRNS	TRNSID	TRNSTYPE	DATE	ACCNT	NAME	CLASS	AMOUNT	DOCNUM	MEMO	PAYMETH
+!SPL	SPLID	TRNSTYPE	DATE	ACCNT	NAME	CLASS	AMOUNT	DOCNUM	MEMO	PAYMETH
+!ENDTRNS
+TRNS	6178220295	GENERAL JOURNAL	2014/05/15	Payment Processor Account	Cooper Square Committee		10.00			Credit Card
+SPL	122	GENERAL JOURNAL	2014/05/15	Direct Public Support:Fundraising:Gala:Tickets	Amy Starecheski		-10.00		 One ticket	Credit Card
+ENDTRNS
+TRNS	6183880199	GENERAL JOURNAL	2014/05/17	Payment Processor Account	Cooper Square Committee		10.00			Credit Card
+SPL	123	GENERAL JOURNAL	2014/05/17	Direct Public Support:Fundraising:Gala:Tickets	Manissa Maharawal		-10.00		 One ticket	Credit Card
+ENDTRNS
+TRNS	6187407881	GENERAL JOURNAL	2014/05/19	Payment Processor Account	Cooper Square Committee		10.00			Credit Card
+SPL	124	GENERAL JOURNAL	2014/05/19	Direct Public Support:Fundraising:Gala:Tickets	Cynthia Cotts		-10.00		 One ticket	Credit Card
+ENDTRNS
+TRNS	6198230557	GENERAL JOURNAL	2014/05/23	Payment Processor Account	Cooper Square Committee		10.00			Credit Card
+SPL	128	GENERAL JOURNAL	2014/05/23	Direct Public Support:Fundraising:Gala:Tickets	Rebecca Amato		-10.00		 One ticket	Credit Card
+ENDTRNS
+TRNS	6198302207	GENERAL JOURNAL	2014/05/23	Payment Processor Account	Cooper Square Committee		10.00			Credit Card
+SPL	129	GENERAL JOURNAL	2014/05/23	Direct Public Support:Fundraising:Gala:Tickets	Daniel Zajackowski		-10.00		 One ticket	Credit Card
+ENDTRNS
+TRNS	6266275788	GENERAL JOURNAL	2014/06/18	Payment Processor Account	Cooper Square Committee		10.00			Credit Card
+SPL	131	GENERAL JOURNAL	2014/06/18	Direct Public Support:Fundraising:Gala:Tickets	Egbert  Stolk		-10.00		 One ticket	Credit Card
+ENDTRNS
+TRNS	6267965875	GENERAL JOURNAL	2014/06/18	Payment Processor Account	Cooper Square Committee		10.00			Credit Card
+SPL	132	GENERAL JOURNAL	2014/06/18	Direct Public Support:Fundraising:Gala:Tickets	Joshua Leon		-10.00		 One ticket	Credit Card
+ENDTRNS
+TRNS	6269932108	GENERAL JOURNAL	2014/06/19	Payment Processor Account	Cooper Square Committee		10.00			Credit Card
+SPL	135	GENERAL JOURNAL	2014/06/19	Direct Public Support:Fundraising:Gala:Tickets	Sarah Aoanan		-10.00		 One ticket	Credit Card
+ENDTRNS
+TRNS	6270142519	GENERAL JOURNAL	2014/06/19	Payment Processor Account	Cooper Square Committee		10.00			Credit Card
+SPL	136	GENERAL JOURNAL	2014/06/19	Direct Public Support:Fundraising:Gala:Tickets	Barbara  Carey		-10.00		 One ticket	Credit Card
+ENDTRNS
+TRNS	6274495046	GENERAL JOURNAL	2014/06/21	Payment Processor Account	Cooper Square Committee		10.00			Credit Card
+SPL	138	GENERAL JOURNAL	2014/06/21	Direct Public Support:Fundraising:Gala:Tickets	Nick Di iorio		-10.00		 One ticket	Credit Card
+ENDTRNS
+TRNS	6274664564	GENERAL JOURNAL	2014/06/21	Payment Processor Account	Cooper Square Committee		10.00			Credit Card
+SPL	139	GENERAL JOURNAL	2014/06/21	Direct Public Support:Fundraising:Gala:Tickets	Nandini Bagchee		-10.00		 One ticket	Credit Card
+ENDTRNS
+TRNS	6280408712	GENERAL JOURNAL	2014/06/24	Payment Processor Account	Cooper Square Committee		10.00			Credit Card
+SPL	140	GENERAL JOURNAL	2014/06/24	Direct Public Support:Fundraising:Gala:Tickets	Mackenzie Smith		-10.00		 One ticket	Credit Card
+ENDTRNS
+TRNS		GENERAL JOURNAL	2014/07/23	Deposit Bank Account	Cooper Square Committee		50.00			Credit Card
+SPL	165	GENERAL JOURNAL	2014/07/23	Direct Public Support:Fundraising:Gala:Tickets	Justin Carroll		-50.00		 Cooper Square Committee Members	Credit Card
+ENDTRNS
+TRNS	94P48028HG145314H	GENERAL JOURNAL	2014/07/23	Bank Fees	Cooper Square Committee		1.40			Credit Card
+SPL	157	GENERAL JOURNAL	2014/07/23	Deposit Bank Account	Cooper Square Committee		-1.40		Fee	Credit Card
+ENDTRNS
+TRNS		GENERAL JOURNAL	2014/07/23	Deposit Bank Account	Cooper Square Committee		200.00			Credit Card
+SPL	167	GENERAL JOURNAL	2014/07/23	Direct Public Support:Fundraising:Gala:Ads	Justin Carroll		-200.00		 Full Page - B&W	Credit Card
+ENDTRNS
+TRNS	96047896HY622573B	GENERAL JOURNAL	2014/07/23	Bank Fees	Cooper Square Committee		4.70			Credit Card
+SPL	159	GENERAL JOURNAL	2014/07/23	Deposit Bank Account	Cooper Square Committee		-4.70		Fee	Credit Card
+ENDTRNS
+TRNS		GENERAL JOURNAL	2014/07/26	Deposit Bank Account	Cooper Square Committee		160.00			Credit Card
+SPL	171	GENERAL JOURNAL	2014/07/26	Direct Public Support:Fundraising:Gala:Ads	NYS Senator Brad Hoylman		-160.00		 1/3 Page - Color	Credit Card
+ENDTRNS
+TRNS	0E050388AC4642028	GENERAL JOURNAL	2014/07/26	Bank Fees	Cooper Square Committee		3.82			Credit Card
+SPL	163	GENERAL JOURNAL	2014/07/26	Deposit Bank Account	Cooper Square Committee		-3.82		Fee	Credit Card
+ENDTRNS
+TRNS		GENERAL JOURNAL	2014/07/29	Deposit Bank Account	Cooper Square Committee		100.00			Cash
+SPL	173	GENERAL JOURNAL	2014/07/22	Direct Public Support:Fundraising:Gala:Ads	Castillo de Jagua II, El		-100.00		 Business Card - Color	Cash
+ENDTRNS
+TRNS		GENERAL JOURNAL	2014/07/29	Deposit Bank Account	Cooper Square Committee		60.00	1688		Check
+SPL	174	GENERAL JOURNAL	2014/07/25	Direct Public Support:Fundraising:Gala:Ads	Sniff		-60.00	1688	 Contribution Amount	Check
+ENDTRNS
+TRNS		GENERAL JOURNAL	2014/07/30	Accounts Receivable	Cooper Square Committee		100.00			Check
+SPL	175	GENERAL JOURNAL	-0001/11/30	Direct Public Support:Fundraising:Gala:Ads	New Yorkers Foodmarket		-100.00		 Business Card - Color	Check
+ENDTRNS
+TRNS		GENERAL JOURNAL	2014/07/30	Deposit Bank Account	Cooper Square Committee		70.00	6127		Check
+SPL	177	GENERAL JOURNAL	2014/07/17	Direct Public Support:Fundraising:Gala:Ads	White Trash		-70.00	6127	 Contribution Amount	Check
+ENDTRNS
+TRNS		GENERAL JOURNAL	2014/07/30	Accounts Receivable	Cooper Square Committee		72.00			Check
+SPL	178	GENERAL JOURNAL	2014/07/29	Direct Public Support:Fundraising:Gala:Ads	East Village Farm & Grocery		-72.00		 Business Card - B&W	Check
+ENDTRNS
+TRNS		GENERAL JOURNAL	2014/07/30	Deposit Bank Account	Cooper Square Committee		100.00	5048		Check
+SPL	179	GENERAL JOURNAL	2014/07/29	Direct Public Support:Fundraising:Gala:Ads	New York City Pharmacy		-100.00	5048	 Business Card - Color	Check
+ENDTRNS
+TRNS		GENERAL JOURNAL	2014/08/01	Undeposited Funds	Cooper Square Committee		120.00	1629		Check
+SPL	186	GENERAL JOURNAL	2014/07/09	Direct Public Support:Fundraising:Gala:Ads	V-Nam Cafe		-120.00	1629	 Contribution Amount	Check
+ENDTRNS
+TRNS		GENERAL JOURNAL	2014/08/01	Accounts Receivable	Cooper Square Committee		280.00			Check
+SPL	187	GENERAL JOURNAL	2014/07/25	Direct Public Support:Fundraising:Gala:Ads	Veritas Property Management LLC		-280.00		 1/2 Page - Color	Check
+ENDTRNS
+TRNS		GENERAL JOURNAL	2014/08/04	Accounts Receivable	Cooper Square Committee		75.00			Check
+SPL	190	GENERAL JOURNAL	2014/08/03	Direct Public Support:Fundraising:Gala:Ads	David Pultz		-75.00		 Contribution Amount	Check
+ENDTRNS
+TRNS		GENERAL JOURNAL	2014/08/04	Payment Processor Account	Cooper Square Committee		280.00			Credit Card
+SPL	191	GENERAL JOURNAL	2014/08/04	Direct Public Support:Fundraising:Gala:Ads	Frances Goldin Literary Agency		-280.00		 Full Page - B&W	Credit Card
+ENDTRNS
+TRNS	9H80203755673412D	GENERAL JOURNAL	2014/08/04	Bank Fees	Cooper Square Committee		6.46			Credit Card
+SPL	183	GENERAL JOURNAL	2014/08/04	Payment Processor Account	Cooper Square Committee		-6.46		Fee	Credit Card
+ENDTRNS
+TRNS		GENERAL JOURNAL	2014/08/05	Accounts Receivable	Cooper Square Committee		500.00			Check
+SPL	193	GENERAL JOURNAL	2014/08/01	Direct Public Support:Fundraising:Gala:Sponsorships	Barbara Shaum		-500.00		 Squatter	Check
+ENDTRNS
+TRNS		GENERAL JOURNAL	2014/08/11	Accounts Receivable	Cooper Square Committee		72.00			Check
+SPL	194	GENERAL JOURNAL	2014/08/05	Direct Public Support:Fundraising:Gala:Ads	Parmys Persian Fusion		-72.00		 Contribution Amount	Check
+ENDTRNS
+TRNS		GENERAL JOURNAL	2014/08/12	Undeposited Funds	Cooper Square Committee		280.00			Check
+SPL	186	GENERAL JOURNAL	2014/08/12	Accounts Receivable	Cooper Square Committee		-280.00		 1/2 Page - Color	Check
+ENDTRNS
+TRNS		GENERAL JOURNAL	2014/08/12	Undeposited Funds	Cooper Square Committee		75.00			Check
+SPL	187	GENERAL JOURNAL	2014/08/12	Accounts Receivable	Cooper Square Committee		-75.00		 Contribution Amount	Check
+ENDTRNS
+TRNS		GENERAL JOURNAL	2014/08/12	Accounts Receivable	Cooper Square Committee		100.00			Check
+SPL	195	GENERAL JOURNAL	2014/08/05	Direct Public Support:Fundraising:Gala:Ads	4th Street Food Co-op		-100.00		 Contribution Amount	Check
+ENDTRNS
+TRNS		GENERAL JOURNAL	2014/08/12	Undeposited Funds	Cooper Square Committee		3000.00	48844		Check
+SPL	196	GENERAL JOURNAL	2014/07/10	Direct Public Support:Fundraising:Gala:Sponsorships	First Presbyterian Church		-3000.00	48844	 Contribution Amount	Check
+ENDTRNS
+TRNS		GENERAL JOURNAL	2014/08/12	Undeposited Funds	Cooper Square Committee		500.00			Check
+SPL	190	GENERAL JOURNAL	2014/08/12	Accounts Receivable	Cooper Square Committee		-500.00		 Squatter	Check
+ENDTRNS
+TRNS		GENERAL JOURNAL	2014/08/12	Accounts Receivable	Cooper Square Committee		125.00			Check
+SPL	197	GENERAL JOURNAL	2014/08/06	Direct Public Support:Fundraising:Gala:Ads	Jimmys No. 43		-125.00		 Business Card - Color	Check
+ENDTRNS
+TRNS		GENERAL JOURNAL	2014/08/12	Accounts Receivable	Cooper Square Committee		800.00			Check
+SPL	198	GENERAL JOURNAL	2014/08/06	Direct Public Support:Fundraising:Gala:Ads	Bowery Hotel, LLC		-800.00		 Contribution Amount	Check
+ENDTRNS
+TRNS		GENERAL JOURNAL	2014/08/12	Accounts Receivable	Cooper Square Committee		72.00			Check
+SPL	199	GENERAL JOURNAL	2014/08/07	Direct Public Support:Fundraising:Gala:Sponsorships	Block Drugs		-72.00		 Contribution Amount	Check
+ENDTRNS
+TRNS		GENERAL JOURNAL	2014/08/12	Accounts Receivable	Cooper Square Committee		-72.00			Check
+SPL	200	GENERAL JOURNAL	2014/08/07	Direct Public Support:Fundraising:Gala:Sponsorships	Block Drugs		--72.00		 Contribution Amount	Check
+ENDTRNS
+TRNS		GENERAL JOURNAL	2014/08/12	Accounts Receivable	Cooper Square Committee		72.00			Check
+SPL	201	GENERAL JOURNAL	2014/08/07	Direct Public Support:Fundraising:Gala:Ads	Block Drugs		-72.00		 Contribution Amount	Check
+ENDTRNS
+TRNS		GENERAL JOURNAL	2014/08/12	Accounts Receivable	Cooper Square Committee		72.00			Check
+SPL	202	GENERAL JOURNAL	2014/08/07	Direct Public Support:Fundraising:Gala:Ads	Block's Vision Care		-72.00		 Contribution Amount	Check
+ENDTRNS
+TRNS		GENERAL JOURNAL	2014/08/12	Accounts Receivable	Cooper Square Committee		360.00			Check
+SPL	203	GENERAL JOURNAL	2014/08/07	Direct Public Support:Fundraising:Gala:Ads	Apple Bank		-360.00		 Contribution Amount	Check
+ENDTRNS
+TRNS		GENERAL JOURNAL	2014/08/12	Accounts Receivable	Cooper Square Committee		1000.00			Check
+SPL	205	GENERAL JOURNAL	2014/08/07	Direct Public Support:Fundraising:Gala:Sponsorships	Frances Goldin		-1000.00		 Homesteader	Check
+ENDTRNS
+TRNS		GENERAL JOURNAL	2014/08/12	Undeposited Funds	Cooper Square Committee		360.00	6767		Check
+SPL	206	GENERAL JOURNAL	2014/08/08	Direct Public Support:Fundraising:Gala:Sponsorships	Borinquen Exterminator		-360.00	6767	 Contribution Amount	Check
+ENDTRNS
+TRNS		GENERAL JOURNAL	2014/08/12	Undeposited Funds	Cooper Square Committee		1.00			Cash
+SPL	209	GENERAL JOURNAL	2014/08/08	Member Dues	James Lin		-1.00		 Individual	Cash
+ENDTRNS
+TRNS	6V998943WC552142R	GENERAL JOURNAL	2014/08/13	Payment Processor Account	Cooper Square Committee		100.00			Credit Card
+SPL	210	GENERAL JOURNAL	2014/08/05	Direct Public Support:Fundraising:Gala:Tickets	Edward Delgado		-100.00		 CSC Members x 2	Credit Card
+ENDTRNS
+TRNS		GENERAL JOURNAL	2014/08/15	Accounts Receivable	Cooper Square Committee		100.00			Check
+SPL	211	GENERAL JOURNAL	2014/08/14	Direct Public Support:Fundraising:Gala:Ads	Edward Delgado		-100.00		 Business Card - Color	Check
+ENDTRNS
+TRNS		GENERAL JOURNAL	2014/08/18	Undeposited Funds	Cooper Square Committee		5000.00	1200		Check
+SPL	212	GENERAL JOURNAL	2014/08/14	Direct Public Support:Fundraising:Gala:Sponsorships	10 Stanton Street Owners		-5000.00	1200	 Contribution Amount	Check
+ENDTRNS
+TRNS		GENERAL JOURNAL	2014/08/20	Undeposited Funds	Cooper Square Committee		50.00	1929		Check
+SPL	213	GENERAL JOURNAL	2014/08/19	Direct Public Support:Individual Contributions	Harriet Miller		-50.00	1929	 Contribution Amount	Check
+ENDTRNS
+TRNS		GENERAL JOURNAL	2014/08/21	Accounts Receivable	Cooper Square Committee		220.00			Check
+SPL	214	GENERAL JOURNAL	2014/08/08	Direct Public Support:Fundraising:Gala:Ads	Deborah Glick		-220.00		 1/2 Page - B&W	Check
+ENDTRNS
+TRNS		GENERAL JOURNAL	2014/08/26	Accounts Receivable	Cooper Square Committee		350.00			Check
+SPL	215	GENERAL JOURNAL	2014/08/25	Direct Public Support:Fundraising:Gala:Ads	La MaMa, ETC.		-350.00		 Contribution Amount	Check
+ENDTRNS
+TRNS		GENERAL JOURNAL	2014/09/02	Accounts Receivable	Cooper Square Committee		125.00			Check
+SPL	216	GENERAL JOURNAL	2014/08/30	Direct Public Support:Fundraising:Gala:Ads	H. F. Hewitt Realty		-125.00		 Contribution Amount	Check
+ENDTRNS
+TRNS		GENERAL JOURNAL	2014/09/05	Undeposited Funds	Cooper Square Committee		1000.00			Check
+SPL	211	GENERAL JOURNAL	2014/09/05	Accounts Receivable	Cooper Square Committee		-1000.00		 Homesteader	Check
+ENDTRNS
+TRNS		GENERAL JOURNAL	2014/09/05	Undeposited Funds	Cooper Square Committee		72.00	1224		Check
+SPL	217	GENERAL JOURNAL	2014/09/02	Direct Public Support:Fundraising:Gala:Ads	Piccola Strada		-72.00	1224	 Contribution Amount	Check
+ENDTRNS
+TRNS		GENERAL JOURNAL	2014/09/05	Accounts Receivable	Cooper Square Committee		500.00			Check
+SPL	219	GENERAL JOURNAL	2014/09/03	Direct Public Support:Fundraising:Gala:Sponsorships	Goldstein-Hall		-500.00		 Contribution Amount	Check
+ENDTRNS
+TRNS		GENERAL JOURNAL	2014/09/09	Payment Processor Account	Cooper Square Committee		50.00			Credit Card
+SPL	220	GENERAL JOURNAL	2014/09/09	Direct Public Support:Fundraising:Gala:Tickets	Cynthia Cotts		-50.00		 Cooper Square Committee Members	Credit Card
+ENDTRNS
+TRNS	0CS644582E2233108	GENERAL JOURNAL	2014/09/09	Bank Fees	Cooper Square Committee		1.40			Credit Card
+SPL	216	GENERAL JOURNAL	2014/09/09	Payment Processor Account	Cooper Square Committee		-1.40		Fee	Credit Card
+ENDTRNS
+TRNS		GENERAL JOURNAL	2014/09/09	Undeposited Funds	Cooper Square Committee		90.00	1521		Check
+SPL	222	GENERAL JOURNAL	2014/09/08	Direct Public Support:Fundraising:Gala:Ads	Constancia Romilly		-90.00	1521	 Contribution Amount	Check
+ENDTRNS
+TRNS		GENERAL JOURNAL	2014/09/09	Undeposited Funds	Cooper Square Committee		500.00	237		Check
+SPL	223	GENERAL JOURNAL	2014/09/04	Direct Public Support:Individual Contributions	Joyce Ravitz		-500.00	237	 Contribution Amount	Check
+ENDTRNS
+TRNS		GENERAL JOURNAL	2014/09/09	Undeposited Funds	Cooper Square Committee		108.00	5889		Check
+SPL	224	GENERAL JOURNAL	2014/08/01	Direct Public Support:Individual Contributions	Felicia Mednick		-108.00	5889	 Contribution Amount	Check
+ENDTRNS
+TRNS		GENERAL JOURNAL	2014/09/09	Payment Processor Account	Cooper Square Committee		75.00			Credit Card
+SPL	225	GENERAL JOURNAL	2014/09/09	Direct Public Support:Fundraising:Gala:Tickets	Lisa Kaplan		-75.00		 Community Residents	Credit Card
+ENDTRNS
+TRNS	9P325867AN8875023	GENERAL JOURNAL	2014/09/09	Bank Fees	Cooper Square Committee		1.95			Credit Card
+SPL	221	GENERAL JOURNAL	2014/09/09	Payment Processor Account	Cooper Square Committee		-1.95		Fee	Credit Card
+ENDTRNS
+TRNS		GENERAL JOURNAL	2014/09/12	Undeposited Funds	Cooper Square Committee		360.00			Check
+SPL	222	GENERAL JOURNAL	2014/09/12	Accounts Receivable	Cooper Square Committee		-360.00		 Contribution Amount	Check
+ENDTRNS
+TRNS		GENERAL JOURNAL	2014/09/12	Accounts Receivable	Cooper Square Committee		750.00			Check
+SPL	232	GENERAL JOURNAL	2014/09/11	Direct Public Support:Fundraising:Gala:Ads	Con Edison		-750.00		 Contribution Amount	Check
+ENDTRNS
+TRNS		GENERAL JOURNAL	2014/09/15	Payment Processor Account	Cooper Square Committee		150.00			Credit Card
+SPL	234	GENERAL JOURNAL	2014/09/15	Direct Public Support:Individual Contributions	Urban Justice Center		-150.00		 Other Amount	Credit Card
+ENDTRNS
+TRNS	32A17381B75448723	GENERAL JOURNAL	2014/09/15	Bank Fees	Cooper Square Committee		3.60			Credit Card
+SPL	231	GENERAL JOURNAL	2014/09/15	Payment Processor Account	Cooper Square Committee		-3.60		Fee	Credit Card
+ENDTRNS
+TRNS	32A17381B75448723	GENERAL JOURNAL	2014/09/15	Payment Processor Account	Cooper Square Committee		-150.00			Credit Card
+SPL	236	GENERAL JOURNAL	2014/09/15	Direct Public Support:Individual Contributions	Urban Justice Center		--150.00		 Other Amount	Credit Card
+ENDTRNS
+TRNS	32A17381B75448723	GENERAL JOURNAL	2014/09/15	Payment Processor Account	Cooper Square Committee		150.00			Credit Card
+SPL	237	GENERAL JOURNAL	2014/09/15	Direct Public Support:Fundraising:Gala:Ads	Urban Justice Center		-150.00		 Other Amount	Credit Card
+ENDTRNS
+TRNS		GENERAL JOURNAL	2014/09/15	Undeposited Funds	Cooper Square Committee		-360.00	6767		Check
+SPL	238	GENERAL JOURNAL	2014/08/08	Direct Public Support:Fundraising:Gala:Sponsorships	Borinquen Exterminator		--360.00	6767	 Contribution Amount	Check
+ENDTRNS
+TRNS		GENERAL JOURNAL	2014/09/15	Undeposited Funds	Cooper Square Committee		360.00	6767		Check
+SPL	239	GENERAL JOURNAL	2014/08/08	Direct Public Support:Fundraising:Gala:Ads	Borinquen Exterminator		-360.00	6767	 Contribution Amount	Check
+ENDTRNS
+TRNS		GENERAL JOURNAL	2014/09/16	Accounts Receivable	Cooper Square Committee		195.00			Check
+SPL	241	GENERAL JOURNAL	2014/09/16	Direct Public Support:Fundraising:Gala:Ads	Ecosystems Strategies, Inc		-195.00		 1/3 Page - Color	Check
+ENDTRNS
+TRNS		GENERAL JOURNAL	2014/09/16	Payment Processor Account	Cooper Square Committee		25.00			Credit Card
+SPL	244	GENERAL JOURNAL	2014/09/16	Direct Public Support:Fundraising:Gala:Ads	Gary Parker		-25.00		 Supporter	Credit Card
+ENDTRNS
+TRNS	0BF97607D02016640	GENERAL JOURNAL	2014/09/16	Bank Fees	Cooper Square Committee		0.85			Credit Card
+SPL	241	GENERAL JOURNAL	2014/09/16	Payment Processor Account	Cooper Square Committee		-0.85		Fee	Credit Card
+ENDTRNS
+TRNS		GENERAL JOURNAL	2014/09/16	Payment Processor Account	Cooper Square Committee		25.00			Credit Card
+SPL	246	GENERAL JOURNAL	2014/09/16	Direct Public Support:Fundraising:Gala:Ads	Elizabeth Meixell		-25.00		 Supporter	Credit Card
+ENDTRNS
+TRNS	19965208U8033931B	GENERAL JOURNAL	2014/09/16	Bank Fees	Cooper Square Committee		0.85			Credit Card
+SPL	243	GENERAL JOURNAL	2014/09/16	Payment Processor Account	Cooper Square Committee		-0.85		Fee	Credit Card
+ENDTRNS
+TRNS		GENERAL JOURNAL	2014/09/17	Payment Processor Account	Cooper Square Committee		25.00			Credit Card
+SPL	249	GENERAL JOURNAL	2014/09/17	Direct Public Support:Fundraising:Gala:Ads	Katherine Von Hartz		-25.00		 Supporter	Credit Card
+ENDTRNS
+TRNS	5RC32723VL332164E	GENERAL JOURNAL	2014/09/17	Bank Fees	Cooper Square Committee		0.85			Credit Card
+SPL	245	GENERAL JOURNAL	2014/09/17	Payment Processor Account	Cooper Square Committee		-0.85		Fee	Credit Card
+ENDTRNS
+TRNS		GENERAL JOURNAL	2014/09/17	Undeposited Funds	Cooper Square Committee		-108.00	5889		Check
+SPL	251	GENERAL JOURNAL	2014/08/01	Direct Public Support:Individual Contributions	Felicia Mednick		--108.00	5889	 Contribution Amount	Check
+ENDTRNS
+TRNS		GENERAL JOURNAL	2014/09/17	Undeposited Funds	Cooper Square Committee		108.00	5889		Check
+SPL	252	GENERAL JOURNAL	2014/08/01	Direct Public Support:Fundraising:Gala:Ads	Felicia Mednick		-108.00	5889	 Contribution Amount	Check
+ENDTRNS
+TRNS		GENERAL JOURNAL	2014/09/17	Undeposited Funds	Cooper Square Committee		72.00			Check
+SPL	248	GENERAL JOURNAL	2014/09/17	Accounts Receivable	Cooper Square Committee		-72.00		 Business Card - B&W	Check
+ENDTRNS
+TRNS		GENERAL JOURNAL	2014/09/18	Payment Processor Account	Cooper Square Committee		25.00			Credit Card
+SPL	254	GENERAL JOURNAL	2014/09/18	Direct Public Support:Fundraising:Gala:Ads	Roberta Schine		-25.00		 Supporter	Credit Card
+ENDTRNS
+TRNS	5C202315XE8252832	GENERAL JOURNAL	2014/09/18	Bank Fees	Cooper Square Committee		0.85			Credit Card
+SPL	250	GENERAL JOURNAL	2014/09/18	Payment Processor Account	Cooper Square Committee		-0.85		Fee	Credit Card
+ENDTRNS
+TRNS		GENERAL JOURNAL	2014/09/18	Accounts Receivable	Cooper Square Committee		90.00			Check
+SPL	256	GENERAL JOURNAL	2014/09/17	Direct Public Support:Fundraising:Gala:Ads	FABnyc		-90.00		 Contribution Amount	Check
+ENDTRNS
+TRNS		GENERAL JOURNAL	2014/09/18	Accounts Receivable	Cooper Square Committee		4000.00			Check
+SPL	259	GENERAL JOURNAL	2014/09/17	Direct Public Support:Fundraising:Gala:Sponsorships	Community Access		-4000.00		 Master Planner	Check
+ENDTRNS
+TRNS		GENERAL JOURNAL	2014/09/19	Accounts Receivable	Cooper Square Committee		1000.00			Check
+SPL	269	GENERAL JOURNAL	2014/09/17	Direct Public Support:Fundraising:Gala:Sponsorships	Cube Building HDFC		-1000.00		 Homesteader	Check
+ENDTRNS
+TRNS	from incomp paypal trans: 7a6e79569a33ef7b4746b696cde48d17	GENERAL JOURNAL	2014/09/19	Undeposited Funds	Cooper Square Committee		350.00	597		Check
+SPL	270	GENERAL JOURNAL	2014/09/18	Direct Public Support:Fundraising:Gala:Ads	Coalition for a District Two Alternative		-350.00	597	 Contribution Amount	Check
+ENDTRNS
+TRNS		GENERAL JOURNAL	2014/09/19	Payment Processor Account	Cooper Square Committee		25.00			Credit Card
+SPL	272	GENERAL JOURNAL	2014/09/19	Direct Public Support:Fundraising:Gala:Ads	Phyllis Bloom		-25.00		 Supporter	Credit Card
+ENDTRNS
+TRNS	3D751850NG787364Y	GENERAL JOURNAL	2014/09/19	Bank Fees	Cooper Square Committee		0.85			Credit Card
+SPL	268	GENERAL JOURNAL	2014/09/19	Payment Processor Account	Cooper Square Committee		-0.85		Fee	Credit Card
+ENDTRNS
+TRNS		GENERAL JOURNAL	2014/09/20	Payment Processor Account	Cooper Square Committee		25.00			Credit Card
+SPL	274	GENERAL JOURNAL	2014/09/20	Direct Public Support:Fundraising:Gala:Ads	Barbara Lipski		-25.00		 Supporter	Credit Card
+ENDTRNS
+TRNS	86U01076S21689520	GENERAL JOURNAL	2014/09/20	Bank Fees	Cooper Square Committee		0.85			Credit Card
+SPL	270	GENERAL JOURNAL	2014/09/20	Payment Processor Account	Cooper Square Committee		-0.85		Fee	Credit Card
+ENDTRNS
+TRNS		GENERAL JOURNAL	2014/09/20	Payment Processor Account	Cooper Square Committee		25.00			Credit Card
+SPL	276	GENERAL JOURNAL	2014/09/20	Direct Public Support:Fundraising:Gala:Ads	Rosalyn Baxandall		-25.00		 Supporter	Credit Card
+ENDTRNS
+TRNS	89T391682J5588908	GENERAL JOURNAL	2014/09/20	Bank Fees	Cooper Square Committee		0.85			Credit Card
+SPL	272	GENERAL JOURNAL	2014/09/20	Payment Processor Account	Cooper Square Committee		-0.85		Fee	Credit Card
+ENDTRNS
+TRNS	89T391682J5588908	GENERAL JOURNAL	2014/09/20	Payment Processor Account	Cooper Square Committee		-25.00			Credit Card
+SPL	279	GENERAL JOURNAL	2014/09/20	Direct Public Support:Fundraising:Gala:Ads	Rosalyn Baxandall		--25.00		 Supporter	Credit Card
+ENDTRNS
+TRNS	89T391682J5588908	GENERAL JOURNAL	2014/09/20	Payment Processor Account	Cooper Square Committee		25.00			Credit Card
+SPL	280	GENERAL JOURNAL	2014/09/20	Direct Public Support:Fundraising:Gala:Supporters	Rosalyn Baxandall		-25.00		 Supporter	Credit Card
+ENDTRNS
+TRNS	86U01076S21689520	GENERAL JOURNAL	2014/09/20	Payment Processor Account	Cooper Square Committee		-25.00			Credit Card
+SPL	281	GENERAL JOURNAL	2014/09/20	Direct Public Support:Fundraising:Gala:Ads	Barbara Lipski		--25.00		 Supporter	Credit Card
+ENDTRNS
+TRNS	86U01076S21689520	GENERAL JOURNAL	2014/09/20	Payment Processor Account	Cooper Square Committee		25.00			Credit Card
+SPL	282	GENERAL JOURNAL	2014/09/20	Direct Public Support:Fundraising:Gala:Supporters	Barbara Lipski		-25.00		 Supporter	Credit Card
+ENDTRNS
+TRNS	3D751850NG787364Y	GENERAL JOURNAL	2014/09/20	Payment Processor Account	Cooper Square Committee		-25.00			Credit Card
+SPL	283	GENERAL JOURNAL	2014/09/19	Direct Public Support:Fundraising:Gala:Ads	Phyllis Bloom		--25.00		 Supporter	Credit Card
+ENDTRNS
+TRNS	3D751850NG787364Y	GENERAL JOURNAL	2014/09/20	Payment Processor Account	Cooper Square Committee		25.00			Credit Card
+SPL	284	GENERAL JOURNAL	2014/09/19	Direct Public Support:Fundraising:Gala:Supporters	Phyllis Bloom		-25.00		 Supporter	Credit Card
+ENDTRNS
+TRNS	5C202315XE8252832	GENERAL JOURNAL	2014/09/20	Payment Processor Account	Cooper Square Committee		-25.00			Credit Card
+SPL	285	GENERAL JOURNAL	2014/09/18	Direct Public Support:Fundraising:Gala:Ads	Roberta Schine		--25.00		 Supporter	Credit Card
+ENDTRNS
+TRNS	5C202315XE8252832	GENERAL JOURNAL	2014/09/20	Payment Processor Account	Cooper Square Committee		25.00			Credit Card
+SPL	286	GENERAL JOURNAL	2014/09/18	Direct Public Support:Fundraising:Gala:Supporters	Roberta Schine		-25.00		 Supporter	Credit Card
+ENDTRNS
+TRNS	5RC32723VL332164E	GENERAL JOURNAL	2014/09/20	Payment Processor Account	Cooper Square Committee		-25.00			Credit Card
+SPL	287	GENERAL JOURNAL	2014/09/17	Direct Public Support:Fundraising:Gala:Ads	Katherine Von Hartz		--25.00		 Supporter	Credit Card
+ENDTRNS
+TRNS	5RC32723VL332164E	GENERAL JOURNAL	2014/09/20	Payment Processor Account	Cooper Square Committee		25.00			Credit Card
+SPL	288	GENERAL JOURNAL	2014/09/17	Direct Public Support:Fundraising:Gala:Supporters	Katherine Von Hartz		-25.00		 Supporter	Credit Card
+ENDTRNS
+TRNS	19965208U8033931B	GENERAL JOURNAL	2014/09/20	Payment Processor Account	Cooper Square Committee		-25.00			Credit Card
+SPL	289	GENERAL JOURNAL	2014/09/16	Direct Public Support:Fundraising:Gala:Ads	Elizabeth Meixell		--25.00		 Supporter	Credit Card
+ENDTRNS
+TRNS	19965208U8033931B	GENERAL JOURNAL	2014/09/20	Payment Processor Account	Cooper Square Committee		25.00			Credit Card
+SPL	290	GENERAL JOURNAL	2014/09/16	Direct Public Support:Fundraising:Gala:Supporters	Elizabeth Meixell		-25.00		 Supporter	Credit Card
+ENDTRNS
+TRNS	0BF97607D02016640	GENERAL JOURNAL	2014/09/20	Payment Processor Account	Cooper Square Committee		-25.00			Credit Card
+SPL	291	GENERAL JOURNAL	2014/09/16	Direct Public Support:Fundraising:Gala:Ads	Gary Parker		--25.00		 Supporter	Credit Card
+ENDTRNS
+TRNS	0BF97607D02016640	GENERAL JOURNAL	2014/09/20	Payment Processor Account	Cooper Square Committee		25.00			Credit Card
+SPL	292	GENERAL JOURNAL	2014/09/16	Direct Public Support:Fundraising:Gala:Supporters	Gary Parker		-25.00		 Supporter	Credit Card
+ENDTRNS
+TRNS		GENERAL JOURNAL	2014/09/20	Undeposited Funds	Cooper Square Committee		-108.00	5889		Check
+SPL	295	GENERAL JOURNAL	2014/08/01	Direct Public Support:Individual Contributions	Felicia Mednick		--108.00	5889	 Contribution Amount	Check
+ENDTRNS
+TRNS		GENERAL JOURNAL	2014/09/20	Undeposited Funds	Cooper Square Committee		108.00	5889		Check
+SPL	296	GENERAL JOURNAL	2014/08/01	Direct Public Support:Fundraising:Gala:Supporters	Felicia Mednick		-108.00	5889	 Contribution Amount	Check
+ENDTRNS
+TRNS		GENERAL JOURNAL	2014/09/22	Payment Processor Account	Cooper Square Committee		25.00			Credit Card
+SPL	299	GENERAL JOURNAL	2014/09/22	Direct Public Support:Fundraising:Gala:Supporters	Rafay Khalid		-25.00		 Supporter	Credit Card
+ENDTRNS
+TRNS	33Y01144DW4528314	GENERAL JOURNAL	2014/09/22	Bank Fees	Cooper Square Committee		0.85			Credit Card
+SPL	292	GENERAL JOURNAL	2014/09/22	Payment Processor Account	Cooper Square Committee		-0.85		Fee	Credit Card
+ENDTRNS
+TRNS		GENERAL JOURNAL	2014/09/22	Undeposited Funds	Cooper Square Committee		750.00			Check
+SPL	293	GENERAL JOURNAL	2014/09/22	Accounts Receivable	Cooper Square Committee		-750.00		 Contribution Amount	Check
+ENDTRNS
+TRNS		GENERAL JOURNAL	2014/09/22	Undeposited Funds	Cooper Square Committee		-250.00	0000465319		Check
+SPL	302	GENERAL JOURNAL	2014/09/15	Direct Public Support:Fundraising:Gala:Ads	Con Edison		--250.00	0000465319	 Contribution Amount	Check
+ENDTRNS
+TRNS		GENERAL JOURNAL	2014/09/22	Undeposited Funds	Cooper Square Committee		300.00	338911219		Check
+SPL	303	GENERAL JOURNAL	2014/09/12	Direct Public Support:Fundraising:Gala:Supporters	Paula & Billy Caplan		-300.00	338911219	 Contribution Amount	Check
+ENDTRNS
+TRNS		GENERAL JOURNAL	2014/09/22	Undeposited Funds	Cooper Square Committee		250.00	30647		Check
+SPL	304	GENERAL JOURNAL	2014/09/16	Direct Public Support:Fundraising:Gala:Supporters	Dr. Jerrold Heller , DDS, PC		-250.00	30647	 Contribution Amount	Check
+ENDTRNS
+TRNS		GENERAL JOURNAL	2014/09/22	Undeposited Funds	Cooper Square Committee		25.00			Cash
+SPL	305	GENERAL JOURNAL	2014/09/17	Direct Public Support:Fundraising:Gala:Supporters	Ayo Harrington		-25.00		 Contribution Amount	Cash
+ENDTRNS
+TRNS	(1 ad, 2 tix at 50ea.)	GENERAL JOURNAL	2014/09/23	Undeposited Funds	Cooper Square Committee		200.00	8388		Check
+SPL	306	GENERAL JOURNAL	2014/09/16	Direct Public Support:Fundraising:Gala:Ads	Charles & Anne Johnson		-200.00	8388	 Contribution Amount	Check
+ENDTRNS
+TRNS	ad + 2 comp tix	GENERAL JOURNAL	2014/09/23	Accounts Receivable	Cooper Square Committee		250.00			Check
+SPL	307	GENERAL JOURNAL	2014/09/22	Direct Public Support:Fundraising:Gala:Ads	NYC Council Member Margaret Chin		-250.00		 Contribution Amount	Check
+ENDTRNS
+TRNS	w 2 comps if JR wants	GENERAL JOURNAL	2014/09/23	Accounts Receivable	Cooper Square Committee		1000.00			Check
+SPL	308	GENERAL JOURNAL	2014/09/22	Direct Public Support:Fundraising:Gala:Ads	David McWater		-1000.00		 Contribution Amount	Check
+ENDTRNS
+TRNS	ad and 3-4 tix	GENERAL JOURNAL	2014/09/23	Accounts Receivable	Cooper Square Committee		500.00			Check
+SPL	309	GENERAL JOURNAL	2014/09/19	Direct Public Support:Fundraising:Gala:Ads	University Settlement		-500.00		 Contribution Amount	Check
+ENDTRNS
+TRNS	may get 2 comps	GENERAL JOURNAL	2014/09/23	Accounts Receivable	Cooper Square Committee		500.00			Check
+SPL	310	GENERAL JOURNAL	2014/09/20	Direct Public Support:Fundraising:Gala:Ads	Housing Works Inc.		-500.00		 Contribution Amount	Check
+ENDTRNS
+TRNS		GENERAL JOURNAL	2014/09/23	Undeposited Funds	Cooper Square Committee		50.00	1192		Check
+SPL	313	GENERAL JOURNAL	2014/09/10	Direct Public Support:Fundraising:Gala:Tickets	Alex & Irene Gross		-50.00	1192	 Cooper Square Committee Members	Check
+ENDTRNS
+TRNS		GENERAL JOURNAL	2014/09/23	Undeposited Funds	Cooper Square Committee		75.00	6159		Check
+SPL	314	GENERAL JOURNAL	2014/09/10	Direct Public Support:Fundraising:Gala:Tickets	David Johnson		-75.00	6159	 Community Residents	Check
+ENDTRNS
+TRNS		GENERAL JOURNAL	2014/09/23	Undeposited Funds	Cooper Square Committee		125.00	4067		Check
+SPL	315	GENERAL JOURNAL	2014/09/23	Direct Public Support:Fundraising:Gala:Tickets	Picture the Homeless		-125.00	4067	 Individuals, Small Business & Non-Profit Guests	Check
+ENDTRNS
+TRNS		GENERAL JOURNAL	2014/09/23	Undeposited Funds	Cooper Square Committee		30.00	3377		Check
+SPL	316	GENERAL JOURNAL	2014/09/18	Direct Public Support:Fundraising:Gala:Tickets	David McReynolds		-30.00	3377	 Cooper Square Committee Low Income Members	Check
+ENDTRNS
+TRNS		GENERAL JOURNAL	2014/09/23	Undeposited Funds	Cooper Square Committee		100.00	3406		Check
+SPL	317	GENERAL JOURNAL	2014/09/10	Direct Public Support:Fundraising:Gala:Tickets	David Pultz		-100.00	3406	 CSC Members x 2	Check
+ENDTRNS
+TRNS		GENERAL JOURNAL	2014/09/23	Undeposited Funds	Cooper Square Committee		50.00	4800		Check
+SPL	318	GENERAL JOURNAL	2014/09/22	Direct Public Support:Fundraising:Gala:Tickets	Harriet Putterman		-50.00	4800	 Cooper Square Committee Members	Check
+ENDTRNS
+TRNS		GENERAL JOURNAL	2014/09/23	Undeposited Funds	Cooper Square Committee		50.00	1029		Check
+SPL	319	GENERAL JOURNAL	2014/09/09	Direct Public Support:Fundraising:Gala:Tickets	Fred Seiden		-50.00	1029	 Cooper Square Committee Members	Check
+ENDTRNS
+TRNS		GENERAL JOURNAL	2014/09/23	Undeposited Funds	Cooper Square Committee		75.00			Cash
+SPL	320	GENERAL JOURNAL	2014/09/17	Direct Public Support:Fundraising:Gala:Tickets	Frances Sussman		-75.00		 Community Residents	Cash
+ENDTRNS
+TRNS		GENERAL JOURNAL	2014/09/23	Undeposited Funds	Cooper Square Committee		150.00	1063		Check
+SPL	321	GENERAL JOURNAL	2014/09/17	Direct Public Support:Fundraising:Gala:Tickets	Hugh & Nancy Thomas		-150.00	1063	 EV Residents x 2	Check
+ENDTRNS
+TRNS		GENERAL JOURNAL	2014/09/23	Undeposited Funds	Cooper Square Committee		100.00	1728		Check
+SPL	322	GENERAL JOURNAL	2014/09/10	Direct Public Support:Fundraising:Gala:Tickets	Charles Wertheimer		-100.00	1728	 CSC Members x 2	Check
+ENDTRNS
+TRNS		GENERAL JOURNAL	2014/09/23	Undeposited Funds	Cooper Square Committee		75.00	1764		Check
+SPL	323	GENERAL JOURNAL	2014/09/16	Direct Public Support:Fundraising:Gala:Tickets	Gloria Withim		-75.00	1764	 Community Residents	Check
+ENDTRNS
+TRNS		GENERAL JOURNAL	2014/09/23	Undeposited Funds	Cooper Square Committee		-500.00	237		Check
+SPL	324	GENERAL JOURNAL	2014/09/04	Direct Public Support:Individual Contributions	Joyce Ravitz		--500.00	237	 Contribution Amount	Check
+ENDTRNS
+TRNS		GENERAL JOURNAL	2014/09/23	Undeposited Funds	Cooper Square Committee		500.00	237		Check
+SPL	325	GENERAL JOURNAL	2014/09/04	Direct Public Support:Fundraising:Gala:Ads	Joyce Ravitz		-500.00	237	 Contribution Amount	Check
+ENDTRNS
+TRNS		GENERAL JOURNAL	2014/09/24	Payment Processor Account	Cooper Square Committee		50.00			Credit Card
+SPL	326	GENERAL JOURNAL	2014/09/24	Direct Public Support:Fundraising:Gala:Supporters	Mindy Gershon		-50.00		 Supporter	Credit Card
+ENDTRNS
+TRNS	1MW46116V0748451E	GENERAL JOURNAL	2014/09/24	Bank Fees	Cooper Square Committee		1.40			Credit Card
+SPL	319	GENERAL JOURNAL	2014/09/24	Payment Processor Account	Cooper Square Committee		-1.40		Fee	Credit Card
+ENDTRNS
+TRNS		GENERAL JOURNAL	2014/09/24	Payment Processor Account	Cooper Square Committee		25.00			Credit Card
+SPL	328	GENERAL JOURNAL	2014/09/24	Direct Public Support:Fundraising:Gala:Supporters	Sue Kaplan		-25.00		 Supporter	Credit Card
+ENDTRNS
+TRNS	8AL20284LX487322K	GENERAL JOURNAL	2014/09/24	Bank Fees	Cooper Square Committee		0.85			Credit Card
+SPL	321	GENERAL JOURNAL	2014/09/24	Payment Processor Account	Cooper Square Committee		-0.85		Fee	Credit Card
+ENDTRNS
+TRNS		GENERAL JOURNAL	2014/09/24	Accounts Receivable	Cooper Square Committee		90.00			Check
+SPL	335	GENERAL JOURNAL	2014/09/24	Direct Public Support:Fundraising:Gala:Ads	Genco Resources Development		-90.00		 Contribution Amount	Check
+ENDTRNS
+TRNS		GENERAL JOURNAL	2014/09/29	Accounts Receivable	Cooper Square Committee		102.00			Check
+SPL	336	GENERAL JOURNAL	2014/09/17	Direct Public Support:Fundraising:Gala:Ads	Ali Forney Center		-102.00		 Contribution Amount	Check
+ENDTRNS
+TRNS		GENERAL JOURNAL	2014/09/29	Accounts Receivable	Cooper Square Committee		225.00			Check
+SPL	337	GENERAL JOURNAL	2014/09/02	Direct Public Support:Fundraising:Gala:Ads	Commission for the Public Health System		-225.00		 Contribution Amount	Check
+ENDTRNS
+TRNS		GENERAL JOURNAL	2014/09/29	Accounts Receivable	Cooper Square Committee		350.00			Check
+SPL	339	GENERAL JOURNAL	2014/09/26	Direct Public Support:Fundraising:Gala:Ads	Rosie Mendez		-350.00		 Contribution Amount	Check
+ENDTRNS
+TRNS	74V09341E7911241T	GENERAL JOURNAL	2014/09/29	Payment Processor Account	Cooper Square Committee		30.00			Credit Card
+SPL	341	GENERAL JOURNAL	2014/09/29	Direct Public Support:Fundraising:Gala:Tickets	Nereida Cancel		-30.00		 Cooper Square Committee Low Income Members	Credit Card
+ENDTRNS
+TRNS		GENERAL JOURNAL	2014/09/29	Payment Processor Account	Cooper Square Committee		25.00			Credit Card
+SPL	346	GENERAL JOURNAL	2014/09/29	Direct Public Support:Fundraising:Gala:Supporters	Rafaela (Ronnie) Billini		-25.00		 Supporter	Credit Card
+ENDTRNS
+TRNS	8WG232714N602533T	GENERAL JOURNAL	2014/09/29	Bank Fees	Cooper Square Committee		0.85			Credit Card
+SPL	338	GENERAL JOURNAL	2014/09/29	Payment Processor Account	Cooper Square Committee		-0.85		Fee	Credit Card
+ENDTRNS
+TRNS		GENERAL JOURNAL	2014/09/29	Accounts Receivable	Cooper Square Committee		35.00			Check
+SPL	348	GENERAL JOURNAL	2014/09/17	Direct Public Support:Fundraising:Gala:Ads	FABnyc		-35.00		 Contribution Amount	Check
+ENDTRNS
+TRNS		GENERAL JOURNAL	2014/10/01	Accounts Receivable	Cooper Square Committee		4000.00			Check
+SPL	351	GENERAL JOURNAL	2014/09/25	Direct Public Support:Fundraising:Gala:Sponsorships	10 Stanton Street Tenants Association		-4000.00		Individual	Check
+ENDTRNS
+TRNS		GENERAL JOURNAL	2014/10/01	Accounts Receivable	Cooper Square Committee		0.00			Check
+SPL	354	GENERAL JOURNAL	2014/10/01	Direct Public Support:Fundraising:Gala:Ads	Lower East Side Girls Club		-0.00		 Contribution Amount	Check
+ENDTRNS
+TRNS		GENERAL JOURNAL	2014/10/02	Accounts Receivable	Cooper Square Committee		125.00			Check
+SPL	355	GENERAL JOURNAL	2014/10/01	Direct Public Support:Fundraising:Gala:Ads	Lower East Side Girls Club		-125.00		 Contribution Amount	Check
+ENDTRNS
+TRNS		GENERAL JOURNAL	2014/10/03	Payment Processor Account	Cooper Square Committee		60.00			Credit Card
+SPL	356	GENERAL JOURNAL	2014/10/03	Direct Public Support:Fundraising:Gala:Tickets	Angee Cortorreal		-60.00		 ** (ad already purchased) ** Individuals, Small Business &amp; Non-Profit Guests	Credit Card
+SPL	358	GENERAL JOURNAL	2014/10/03	Direct Public Support:Fundraising:Gala:Tickets	Angee Cortorreal		--60.00		 ** (ad already purchased) ** Individuals, Small Business &amp; Non-Profit Guests	Credit Card
+SPL	359	GENERAL JOURNAL	2014/10/03	Direct Public Support:Fundraising:Gala:Tickets	Angee Cortorreal		-60.00		 2 x LI CSC Mbr	Credit Card
+ENDTRNS
+TRNS	25A01548AD221643J	GENERAL JOURNAL	2014/10/03	Bank Fees	Cooper Square Committee		1.62			Credit Card
+SPL	346	GENERAL JOURNAL	2014/10/03	Payment Processor Account	Cooper Square Committee		-1.62		Fee	Credit Card
+ENDTRNS
+TRNS		GENERAL JOURNAL	2014/10/03	Accounts Receivable	Cooper Square Committee		-1.62			Credit Card
+ENDTRNS
+TRNS		GENERAL JOURNAL	2014/10/03	Accounts Receivable	Cooper Square Committee		-50.00			Check
+SPL	360	GENERAL JOURNAL	2014/09/26	Direct Public Support:Fundraising:Gala:Ads	Rosie Mendez		--50.00		 Contribution Amount	Check
+ENDTRNS
+TRNS		GENERAL JOURNAL	2014/10/06	Accounts Receivable	Cooper Square Committee		0.00			Check
+SPL	361	GENERAL JOURNAL	2014/10/03	Direct Public Support:Fundraising:Gala:Ads	Northern Manhattan Improvement Corporation		-0.00		 Contribution Amount	Check
+ENDTRNS
+TRNS		GENERAL JOURNAL	2014/10/06	Accounts Receivable	Cooper Square Committee		90.00			Check
+SPL	362	GENERAL JOURNAL	2014/10/03	Direct Public Support:Fundraising:Gala:Ads	Northern Manhattan Improvement Corporation		-90.00		 Contribution Amount	Check
+ENDTRNS
+TRNS		GENERAL JOURNAL	2014/10/07	Payment Processor Account	Cooper Square Committee		125.00			Credit Card
+SPL	363	GENERAL JOURNAL	2014/10/07	Direct Public Support:Fundraising:Gala:Tickets	Michael Zisser		-125.00		 Individuals, Small Business & Non-Profit Guests	Credit Card
+ENDTRNS
+TRNS	6WY65993753503947	GENERAL JOURNAL	2014/10/07	Bank Fees	Cooper Square Committee		3.05			Credit Card
+SPL	356	GENERAL JOURNAL	2014/10/07	Payment Processor Account	Cooper Square Committee		-3.05		Fee	Credit Card
+ENDTRNS
+TRNS		GENERAL JOURNAL	2014/10/07	Accounts Receivable	Cooper Square Committee		-75.00			Check
+SPL	365	GENERAL JOURNAL	2014/09/17	Direct Public Support:Fundraising:Gala:Ads	FABnyc		--75.00		 Contribution Amount	Check
+ENDTRNS
+TRNS		GENERAL JOURNAL	2014/10/07	Undeposited Funds	Cooper Square Committee		75.00			Credit Card
+SPL	297	GENERAL JOURNAL	2014/09/21	Direct Public Support:Fundraising:Gala:Supporters	Frieda Bradlow		-75.00		 Supporter	Credit Card
+ENDTRNS
+TRNS		GENERAL JOURNAL	2014/10/07	Undeposited Funds	Cooper Square Committee		-25.00	3989		Check
+SPL	366	GENERAL JOURNAL	2014/10/03	Direct Public Support:Fundraising:Gala:Supporters	Frieda Bradlow		--25.00	3989	 Supporter	Check
+ENDTRNS
+TRNS		GENERAL JOURNAL	2014/10/07	Undeposited Funds	Cooper Square Committee		30.00	399		Check
+SPL	367	GENERAL JOURNAL	2014/10/01	Direct Public Support:Fundraising:Gala:Supporters	Vinie Burrows		-30.00	399	 Contribution Amount	Check
+ENDTRNS
+TRNS		GENERAL JOURNAL	2014/10/07	Undeposited Funds	Cooper Square Committee		125.00			Check
+SPL	352	GENERAL JOURNAL	2014/10/01	Direct Public Support:Fundraising:Gala:Tickets	Katharine B Wolpe		-125.00		 Individuals, Small Business & Non-Profit Guests	Check
+ENDTRNS
+TRNS		GENERAL JOURNAL	2014/10/07	Undeposited Funds	Cooper Square Committee		0.00			Check
+SPL	362	GENERAL JOURNAL	2014/10/07	Accounts Receivable	Cooper Square Committee		-0.00		 Contribution Amount	Check
+ENDTRNS
+TRNS		GENERAL JOURNAL	2014/10/07	Undeposited Funds	Cooper Square Committee		100.00	1786		Check
+SPL	368	GENERAL JOURNAL	2014/10/01	Direct Public Support:Fundraising:Gala:Ads	Daniel Squadron		-100.00	1786	 Contribution Amount	Check
+ENDTRNS
+TRNS		GENERAL JOURNAL	2014/10/07	Undeposited Funds	Cooper Square Committee		50.00	1790		Check
+SPL	369	GENERAL JOURNAL	2014/10/05	Direct Public Support:Fundraising:Gala:Ads	Daniel Squadron		-50.00	1790	 Contribution Amount	Check
+ENDTRNS
+TRNS		GENERAL JOURNAL	2014/10/07	Undeposited Funds	Cooper Square Committee		1000.00			Check
+SPL	365	GENERAL JOURNAL	2014/10/07	Accounts Receivable	Cooper Square Committee		-1000.00			Check
+ENDTRNS
+TRNS	ad + 2 comp tix	GENERAL JOURNAL	2014/10/07	Undeposited Funds	Cooper Square Committee		250.00			Check
+SPL	366	GENERAL JOURNAL	2014/10/07	Accounts Receivable	Cooper Square Committee		-250.00		 Contribution Amount	Check
+ENDTRNS
+TRNS		GENERAL JOURNAL	2014/10/07	Undeposited Funds	Cooper Square Committee		0.00			Check
+SPL	367	GENERAL JOURNAL	2014/10/07	Accounts Receivable	Cooper Square Committee		-0.00		 Contribution Amount	Check
+ENDTRNS
+TRNS		GENERAL JOURNAL	2014/10/07	Undeposited Funds	Cooper Square Committee		95.00	2093		Check
+SPL	370	GENERAL JOURNAL	2014/09/30	Direct Public Support:Fundraising:Gala:Ads	Anthony Feliciano		-95.00	2093	 Contribution Amount	Check
+ENDTRNS
+TRNS	incomp inv a012f7d62836ffb9a675962cfbec2de3	GENERAL JOURNAL	2014/10/07	Undeposited Funds	Cooper Square Committee		225.00			Check
+SPL	369	GENERAL JOURNAL	2014/10/07	Accounts Receivable	Cooper Square Committee		-225.00		 Contribution Amount	Check
+ENDTRNS
+TRNS	incomp inv a012f7d62836ffb9a675962cfbec2de3	GENERAL JOURNAL	2014/10/07	Undeposited Funds	Cooper Square Committee		55.00	2345		Check
+SPL	371	GENERAL JOURNAL	2014/09/29	Direct Public Support:Fundraising:Gala:Ads	Commission for the Public Health System		-55.00	2345	 Contribution Amount	Check
+ENDTRNS
+TRNS	ad and 3-4 tix	GENERAL JOURNAL	2014/10/07	Undeposited Funds	Cooper Square Committee		500.00			Check
+SPL	371	GENERAL JOURNAL	2014/10/07	Accounts Receivable	Cooper Square Committee		-500.00		 Contribution Amount	Check
+ENDTRNS
+TRNS		GENERAL JOURNAL	2014/10/07	Undeposited Funds	Cooper Square Committee		50.00	112		Check
+SPL	372	GENERAL JOURNAL	2014/09/25	Direct Public Support:Fundraising:Gala:Tickets	David Barkin		-50.00	112	 Cooper Square Committee Members	Check
+ENDTRNS
+TRNS		GENERAL JOURNAL	2014/10/07	Undeposited Funds	Cooper Square Committee		75.00	193		Check
+SPL	373	GENERAL JOURNAL	2014/10/07	Direct Public Support:Fundraising:Gala:Tickets	Julia Hanlon		-75.00	193	 Community Residents	Check
+ENDTRNS
+TRNS		GENERAL JOURNAL	2014/10/08	Payment Processor Account	Cooper Square Committee		250.00			Credit Card
+SPL	375	GENERAL JOURNAL	2014/10/08	Direct Public Support:Fundraising:Gala:Tickets	Perry Winston		-250.00		 Corporate and Government Officials	Credit Card
+ENDTRNS
+TRNS	4304438503003745K	GENERAL JOURNAL	2014/10/08	Bank Fees	Cooper Square Committee		5.80			Credit Card
+SPL	375	GENERAL JOURNAL	2014/10/08	Payment Processor Account	Cooper Square Committee		-5.80		Fee	Credit Card
+ENDTRNS
+TRNS		GENERAL JOURNAL	2014/10/08	Undeposited Funds	Cooper Square Committee		50.00			Cash
+SPL	377	GENERAL JOURNAL	2014/10/08	Direct Public Support:Fundraising:Gala:Tickets	Maria Torres-Bird		-50.00		 Cooper Square Committee Members	Cash
+ENDTRNS
+TRNS		GENERAL JOURNAL	2014/10/08	Payment Processor Account	Cooper Square Committee		30.00			Credit Card
+SPL	378	GENERAL JOURNAL	2014/10/08	Direct Public Support:Fundraising:Gala:Tickets	Joanie M. Hieger-Zosike		-30.00		 Cooper Square Committee Low Income Members	Credit Card
+ENDTRNS
+TRNS	08N83144FY6948145	GENERAL JOURNAL	2014/10/08	Bank Fees	Cooper Square Committee		0.96			Credit Card
+SPL	378	GENERAL JOURNAL	2014/10/08	Payment Processor Account	Cooper Square Committee		-0.96		Fee	Credit Card
+ENDTRNS
+TRNS		GENERAL JOURNAL	2014/10/10	Payment Processor Account	Cooper Square Committee		250.00			Credit Card
+SPL	395	GENERAL JOURNAL	2014/10/10	Direct Public Support:Fundraising:Gala:Tickets	Chih Ping Yu		-125.00		 Individuals, Small Business & Non-Profit Guests	Credit Card
+SPL	396	GENERAL JOURNAL	2014/10/10	Direct Public Support:Fundraising:Gala:Tickets	Chih Ping Yu		-125.00		 Individuals, Small Business & Non-Profit Guests	Credit Card
+ENDTRNS
+TRNS	86324986S9469724X	GENERAL JOURNAL	2014/10/10	Bank Fees	Cooper Square Committee		5.80			Credit Card
+SPL	393	GENERAL JOURNAL	2014/10/10	Payment Processor Account	Cooper Square Committee		-5.80		Fee	Credit Card
+ENDTRNS
+TRNS		GENERAL JOURNAL	2014/10/12	Payment Processor Account	Cooper Square Committee		100.00			Credit Card
+SPL	398	GENERAL JOURNAL	2014/10/12	Direct Public Support:Fundraising:Gala:Tickets	Edward Osborne		-50.00		 Cooper Square Committee Members	Credit Card
+SPL	399	GENERAL JOURNAL	2014/10/12	Direct Public Support:Fundraising:Gala:Tickets	Edward Osborne		-50.00		 Cooper Square Committee Members	Credit Card
+ENDTRNS
+TRNS	0L968996TK045762P	GENERAL JOURNAL	2014/10/12	Bank Fees	Cooper Square Committee		2.50			Credit Card
+SPL	395	GENERAL JOURNAL	2014/10/12	Payment Processor Account	Cooper Square Committee		-2.50		Fee	Credit Card
+ENDTRNS
+TRNS		GENERAL JOURNAL	2014/10/13	Payment Processor Account	Cooper Square Committee		250.00			Credit Card
+SPL	401	GENERAL JOURNAL	2014/10/13	Direct Public Support:Fundraising:Gala:Tickets	Angelito Ballo		-125.00		 Individuals, Small Business & Non-Profit Guests	Credit Card
+SPL	402	GENERAL JOURNAL	2014/10/13	Direct Public Support:Fundraising:Gala:Tickets	Angelito Ballo		-125.00		 Individuals, Small Business & Non-Profit Guests	Credit Card
+ENDTRNS
+TRNS	8LK29735AP4609258	GENERAL JOURNAL	2014/10/13	Bank Fees	Cooper Square Committee		5.80			Credit Card
+SPL	397	GENERAL JOURNAL	2014/10/13	Payment Processor Account	Cooper Square Committee		-5.80		Fee	Credit Card
+ENDTRNS
+TRNS		GENERAL JOURNAL	2014/10/14	Payment Processor Account	Cooper Square Committee		125.00			Credit Card
+SPL	405	GENERAL JOURNAL	2014/10/14	Direct Public Support:Fundraising:Gala:Tickets	Hedwig O'Hara		-125.00		 Individuals, Small Business & Non-Profit Guests	Credit Card
+ENDTRNS
+TRNS	3ER2224980527790V	GENERAL JOURNAL	2014/10/14	Bank Fees	Cooper Square Committee		3.05			Credit Card
+SPL	399	GENERAL JOURNAL	2014/10/14	Payment Processor Account	Cooper Square Committee		-3.05		Fee	Credit Card
+ENDTRNS
+TRNS		GENERAL JOURNAL	2014/10/14	Undeposited Funds	Cooper Square Committee		150.00	4375		Check
+SPL	409	GENERAL JOURNAL	2014/10/10	Direct Public Support:Fundraising:Gala:Tickets	Works in Progress, Inc.		-150.00	4375	 EV Residents x 2	Check
+ENDTRNS
+TRNS		GENERAL JOURNAL	2014/10/15	Payment Processor Account	Cooper Square Committee		30.00			Credit Card
+SPL	410	GENERAL JOURNAL	2014/10/15	Direct Public Support:Fundraising:Gala:Tickets	Patrick Chang		-30.00		 Cooper Square Committee Low Income Members	Credit Card
+ENDTRNS
+TRNS	9HB7532146045362J	GENERAL JOURNAL	2014/10/15	Bank Fees	Cooper Square Committee		0.96			Credit Card
+SPL	405	GENERAL JOURNAL	2014/10/15	Payment Processor Account	Cooper Square Committee		-0.96		Fee	Credit Card
+ENDTRNS
+TRNS		GENERAL JOURNAL	2014/10/15	Undeposited Funds	Cooper Square Committee		50.00			Check
+SPL	406	GENERAL JOURNAL	2014/10/15	Accounts Receivable	Cooper Square Committee		-50.00		 Contribution Amount	Check
+ENDTRNS
+TRNS		GENERAL JOURNAL	2014/10/15	Undeposited Funds	Cooper Square Committee		60.00	2679		Check
+SPL	412	GENERAL JOURNAL	2014/10/14	Direct Public Support:Fundraising:Gala:Ads	FABnyc		-60.00	2679	 Contribution Amount	Check
+ENDTRNS
+TRNS		GENERAL JOURNAL	2014/10/15	Undeposited Funds	Cooper Square Committee		30.00	2237		Check
+SPL	413	GENERAL JOURNAL	2014/10/14	Direct Public Support:Fundraising:Gala:Tickets	Josephine Maroonick		-30.00	2237	 Cooper Square Committee Low Income Members	Check
+ENDTRNS
+TRNS		GENERAL JOURNAL	2014/10/15	Undeposited Funds	Cooper Square Committee		30.00			Cash
+SPL	414	GENERAL JOURNAL	2014/10/14	Direct Public Support:Fundraising:Gala:Tickets	Lucille Carrasquero		-30.00		 Cooper Square Committee Low Income Members	Cash
+ENDTRNS
+TRNS		GENERAL JOURNAL	2014/10/15	Undeposited Funds	Cooper Square Committee		60.00	7247		Check
+SPL	415	GENERAL JOURNAL	2014/09/24	Direct Public Support:Fundraising:Gala:Tickets	Frances Goldin Literary Agency		-60.00	7247	 ** (ad already purchased) ** Individuals, Small Business &amp; Non-Profit Guests	Check
+ENDTRNS
+TRNS		GENERAL JOURNAL	2014/10/15	Undeposited Funds	Cooper Square Committee		50.00	1037		Check
+SPL	416	GENERAL JOURNAL	2014/10/08	Direct Public Support:Fundraising:Gala:Supporters	Kathy Goldman		-50.00	1037	 Contribution Amount	Check
+ENDTRNS
+TRNS		GENERAL JOURNAL	2014/10/15	Undeposited Funds	Cooper Square Committee		500.00	2106		Check
+SPL	417	GENERAL JOURNAL	2014/10/10	Direct Public Support:Fundraising:Gala:Supporters	Brian Sullivan		-500.00	2106	 Contribution Amount	Check
+ENDTRNS
+TRNS		GENERAL JOURNAL	2014/10/15	Undeposited Funds	Cooper Square Committee		1000.00			Check
+SPL	413	GENERAL JOURNAL	2014/10/15	Accounts Receivable	Cooper Square Committee		-1000.00		 Homesteader	Check
+ENDTRNS
+TRNS		GENERAL JOURNAL	2014/10/15	Payment Processor Account	Cooper Square Committee		75.00			Credit Card
+SPL	418	GENERAL JOURNAL	2014/10/15	Direct Public Support:Fundraising:Gala:Tickets	Shawn Dahl		-75.00		 Community Residents	Credit Card
+ENDTRNS
+TRNS	9HM67824F5770061Y	GENERAL JOURNAL	2014/10/15	Bank Fees	Cooper Square Committee		1.95			Credit Card
+SPL	415	GENERAL JOURNAL	2014/10/15	Payment Processor Account	Cooper Square Committee		-1.95		Fee	Credit Card
+ENDTRNS
+TRNS		GENERAL JOURNAL	2014/10/16	Undeposited Funds	Cooper Square Committee		100.00	1462		Check
+SPL	421	GENERAL JOURNAL	2014/10/16	Direct Public Support:Fundraising:Gala:Tickets	Richard Kusack		-75.00	1462	 East Village/Lower East Side Residents	Check
+ENDTRNS
+TRNS		GENERAL JOURNAL	2014/10/21	Payment Processor Account	Cooper Square Committee		310.00			Credit Card
+SPL	422	GENERAL JOURNAL	2014/10/21	Direct Public Support:Fundraising:Gala:Silent Auction	Steve Coe		-310.00		 Contribution Amount	Credit Card
+ENDTRNS
+TRNS	4UT87546K5219003X	GENERAL JOURNAL	2014/10/21	Bank Fees	Cooper Square Committee		7.12			Credit Card
+SPL	419	GENERAL JOURNAL	2014/10/21	Payment Processor Account	Cooper Square Committee		-7.12		Fee	Credit Card
+ENDTRNS
+TRNS		GENERAL JOURNAL	2014/10/21	Payment Processor Account	Cooper Square Committee		150.00			Credit Card
+SPL	425	GENERAL JOURNAL	2014/10/21	Direct Public Support:Fundraising:Gala:Silent Auction	Shawn Dahl		-150.00		 Contribution Amount	Credit Card
+ENDTRNS
+TRNS	4BP48412VR543410L	GENERAL JOURNAL	2014/10/21	Bank Fees	Cooper Square Committee		3.60			Credit Card
+SPL	421	GENERAL JOURNAL	2014/10/21	Payment Processor Account	Cooper Square Committee		-3.60		Fee	Credit Card
+ENDTRNS
+TRNS		GENERAL JOURNAL	2014/10/27	Payment Processor Account	Cooper Square Committee		150.00			Credit Card
+SPL	428	GENERAL JOURNAL	2014/10/27	Direct Public Support:Individual Contributions	c&k pavers gen. const. inc		-150.00		 Other Amount	Credit Card
+ENDTRNS
+TRNS	82A784734J944060F	GENERAL JOURNAL	2014/10/27	Bank Fees	Cooper Square Committee		3.60			Credit Card
+SPL	424	GENERAL JOURNAL	2014/10/27	Payment Processor Account	Cooper Square Committee		-3.60		Fee	Credit Card
+ENDTRNS
+TRNS		GENERAL JOURNAL	2014/10/27	Undeposited Funds	Cooper Square Committee		25.00	2232		Check
+SPL	430	GENERAL JOURNAL	2014/10/27	Direct Public Support:Individual Contributions	Patricia Pavez		-25.00	2232	 Contribution Amount	Check
+ENDTRNS
+TRNS		GENERAL JOURNAL	2014/10/28	Undeposited Funds	Cooper Square Committee		350.00			Check
+SPL	426	GENERAL JOURNAL	2014/10/28	Accounts Receivable	Cooper Square Committee		-350.00		 Contribution Amount	Check
+ENDTRNS
+TRNS	inv26e, 8/1	GENERAL JOURNAL	2014/10/28	Undeposited Funds	Cooper Square Committee		100.00			Check
+SPL	427	GENERAL JOURNAL	2014/10/28	Accounts Receivable	Cooper Square Committee		-100.00		 Business Card - Color	Check
+ENDTRNS
+TRNS		GENERAL JOURNAL	2014/10/28	Undeposited Funds	Cooper Square Committee		220.00			Check
+SPL	428	GENERAL JOURNAL	2014/10/28	Accounts Receivable	Cooper Square Committee		-220.00		 1/2 Page - B&W	Check
+ENDTRNS
+TRNS		GENERAL JOURNAL	2014/10/28	Undeposited Funds	Cooper Square Committee		100.00			Check
+SPL	429	GENERAL JOURNAL	2014/10/28	Accounts Receivable	Cooper Square Committee		-100.00		 Contribution Amount	Check
+ENDTRNS
+TRNS		GENERAL JOURNAL	2014/10/28	Undeposited Funds	Cooper Square Committee		50.00	2629		Check
+SPL	431	GENERAL JOURNAL	2014/10/24	Direct Public Support:Fundraising:Gala:Supporters	Mary Nell Hawk		-50.00	2629	 Contribution Amount	Check
+ENDTRNS
+TRNS		GENERAL JOURNAL	2014/10/28	Undeposited Funds	Cooper Square Committee		50.00	3257		Check
+SPL	432	GENERAL JOURNAL	2014/10/14	Direct Public Support:Fundraising:Gala:Supporters	Rocky Chin		-50.00	3257	 Contribution Amount	Check
+ENDTRNS
+TRNS		GENERAL JOURNAL	2014/10/28	Payment Processor Account	Cooper Square Committee		25.00			Credit Card
+SPL	433	GENERAL JOURNAL	2014/10/28	Direct Public Support:Fundraising:Gala:Silent Auction	Kelly Glenn		-25.00		 Contribution Amount	Credit Card
+ENDTRNS
+TRNS	6TE82862DE917580R	GENERAL JOURNAL	2014/10/28	Bank Fees	Cooper Square Committee		0.85			Credit Card
+SPL	433	GENERAL JOURNAL	2014/10/28	Payment Processor Account	Cooper Square Committee		-0.85		Fee	Credit Card
+ENDTRNS
+TRNS		GENERAL JOURNAL	2014/10/28	Undeposited Funds	Cooper Square Committee		50.00	4912		Check
+SPL	435	GENERAL JOURNAL	2014/10/16	Direct Public Support:Fundraising:Gala:Supporters	Thomas Kopache		-50.00	4912	 Contribution Amount	Check
+ENDTRNS
+TRNS		GENERAL JOURNAL	2014/10/30	Undeposited Funds	Cooper Square Committee		-72.00	5300		Check
+ENDTRNS
+TRNS		GENERAL JOURNAL	2014/10/30	Undeposited Funds	Cooper Square Committee		72.00	1224		Check
+ENDTRNS
+TRNS		GENERAL JOURNAL	2014/11/04	Undeposited Funds	Cooper Square Committee		800.00			Check
+SPL	442	GENERAL JOURNAL	2014/11/04	Accounts Receivable	Cooper Square Committee		-800.00		 Contribution Amount	Check
+ENDTRNS
+TRNS		GENERAL JOURNAL	2014/11/24	Payment Processor Account	Cooper Square Committee		250.00			Credit Card
+SPL	439	GENERAL JOURNAL	2014/11/24	Direct Public Support:Fundraising:Gala:Silent Auction	Cal Hedigan		-250.00		 Contribution Amount	Credit Card
+ENDTRNS
+TRNS	5PC71093AX7861138	GENERAL JOURNAL	2014/11/24	Bank Fees	Cooper Square Committee		5.80			Credit Card
+SPL	446	GENERAL JOURNAL	2014/11/24	Payment Processor Account	Cooper Square Committee		-5.80		Fee	Credit Card
+ENDTRNS
+TRNS		GENERAL JOURNAL	2014/12/22	Payment Processor Account	Cooper Square Committee		200.00			Credit Card
+SPL	447	GENERAL JOURNAL	2014/12/22	Direct Public Support:Individual Contributions	Margaret O'Sullivan		-200.00		 	Credit Card
+ENDTRNS
+TRNS	44K35640RN825064F	GENERAL JOURNAL	2014/12/22	Bank Fees	Cooper Square Committee		4.70			Credit Card
+SPL	454	GENERAL JOURNAL	2014/12/22	Payment Processor Account	Cooper Square Committee		-4.70		Fee	Credit Card
+ENDTRNS
+TRNS		GENERAL JOURNAL	2014/12/25	Payment Processor Account	Cooper Square Committee		50.00			Credit Card
+SPL	451	GENERAL JOURNAL	2014/12/25	Direct Public Support:Individual Contributions	Harvey Epstein		-50.00		 	Credit Card
+ENDTRNS
+TRNS	2C769786CA616854R	GENERAL JOURNAL	2014/12/25	Bank Fees	Cooper Square Committee		1.40			Credit Card
+SPL	456	GENERAL JOURNAL	2014/12/25	Payment Processor Account	Cooper Square Committee		-1.40		Fee	Credit Card
+ENDTRNS
+TRNS		GENERAL JOURNAL	2015/07/28	Undeposited Funds	Cooper Square Committee		4000.00	013993		Check
+SPL	482	GENERAL JOURNAL	2015/07/28	Accounts Receivable	Cooper Square Committee		-4000.00	013993	 Master Planner	Check
+ENDTRNS
+TRNS		GENERAL JOURNAL	2015/07/28	Undeposited Funds	Cooper Square Committee		500.00	2343		Check
+SPL	483	GENERAL JOURNAL	2015/07/28	Accounts Receivable	Cooper Square Committee		-500.00	2343	 Contribution Amount	Check
+ENDTRNS
+TRNS		GENERAL JOURNAL	2015/07/28	Undeposited Funds	Cooper Square Committee		250.00	7031		Check
+SPL	480	GENERAL JOURNAL	2014/12/04	Direct Public Support:Individual Contributions	La MaMa, ETC.		-250.00	7031	 Contribution Amount	Check
+ENDTRNS
+TRNS		GENERAL JOURNAL	2015/07/28	Undeposited Funds	Cooper Square Committee		72.00	6321		Check
+SPL	486	GENERAL JOURNAL	2015/07/28	Accounts Receivable	Cooper Square Committee		-72.00	6321	 Contribution Amount	Check
+ENDTRNS
+TRNS		GENERAL JOURNAL	2015/07/28	Undeposited Funds	Cooper Square Committee		72.00	6321		Check
+SPL	487	GENERAL JOURNAL	2015/07/28	Accounts Receivable	Cooper Square Committee		-72.00	6321	 Contribution Amount	Check
+ENDTRNS
+TRNS		GENERAL JOURNAL	2015/07/28	Undeposited Funds	Cooper Square Committee		90.00	1558		Check
+SPL	488	GENERAL JOURNAL	2015/07/28	Accounts Receivable	Cooper Square Committee		-90.00	1558	 Contribution Amount	Check
+ENDTRNS
+TRNS		GENERAL JOURNAL	2015/07/28	Undeposited Funds	Cooper Square Committee		125.00	1558		Check
+SPL	489	GENERAL JOURNAL	2015/07/28	Accounts Receivable	Cooper Square Committee		-125.00	1558	 Contribution Amount	Check
+ENDTRNS
+TRNS		GENERAL JOURNAL	2015/07/28	Undeposited Funds	Cooper Square Committee		125.00	12193		Check
+SPL	490	GENERAL JOURNAL	2015/07/28	Accounts Receivable	Cooper Square Committee		-125.00	12193	 Contribution Amount	Check
+ENDTRNS
+TRNS		GENERAL JOURNAL	2015/07/28	Undeposited Funds	Cooper Square Committee		90.00	3558		Check
+SPL	491	GENERAL JOURNAL	2015/07/28	Accounts Receivable	Cooper Square Committee		-90.00	3558	 Contribution Amount	Check
+ENDTRNS
+TRNS		GENERAL JOURNAL	2015/07/28	Undeposited Funds	Cooper Square Committee		25.00	1459		Check
+SPL	482	GENERAL JOURNAL	2014/09/20	Direct Public Support:Fundraising:Gala:Supporters	Adrian & Erica Karp		-25.00	1459	 Contribution Amount	Check
+ENDTRNS
+TRNS		GENERAL JOURNAL	2015/07/28	Undeposited Funds	Cooper Square Committee		25.00	2042		Check
+SPL	483	GENERAL JOURNAL	2014/10/31	Direct Public Support:Fundraising:Gala:Supporters	Teresa Tam		-25.00	2042	 Contribution Amount	Check
+ENDTRNS
+TRNS		GENERAL JOURNAL	2015/07/30	Payment Processor Account	Cooper Square Committee		70.00			Credit Card
+SPL	488	GENERAL JOURNAL	2014/10/16	Direct Public Support:Fundraising:Gala:Silent Auction	Maureen Friar		-70.00		 Contribution Amount	Credit Card
+ENDTRNS
+TRNS		GENERAL JOURNAL	2015/07/30	Payment Processor Account	Cooper Square Committee		60.00			Credit Card
+SPL	489	GENERAL JOURNAL	2014/10/16	Direct Public Support:Fundraising:Gala:Silent Auction	Heidi Levy		-60.00		 Contribution Amount	Credit Card
+ENDTRNS
+TRNS		GENERAL JOURNAL	2015/07/30	Payment Processor Account	Cooper Square Committee		100.00			Credit Card
+SPL	490	GENERAL JOURNAL	2014/10/16	Direct Public Support:Fundraising:Gala:Silent Auction	Dave Powell		-100.00		 Contribution Amount	Credit Card
+ENDTRNS
+TRNS		GENERAL JOURNAL	2015/07/30	Payment Processor Account	Cooper Square Committee		33.00			Credit Card
+SPL	491	GENERAL JOURNAL	2014/10/16	Direct Public Support:Fundraising:Gala:Silent Auction	Yonatan Tadele		-33.00		 Contribution Amount	Credit Card
+ENDTRNS
+TRNS		GENERAL JOURNAL	2015/07/30	Undeposited Funds	Cooper Square Committee		77.00	1777		Check
+SPL	492	GENERAL JOURNAL	2014/10/31	Direct Public Support:Fundraising:Gala:Silent Auction	Gloria Withim		-77.00	1777	 Contribution Amount	Check
+ENDTRNS
+TRNS		GENERAL JOURNAL	2015/07/30	Undeposited Funds	Cooper Square Committee		70.00	554		Check
+SPL	493	GENERAL JOURNAL	2014/11/10	Direct Public Support:Fundraising:Gala:Silent Auction	Joyce Ravitz		-70.00	554	 Contribution Amount	Check
+ENDTRNS
+TRNS		GENERAL JOURNAL	2015/07/30	Undeposited Funds	Cooper Square Committee		20.00	7316		Check
+SPL	494	GENERAL JOURNAL	2014/10/22	Direct Public Support:Fundraising:Gala:Silent Auction	Katharine B Wolpe		-20.00	7316	 Contribution Amount	Check
+ENDTRNS
+TRNS		GENERAL JOURNAL	2015/07/30	Undeposited Funds	Cooper Square Committee		75.00	2195		Check
+SPL	495	GENERAL JOURNAL	2014/12/11	Direct Public Support:Fundraising:Gala:Silent Auction	Lisa Kaplan		-75.00	2195	 Contribution Amount	Check
+ENDTRNS
+TRNS		GENERAL JOURNAL	2015/07/30	Undeposited Funds	Cooper Square Committee		150.00	101		Check
+SPL	496	GENERAL JOURNAL	2014/11/10	Direct Public Support:Fundraising:Gala:Silent Auction	Roger DeGennaro		-150.00	101	 Contribution Amount	Check
+ENDTRNS
+TRNS		GENERAL JOURNAL	2015/10/11	Undeposited Funds	Cooper Square Committee		25.00	336		Check
+SPL	675	GENERAL JOURNAL	2014/12/03	Direct Public Support:Individual Contributions	Teriananda		-25.00	336	 Contribution Amount	Check
+ENDTRNS
+TRNS		GENERAL JOURNAL	2015/10/11	Undeposited Funds	Cooper Square Committee		25.00			Cash
+SPL	676	GENERAL JOURNAL	2014/12/04	Direct Public Support:Individual Contributions	Martha Araujo		-25.00		 Contribution Amount	Cash
+ENDTRNS
+TRNS		GENERAL JOURNAL	2015/10/11	Undeposited Funds	Cooper Square Committee		10.00	4843		Check
+SPL	677	GENERAL JOURNAL	2014/12/08	Direct Public Support:Individual Contributions	Marilyn Bennici		-10.00	4843	 Contribution Amount	Check
+ENDTRNS
+TRNS		GENERAL JOURNAL	2015/10/11	Undeposited Funds	Cooper Square Committee		25.00	1566		Check
+SPL	678	GENERAL JOURNAL	2014/12/02	Direct Public Support:Individual Contributions	Don Brophy		-25.00	1566	 Contribution Amount	Check
+ENDTRNS
+TRNS		GENERAL JOURNAL	2015/10/11	Undeposited Funds	Cooper Square Committee		10.00	446		Check
+SPL	679	GENERAL JOURNAL	2014/12/03	Direct Public Support:Individual Contributions	Vinie Burrows		-10.00	446	 Contribution Amount	Check
+ENDTRNS
+TRNS		GENERAL JOURNAL	2015/10/11	Undeposited Funds	Cooper Square Committee		25.00	585		Check
+SPL	680	GENERAL JOURNAL	2014/12/03	Direct Public Support:Individual Contributions	Siu Ling Chu		-25.00	585	 Contribution Amount	Check
+ENDTRNS
+TRNS		GENERAL JOURNAL	2015/10/11	Undeposited Funds	Cooper Square Committee		10.00			Cash
+SPL	682	GENERAL JOURNAL	2014/12/02	Direct Public Support:Individual Contributions	Kathy Dremalas		-10.00		 Contribution Amount	Cash
+ENDTRNS
+TRNS		GENERAL JOURNAL	2015/10/11	Undeposited Funds	Cooper Square Committee		15.00	491		Check
+SPL	683	GENERAL JOURNAL	2014/12/18	Direct Public Support:Individual Contributions	Elise Gardella		-15.00	491	 Contribution Amount	Check
+ENDTRNS
+TRNS		GENERAL JOURNAL	2015/10/11	Undeposited Funds	Cooper Square Committee		50.00	2378		Check
+SPL	684	GENERAL JOURNAL	2014/12/03	Direct Public Support:Individual Contributions	Frances Goldin		-50.00	2378	 Contribution Amount	Check
+ENDTRNS
+TRNS		GENERAL JOURNAL	2015/10/11	Undeposited Funds	Cooper Square Committee		25.00	1408		Check
+SPL	685	GENERAL JOURNAL	2014/12/12	Direct Public Support:Individual Contributions	Josie Hamila		-25.00	1408	 Contribution Amount	Check
+ENDTRNS
+TRNS		GENERAL JOURNAL	2015/10/11	Undeposited Funds	Cooper Square Committee		25.00	1758		Check
+SPL	686	GENERAL JOURNAL	2014/12/08	Direct Public Support:Individual Contributions	Shannon Harrington		-25.00	1758	 Contribution Amount	Check
+ENDTRNS
+TRNS		GENERAL JOURNAL	2015/10/11	Undeposited Funds	Cooper Square Committee		100.00	6066		Check
+SPL	687	GENERAL JOURNAL	2014/12/03	Direct Public Support:Individual Contributions	David Johnson		-100.00	6066	 Contribution Amount	Check
+ENDTRNS
+TRNS		GENERAL JOURNAL	2015/10/11	Payment Processor Account	Cooper Square Committee		35.00			Credit Card
+SPL	688	GENERAL JOURNAL	2014/12/22	Direct Public Support:Individual Contributions	Barbara Kaufman		-35.00		 Contribution Amount	Credit Card
+ENDTRNS
+TRNS		GENERAL JOURNAL	2015/10/11	Undeposited Funds	Cooper Square Committee		10.00	1804		Check
+SPL	689	GENERAL JOURNAL	2014/12/11	Direct Public Support:Individual Contributions	Michael Ladin		-10.00	1804	 Contribution Amount	Check
+ENDTRNS
+TRNS		GENERAL JOURNAL	2015/10/11	Undeposited Funds	Cooper Square Committee		20.00	219		Check
+SPL	690	GENERAL JOURNAL	2014/12/20	Direct Public Support:Individual Contributions	Tom Mellers		-20.00	219	 Contribution Amount	Check
+ENDTRNS
+TRNS		GENERAL JOURNAL	2015/10/11	Undeposited Funds	Cooper Square Committee		100.00	451		Check
+SPL	691	GENERAL JOURNAL	2014/12/21	Direct Public Support:Individual Contributions	Carine Montbertrand		-100.00	451	 Contribution Amount	Check
+ENDTRNS
+TRNS		GENERAL JOURNAL	2015/10/11	Undeposited Funds	Cooper Square Committee		10.00	1222		Check
+SPL	692	GENERAL JOURNAL	2014/12/05	Direct Public Support:Individual Contributions	Carmen Perez		-10.00	1222	 Contribution Amount	Check
+ENDTRNS
+TRNS		GENERAL JOURNAL	2015/10/11	Undeposited Funds	Cooper Square Committee		50.00	2640		Check
+SPL	693	GENERAL JOURNAL	2014/12/14	Direct Public Support:Individual Contributions	Mary Nell Hawk		-50.00	2640	 Contribution Amount	Check
+ENDTRNS
+TRNS		GENERAL JOURNAL	2015/10/11	Undeposited Funds	Cooper Square Committee		100.00	2758		Check
+SPL	695	GENERAL JOURNAL	2014/12/08	Direct Public Support:Individual Contributions	Carol Ruthberg		-100.00	2758	 Contribution Amount	Check
+ENDTRNS
+TRNS		GENERAL JOURNAL	2015/10/11	Undeposited Funds	Cooper Square Committee		100.00	2258		Check
+SPL	696	GENERAL JOURNAL	2014/12/03	Direct Public Support:Individual Contributions	Susana Sedgwick		-100.00	2258	 Contribution Amount	Check
+ENDTRNS
+TRNS		GENERAL JOURNAL	2015/10/11	Undeposited Funds	Cooper Square Committee		25.00	414		Check
+SPL	697	GENERAL JOURNAL	2014/12/31	Direct Public Support:Individual Contributions	Judith Simonian		-25.00	414	 Contribution Amount	Check
+ENDTRNS
+TRNS		GENERAL JOURNAL	2015/10/11	Undeposited Funds	Cooper Square Committee		10.00	257		Check
+SPL	698	GENERAL JOURNAL	2014/12/02	Direct Public Support:Individual Contributions	Julia Spatafora		-10.00	257	 Contribution Amount	Check
+ENDTRNS
+TRNS		GENERAL JOURNAL	2015/10/11	Undeposited Funds	Cooper Square Committee		20.00			Cash
+SPL	699	GENERAL JOURNAL	2014/12/09	Direct Public Support:Individual Contributions	Ambrosia Tejada		-20.00		 Contribution Amount	Cash
+ENDTRNS
+TRNS		GENERAL JOURNAL	2015/10/11	Undeposited Funds	Cooper Square Committee		25.00	1751		Check
+SPL	700	GENERAL JOURNAL	2014/12/01	Direct Public Support:Individual Contributions	Charles Wertheimer		-25.00	1751	 Contribution Amount	Check
+ENDTRNS
+TRNS		GENERAL JOURNAL	2015/10/11	Undeposited Funds	Cooper Square Committee		25.00	1817		Check
+SPL	701	GENERAL JOURNAL	2014/12/31	Direct Public Support:Individual Contributions	Gloria Withim		-25.00	1817	 Contribution Amount	Check
+ENDTRNS

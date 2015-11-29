@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<menu>
+  <item>
+    <title>CiviMobile</title>
+    <path>civicrm/mobile</path>
+    <page_callback>civimobile::home</page_callback>
+    <access_callback>1</access_callback>
+    <is_public>true</is_public>
+  </item>
+  <item>
+    <path>civicrm/mobile/login</path>
+    <page_callback>civimobile::login</page_callback>
+  </item>
+  <item>
+    <path>civicrm/mobile/logout</path>
+    <page_callback>civimobile::logout</page_callback>
+  </item>
+  <item>
+    <path>civicrm/mobile/contact</path>
+    <page_callback>civimobile::contacts</page_callback>
+  </item>
+  <item>
+    <path>civicrm/mobile/participant/checkin</path>
+    <page_callback>civimobile::participantCheckin</page_callback>
+  </item>
+  <item>
+    <path>civicrm/mobile/survey/contacts</path>
+    <page_callback>civimobile::surveycontacts</page_callback>
+  </item>
+  <item>
+    <path>civicrm/mobile/survey/interview</path>
+    <page_callback>civimobile::surveyInterview</page_callback>
+  </item>
+  <item>
+    <path>civicrm/admin/setting/mobile</path>
+    <page_callback>civimobile_Form_Settings</page_callback>
+  </item>
+</menu>

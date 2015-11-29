@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+
+<table>
+  <base>CRM/HRJob</base>
+  <class>HRJob</class>
+  <name>civicrm_hrjob</name>
+  <comment>Job positions.</comment>
+  <log>true</log>
+
+  <field>
+    <name>id</name>
+    <type>int unsigned</type>
+    <required>true</required>
+    <comment>Unique HRJob ID</comment>
+  </field>
+  <primaryKey>
+    <name>id</name>
+    <autoincrement>true</autoincrement>
+  </primaryKey>
+
+  <field>
+    <name>contact_id</name>
+    <type>int unsigned</type>
+    <comment>FK to Contact ID</comment>
+  </field>
+  <foreignKey>
+    <name>contact_id</name>
+    <table>civicrm_contact</table>
+    <key>id</key>
+    <onDelete>CASCADE</onDelete>
+  </foreignKey>
+
+  <field>
+    <name>position</name>
+    <type>varchar</type>
+    <length>127</length>
+    <comment>Internal name for the job (for HR)</comment>
+    <title>Job Position</title>
+    <export>true</export>
+    <uniqueName>hrjob_position</uniqueName>
+  </field>
+  <index>
+    <name>index_position</name>
+    <fieldName>position</fieldName>
+  </index>
+
+  <field>
+    <name>title</name>
+    <type>varchar</type>
+    <length>127</length>
+    <comment>Negotiated name for the job</comment>
+    <title>Job Title</title>
+    <export>true</export>
+    <uniqueName>hrjob_title</uniqueName>
+  </field>
+  <index>
+    <name>index_title</name>
+    <fieldName>title</fieldName>
+  </index>
+
+  <field>
+    <name>department</name>
+    <title>Job Department</title>
+    <type>varchar</type>
+    <length>127</length>
+    <pseudoconstant>
+      <optionGroupName>hrjob_department</optionGroupName>
+    </pseudoconstant>
+    <export>true</export>
+    <uniqueName>hrjob_department</uniqueName>
+  </field>
+  <index>
+    <name>index_department</name>
+    <fieldName>department</fieldName>
+  </index>
+
+  <field>
+    <name>is_tied_to_funding</name>
+    <type>boolean</type>
+    <default>0</default>
+  </field>
+
+  <field>
+    <name>funding_org_id</name>
+    <title>Funding Organization</title>
+    <type>int unsigned</type>
+    <comment>FK to Contact ID</comment>
+    <export>true</export>
+    <uniqueName>hrjob_funding_org_id</uniqueName>
+  </field>
+  <foreignKey>
+    <name>funding_org_id</name>
+    <table>civicrm_contact</table>
+    <key>id</key>
+    <onDelete>SET NULL</onDelete>
+  </foreignKey>
+
+  <field>
+    <name>funding_notes</name>
+    <type>text</type>
+  </field>
+
+  <field>
+    <name>contract_type</name>
+    <title>Job Contract Type</title>
+    <type>varchar</type>
+    <length>63</length>
+    <comment>Contract for employment, internship, etc.</comment>
+    <pseudoconstant>
+      <optionGroupName>hrjob_contract_type</optionGroupName>
+    </pseudoconstant>
+    <export>true</export>
+    <uniqueName>hrjob_contract_type</uniqueName>
+  </field>
+  <index>
+    <name>index_contract_type</name>
+    <fieldName>contract_type</fieldName>
+  </index>
+
+  <field>
+    <name>level_type</name>
+    <title>Job Level</title>
+    <type>varchar</type>
+    <length>63</length>
+    <comment>Junior manager, senior manager, etc.</comment>
+    <pseudoconstant>
+      <optionGroupName>hrjob_level_type</optionGroupName>
+    </pseudoconstant>
+    <export>true</export>
+    <uniqueName>hrjob_level_type</uniqueName>
+  </field>
+  <index>
+    <name>index_level_type</name>
+    <fieldName>level_type</fieldName>
+  </index>
+
+  <field>
+    <name>period_type</name>
+    <type>enum</type>
+    <values>Temporary, Permanent</values>
+    <comment>.</comment>
+    <title>Job Contract Duration</title>
+    <export>true</export>
+    <uniqueName>hrjob_period_type</uniqueName>
+  </field>
+  <index>
+    <name>index_period_type</name>
+    <fieldName>period_type</fieldName>
+  </index>
+
+  <field>
+    <name>period_start_date</name>
+    <title>Job Start Date</title>
+    <type>date</type>
+    <comment>First day of the job</comment>
+    <export>true</export>
+    <uniqueName>hrjob_period_start_date</uniqueName>
+  </field>
+
+  <field>
+    <name>period_end_date</name>
+    <title>Job End Date</title>
+    <type>date</type>
+    <comment>Last day of the job</comment>
+    <export>true</export>
+    <uniqueName>hrjob_period_end_date</uniqueName>
+  </field>
+
+  <field>
+    <name>notice_amount</name>
+    <title>Job Notice Period Amount</title>
+    <type>float</type>
+    <default>0</default>
+    <comment>Amount of time allocated for notice period. Number part without the unit e.g 3 in 3 Weeks.</comment>
+    <uniqueName>hrjob_notice_amount</uniqueName>
+  </field>
+
+  <field>
+    <name>notice_unit</name>
+    <title>Job Notice Period Unit</title>
+    <type>enum</type>
+    <values>Day, Week, Month, Year</values>
+    <comment>Unit of a notice period assigned to a quantity e.g Week in 3 Weeks.</comment>
+    <uniqueName>hrjob_notice_unit</uniqueName>
+  </field>
+
+  <field>
+    <name>manager_contact_id</name>
+    <title>Job Manager ID</title>
+    <type>int unsigned</type>
+    <comment>FK to Contact ID</comment>
+    <export>true</export>
+    <uniqueName>hrjob_manager_contact_id</uniqueName>
+  </field>
+  <foreignKey>
+    <name>manager_contact_id</name>
+    <table>civicrm_contact</table>
+    <key>id</key>
+    <onDelete>SET NULL</onDelete>
+  </foreignKey>
+
+  <field>
+    <name>location</name>
+    <title>Job Normal Place of Work</title>
+    <type>varchar</type>
+    <length>127</length>
+    <comment>Normal place of work</comment>
+    <export>true</export>
+    <pseudoconstant>
+      <optionGroupName>hrjob_location</optionGroupName>
+    </pseudoconstant>
+    <uniqueName>hrjob_location</uniqueName>
+  </field>
+  <index>
+    <name>index_location</name>
+    <fieldName>location</fieldName>
+  </index>
+
+  <field>
+    <name>is_primary</name>
+    <type>boolean</type>
+    <default>0</default>
+    <comment>Is this the primary?</comment>
+    <title>Job Is Primary</title>
+    <export>true</export>
+    <uniqueName>hrjob_is_primary</uniqueName>
+  </field>
+  <index>
+    <name>index_is_primary</name>
+    <fieldName>is_primary</fieldName>
+  </index>
+</table>

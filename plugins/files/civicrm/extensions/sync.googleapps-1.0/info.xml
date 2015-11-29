@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<extension key="com.cividesk.sync.googleapps" type="module">
+  <file>googleapps</file>
+  <name>Cividesk sync for Google Apps</name>
+  <description>This extension syncs the contacts in CiviCRM with the Contacts Directory in Google Apps.</description>
+  <urls>
+    <url desc="Licensing">http://civicrm.org/licensing</url>
+    <url desc="Main Extension Page">http://www.cividesk.com</url>
+    <url desc="Support">http://forum.civicrm.org</url>
+  </urls>
+  <license>GNU AGPL-3.0</license>
+  <maintainer>
+    <author>Nicolas Ganivet</author>
+    <email>nicolas@cividesk.com</email>
+  </maintainer>
+  <releaseDate>2013-04-02</releaseDate>
+  <version>1.0</version>
+  <develStage>stable</develStage>
+  <compatibility>
+    <ver>4.2</ver><ver>4.3</ver>
+  </compatibility>
+  <downloadUrl>https://github.com/cividesk/sync.googleapps/archive/v1.0.zip</downloadUrl>
+  <comments>Please use the 'Administer / System Settings / Cividesk sync for Google Apps' menu to configure this extension once installed. Per Google's restrictions, this extension can only work with Google Apps for Business or Education accounts. If you do have a free Google Apps account, you will need to upgrade.</comments>
+  <civix>
+    <namespace>CRM/Googleapps</namespace>
+  </civix>
+</extension>

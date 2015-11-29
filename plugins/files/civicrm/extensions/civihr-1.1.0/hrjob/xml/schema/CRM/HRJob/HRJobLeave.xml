@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+
+<table>
+  <base>CRM/HRJob</base>
+  <class>HRJobLeave</class>
+  <name>civicrm_hrjob_leave</name>
+  <comment>Contract terms relating to leave-entitlements</comment>
+  <log>true</log>
+
+  <field>
+    <name>id</name>
+    <type>int unsigned</type>
+    <required>true</required>
+    <comment>Unique HRJobLeave ID</comment>
+  </field>
+  <primaryKey>
+    <name>id</name>
+    <autoincrement>true</autoincrement>
+  </primaryKey>
+
+  <field>
+    <name>job_id</name>
+    <type>int unsigned</type>
+    <required>true</required>
+    <comment>FK to Job</comment>
+  </field>
+  <foreignKey>
+    <name>job_id</name>
+    <table>civicrm_hrjob</table>
+    <key>id</key>
+    <onDelete>CASCADE</onDelete>
+  </foreignKey>
+
+  <field>
+    <name>leave_type</name>
+    <title>Leave Type</title>
+    <type>varchar</type>
+    <length>63</length>
+    <comment>The purpose for which leave may be taken (sickness, vacation, etc)</comment>
+    <pseudoconstant>
+      <optionGroupName>hrjob_leave_type</optionGroupName>
+    </pseudoconstant>
+  </field>
+  <index>
+    <name>UI_leave_type</name>
+    <fieldName>job_id</fieldName>
+    <fieldName>leave_type</fieldName>
+    <unique>true</unique>
+  </index>
+
+  <field>
+      <name>leave_amount</name>
+      <type>int unsigned</type>
+      <comment>The number of leave days</comment>
+  </field>
+</table>

@@ -1,0 +1,117 @@
+<?php require_once 'civimobile.header.php'; ?>
+
+<div id="cm-participant-checkin" data-role="page">
+  <div data-role="header">
+    <h3>Event check-in</h3>
+    <a href="#" data-rel="back" class="ui-btn-left" data-icon="arrow-l" data-transition="slideup">Back</a>
+  </div>
+
+  <div data-role="content" id="participant-content">
+    <div class="ui-listview-filter ui-bar-c">
+      <input type="search" name="participant_name" id="participant_name" value="" placeholder=""/>
+    </div>
+    <ul id="registered-participants" class="participant-list" data-inset="true" data-role="listview" data-split-icon="info" data-split-theme="c">
+      <li data-role="list-divider" class="dividerClass">Registered & Pay later</li>
+    </ul>
+    <ul id="checked-in-participants" class="participant-list" data-inset="true" data-role="listview" data-split-icon="info" data-split-theme="c">
+      <li data-role="list-divider" class="dividerClass">Checked-in</li>
+    </ul>
+  </div>
+
+  <script>
+    var participantList = $('.participant-list');
+    var checkedInParticipants = $('#checked-in-participants');
+    var registeredParticipants = $('#registered-participants');
+    var eventId = "<?php echo $_GET['eid']; ?>";
+
+    function participantSearch (q) {
+      if ( isNaN(eventId) ) {
+        return;
+      }
+      $.mobile.showPageLoadingMsg('Searching');
+
+      CRM.api('Participant','get',
+        {'version' :'3', 'sort_name': q, 'event_id': eventId, 'participant_status_id': {1:1,2:2,5:5},
+          'return' : 'display_name,participant_status_id', 'rowCount' : 500 },
+        {
+          success:function (data){
+            if (data.count == 0) {
+              cmd = null;
+            }
+            else {
+              cmd = "refresh";
+              participantList.show();
+              participantList.find('*').not('.dividerClass').remove();
+            }
+            $.each(data.values, function(key, value) {
+              var content = '<li  role="option">' +
+                '<a href="#" id="event-participant-'+ value.participant_id+'" data-participant-id="'+ value.participant_id + '" data-role="participants-'+ value.id +'" >'+
+                value.display_name + '</a>' +
+                '<a href="<?php echo CRM_Utils_System::url('civicrm/mobile/contact', 'action=view&cid='); ?>'+ value.contact_id + '&context=cm-events" data-icon="info"></a>' +
+                '</li>';
+              if ((value.participant_status_id == '1') || (value.participant_status_id == '5')) {
+                registeredParticipants.append(content);
+              }
+              if (value.participant_status_id == '2') {
+                checkedInParticipants.append(content);
+              }
+            });
+            $.mobile.hidePageLoadingMsg( );
+            participantList.listview(cmd);
+            $("[id^=event-participant-]").click(function(event){
+              checkinParticipant($(this).attr('data-participant-id'), eventId);
+            });
+
+            appendParticipantCount();
+          }
+        });
+    }
+
+    function checkinParticipant(pid,eid) {
+      var regDate;
+      $.mobile.loading( 'show' );
+      var participant = $('#event-participant-'+pid).parent().parent().parent();
+      if(participant.parent().attr('id')=="registered-participants"){
+        var statusId = '2';
+        var list = checkedInParticipants;
+      }
+      else{
+        var statusId='1';
+        var list = registeredParticipants
+      }
+
+      CRM.api('Participant','get',{'version' :'3', 'event_id' : eid, 'participant_id' : pid }
+        ,{
+          success:function (data){
+            $.each(data.values,function(key,value){
+	      regDate=value.participant_register_date;
+	    });
+          }
+        });
+
+      CRM.api('Participant','create',{'version' :'3', 'event_id' : eid, 'id' : pid, 'status_id' : statusId, 'register_date' : regDate }
+        ,{
+          success:function (data){
+            //move participant to other list
+            list.append(participant);
+            participantList.listview('refresh');
+            appendParticipantCount();
+          }
+        });
+      $.mobile.loading( 'hide' );
+    }
+
+    function appendParticipantCount() {
+      var cp = $('#checked-in-participants');
+      var rp = $('#registered-participants');
+      var cpcnt = cp.find('li').not('.dividerClass').length;
+      var rpcnt = rp.find('li').not('.dividerClass').length;
+      cp.find('li.dividerClass span').remove();
+      cp.find('li.dividerClass').append(' <span>('+ cpcnt +')</span>');
+      rp.find('li.dividerClass span').remove();
+      rp.find('li.dividerClass').append(' <span>('+ rpcnt +')</span>');
+    }
+  </script>
+</div>
+
+<?php require_once 'civimobile.footer.php'; ?> 

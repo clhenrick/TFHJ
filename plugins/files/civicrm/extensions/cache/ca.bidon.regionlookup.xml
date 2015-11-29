@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<extension key="ca.bidon.regionlookup" type="module">
+  <file>regionlookup</file>
+  <name>CiviCRM Region Lookup</name>
+  <description>Lookup the value of a given field based on the value of another field. For example, based on the postcode of a contact, on a contribution page or on an administrative page, you may want to lookup the region, district, state/province, or can be used to determine a medical clinic, closest office, etc.
+Once installed, a new menu item will be added to the System Settings (Administer) in which it will be possible to specify the 'selector' that triggers a lookup (ex: postal code) and then the destination fields that should be updated with the result. You will also have to fill-in the civicrm_regionlookup database table with values that will be used in the lookup. The README.txt file has more information and examples. At the moment, while the extension is stable, it is admittedly stll slightly hard to do the initial configuration. If you find this module interesting, please post on the Extensions forum for ideas. You can also send patches on the github project page.</description>
+  <license>AGPL v3</license>
+  <maintainer>
+    <author>Mathieu Lutfy</author>
+    <email>mathieu@bidon.ca</email>
+  </maintainer>
+  <releaseDate>2013-12-06</releaseDate>
+  <version>1.3</version>
+  <develStage>stable</develStage>
+  <compatibility>
+    <ver>4.3</ver>
+    <ver>4.4</ver>
+  </compatibility>
+  <comments>CiviCRM extension based on the Drupal-based module civicrm_regionlookup. Still lacks proper import/update of lookup data.</comments>
+  <urls>
+    <url desc="Main Extension Page">https://github.com/mlutfy/ca.bidon.regionlookup</url>
+    <url desc="Documentation">https://github.com/mlutfy/ca.bidon.regionlookup/blob/master/README.txt</url>
+    <url desc="Support">http://forum.civicrm.org/index.php/board,57.0.html</url>
+    <url desc="Licensing">http://civicrm.org/licensing</url>
+  </urls>
+  <civix>
+    <namespace>CRM/RegionLookup</namespace>
+  </civix>
+<downloadUrl>https://github.com/mlutfy/ca.bidon.regionlookup/archive/1.3.zip</downloadUrl></extension>

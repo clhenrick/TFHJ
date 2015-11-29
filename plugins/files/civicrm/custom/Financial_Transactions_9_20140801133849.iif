@@ -1,0 +1,22 @@
+!ACCNT	NAME	REFNUM	TIMESTAMP	ACCNTTYPE	OBAMOUNT	DESC	ACCNUM
+ACCNT	Payment Processor Account			BANK		Account to record payments into a payment processor merchant account	1150
+ACCNT	Event Fee			INC		Default account for Event Fee	
+ACCNT	Deposit Bank Account			BANK		All manually recorded cash and cheques go to this account	1100
+ACCNT	Direct Public Support:Fundraising:Gala:Ads			INC			4473
+!CUST	NAME	REFNUM	TIMESTAMP	BADDR1	BADDR2	BADDR3	BADDR4	BADDR5	SADDR1	SADDR2	SADDR3	SADDR4	SADDR5	PHONE1	PHONE2	FAXNUM	EMAIL	NOTE	CONT1	CONT2	CTYPE	TERMS	TAXABLE	SALESTAXCODE	LIMIT	RESALENUM	REP	TAXITEM	NOTEPAD	SALUTATION	COMPANYNAME	FIRSTNAME	MIDINIT	LASTNAME	CUSTFLD1	CUSTFLD2	CUSTFLD3	CUSTFLD4	CUSTFLD5	CUSTFLD6	CUSTFLD7	CUSTFLD8	CUSTFLD9	CUSTFLD10	CUSTFLD11	CUSTFLD12	CUSTFLD13	CUSTFLD14	CUSTFLD15	JOBDESC	JOBTYPE	JOBSTATUS	JOBSTART	JOBPROJEND	JOBEND	HIDDEN	DELCOUNT	PRICELEVEL
+CUST	Cooper Square Committee																																																									
+CUST	Mackenzie Smith																															Mackenzie		Smith																								
+CUST	Justin Carroll																															Justin		Carroll																								
+CUST	Juliana Liriano																															Juliana		Liriano																								
+!TRNS	TRNSID	TRNSTYPE	DATE	ACCNT	NAME	CLASS	AMOUNT	DOCNUM	MEMO	PAYMETH
+!SPL	SPLID	TRNSTYPE	DATE	ACCNT	NAME	CLASS	AMOUNT	DOCNUM	MEMO	PAYMETH
+!ENDTRNS
+TRNS	6280408712	GENERAL JOURNAL	2014/06/24	Payment Processor Account	Cooper Square Committee		10.00			Credit Card
+SPL	140	GENERAL JOURNAL	2014/06/24	Event Fee	Mackenzie Smith		-10.00		 One ticket	Credit Card
+ENDTRNS
+TRNS		GENERAL JOURNAL	2014/07/23	Deposit Bank Account	Cooper Square Committee		50.00			Credit Card
+SPL	165	GENERAL JOURNAL	2014/07/23	Event Fee	Justin Carroll		-50.00		 Cooper Square Committee Members	Credit Card
+ENDTRNS
+TRNS		GENERAL JOURNAL	2014/08/01	Payment Processor Account	Cooper Square Committee		60.00			Credit Card
+SPL	183	GENERAL JOURNAL	2014/08/01	Direct Public Support:Fundraising:Gala:Ads	Juliana Liriano		-60.00		 Business Card - B&W	Credit Card
+ENDTRNS

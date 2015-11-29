@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<menu>
+  <item>
+    <path>civicrm/admin/sync/googleapps</path>
+    <title>Cividesk sync for Google Apps</title>
+    <page_callback>CRM_Admin_Form_Setting_GoogleApps</page_callback>
+    <adminGroup>System Settings</adminGroup>
+    <access_arguments>administer CiviCRM</access_arguments>
+  </item>
+</menu>
