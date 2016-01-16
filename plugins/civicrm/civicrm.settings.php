@@ -162,9 +162,6 @@ define( 'CIVICRM_TEMPLATE_COMPILEDIR', '/Applications/MAMP/htdocs/wp-content/plu
  *
  */
 define( 'CIVICRM_UF_BASEURL'      , 'http://localcooper.com/' );
-
-define( 'GOOGLE_MAPS_API_KEY'      , 'AIzaSyDNdnxpDoty5M4wMnnwOBwZULcAjvzUQ90' );
-
 /*
  * If you are using any CiviCRM script in the bin directory that
  * requires authentication, then you also need to set this key.
