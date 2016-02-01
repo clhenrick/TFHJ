@@ -125,6 +125,7 @@ class CRM_Utils_Address_BatchUpdate {
   public function processContacts(&$config, $processGeocode, $parseStreetAddress) {
     // build where clause.
     $clause = array('( c.id = a.contact_id )');
+
     $params = array();
     if ($this->start) {
       $clause[] = "( c.id >= %1 )";

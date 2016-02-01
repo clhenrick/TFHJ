@@ -1,4 +1,80 @@
 <?php
+
+/**
+ * See if a CiviCRM custom field group exists
+ *
+ * @param string $group_name
+ *   custom field group name to look for, corresponds to field civicrm_custom_group.name
+ * @return integer
+ *   custom field group id if it exists, else zero
+ */
+function custom_group_get_id($group_name) {
+  $result = 0;
+
+  // This is an empty array we pass in to make the retrieve() function happy
+  $def = array();
+  $params = array(
+    'name' => $group_name,
+  );
+
+  require_once('CRM/Core/BAO/CustomGroup.php');
+
+  $custom_group = CRM_Core_BAO_CustomGroup::retrieve($params, $def);
+
+  if (!empty($custom_group)) {
+    $result = $custom_group->id;
+  }
+  return $result;
+}
+
+function populateContactAddress($contact_id, $houseNumber, $street, $borough) {
+  // $config = CRM_Core_Config::singleton();
+  $customFieldLabel = 'BBL';
+  $group_id = custom_group_get_id($customFieldLabel);
+  $field_id = custom_field_get_id($group_id, $customFieldLabel);
+  $custom_fields = array('bbl' => 'bbl_' . $field_id);
+
+
+  // require_once 'CRM/Core/BAO/CustomValueTable.php';
+  //
+  $set_params = array(
+    'entityID'            => $contact_id,
+    $custom_fields['bbl'] => '122'
+  );
+  CRM_Core_BAO_CustomValueTable::setValues($set_params);
+  return TRUE;
+
+}
+
+/**
+ * See if a CiviCRM custom field exists
+ *
+ * @param integer $custom_group_id
+ *   custom group id that the field is expected to belong to
+ * @param string $field_label
+ *   custom field name to look for, corresponds to field civicrm_custom_field.label
+ * @return integer
+ *   custom field id if it exists, else zero
+ */
+function custom_field_get_id($custom_group_id, $field_label) {
+  $result = 0;
+
+  // This is an empty array we pass in to make the retrieve() function happy
+  $def = array();
+  $params = array(
+    'custom_group_id' => $custom_group_id,
+    'label'           => $field_label,
+  );
+
+  require_once('CRM/Core/BAO/CustomField.php');
+
+  $custom_field = CRM_Core_BAO_CustomField::retrieve($params, $def);
+
+  if (!empty($custom_field)) {
+    $result = $custom_field->id;
+  }
+  return $result;
+}
 /*
   +--------------------------------------------------------------------+
   | CiviCRM version 4.6                                                |
@@ -75,63 +151,75 @@ class CRM_Utils_Geocode_Geoclient {
    *   true if we modified the address, false otherwise
    */
   public static function format(&$values, $stateName = FALSE) {
-    // we need a valid country, else we ignore
-    // is this necessary? can we default to US?
-    $config = CRM_Core_Config::singleton();
-    $houseNumber = $values['street_number'];
-    $street = $values['street_name'];
-    $borough = CRM_Utils_Array::value('city', $values);
+    $getParams = array('return' => array('contact_id', 'street_number', 'street_name', 'city'));
+    $result = civicrm_api3('Address', 'Get', $getParams);
 
-    $query = 'http://' . self::$_server . self::$_uri . 'houseNumber=?' . $houseNumber . '&street=' . $street . '&borough=' . $borough;
+    // list($key, $value) = each($result['values']);
+    // echo "$key = $value\n";
+    print_r($results['values']);
+    // print_r(reset($result['values']));
+    // echo $result['values'][$arrayKeys[0]];
 
-    require_once 'HTTP/Request.php';
-    $request = new HTTP_Request($query);
-    $request->sendRequest();
-    $string = $request->getResponseBody();
+    foreach ($result['values'] as &$value) {
+      $contact_id = $value['contact_id'];
+      $houseNumber = $value['street_number'];
+      $street = $value['street_name'];
+      $borough = $value['city'];
 
-    libxml_use_internal_errors(TRUE);
-    $xml = @simplexml_load_string($string);
-    if ($xml === FALSE) {
-      // account blocked maybe?
-      CRM_Core_Error::debug_var('Geocoding failed.  Message from Geoclient:', $string);
-      return FALSE;
+      // populateContactAddress($contact_id, $houseNumber, $street, $borough);
+      return TRUE;
     }
 
-    if (isset($xml->status)) {
-      if ($xml->status == 'OK' &&
-        is_a($xml->address,
-          'SimpleXMLElement'
-        )
-      ) {
-        $ret = $xml->address->children();
-        $BBL = $ret->bbl;
-        echo $ret;
-        echo $xml;
+    // $app_id = '3f88824d';
 
-        require_once 'CRM/Core/BAO/CustomField.php';
-        $fieldLabel = 'BBL';
-        $groupTitle = 'BBL-address';
-        $customFieldID = CRM_Core_BAO_CustomField::getCustomFieldID( $fieldLabel, $groupTitle );
+    // $query = 'http://' . self::$_server . self::$_uri . 'houseNumber=?' . $houseNumber . '&street=' . $street . '&borough=' . $borough . '&app_id=' . $appId;
 
-        $custom_fields = array('BBL' => 'BBL_' + $customFieldID);
+    // require_once 'HTTP/Request.php';
+    // $request = new HTTP_Request($query);
+    // $request->sendRequest();
+    // $string = $request->getResponseBody();
 
-        $objectId = $values['id'];
-        $contact_id = $objectId;
-        require_once 'CRM/Core/BAO/CustomValueTable.php';
+    // libxml_use_internal_errors(TRUE);
+    // $xml = @simplexml_load_string($string);
+    // if ($xml === FALSE) {
+    //   // account blocked maybe?
+    //   CRM_Core_Error::debug_var('Geocoding failed.  Message from Geoclient:', $string);
+    //   return FALSE;
+    // }
+    // void debug_print_backtrace ([ int $options = 0 [, int $limit = 0 ]] );
 
-        $set_params = array('entityID' => $contact_id,
-          $custom_fields['BBL'] => $BBL);
-        CRM_Core_BAO_CustomValueTable::setValues($set_params);
+    // if (isset($xml->status)) {
+    //   if ($xml->status == 'OK' &&
+    //     is_a($xml->address,
+    //       'SimpleXMLElement'
+    //     )
+    //   ) {
+    //     $ret = $xml->address->children();
+    //     $BBL = $ret->bbl;
+    //     echo $ret;
+    //     echo $xml;
 
-        return TRUE;
-      }
-      elseif ($xml->status == 'OVER_QUERY_LIMIT') {
-        CRM_Core_Error::debug_var('Geocoding failed. Message from Geoclient: ', (string ) $xml->status);
-        $values['geo_code_1'] = $values['geo_code_2'] = 'null';
-        $values['geo_code_error'] = $xml->status;
-        return FALSE;
-      }
-    }
-    return FALSE;
+    // $customFieldLabel = 'BBL';
+    // $group_id = custom_group_get_id($customFieldLabel);
+    // $field_id = custom_field_get_id($group_id, $customFieldLabel);
+    // $custom_fields = array('bbl' => 'bbl_' . $field_id);
+
+
+    // // require_once 'CRM/Core/BAO/CustomValueTable.php';
+    // //
+    // $set_params = array('entityID' => $contact_id, $custom_fields['bbl'] => '122');
+    // // print_r($set_params);
+    // // CRM_Core_BAO_CustomValueTable::setValues($set_params);
+
+    // return TRUE;
+    // //   }
+    // //   elseif ($xml->status == 'OVER_QUERY_LIMIT') {
+    // //     CRM_Core_Error::debug_var('Geocoding failed. Message from Geoclient: ', (string ) $xml->status);
+    // //     $values['geo_code_1'] = $values['geo_code_2'] = 'null';
+    // //     $values['geo_code_error'] = $xml->status;
+    // //     return FALSE;
+    //   }
+    // }
+    // return FALSE;
   }
 }
