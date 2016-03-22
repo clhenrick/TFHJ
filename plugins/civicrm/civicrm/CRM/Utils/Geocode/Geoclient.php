@@ -26,31 +26,6 @@ function custom_group_get_id($group_name) {
   }
   return $result;
 }
-// , $houseNumber, $street, $borough
-function populateContactAddress($address_id) {
-  $customFieldLabel = 'BBL';
-  $customGroupName = 'BBL';
-  $group_id = custom_group_get_id($customFieldLabel);
-  $field_id = custom_field_get_id($group_id, $customFieldLabel);
-  $custom_fields = array('bbl' => 'bbl_' . $field_id);
-
-  updateCustomField($address_id, $customGroupName, $custom_fields, '93502917');
-
-  return TRUE;
-
-}
-
-// updates the field, returns number of fields updated
-function updateCustomField($address_id, $group_name, $field_name, $value){
-  $addressParams = array('entity_id' => $address_id, "custom_" . $group_name . ":" . $field_name['bbl'] => $value);
-  $address = new CRM_Core_DAO_Address();
-  $address->id = $address_id;
-  $address->copyValues($addressParams);
-  $address->save();
-  $address->free();
-
-  return TRUE;
-}
 /**
  * See if a CiviCRM custom field exists
  *
@@ -79,6 +54,31 @@ function custom_field_get_id($custom_group_id, $field_label) {
     $result = $custom_field->id;
   }
   return $result;
+}
+
+function populateContactAddress($address_id, $bbl) {
+  $customFieldLabel = 'BBL';
+  $customGroupName = 'BBL';
+  $group_id = custom_group_get_id($customFieldLabel);
+  $field_id = custom_field_get_id($group_id, $customFieldLabel);
+  $custom_fields = array('bbl' => 'bbl_' . $field_id);
+
+  updateCustomField($address_id, $customGroupName, $custom_fields, $bbl);
+
+  return TRUE;
+
+}
+
+// updates the field, returns number of fields updated
+function updateCustomField($address_id, $group_name, $field_name, $value){
+  $addressParams = array('entity_id' => $address_id, "custom_" . $group_name . ":" . $field_name['bbl'] => $value);
+  $address = new CRM_Core_DAO_Address();
+  $address->id = $address_id;
+  $address->copyValues($addressParams);
+  $address->save();
+  $address->free();
+
+  return TRUE;
 }
 /*
   +--------------------------------------------------------------------+
@@ -121,7 +121,7 @@ function custom_field_get_id($custom_group_id, $field_label) {
 class CRM_Utils_Geocode_Geoclient {
 
   /**
-   * Server to retrieve the lat/long
+   * Server to retrieve the lat/long and BBL data
    *
    * @var string
    */
@@ -133,7 +133,7 @@ class CRM_Utils_Geocode_Geoclient {
    * @var string
    */
 
-  static protected $_uri = '/geoclient/v1/address.xml?';
+  static protected $_uri = '/geoclient/v1/address.json?';
   /**
    * curl -v  -X GET "https://api.cityofnewyork.us/geoclient/v1/address.xml?
    * params are houseNumber=&street=n&borough=&
@@ -157,29 +157,43 @@ class CRM_Utils_Geocode_Geoclient {
    *   true if we modified the address, false otherwise
    */
   public static function format(&$values, $stateName = FALSE) {
+    // establish civicrm credentials
     $config = CRM_Core_Config::singleton();
 
-    $app_id = '3f88824d';
-    $query = 'http://' . self::$_server . self::$_uri . 'houseNumber=?' . $houseNumber . '&street=' . $street . '&borough=' . $borough . '&app_id=' . $appId;
-
-    require_once 'HTTP/Request.php';
-    $request = new HTTP_Request($query);
-    $request->sendRequest();
-    $string = $request->getResponseBody();
-
-    $getParams = array('return' => array('contact_id', 'street_number', 'street_name', 'city'));
+    // // set vars to GeoClient app id and api key
+    // // make an api call to get a list of the contacts
+    $getParams = array('return' => array('contact_id', 'street_number', 'street_name', 'postal_code'));
     $addresses = civicrm_api3('Address', 'get', $getParams);
 
-    foreach($addresses[values] as $row => $innerArray){
-      foreach($innerArray as $innerKey => $value) {
-        if ($innerKey == 'id') {
-          foreach ($string as &$value) {
-            $bbl = $string;
-            return TRUE;
-          }
-          populateContactAddress($value, $bbl);
+    // iterate through addresses to get their information to match getParams
+    foreach($addresses[values] as $address => $addressArray) {
+      foreach($addressArray as $addressAttribute => $value) {
+        // GET "https://api.cityofnewyork.us/geoclient/v1/address.xml?
+        if ($addressAttribute == 'id') {
+          $addressId = $value;
+        } else if ($addressAttribute == 'street_number') {
+          $houseNumber = $value;
+        } else if ($addressAttribute == 'street_name') {
+          $street = urlencode($value);
+        } else if ($addressAttribute == 'postal_code') {
+          $zip = $value;
         }
       }
+
+      $query = self::$_server . self::$_uri . 'houseNumber=' . $houseNumber . '&street=' . $street . '&zip=' . $zip . '&app_id=' . $appId . '&app_key=' . $app_key;
+
+      try {
+        $request = new HTTP_Request($query);
+        $request->sendRequest();
+        $string = $request->getResponseBody();
+      } catch (e) {
+        // Forgive me;
+      };
+
+      populateContactAddress($addressId, $bbl);
+
+      $sleep_for = random_int(0, 1000000000);
+      time_nanosleep(0, $sleep_for);
     }
   }
 }
