@@ -150,6 +150,8 @@ class CRM_Utils_Address_BatchUpdate {
                a.id as address_id,
                a.street_address,
                a.city,
+               a.street_number,
+               a.street_name,
                a.postal_code,
                s.name as state,
                o.name as country
@@ -172,7 +174,9 @@ class CRM_Utils_Address_BatchUpdate {
     while ($dao->fetch()) {
       $totalAddresses++;
       $params = array(
-        'street_address' => $dao->street_address,
+        'address_id' => $dao->id,
+        'street_name' => $dao->street_name,
+        'street_number' => $dao->street_number,
         'postal_code' => $dao->postal_code,
         'city' => $dao->city,
         'state_province' => $dao->state,

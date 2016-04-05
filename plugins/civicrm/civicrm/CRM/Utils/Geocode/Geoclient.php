@@ -64,16 +64,14 @@ function populateContactAddress($address_id, $bbl) {
   $custom_fields = array('bbl' => 'bbl_' . $field_id);
 
   updateCustomField($address_id, $customGroupName, $custom_fields, $bbl);
-
-  return TRUE;
-
 }
 
 // updates the field, returns number of fields updated
 function updateCustomField($address_id, $group_name, $field_name, $value){
-  $addressParams = array('entity_id' => $address_id, "custom_" . $group_name . ":" . $field_name['bbl'] => $value);
+  $addressParams = array('entity_id' => $address_id, "custom_" . $group_name . ":" . $field_name => $value);
   $address = new CRM_Core_DAO_Address();
   $address->id = $address_id;
+
   $address->copyValues($addressParams);
   $address->save();
   $address->free();
@@ -121,6 +119,19 @@ function updateCustomField($address_id, $group_name, $field_name, $value){
 class CRM_Utils_Geocode_Geoclient {
 
   /**
+   *
+   * @var string
+   */
+  static protected $_app_id = '3f88824d';
+
+  /**
+   *
+   * @var string
+   */
+  static protected $_app_key = 'f2a2b535bdc9cc8f9a5e1b589002531c';
+
+  /**
+   *
    * Server to retrieve the lat/long and BBL data
    *
    * @var string
@@ -143,7 +154,6 @@ class CRM_Utils_Geocode_Geoclient {
    * app_id
    * app_key
    *
-   * app_id=3f88824d&app_key=f2a2b535bdc9cc8f9a5e1b589002531c"
    */
   /**
    * Function that takes an address object and gets the latitude / longitude for this
@@ -160,40 +170,28 @@ class CRM_Utils_Geocode_Geoclient {
     // establish civicrm credentials
     $config = CRM_Core_Config::singleton();
 
-    // // set vars to GeoClient app id and api key
-    // // make an api call to get a list of the contacts
-    $getParams = array('return' => array('contact_id', 'street_number', 'street_name', 'postal_code'));
-    $addresses = civicrm_api3('Address', 'get', $getParams);
+    $house_number = $values['street_number'];
+    $street_name = $values['street_name'];
+    $zip = $values['postal_code'];
+    $entity_id = $values['address_id'];
 
-    // iterate through addresses to get their information to match getParams
-    foreach($addresses[values] as $address => $addressArray) {
-      foreach($addressArray as $addressAttribute => $value) {
-        // GET "https://api.cityofnewyork.us/geoclient/v1/address.xml?
-        if ($addressAttribute == 'id') {
-          $addressId = $value;
-        } else if ($addressAttribute == 'street_number') {
-          $houseNumber = $value;
-        } else if ($addressAttribute == 'street_name') {
-          $street = urlencode($value);
-        } else if ($addressAttribute == 'postal_code') {
-          $zip = $value;
-        }
-      }
+    $query = self::$_server . self::$_uri . 'houseNumber=' . $house_number . '&street=' . $$street_name . '&zip=' . $zip . '&app_id=' . self::$_app_id . '&app_key=' . self::$_app_key;
 
-      $query = self::$_server . self::$_uri . 'houseNumber=' . $houseNumber . '&street=' . $street . '&zip=' . $zip . '&app_id=' . $appId . '&app_key=' . $app_key;
+    try {
+      require_once 'HTTP/Request.php';
+      $request = new HTTP_Request($query);
+      $request->sendRequest();
+      $string = $request->getResponseBody();
 
-      try {
-        $request = new HTTP_Request($query);
-        $request->sendRequest();
-        $string = $request->getResponseBody();
-      } catch (e) {
-        // Forgive me;
-      };
-
-      populateContactAddress($addressId, $bbl);
-
-      $sleep_for = random_int(0, 1000000000);
-      time_nanosleep(0, $sleep_for);
+      $json = json_decode($string, true);
+      $bbl = $json['address']['bbl'];
+      populateContactAddress($entity_id, $bbl);
+      return TRUE;
     }
+    catch(Exception $e) {
+      print_r($e);
+    };
+
+    usleep(5000000);
   }
 }
