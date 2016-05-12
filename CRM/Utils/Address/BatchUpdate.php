@@ -273,7 +273,7 @@ class CRM_Utils_Address_BatchUpdate {
       }
 
        // finally update address object.
-      if (!empty($addressParams) && !empty($params['geo_code_1']))) {
+      if (!empty($addressParams) && !empty($params['geo_code_1']))  {
         $address = new CRM_Core_DAO_Address();
         $address->id = $dao->address_id;
         $address->copyValues($addressParams);
