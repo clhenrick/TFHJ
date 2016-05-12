@@ -90,7 +90,6 @@ class CRM_Utils_Geocode_NYCGeoclient {
     $request = new HTTP_Request($url);
     $result = $request->sendRequest();
 
-
     // check if request was successful
     if (PEAR::isError($result)) {
       CRM_Core_Error::debug_log_message('Geocoding failed: ' . $result->getMessage());
