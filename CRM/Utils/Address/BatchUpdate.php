@@ -142,9 +142,6 @@ class CRM_Utils_Address_BatchUpdate {
 
     if ($processGeocode) {
       $clause[] = "( v.bbl_153 is null OR v.bbl_153 = 0 )";
-      $clause[] = '( a.geo_code_1 is null OR a.geo_code_1 = 0 )';
-      $clause[] = '( a.geo_code_2 is null OR a.geo_code_2 = 0 )';
-      $clause[] = '( a.country_id is not null )';
     }
 
     $whereClause = implode(' AND ', $clause);
@@ -154,18 +151,13 @@ class CRM_Utils_Address_BatchUpdate {
     SELECT     c.id,
                a.id as address_id,
                a.street_address,
-               a.city,
                a.street_number,
                a.street_name,
                a.postal_code,
-               s.name as state,
-               o.name as country,
                v.bbl_153 as bbl
     FROM       civicrm_contact  c
     INNER JOIN civicrm_address        a ON a.contact_id = c.id
-    LEFT  JOIN civicrm_country        o ON a.country_id = o.id
     LEFT  JOIN civicrm_value_bbl_18   v ON v.entity_id = a.id
-    LEFT  JOIN civicrm_state_province s ON a.state_province_id = s.id
     WHERE      {$whereClause}
       ORDER BY a.id
     ";
@@ -184,9 +176,6 @@ class CRM_Utils_Address_BatchUpdate {
         'street_name' => $dao->street_name,
         'street_number' => $dao->street_number,
         'postal_code' => $dao->postal_code,
-        'city' => $dao->city,
-        'state_province' => $dao->state,
-        'country' => $dao->country,
         'app_key' => $this->app_key,
         'app_id' => $this->app_id,
       );
