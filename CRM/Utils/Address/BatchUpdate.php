@@ -268,7 +268,6 @@ class CRM_Utils_Address_BatchUpdate {
           $custom_bbl_field => $params['bbl'],
           'entity_id' => $dao->address_id,
         );
-        assert(isset($params['bbl']) && $params['bbl'] != 'null', 'bbl is null');
         civicrm_api3('CustomValue', 'create', $set_params_for_bbl);
       }
 

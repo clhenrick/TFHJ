@@ -82,7 +82,6 @@ class CRM_Utils_Geocode_NYCGeoclient {
     $url = self::$_server . self::$_uri;
     $url .= '?format=json';
     foreach ($params as $key => $value) {
-      assert($value != 'null' && $value != null, "<br/>$key was null in the API request<br/>");
       $url .= '&' . urlencode($key) . '=' . urlencode($value);
     }
 
