@@ -57,7 +57,9 @@ class CRM_Utils_Geocode_NYCGeoclient {
     $params['houseNumber'] = CRM_Utils_Array::value('street_number', $values);
     $params['street'] = CRM_Utils_Array::value('street_name', $values);
     $params['zip'] = CRM_Utils_Array::value('postal_code', $values);
-    $entity_id = CRM_Utils_Array::value('address_id', $values);
+    // This used to be 'address_id'.  That's not correct for real-time geocoding;
+    // but maybe it's correct for batch geocoding?  We'll need to check.
+    $entity_id = CRM_Utils_Array::value('id', $values);
 
     if (!(array_key_exists('houseNumber', $params)
         && array_key_exists('street', $params)
