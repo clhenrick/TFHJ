@@ -53,7 +53,7 @@ class CRM_Utils_Geocode_NYCGeoclient {
       $result = civicrm_api3('Setting', 'getvalue', array(
         'name' => "geoAPIKey",
       ));
-      $key = $result['result'];
+      $key = $result;
     }
     else {
       $key = '';
@@ -70,7 +70,6 @@ class CRM_Utils_Geocode_NYCGeoclient {
       'name' => "BBL",
     ));
     $fieldId = $result['id'];
-CRM_Core_Error::debug_var('id', $fieldId);
     return $fieldId;
   }
 
@@ -114,7 +113,6 @@ CRM_Core_Error::debug_var('id', $fieldId);
 
     // Get the BBL custom field ID.
     $bblFieldId = self::getBblFieldId();
-CRM_Core_Error::debug_var('id2', $BblFieldId);
 
     if (!(array_key_exists('houseNumber', $params)
         && array_key_exists('street', $params)
@@ -176,7 +174,6 @@ CRM_Core_Error::debug_var('id2', $BblFieldId);
       $values["custom_$bblFieldId"] = $json['address']['bbl'];
       $values['geo_code_1'] = substr($json['address']['latitude'],0,12);
       $values['geo_code_2'] = substr($json['address']['longitude'],0,12);
-CRM_Core_Error::debug_var('bbl', $values);
       return TRUE;
     } else {
       // don't know what went wrong... we got an array, but without lat and lon
