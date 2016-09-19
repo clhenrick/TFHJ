@@ -54,23 +54,17 @@ class CRM_Utils_Geocode_NYCGeoclient {
     $config = CRM_Core_Config::singleton();
 
     $params = array();
-    if (CRM_Utils_Array::value('street_number', $values)) {
-      $params['houseNumber'] = $values['street_number'];
-    }
-    if (CRM_Utils_Array::value('street_name', $values)) {
-      $params['street'] = $values['street_name'];
-    }
-    if (CRM_Utils_Array::value('postal_code', $values)) {
-      $params['zip'] = $values['postal_code'];
-    }
-    if (CRM_Utils_Array::value('address_id', $values)) {
-      $entity_id = $values['address_id'];
-    }
+    $params['houseNumber'] = CRM_Utils_Array::value('street_number', $values);
+    $params['street'] = CRM_Utils_Array::value('street_name', $values);
+    $params['zip'] = CRM_Utils_Array::value('postal_code', $values);
+    $entity_id = CRM_Utils_Array::value('address_id', $values);
 
     if (!(array_key_exists('houseNumber', $params)
         && array_key_exists('street', $params)
         && array_key_exists('zip', $params)
         && isset($entity_id))) {
+      CRM_Core_Error::debug_var('params', $params);
+      CRM_Core_Error::debug_var('values', $values);
       // the error logging is disabled, because it potentially produces a lot of log messages
       CRM_Core_Error::debug_log_message('Geocoding failed. Address data is incomplete.');
       $values['geo_code_error'] = "INCOMPLETE_ADDRESS";
