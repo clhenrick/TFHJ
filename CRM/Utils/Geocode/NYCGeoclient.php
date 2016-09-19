@@ -56,7 +56,7 @@ class CRM_Utils_Geocode_NYCGeoclient {
       $key = $result['result'];
     }
     else {
-      $key = '54dc84bcaca9ff4877da771750033275';
+      $key = '';
     }
     return $key;
   }
