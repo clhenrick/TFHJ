@@ -107,17 +107,13 @@ class CRM_Utils_Geocode_NYCGeoclient {
     $params['houseNumber'] = CRM_Utils_Array::value('street_number', $values);
     $params['street'] = CRM_Utils_Array::value('street_name', $values);
     $params['zip'] = CRM_Utils_Array::value('postal_code', $values);
-    // This used to be 'address_id'.  That's not correct for real-time geocoding;
-    // but maybe it's correct for batch geocoding?  We'll need to check.
-    $entity_id = CRM_Utils_Array::value('id', $values);
 
     // Get the BBL custom field ID.
     $bblFieldId = self::getBblFieldId();
 
     if (!(array_key_exists('houseNumber', $params)
         && array_key_exists('street', $params)
-        && array_key_exists('zip', $params)
-        && isset($entity_id))) {
+        && array_key_exists('zip', $params))) {
       // the error logging is disabled, because it potentially produces a lot of log messages
       CRM_Core_Error::debug_log_message('Geocoding failed. Address data is incomplete.');
       $values['geo_code_error'] = "INCOMPLETE_ADDRESS";
