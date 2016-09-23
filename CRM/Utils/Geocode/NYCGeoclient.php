@@ -11,8 +11,14 @@
 /**
  * Class that uses NYC Geoclient API geocoder to retrieve lat/long and BBL
  */
-
 class CRM_Utils_Geocode_NYCGeoclient {
+  /**
+   * This is the App ID that the city of NYC has assigned to this extension.
+   *
+   * @var string
+   */
+
+  static protected $_appId = '9cd0a15f';
   /**
    *
    * Server to retrieve the lat/long and BBL data
@@ -39,6 +45,50 @@ class CRM_Utils_Geocode_NYCGeoclient {
    *
    */
   /**
+   * Return the Geo Provider Key.
+   * Hardcode for now, target 4.6 and 4.7 separately due to the setting being moved.
+   */
+  private static function getApiKey() {
+    if (self::version_at_least('4.7')) {
+      $result = civicrm_api3('Setting', 'getvalue', array(
+        'name' => "geoAPIKey",
+      ));
+      $key = $result;
+    }
+    else {
+      $key = '';
+    }
+    return $key;
+  }
+
+  private static function getBblFieldId() {
+    // Get the field ID for "neighborhood".
+    $result = civicrm_api3('CustomField', 'getsingle', array(
+      'sequential' => 1,
+      'return' => array("id"),
+      'custom_group_id' => "BBL",
+      'name' => "BBL",
+    ));
+    $fieldId = $result['id'];
+    return $fieldId;
+  }
+
+  /**
+   * Check version is at least as high as the one passed.
+   *
+   * @param string $version
+   *
+   * @return bool
+   */
+  private function version_at_least($version) {
+    $codeVersion = explode('.', CRM_Utils_System::version());
+    if (version_compare($codeVersion[0] . '.' . $codeVersion[1], $version) >= 0) {
+      return TRUE;
+    }
+    return FALSE;
+  }
+
+  /**
    * Function that takes an address object and gets the latitude / longitude for this
    * address. Note that at a later stage, we could make this function also clean up
    * the address into a more valid format
@@ -54,30 +104,23 @@ class CRM_Utils_Geocode_NYCGeoclient {
     $config = CRM_Core_Config::singleton();
 
     $params = array();
-    if (CRM_Utils_Array::value('street_number', $values)) {
-      $params['houseNumber'] = $values['street_number'];
-    }
-    if (CRM_Utils_Array::value('street_name', $values)) {
-      $params['street'] = $values['street_name'];
-    }
-    if (CRM_Utils_Array::value('postal_code', $values)) {
-      $params['zip'] = $values['postal_code'];
-    }
-    if (CRM_Utils_Array::value('address_id', $values)) {
-      $entity_id = $values['address_id'];
-    }
+    $params['houseNumber'] = CRM_Utils_Array::value('street_number', $values);
+    $params['street'] = CRM_Utils_Array::value('street_name', $values);
+    $params['zip'] = CRM_Utils_Array::value('postal_code', $values);
+
+    // Get the BBL custom field ID.
+    $bblFieldId = self::getBblFieldId();
 
     if (!(array_key_exists('houseNumber', $params)
         && array_key_exists('street', $params)
-        && array_key_exists('zip', $params)
-        && isset($entity_id))) {
+        && array_key_exists('zip', $params))) {
       // the error logging is disabled, because it potentially produces a lot of log messages
       CRM_Core_Error::debug_log_message('Geocoding failed. Address data is incomplete.');
       $values['geo_code_error'] = "INCOMPLETE_ADDRESS";
       return FALSE;
     }
-    $params['app_id'] = $values['app_id'];
-    $params['app_key'] = $values['app_key'];
+    $params['app_id'] = self::$_appId;
+    $params['app_key'] = self::getApiKey();
 
     $url = self::$_server . self::$_uri;
     $url .= '?format=json';
@@ -94,7 +137,6 @@ class CRM_Utils_Geocode_NYCGeoclient {
       CRM_Core_Error::debug_log_message('Geocoding failed: ' . $result->getMessage());
       return FALSE;
     }
-
     if ($request->getResponseCode() != 200) {
       CRM_Core_Error::debug_log_message('Geocoding failed, invalid response code ' . $request->getResponseCode());
       if ($request->getResponseCode() == 429) {
@@ -108,7 +150,6 @@ class CRM_Utils_Geocode_NYCGeoclient {
 
     $string = $request->getResponseBody();
     $json = json_decode($string, true);
-
     $bbl = null;
     if (array_key_exists('bbl', $json['address'])){
       $bbl = $json['address']['bbl'];
@@ -126,9 +167,9 @@ class CRM_Utils_Geocode_NYCGeoclient {
       return FALSE;
 
     } elseif ($bbl != null && $bbl != 'null') {
-      $values['bbl'] = $json['address']['bbl'];
-      $values['geo_code_1'] = $json['address']['latitude'];
-      $values['geo_code_2'] = $json['address']['longitude'];
+      $values["custom_$bblFieldId"] = $json['address']['bbl'];
+      $values['geo_code_1'] = substr($json['address']['latitude'],0,12);
+      $values['geo_code_2'] = substr($json['address']['longitude'],0,12);
       return TRUE;
     } else {
       // don't know what went wrong... we got an array, but without lat and lon

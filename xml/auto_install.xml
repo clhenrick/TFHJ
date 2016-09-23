@@ -15,7 +15,6 @@
       <table_name>civicrm_value_bbl_18</table_name>
       <is_multiple>0</is_multiple>
       <collapse_adv_display>0</collapse_adv_display>
-      <created_date>2015-12-12 12:01:41</created_date>
       <is_reserved>0</is_reserved>
     </CustomGroup>
   </CustomGroups>
@@ -23,15 +22,15 @@
     <CustomField>
       <name>BBL</name>
       <label>BBL</label>
-      <data_type>Int</data_type>
+      <data_type>String</data_type>
       <html_type>Text</html_type>
       <is_required>0</is_required>
       <is_searchable>1</is_searchable>
       <is_search_range>0</is_search_range>
       <weight>1</weight>
       <is_active>1</is_active>
-      <is_view>1</is_view>
-      <text_length>255</text_length>
+      <is_view>0</is_view>
+      <text_length>12</text_length>
       <note_columns>60</note_columns>
       <note_rows>4</note_rows>
       <column_name>bbl_153</column_name>
