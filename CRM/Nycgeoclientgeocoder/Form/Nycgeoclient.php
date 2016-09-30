@@ -39,7 +39,6 @@ class CRM_Nycgeoclientgeocoder_Form_Nycgeoclient extends CRM_Core_Form {
     ));
     // export form elements
     $this->assign('elementNames', $this->getRenderableElementNames());
-CRM_Core_Error::debug_var('elementNames', $this->getRenderableElementNames());
     parent::buildQuickForm();
   }
   function postProcess() {

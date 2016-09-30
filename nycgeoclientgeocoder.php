@@ -9,8 +9,6 @@ function nycgeoclientgeocoder_civicrm_post($op, $objectName, $objectId, &$object
     if ($bbl) {
       // Get the BBL custom field ID.
       $bbl_field = "custom_" . CRM_Nycgeoclient::getBblFieldId();
-      CRM_Core_Error::debug_var('bbl', $bbl);
-      CRM_Core_Error::debug_var('bbl_field', $bbl_field);
       // Store the BBL.
       $params['entity_id'] = $objectId;
       $params[$bbl_field] = $bbl;
