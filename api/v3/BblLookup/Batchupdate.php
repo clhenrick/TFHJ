@@ -57,12 +57,16 @@ function nycgeoclientgeocoder_bbl_lookup($limit) {
              street_number, 
              street_name,
              postal_code,
-             state_province_id
+             state_province_id,
+             cc.id as cid
         FROM civicrm_address ca 
    LEFT JOIN $bbl_table_name bbltable 
-          ON ca.contact_id = bbltable.entity_id 
+          ON ca.id = bbltable.entity_id 
+        JOIN civicrm_contact cc
+          ON ca.contact_id = cc.id
        WHERE $bbl_column_name IS NULL
          AND state_province_id = 1031
+         AND cc.is_deleted != 1
        LIMIT %1
   ";
   $sql_params = array(
@@ -70,8 +74,6 @@ function nycgeoclientgeocoder_bbl_lookup($limit) {
   );
 
   $contact_addresses = CRM_Core_DAO::executeQuery($sql, $sql_params);
-  CRM_Core_Error::debug_var('addresses', $contact_addresses);
-  die;
   while ($contact_addresses->fetch()) {
     $addressId = $contact_addresses->id;
     $bbl = CRM_Nycgeoclient::getBbl($contact_addresses);
