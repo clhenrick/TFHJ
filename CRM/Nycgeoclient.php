@@ -49,15 +49,10 @@ class CRM_Nycgeoclient {
    * Hardcode for now, target 4.6 and 4.7 separately due to the setting being moved.
    */
   private static function getApiKey() {
-    if (self::version_at_least('4.7')) {
-      $result = civicrm_api3('Setting', 'getvalue', array(
-        'name' => "geoAPIKey",
-      ));
-      $key = $result;
-    }
-    else {
-      $key = '';
-    }
+    $result = civicrm_api3('Setting', 'getvalue', array(
+      'name' => "nycapiKey",
+    ));
+    $key = $result;
     return $key;
   }
 
@@ -71,21 +66,6 @@ class CRM_Nycgeoclient {
     ));
     $fieldId = $result['id'];
     return $fieldId;
-  }
-
-  /**
-   * Check version is at least as high as the one passed.
-   *
-   * @param string $version
-   *
-   * @return bool
-   */
-  private static function version_at_least($version) {
-    $codeVersion = explode('.', CRM_Utils_System::version());
-    if (version_compare($codeVersion[0] . '.' . $codeVersion[1], $version) >= 0) {
-      return TRUE;
-    }
-    return FALSE;
   }
 
   /**
@@ -112,7 +92,6 @@ class CRM_Nycgeoclient {
     }
     $params['app_id'] = self::$_appId;
     $params['app_key'] = self::getApiKey();
-
     $url = self::$_server . self::$_uri;
     $url .= '?format=json';
     foreach ($params as $key => $value) {
