@@ -7,6 +7,8 @@ function nycgeoclientgeocoder_civicrm_post($op, $objectName, $objectId, &$object
   if ($objectRef->state_province_id == 1031) {
     $bbl = CRM_Nycgeoclient::getBbl($objectRef);
     if ($bbl) {
+      // FIXME: You don't need to use "custom_x", you can use BBL:BBL, but I don't 100%
+      // know the syntax.  The Electoral API does this though.
       // Get the BBL custom field ID.
       $bbl_field = "custom_" . CRM_Nycgeoclient::getBblFieldId();
       // Store the BBL.
@@ -200,21 +202,24 @@ function nycgeoclientgeocoder_civicrm_alterSettingsFolders(&$metaDataFolders = N
  *
 function nycgeoclientgeocoder_civicrm_preProcess($formName, &$form) {
 
-} // */
+} */
 
 /**
  * Implements hook_civicrm_navigationMenu().
  *
  * @link http://wiki.civicrm.org/confluence/display/CRMDOC/hook_civicrm_navigationMenu
  *
-function nycgeoclientgeocoder_civicrm_navigationMenu(&$menu) {
-  _nycgeoclientgeocoder_civix_insert_navigation_menu($menu, NULL, array(
-    'label' => ts('The Page', array('domain' => 'unhp.nycgeoclientgeocoder')),
-    'name' => 'the_page',
-    'url' => 'civicrm/the-page',
-    'permission' => 'access CiviReport,access CiviContribute',
-    'operator' => 'OR',
+ */
+function nycgeoclientgeocoder_civicrm_navigationMenu(&$params) {
+  $path = "Administer/System Settings";
+  $item = array(
+    'label' => ts('NYC API Settings', array('domain' => 'unhp.nycgeoclientgeocoder')),
+    'name' => 'NYC API Settings',
+    'url' => 'civicrm/nycapi/settings',
+    'permission' => 'administer CiviCRM',
+    'operator' => '',
     'separator' => 0,
-  ));
-  _nycgeoclientgeocoder_civix_navigationMenu($menu);
-} // */
+    'active' => 1,
+  );
+  $navigation = _nycgeoclientgeocoder_civix_insert_navigation_menu($params, $path, $item);
+}
