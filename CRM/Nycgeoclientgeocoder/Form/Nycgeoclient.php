@@ -8,15 +8,24 @@ require_once 'CRM/Core/Form.php';
  * @see http://wiki.civicrm.org/confluence/display/CRMDOC43/QuickForm+Reference
  */
 class CRM_Nycgeoclientgeocoder_Form_Nycgeoclient extends CRM_Core_Form {
+
+  protected $_settings = array(
+    'nycapiAppId' => 'NYC Api App ID',
+    'nycapiKey' => 'NYC Api Key',
+  );
+
   public function buildQuickForm() {
 
     // add form elements
     $this->add(
-      'select', // field type
-      'favorite_color', // field name
-      'Favorite Color', // field label
-      $this->getColorOptions(), // list of options
-      TRUE // is required
+      'text', // field type
+      'nycapiAppId', // field name
+      ts('NYC API App ID') // field label
+    );
+    $this->add(
+      'text', // field type
+      'nycapiKey', // field name
+      ts('NYC API Key') // field label
     );
     $this->addButtons(array(
       array(
@@ -32,26 +41,7 @@ class CRM_Nycgeoclientgeocoder_Form_Nycgeoclient extends CRM_Core_Form {
   }
 
   public function postProcess() {
-    $values = $this->exportValues();
-    $options = $this->getColorOptions();
-    CRM_Core_Session::setStatus(ts('You picked color "%1"', array(
-      1 => $options[$values['favorite_color']]
-    )));
-    parent::postProcess();
-  }
-
-  public function getColorOptions() {
-    $options = array(
-      '' => ts('- select -'),
-      '#f00' => ts('Red'),
-      '#0f0' => ts('Green'),
-      '#00f' => ts('Blue'),
-      '#f0f' => ts('Purple'),
-    );
-    foreach (array('1','2','3','4','5','6','7','8','9','a','b','c','d','e') as $f) {
-      $options["#{$f}{$f}{$f}"] = ts('Grey (%1)', array(1 => $f));
-    }
-    return $options;
+    CRM_Core_Error::debug_var('this', $this);
   }
 
   /**
@@ -74,4 +64,5 @@ class CRM_Nycgeoclientgeocoder_Form_Nycgeoclient extends CRM_Core_Form {
     }
     return $elementNames;
   }
+
 }
