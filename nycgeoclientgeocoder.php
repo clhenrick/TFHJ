@@ -4,17 +4,13 @@ require_once 'nycgeoclientgeocoder.civix.php';
 
 function nycgeoclientgeocoder_civicrm_post($op, $objectName, $objectId, &$objectRef) {
   //If the state is NY (state_provice_id of 1031), then use the NYC API.
-  if ($objectRef->state_province_id == 1031) {
+  if ($objectName == 'Address' && $objectRef->state_province_id == 1031) {
+    if ($op != 'create' && $op != 'edit') {
+      return;
+    }
     $bbl = CRM_Nycgeoclient::getBbl($objectRef);
     if ($bbl) {
-      // FIXME: You don't need to use "custom_x", you can use BBL:BBL, but I don't 100%
-      // know the syntax.  The Electoral API does this though.
-      // Get the BBL custom field ID.
-      $bbl_field = "custom_" . CRM_Nycgeoclient::getBblFieldId();
-      // Store the BBL.
-      $params['entity_id'] = $objectId;
-      $params[$bbl_field] = $bbl;
-      $result = civicrm_api3('CustomValue', 'create', $params);
+      CRM_Nycgeoclient::setBbl($objectId, $bbl);
     }
   }
 }
