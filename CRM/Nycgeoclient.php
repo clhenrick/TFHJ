@@ -34,6 +34,8 @@ class CRM_Nycgeoclient {
    */
 
   static protected $_uri = '/geoclient/v1/address';
+
+  static protected $_bblFieldId;
   /**
    * curl -v  -X GET "https://api.cityofnewyork.us/geoclient/v1/address.xml?
    * params are houseNumber=&street=n&borough=&
@@ -57,19 +59,25 @@ class CRM_Nycgeoclient {
   }
 
   public static function getBblFieldId() {
-    // Get the field ID for "neighborhood".
-    $result = civicrm_api3('CustomField', 'getsingle', array(
-      'sequential' => 1,
-      'return' => array("id"),
-      'custom_group_id' => "BBL",
-      'name' => "BBL",
-    ));
-    $fieldId = $result['id'];
-    return $fieldId;
+    // I'm not even 100% sure this caching is necessary, but it doesn't hurt.
+    if (self::$_bblFieldId) {
+      return self::$_bblFieldId;
+    }
+    else {
+      // Get the field ID for "neighborhood".
+      $result = civicrm_api3('CustomField', 'getsingle', array(
+        'sequential' => 1,
+        'return' => array("id"),
+        'custom_group_id' => "BBL",
+        'name' => "BBL",
+      ));
+      $fieldId = $result['id'];
+      return $fieldId;
+    }
   }
 
   /**
-   * Function that takes an address object and gets the BBL for this address.
+   * Function that takes an address array and gets the BBL for this address.
    *
    * @param array $values
    *
@@ -141,11 +149,26 @@ class CRM_Nycgeoclient {
     elseif ($bbl != NULL && $bbl != 'null') {
       return $bbl;
     }
+    elseif ($json['address']['message'] == 'INPUT ZIP CODE IS NOT A NEW YORK CITY ZIP CODE') {
+      CRM_Core_Error::debug_log_message('BBL Lookup failed. This is not an NYC zip code.');
+      return 'Non-NYC Zip';
+    }
     else {
       // don't know what went wrong... we got an array, but without lat and lon
       CRM_Core_Error::debug_log_message('Geocoding failed. Response was positive, but no coordinates were delivered.');
       return FALSE;
     }
+  }
+
+  public static function setBbl($addressId, $bbl) {
+    // FIXME: You don't need to use "custom_x", you can use BBL:BBL, but I don't 100%
+    // know the syntax.  The Electoral API does this though.
+    // Get the BBL custom field ID.
+    $bbl_field = "custom_" . CRM_Nycgeoclient::getBblFieldId();
+    // Store the BBL.
+    $params['entity_id'] = $addressId;
+    $params[$bbl_field] = $bbl;
+    $result = civicrm_api3('CustomValue', 'create', $params);
   }
 
 }
