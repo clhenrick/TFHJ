@@ -2,6 +2,18 @@
 
 require_once 'nycgeoclientgeocoder.civix.php';
 
+function nycgeoclientgeocoder_civicrm_post($op, $objectName, $objectId, &$objectRef) {
+  //If the state is NY (state_provice_id of 1031), then use the NYC API.
+  if ($objectName == 'Address' && $objectRef->state_province_id == 1031) {
+    if ($op != 'create' && $op != 'edit') {
+      return;
+    }
+    $bbl = CRM_Nycgeoclient::getBbl($objectRef);
+    if ($bbl) {
+      CRM_Nycgeoclient::setBbl($objectId, $bbl);
+    }
+  }
+}
 
 function nycgeoclientgeocoder_civicrm_check(&$messages) {
   nycgeoclientgeocoder_addressParsingIsEnabled($messages);
@@ -186,21 +198,24 @@ function nycgeoclientgeocoder_civicrm_alterSettingsFolders(&$metaDataFolders = N
  *
 function nycgeoclientgeocoder_civicrm_preProcess($formName, &$form) {
 
-} // */
+} */
 
 /**
  * Implements hook_civicrm_navigationMenu().
  *
  * @link http://wiki.civicrm.org/confluence/display/CRMDOC/hook_civicrm_navigationMenu
  *
-function nycgeoclientgeocoder_civicrm_navigationMenu(&$menu) {
-  _nycgeoclientgeocoder_civix_insert_navigation_menu($menu, NULL, array(
-    'label' => ts('The Page', array('domain' => 'unhp.nycgeoclientgeocoder')),
-    'name' => 'the_page',
-    'url' => 'civicrm/the-page',
-    'permission' => 'access CiviReport,access CiviContribute',
-    'operator' => 'OR',
+ */
+function nycgeoclientgeocoder_civicrm_navigationMenu(&$params) {
+  $path = "Administer/System Settings";
+  $item = array(
+    'label' => ts('NYC API Settings', array('domain' => 'unhp.nycgeoclientgeocoder')),
+    'name' => 'NYC API Settings',
+    'url' => 'civicrm/nycapi/settings',
+    'permission' => 'administer CiviCRM',
+    'operator' => '',
     'separator' => 0,
-  ));
-  _nycgeoclientgeocoder_civix_navigationMenu($menu);
-} // */
+    'active' => 1,
+  );
+  $navigation = _nycgeoclientgeocoder_civix_insert_navigation_menu($params, $path, $item);
+}
