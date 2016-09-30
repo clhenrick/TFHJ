@@ -80,7 +80,7 @@ class CRM_Utils_Geocode_NYCGeoclient {
    *
    * @return bool
    */
-  private function version_at_least($version) {
+  private static function version_at_least($version) {
     $codeVersion = explode('.', CRM_Utils_System::version());
     if (version_compare($codeVersion[0] . '.' . $codeVersion[1], $version) >= 0) {
       return TRUE;
