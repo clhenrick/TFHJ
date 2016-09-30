@@ -142,16 +142,17 @@ class CRM_Utils_Geocode_NYCGeoclient {
       if ($request->getResponseCode() == 429) {
         // provider says 'TOO MANY REQUESTS'
         $values['geo_code_error'] = 'OVER_QUERY_LIMIT';
-      } else {
+      }
+      else {
         $values['geo_code_error'] = $request->getResponseCode();
       }
       return FALSE;
     }
 
     $string = $request->getResponseBody();
-    $json = json_decode($string, true);
-    $bbl = null;
-    if (array_key_exists('bbl', $json['address'])){
+    $json = json_decode($string, TRUE);
+    $bbl = NULL;
+    if (array_key_exists('bbl', $json['address'])) {
       $bbl = $json['address']['bbl'];
     }
 
@@ -159,22 +160,26 @@ class CRM_Utils_Geocode_NYCGeoclient {
       // $string could not be decoded; maybe the service is down...
       CRM_Core_Error::debug_log_message('Geocoding failed. "' . $string . '" is no valid json-code. (' . $url . ')');
       return FALSE;
-    } elseif (count($json) == 0) {
+    }
+    elseif (count($json) == 0) {
       // array is empty; address is probably invalid...
       // the error logging is disabled, because it potentially reveals address data to the log
       CRM_Core_Error::debug_log_message('Geocoding failed.  No results for: ' . $url);
       $values['geo_code_error'] = "INCOMPLETE_ADDRESS";
       return FALSE;
 
-    } elseif ($bbl != null && $bbl != 'null') {
+    }
+    elseif ($bbl != NULL && $bbl != 'null') {
       $values["custom_$bblFieldId"] = $json['address']['bbl'];
-      $values['geo_code_1'] = substr($json['address']['latitude'],0,12);
-      $values['geo_code_2'] = substr($json['address']['longitude'],0,12);
+      $values['geo_code_1'] = substr($json['address']['latitude'], 0, 12);
+      $values['geo_code_2'] = substr($json['address']['longitude'], 0, 12);
       return TRUE;
-    } else {
+    }
+    else {
       // don't know what went wrong... we got an array, but without lat and lon
       CRM_Core_Error::debug_log_message('Geocoding failed. Response was positive, but no coordinates were delivered.');
       return FALSE;
     }
   }
+
 }
