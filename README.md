@@ -1,5 +1,5 @@
-# TFHJ : CiviCRM NYC Geoclient Geocoder
-This CiviCRM extension adds the NYC Geoclient API as a geocoding option.
+# TFHJ : CiviCRM NYC Geoclient BBL Lookup
+This CiviCRM extension adds the NYC Geoclient API to look up BBL numbers.
 
 
 ## Installation
@@ -16,4 +16,4 @@ If this extension isn't present in the list, press "Refresh".
 * Maximum of 500,000 requests per day.
 
 ### Compatibility
-**This extension requires CiviCRM 4.6 or higher.**. Geocoding via a scheduled job requires CiviCRM 4.7.7 or higher.
+**This extension requires CiviCRM 4.6 or higher.**. 
