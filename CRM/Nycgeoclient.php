@@ -11,7 +11,7 @@
 /**
  * Class that uses NYC Geoclient API geocoder to retrieve lat/long and BBL
  */
-class CRM_Utils_Geocode_NYCGeoclient {
+class CRM_Nycgeoclient {
   /**
    * This is the App ID that the city of NYC has assigned to this extension.
    *
@@ -131,7 +131,6 @@ class CRM_Utils_Geocode_NYCGeoclient {
     require_once 'HTTP/Request.php';
     $request = new HTTP_Request($url);
     $result = $request->sendRequest();
-
     // check if request was successful
     if (PEAR::isError($result)) {
       CRM_Core_Error::debug_log_message('Geocoding failed: ' . $result->getMessage());
@@ -155,6 +154,9 @@ class CRM_Utils_Geocode_NYCGeoclient {
     if (array_key_exists('bbl', $json['address'])) {
       $bbl = $json['address']['bbl'];
     }
+CRM_Core_Error::debug_var('values', $values);
+CRM_Core_Error::debug_var('params', $params);
+CRM_Core_Error::debug_var('json', $json);
 
     if (is_null($json) || !is_array($json)) {
       // $string could not be decoded; maybe the service is down...
