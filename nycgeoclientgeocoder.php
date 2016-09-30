@@ -2,6 +2,22 @@
 
 require_once 'nycgeoclientgeocoder.civix.php';
 
+function nycgeoclientgeocoder_civicrm_post($op, $objectName, $objectId, &$objectRef) {
+  //If the state is NY (state_provice_id of 1031), then use the NYC API.
+  if ($objectRef->state_province_id == 1031) {
+    $bbl = CRM_Nycgeoclient::getBbl($objectRef);
+    if ($bbl) {
+      // Get the BBL custom field ID.
+      $bbl_field = "custom_" . CRM_Nycgeoclient::getBblFieldId();
+      CRM_Core_Error::debug_var('bbl', $bbl);
+      CRM_Core_Error::debug_var('bbl_field', $bbl_field);
+      // Store the BBL.
+      $params['entity_id'] = $objectId;
+      $params[$bbl_field] = $bbl;
+      $result = civicrm_api3('CustomValue', 'create', $params);
+    }
+  }
+}
 
 function nycgeoclientgeocoder_civicrm_check(&$messages) {
   nycgeoclientgeocoder_addressParsingIsEnabled($messages);

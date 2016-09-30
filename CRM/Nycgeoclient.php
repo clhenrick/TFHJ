@@ -61,7 +61,7 @@ class CRM_Nycgeoclient {
     return $key;
   }
 
-  private static function getBblFieldId() {
+  public static function getBblFieldId() {
     // Get the field ID for "neighborhood".
     $result = civicrm_api3('CustomField', 'getsingle', array(
       'sequential' => 1,
@@ -89,27 +89,18 @@ class CRM_Nycgeoclient {
   }
 
   /**
-   * Function that takes an address object and gets the latitude / longitude for this
-   * address. Note that at a later stage, we could make this function also clean up
-   * the address into a more valid format
+   * Function that takes an address object and gets the BBL for this address.
    *
    * @param array $values
-   * @param bool $stateName
    *
    * @return bool
    *   true if we modified the address, false otherwise
    */
-  public static function format(&$values, $stateName = FALSE) {
-    // establish civicrm credentials
-    $config = CRM_Core_Config::singleton();
-
+  public static function getBbl(&$values) {
     $params = array();
-    $params['houseNumber'] = CRM_Utils_Array::value('street_number', $values);
-    $params['street'] = CRM_Utils_Array::value('street_name', $values);
-    $params['zip'] = CRM_Utils_Array::value('postal_code', $values);
-
-    // Get the BBL custom field ID.
-    $bblFieldId = self::getBblFieldId();
+    $params['houseNumber'] = $values->street_number;
+    $params['street'] = $values->street_name;
+    $params['zip'] = $values->postal_code;
 
     if (!(array_key_exists('houseNumber', $params)
         && array_key_exists('street', $params)
@@ -154,9 +145,6 @@ class CRM_Nycgeoclient {
     if (array_key_exists('bbl', $json['address'])) {
       $bbl = $json['address']['bbl'];
     }
-CRM_Core_Error::debug_var('values', $values);
-CRM_Core_Error::debug_var('params', $params);
-CRM_Core_Error::debug_var('json', $json);
 
     if (is_null($json) || !is_array($json)) {
       // $string could not be decoded; maybe the service is down...
@@ -172,10 +160,7 @@ CRM_Core_Error::debug_var('json', $json);
 
     }
     elseif ($bbl != NULL && $bbl != 'null') {
-      $values["custom_$bblFieldId"] = $json['address']['bbl'];
-      $values['geo_code_1'] = substr($json['address']['latitude'], 0, 12);
-      $values['geo_code_2'] = substr($json['address']['longitude'], 0, 12);
-      return TRUE;
+      return $bbl;
     }
     else {
       // don't know what went wrong... we got an array, but without lat and lon
