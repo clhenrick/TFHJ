@@ -12,7 +12,7 @@
  */
 
 return array(
-  'customDataExclude' => array(
+  'nycapiAppId' => array(
     'group_name' => 'NYC API',
     'group' => 'nycapi',
     'name' => 'nycapiAppId',
@@ -24,7 +24,7 @@ return array(
     'description' => 'NYC API App ID',
     'help_text' => 'NYC API App ID',
   ),
-  'individualTracking' => array(
+  'nycapiKey' => array(
     'group_name' => 'NYC API',
     'group' => 'nycapi',
     'name' => 'nycapiKey',
@@ -37,4 +37,3 @@ return array(
     'help_text' => 'NYC API Key',
   ),
 );
-
