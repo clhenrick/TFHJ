@@ -44,7 +44,8 @@ function nycgeoclientgeocoder_bbl_lookup($limit) {
   $result = civicrm_api3('CustomField', 'getsingle', array(
     'sequential' => 1,
     'return' => array("custom_group_id.table_name", "column_name"),
-    'id' => 7,
+    'custom_group_id' => "BBL",
+    'name' => "BBL",
   ));
   $bbl_table_name = $result['custom_group_id.table_name'];
   $bbl_column_name = $result['column_name'];
